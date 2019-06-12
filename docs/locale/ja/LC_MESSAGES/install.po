@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 08:57\n"
+"PO-Revision-Date: 2019-06-12 14:20\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,11 @@ msgstr "Qiskitのインストール"
 
 #: ../../install.rst:5
 msgid "Requirements"
-msgstr ""
+msgstr "動作環境"
 
 #: ../../install.rst:7
 msgid "Qiskit supports Python 3.5 or later."
-msgstr ""
+msgstr "Python 3.5以上"
 
 #: ../../install.rst:9
 msgid "We recommend installing `Anaconda <https://www.anaconda.com/download/>`_, a cross-platform Python distribution for scientific computing. Jupyter Notebook, included in Anaconda, is recommended for interacting with the `Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorial>`_."
