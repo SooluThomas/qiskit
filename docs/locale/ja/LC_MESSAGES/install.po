@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:30\n"
+"PO-Revision-Date: 2019-06-12 08:57\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../install.rst:2
 msgid "Installing Qiskit"
-msgstr ""
+msgstr "Qiskitのインストール"
 
 #: ../../install.rst:5
 msgid "Requirements"
