@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 14:20\n"
+"PO-Revision-Date: 2019-06-13 06:58\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -35,19 +35,19 @@ msgstr ""
 
 #: ../../install.rst:14
 msgid "Qiskit is tested and supported on the following 64-bit systems:"
-msgstr ""
+msgstr "Qiskitは以下の64-bit systems上でのテストを完了しており、サポートされています。"
 
 #: ../../install.rst:16
 msgid "Ubuntu 16.04 or later"
-msgstr ""
+msgstr "Ubuntu 16.04 またはそれ以降"
 
 #: ../../install.rst:17
 msgid "macOS 10.12.6 or later"
-msgstr ""
+msgstr "macOS 10.12.6 またはそれ以降"
 
 #: ../../install.rst:18
 msgid "Windows 7 or later"
-msgstr ""
+msgstr "Windows 7 またはそれ以降"
 
 #: ../../install.rst:20
 msgid "Using Qiskit on Windows requires VC++ runtime components. We recommend one of the following:"
