@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:29\n"
+"PO-Revision-Date: 2019-06-13 09:51\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:4
 msgid "Contributing to Qiskit"
-msgstr ""
+msgstr "QisKit に貢献する"
 
 #: ../../contributing_to_qiskit.rst:6
 msgid "Qiskit is an open-source project committed to bringing quantum computing to people of all backgrounds. This page describes how you can join the Qiskit community in this goal."
