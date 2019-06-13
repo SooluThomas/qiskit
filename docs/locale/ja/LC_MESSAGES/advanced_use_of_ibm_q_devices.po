@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-13 10:18\n"
+"PO-Revision-Date: 2019-06-13 10:25\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "IBM Q プロバイダーは異なるバックエンドグループへの
 
 #: ../../advanced_use_of_ibm_q_devices.rst:23
 msgid "The IBMQ provider inherits from BaseProvider and implements the methods:"
-msgstr ""
+msgstr "IBM Q プロバイダーは BaseProvider を継承し、以下のメソッドを実装しています："
 
 #: ../../advanced_use_of_ibm_q_devices.rst:25
 msgid "``backends()``: returns all backend objects known to the provider."
