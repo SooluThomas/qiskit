@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:29\n"
+"PO-Revision-Date: 2019-06-13 10:18\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:4
 msgid "Advanced Use of IBM Q Devices"
-msgstr ""
+msgstr "IBM Q デバイスの進んだ使い方"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:6
 msgid "In Qiskit we have an interface for backends and jobs that will be useful for running circuits and extending to third-party backends. In this section, we will review the core components of Qiskit’s base backend framework, using the IBM Q provider as an example."
@@ -27,27 +27,27 @@ msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:10
 msgid "The interface has three parts: the provider, the backend, and the job:"
-msgstr ""
+msgstr "インタフェースは３つのパーツがあります：プロバイダー、バックエンド、ジョブ："
 
 #: ../../advanced_use_of_ibm_q_devices.rst:12
 msgid "provider: accesses backends and provides backend objects"
-msgstr ""
+msgstr "プロバイダー：バックエンドにアクセスしバックエンド オブジェクトを提供"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:13
 msgid "backend: runs the quantum circuit"
-msgstr ""
+msgstr "バックエンド：量子回路を実行"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:14
 msgid "job: keeps track of the submitted job"
-msgstr ""
+msgstr "ジョブ：サブミットされたジョブの追跡"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:17
 msgid "The Provider"
-msgstr ""
+msgstr "プロバイダー"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:19
 msgid "The IBMQ Provider is an entity that provides access to a group of different backends (for example, backends available through the IBM Q Experience or IBM Q Network quantum cloud services)."
-msgstr ""
+msgstr "IBM Q プロバイダーは異なるバックエンドグループへのアクセスを提供します( IBM Q Experience や IBM Q ネットワークの量子クラウドサービスを通じたバックエンドなど)。"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:23
 msgid "The IBMQ provider inherits from BaseProvider and implements the methods:"
