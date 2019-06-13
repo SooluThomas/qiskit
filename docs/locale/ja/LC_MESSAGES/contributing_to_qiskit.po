@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-13 09:51\n"
+"PO-Revision-Date: 2019-06-13 10:18\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "QisKit に貢献する"
 
 #: ../../contributing_to_qiskit.rst:6
 msgid "Qiskit is an open-source project committed to bringing quantum computing to people of all backgrounds. This page describes how you can join the Qiskit community in this goal."
-msgstr ""
+msgstr "QisKit はどのようなバックグランドをもった人にも量子コンピューティングをもたらすことにコミットしたオープンソースプロジェクトです。このページでは、この目標のなかでどのように QisKit コミュニティーに参加できるかを説明しています。"
 
 #: ../../contributing_to_qiskit.rst:12
 msgid "Where Things Are"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:14
 msgid "The code for Qiskit is located in the `Qiskit GitHub organization <https://github.com/Qiskit>`_, where you can find the individual projects that make up Qiskit, including"
-msgstr ""
+msgstr "QisKit のコードは `QisKit GitHub組織 <https://github.com/QisKit>`_ にあり、 QisKit を構成する個別のプロジェクトが見つかります。以下があります。"
 
 #: ../../contributing_to_qiskit.rst:17
 msgid "`Qiskit Terra <https://github.com/Qiskit/qiskit-terra>`__"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:29
 msgid "Getting Started"
-msgstr ""
+msgstr "はじめましょう"
 
 #: ../../contributing_to_qiskit.rst:31
 msgid "Learn how members of the Qiskit community"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:34
 msgid "`Discuss ideas <https://qiskit.slack.com/>`_"
-msgstr ""
+msgstr "`アイデアの交換 <https://qiskit.slack.com/>`_"
 
 #: ../../contributing_to_qiskit.rst:35
 msgid "`Get help when we're stuck <https://quantumcomputing.stackexchange.com/questions/tagged/qiskit>`_"
