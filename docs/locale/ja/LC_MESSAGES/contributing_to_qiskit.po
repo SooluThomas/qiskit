@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 05:18\n"
+"PO-Revision-Date: 2019-06-14 05:29\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -71,11 +71,11 @@ msgstr "はじめましょう"
 
 #: ../../contributing_to_qiskit.rst:31
 msgid "Learn how members of the Qiskit community"
-msgstr "QisKit コミュニティーメンバーの活動方法は以下の通りです"
+msgstr "QisKit コミュニティーメンバーの活動方針は以下の通りです"
 
 #: ../../contributing_to_qiskit.rst:33
 msgid "`Relate to one another <https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
-msgstr ""
+msgstr "`他者との関係 <https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
 
 #: ../../contributing_to_qiskit.rst:34
 msgid "`Discuss ideas <https://qiskit.slack.com/>`_"
@@ -83,15 +83,15 @@ msgstr "`アイデアの交換 <https://qiskit.slack.com/>`_"
 
 #: ../../contributing_to_qiskit.rst:35
 msgid "`Get help when we're stuck <https://quantumcomputing.stackexchange.com/questions/tagged/qiskit>`_"
-msgstr ""
+msgstr "`躓いてヘルプが欲しい場合 <https://quantumcomputing.stackexchange.com/questions/tagged/qiskit>`_"
 
 #: ../../contributing_to_qiskit.rst:36
 msgid "`Stay informed of news in the community <https://medium.com/qiskit>`_"
-msgstr ""
+msgstr "`コミュニティーの最新情報を受け取る <https://medium.com/qiskit>`_"
 
 #: ../../contributing_to_qiskit.rst:37
 msgid "`Keep a consistent style <https://www.python.org/dev/peps/pep-0008>`_"
-msgstr ""
+msgstr "`スタイル方針 <https://www.python.org/dev/peps/pep-0008>`_"
 
 #: ../../contributing_to_qiskit.rst:38
 msgid "`Work together on GitHub <https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
