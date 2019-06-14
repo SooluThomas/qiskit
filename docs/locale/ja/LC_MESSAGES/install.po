@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 03:35\n"
+"PO-Revision-Date: 2019-06-14 04:03\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -63,15 +63,15 @@ msgstr "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// w
 
 #: ../../install.rst:30
 msgid "If you want to contribute to the Qiskit community by developing and contributing code with the most recently updated Qiskit code, see :ref:`Build Qiskit packages from source <install_install_from_source_label>`."
-msgstr ""
+msgstr "最新のQiskitコードに対して開発や寄与を行うことによってQiskitコミュニティに貢献したいときは、 :ref:`Build Qiskit packages from source <install_install_from_source_label>` を参照してください。"
 
 #: ../../install.rst:35
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 #: ../../install.rst:37
 msgid "We recommend using Python virtual environments to cleanly separate Qiskit from other applications and improve your experience."
-msgstr ""
+msgstr "Qiskitを他のアプリケーションから明確に分離して、経験をよりよいものにするため、Python仮想環境を使用することをおすすめします。"
 
 #: ../../install.rst:40
 msgid "The simplest way to use environments is by using the ``conda`` command, included with Anaconda. A Conda environment allows you to specify a specific version of Python and set of libraries. Open a terminal window in the directory where you want to work."
