@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 05:29\n"
+"PO-Revision-Date: 2019-06-14 05:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -95,19 +95,19 @@ msgstr "`スタイル方針 <https://www.python.org/dev/peps/pep-0008>`_"
 
 #: ../../contributing_to_qiskit.rst:38
 msgid "`Work together on GitHub <https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
-msgstr ""
+msgstr "`GitHub 作業方針 <https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
 
 #: ../../contributing_to_qiskit.rst:39
 msgid ":ref:`Build Qiskit packages from source <install_install_from_source_label>`"
-msgstr ""
+msgstr ":ref:`ソースから QisKit パッケージをビルドする <install_install_from_source_label>`"
 
 #: ../../contributing_to_qiskit.rst:44
 msgid "Writing and Building Documentation"
-msgstr ""
+msgstr "ドキュメントの記述とビルド"
 
 #: ../../contributing_to_qiskit.rst:46
 msgid "Qiskit documentation is shaped by the `docs as code <https://www.writethedocs.org/guide/docs-as-code/>`_ philosophy and follows the `IBM style guidelines <https://www.ibm.com/developerworks/library/styleguidelines/>`_."
-msgstr ""
+msgstr "Qiskit ドキュメントは `docs as code <https://www.writethedocs.org/guide/docs-as-code/>`_ 原則に沿っており、 `IBM style guidelines <https://www.ibm.com/developerworks/library/styleguidelines/>`_ に則っています。"
 
 #: ../../contributing_to_qiskit.rst:51
 msgid "The `published documentation <https://qiskit.org/documentation/index.html>`_ is built from the master branch of `Qiskit/qiskit/docs <https://github.com/Qiskit/qiskit/tree/master/docs>`_ using `Sphinx <http://www.sphinx-doc.org/en/master/>`_."
