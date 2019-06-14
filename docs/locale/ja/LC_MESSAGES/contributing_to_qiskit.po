@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 03:35\n"
+"PO-Revision-Date: 2019-06-14 04:16\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:134
 msgid "Create a virtual development environment."
-msgstr ""
+msgstr "仮想開発環境の作成"
 
 #: ../../contributing_to_qiskit.rst:141
 msgid "Install the package in `editable mode <https://pip.pypa.io/en/stable/ reference/pip_install/#editable-installs>`_ from the root directory of the repository. The following example shows the installation for Ignis."
