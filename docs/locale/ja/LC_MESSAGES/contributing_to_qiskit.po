@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 05:36\n"
+"PO-Revision-Date: 2019-06-14 05:46\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -111,23 +111,23 @@ msgstr "Qiskit ドキュメントは `docs as code <https://www.writethedocs.org
 
 #: ../../contributing_to_qiskit.rst:51
 msgid "The `published documentation <https://qiskit.org/documentation/index.html>`_ is built from the master branch of `Qiskit/qiskit/docs <https://github.com/Qiskit/qiskit/tree/master/docs>`_ using `Sphinx <http://www.sphinx-doc.org/en/master/>`_."
-msgstr ""
+msgstr "`公開されているドキュメント <https://qiskit.org/documentation/index.html>`_ は、 `Sphinx <http://www.sphinx-doc.org/en/master/>`_を利用して、`Qiskit/qiskit/docs <https://github.com/Qiskit/qiskit/tree/master/docs>`_ の master ブランチからビルドされています。"
 
 #: ../../contributing_to_qiskit.rst:56
 msgid "You can build a local copy of the documentation from your local clone of the `Qiskit/qiskit` repository as follows:"
-msgstr ""
+msgstr "以下の方法で`Qiskit/qiskit` のローカルクローンからドキュメントのローカルコピーをビルドすることが出来ます。"
 
 #: ../../contributing_to_qiskit.rst:59
 msgid "Clone `Qiskit/qiskit` (or your personal fork)."
-msgstr ""
+msgstr "Clone `Qiskit/qiskit` をクローンする (もしくは 個人的な fork をする)。"
 
 #: ../../contributing_to_qiskit.rst:61
 msgid "`Install Sphinx <http://www.sphinx-doc.org/en/master/usage/installation.html>`_."
-msgstr ""
+msgstr "`Sphinx <http://www.sphinx-doc.org/en/master/usage/installation.html>`_をインストールする。"
 
 #: ../../contributing_to_qiskit.rst:63
 msgid "Install the `Material Design HTML Theme for Sphinx` by running the following in a terminal window:"
-msgstr ""
+msgstr "端末ウィンドウから以下を実行して `Material Design HTML Theme for Sphinx` をインストールします。"
 
 #: ../../contributing_to_qiskit.rst:70
 msgid "Build the documentation by navigating to your local clone of `Qiskit/qiskit` and running the following command in a terminal window:"
