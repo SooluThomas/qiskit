@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 16:06\n"
+"PO-Revision-Date: 2019-06-14 16:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -139,11 +139,11 @@ msgstr "このとき ``MY_API_TOKEN`` と ``MY_URL`` は上の手順 3 と 4 で
 
 #: ../../install.rst:139
 msgid "Refer to :ref:`advanced_use_of_ibm_q_devices_label` for more details, such as how to manage multiple IBM Q account credentials."
-msgstr ""
+msgstr "復数の IBM Q アカウント認証情報の管理方法など詳細については :ref:`advanced_use_of_ibm_q_devices_label` を参照してください。"
 
 #: ../../install.rst:145
 msgid "Checking Which Version is Installed"
-msgstr ""
+msgstr "インストールされたバージョンの確認方法"
 
 #: ../../install.rst:147
 msgid "Since the Qiskit project is actually a constellation of different elements simply printing the version string can be misleading. When you run::"
