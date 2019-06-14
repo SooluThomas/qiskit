@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 05:46\n"
+"PO-Revision-Date: 2019-06-14 06:00\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -131,19 +131,19 @@ msgstr "端末ウィンドウから以下を実行して `Material Design HTML T
 
 #: ../../contributing_to_qiskit.rst:70
 msgid "Build the documentation by navigating to your local clone of `Qiskit/qiskit` and running the following command in a terminal window:"
-msgstr ""
+msgstr "`Qiskit/qiskit` クローンの場所に移動し、端末ウィンドウから以下のコマンドを実行してドキュメントをビルドします。"
 
 #: ../../contributing_to_qiskit.rst:77
 msgid "As you make changes to your local RST files, you can update your HTML files by navigating to `/doc/` and running the following in a terminal window:"
-msgstr ""
+msgstr "ローカル RST ファイルを変更した場合には、端末ウィンドウで`/doc/` に移動し、以下のコマンドを実行すると HTML ファイルを更新することができます："
 
 #: ../../contributing_to_qiskit.rst:85
 msgid "This will build a styled, HTML version of your local documentation repository in the subdirectory `/docs/_build/html/`."
-msgstr ""
+msgstr "これで スタイル化された HTML バージョンのローカルドキュメントリポジトリが `/docs/_build/html/` にビルドされます。"
 
 #: ../../contributing_to_qiskit.rst:92
 msgid "Install from Source"
-msgstr "ソースからのインストール"
+msgstr "ソースからインストール"
 
 #: ../../contributing_to_qiskit.rst:94
 msgid "Installing the elements from source allows you to access the most recently updated version of Qiskit instead of using the version in the Python Package Index (PyPI) repository. This will give you the ability to inspect and extend the latest version of the Qiskit code more efficiently."
