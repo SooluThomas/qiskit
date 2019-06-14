@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 04:16\n"
+"PO-Revision-Date: 2019-06-14 05:18\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "QisKit はどのようなバックグランドをもった人にも量�
 
 #: ../../contributing_to_qiskit.rst:12
 msgid "Where Things Are"
-msgstr ""
+msgstr "場所について"
 
 #: ../../contributing_to_qiskit.rst:14
 msgid "The code for Qiskit is located in the `Qiskit GitHub organization <https://github.com/Qiskit>`_, where you can find the individual projects that make up Qiskit, including"
@@ -35,35 +35,35 @@ msgstr "QisKit のコードは `QisKit GitHub組織 <https://github.com/QisKit>`
 
 #: ../../contributing_to_qiskit.rst:17
 msgid "`Qiskit Terra <https://github.com/Qiskit/qiskit-terra>`__"
-msgstr ""
+msgstr "`Qiskit Terra <https://github.com/Qiskit/qiskit-terra>`__"
 
 #: ../../contributing_to_qiskit.rst:18
 msgid "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer>`__"
-msgstr ""
+msgstr "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer>`__"
 
 #: ../../contributing_to_qiskit.rst:19
 msgid "`Qiskit Ignis <https://github.com/Qiskit/qiskit-ignis>`__"
-msgstr ""
+msgstr "`Qiskit Ignis <https://github.com/Qiskit/qiskit-ignis>`__"
 
 #: ../../contributing_to_qiskit.rst:20
 msgid "`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua>`__"
-msgstr ""
+msgstr "`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua>`__"
 
 #: ../../contributing_to_qiskit.rst:21
 msgid "`Qiskit Chemistry <https://github.com/Qiskit/qiskit-chemistry>`__"
-msgstr ""
+msgstr "`Qiskit Chemistry <https://github.com/Qiskit/qiskit-chemistry>`__"
 
 #: ../../contributing_to_qiskit.rst:22
 msgid "`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-provider>`__"
-msgstr ""
+msgstr "`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-provider>`__"
 
 #: ../../contributing_to_qiskit.rst:23
 msgid "`Qiskit Tutorials <https://github.com/Qiskit/qiskit-tutorials>`__"
-msgstr ""
+msgstr "`Qiskit チュートリアル <https://github.com/Qiskit/qiskit-tutorials>`__"
 
 #: ../../contributing_to_qiskit.rst:24
 msgid "`Qiskit Documentation <https://github.com/Qiskit/qiskit/tree/master/docs>`__"
-msgstr ""
+msgstr "`Qiskit ドキュメント <https://github.com/Qiskit/qiskit/tree/master/docs>`__"
 
 #: ../../contributing_to_qiskit.rst:29
 msgid "Getting Started"
@@ -71,7 +71,7 @@ msgstr "はじめましょう"
 
 #: ../../contributing_to_qiskit.rst:31
 msgid "Learn how members of the Qiskit community"
-msgstr ""
+msgstr "QisKit コミュニティーメンバーの活動方法は以下の通りです"
 
 #: ../../contributing_to_qiskit.rst:33
 msgid "`Relate to one another <https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
