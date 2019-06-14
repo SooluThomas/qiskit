@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:29\n"
+"PO-Revision-Date: 2019-06-14 01:25\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:5
 msgid "Elementary Operations"
-msgstr ""
+msgstr "基本的操作"
 
 #: ../../terra/summary_of_quantum_operations.rst:7
 msgid "In this section we will go into the different operations that are available in Qiskit Terra. These are: - Single-qubit quantum gates - Multi-qubit quantum gates - Measurements - Reset - Conditionals - State initialization"
@@ -163,7 +163,7 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:312
 msgid "Pauli gates"
-msgstr ""
+msgstr "パウリゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:315
 msgid ":math:`X`: bit-flip gate"
@@ -203,11 +203,11 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:440
 msgid "Clifford gates"
-msgstr ""
+msgstr "クリフォードゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:443
 msgid "Hadamard gate"
-msgstr ""
+msgstr "アダマールゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:445
 msgid "H = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 & 1\\\\ 1 & -1 \\end{pmatrix}= u2(0,\\pi)"
