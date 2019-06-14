@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 07:27\n"
+"PO-Revision-Date: 2019-06-14 07:33\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -83,31 +83,31 @@ msgstr "Pythonのみをインストールした最小環境を作ります。"
 
 #: ../../install.rst:56
 msgid "Or, if you're using Windows, use the following command."
-msgstr "もしくは、Windowsであれば、以下のコマンドを使用します。"
+msgstr "もしくは、Windowsを使っているのであれば、以下のコマンドを使用します。"
 
 #: ../../install.rst:62
 msgid "Next, install the Qiskit package, which includes Terra, Aer, Ignis, and Aqua."
-msgstr ""
+msgstr "次に、Qiskitパッケージをインストールします。Terra, Aer, Ignis, そしてAquaが含まれています。"
 
 #: ../../install.rst:68
 msgid "If the packages installed correctly, you can run ``conda list`` to see the active packages in your virtual environment."
-msgstr ""
+msgstr "パッケージが正しくインストールされると、``conda list`` で仮想環境に存在するアクティブなパッケージを見ることができます。"
 
 #: ../../install.rst:73
 msgid "During installation, you might see the warning message ``Failed to build qiskit``. This is a non-fatal error that does not affect installation."
-msgstr ""
+msgstr "インストール中に、``Failed to build qiskit`` という警告メッセージを見るかもしれません。これは致命的なエラーではなく、インストールには影響ありません。"
 
 #: ../../install.rst:77
 msgid "There are optional dependencies that are required to use all the visualization functions available in Qiskit. You can install these optional dependencies by with the following command"
-msgstr ""
+msgstr "Qiskitで使うことのできるすべての表示機能を使うために必要となる、オプションの依存関係があります。これらのオプション依存関係は、以下のコマンドでインストールすることができます。"
 
 #: ../../install.rst:85
 msgid "After you've installed and verified the Qiskit packages you want to use, import them into your environment with Python to begin working."
-msgstr ""
+msgstr "使いたいQiskitパッケージをインストールおよび検証したら、Pythonのある自分の環境にインポートして作業を始めます。"
 
 #: ../../install.rst:96
 msgid "Access IBM Q Systems"
-msgstr ""
+msgstr "IBM Q Sysemsへのアクセス"
 
 #: ../../install.rst:98
 msgid "IBM Q offers several real quantum computers and high-performance classical computing simulators through its `quantum cloud services`_ with Qiskit. Follow these steps to setup your Qiskit environment to send jobs to IBM Q systems."
