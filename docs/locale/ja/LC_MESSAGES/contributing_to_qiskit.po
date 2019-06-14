@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 06:50\n"
+"PO-Revision-Date: 2019-06-14 07:27\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -159,51 +159,51 @@ msgstr "Terra と Aer のパッケージはソースからビルドするため�
 
 #: ../../contributing_to_qiskit.rst:112
 msgid "Installing elements from source requires the following order of installation to prevent getting versions of elements that may be lower than those desired if the pip version is behind the source versions:"
-msgstr ""
+msgstr "Pip バージョンがソースバージョンより古い場合に、要求するものよりも古いバージョンを取得してしまうことを防ぐため、ソースからエレメントをインストールするには以下の順番で実施します："
 
 #: ../../contributing_to_qiskit.rst:116
 msgid "qiskit-terra"
-msgstr ""
+msgstr "qiskit-terra"
 
 #: ../../contributing_to_qiskit.rst:117
 msgid "qiskit-ibmq-provider (if wanting to connect to the IBM Q devices or online simulator)"
-msgstr ""
+msgstr "qiskit-ibmq-provider ( IBM Q デバイスやオンラインシミュレーターに接続したい場合)"
 
 #: ../../contributing_to_qiskit.rst:119
 msgid "qiskit-aer"
-msgstr ""
+msgstr "qiskit-aer"
 
 #: ../../contributing_to_qiskit.rst:120
 msgid "qiskit-ignis"
-msgstr ""
+msgstr "qiskit-ignis"
 
 #: ../../contributing_to_qiskit.rst:121
 msgid "qiskit-aqua"
-msgstr ""
+msgstr "qiskit-aqua"
 
 #: ../../contributing_to_qiskit.rst:123
 msgid "To work with several components and elements simultaneously, use the following steps for each element."
-msgstr ""
+msgstr "いくつかのコンポーネントとエレメントで同時に作業したい場合には、各エレメントに対して以下のステップを踏みます。"
 
 #: ../../contributing_to_qiskit.rst:126
 msgid "The following steps show the installation process for Ignis."
-msgstr ""
+msgstr "以下のステップは Ignis インストールプロセスです。"
 
 #: ../../contributing_to_qiskit.rst:128
 msgid "Clone the Qiskit element repository."
-msgstr ""
+msgstr "Qiskit エレメントリポジトリをクローンします。"
 
 #: ../../contributing_to_qiskit.rst:134
 msgid "Create a virtual development environment."
-msgstr "仮想開発環境の作成"
+msgstr "仮想開発環境を作成します。"
 
 #: ../../contributing_to_qiskit.rst:141
 msgid "Install the package in `editable mode <https://pip.pypa.io/en/stable/ reference/pip_install/#editable-installs>`_ from the root directory of the repository. The following example shows the installation for Ignis."
-msgstr ""
+msgstr "リポジトリのルートディレクトリからパッケージを`編集モード<https://pip.pypa.io/en/stable/reference/pip_install/#editable-installs>`_ でインストールします。以下の例では、Ignis のインストールを示しています。"
 
 #: ../../contributing_to_qiskit.rst:150
 msgid "Install Terra from Source"
-msgstr ""
+msgstr "ソースから Terra をインストールする"
 
 #: ../../contributing_to_qiskit.rst:151
 msgid "Installing from source requires that you have a c++ compiler on your system that supports c++-11.  On most Linux platforms, the necessary GCC compiler is already installed."
