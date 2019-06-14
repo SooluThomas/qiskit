@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 03:25\n"
+"PO-Revision-Date: 2019-06-14 03:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -55,11 +55,11 @@ msgstr "WindowsでQiskitを使用するにはVC++ランタイムコンポーネ�
 
 #: ../../install.rst:23
 msgid "`Microsoft Visual C++ Redistributable for Visual Studio 2017 <https:// go.microsoft.com/fwlink/?LinkId=746572>`_"
-msgstr ""
+msgstr "`Microsoft Visual C++ Redistributable for Visual Studio 2017 <https:// go.microsoft.com/fwlink/?LinkId=746572>`_"
 
 #: ../../install.rst:25
 msgid "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// www.microsoft.com/en-US/download/details.aspx?id=48145>`_"
-msgstr ""
+msgstr "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// www.microsoft.com/en-US/download/details.aspx?id=48145>`_"
 
 #: ../../install.rst:30
 msgid "If you want to contribute to the Qiskit community by developing and contributing code with the most recently updated Qiskit code, see :ref:`Build Qiskit packages from source <install_install_from_source_label>`."
