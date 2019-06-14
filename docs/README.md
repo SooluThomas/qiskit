@@ -16,18 +16,24 @@ You can build a local copy of the documentation from your local clone of the
 3. Install the `Material Design HTML Theme for Sphinx` by running the following
    in a terminal window:
 
-   ```pip install sphinx_materialdesign_theme```
+   ```
+   pip install sphinx_materialdesign_theme
+   ```
 
 4. Build the documentation by navigating to your local clone of `Qiskit/qiskit`
    and running the following command in a terminal window:
 
-   ```make doc```
+   ```
+   make doc
+   ```
 
 As you make changes to your local RST files, you can update your
 HTML files by navigating to `/doc/` and running the following in a terminal
 window:
 
-```make html```
+```
+make html
+```
 
 This will build a styled, HTML version of your local documentation repository
 in the subdirectory `/docs/_build/html/`.
