@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:30\n"
+"PO-Revision-Date: 2019-06-14 02:27\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,9 +19,9 @@ msgstr ""
 
 #: ../../license.rst:2
 msgid "License"
-msgstr ""
+msgstr "ライセンス"
 
 #: ../../license.rst:4
 msgid "This project uses the `Apache License Version 2.0 software license <https://www.apache.org/licenses/LICENSE-2.0>`__."
-msgstr ""
+msgstr "このプロジェクトは `Apache License Version 2.0 software license <https://www.apache.org/licenses/LICENSE-2.0>`__を使用します。"
 
