@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 07:33\n"
+"PO-Revision-Date: 2019-06-14 16:06\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -111,31 +111,31 @@ msgstr "IBM Q Sysemsへのアクセス"
 
 #: ../../install.rst:98
 msgid "IBM Q offers several real quantum computers and high-performance classical computing simulators through its `quantum cloud services`_ with Qiskit. Follow these steps to setup your Qiskit environment to send jobs to IBM Q systems."
-msgstr ""
+msgstr "IBM Q では Qiskit の `量子クラウドサービス`_ を介してリアルな量子コンピュータと高パフォーマンスの古典コンピューティングシミュレータを提供します。IBM Q システムにジョブを送信するには次の手順にしたがって Qiskit 環境をセットアップしてください。"
 
 #: ../../install.rst:105
 msgid "**Step 1:** `Create a free IBM Q Experience account`_."
-msgstr ""
+msgstr "**手順 1:** `無料の IBM Q Experience アカウントの作成します`_。"
 
 #: ../../install.rst:110
 msgid "**Step 2:**  Navigate to **My Account** to view your account settings."
-msgstr ""
+msgstr "**手順 2:**  **My Account** に移動し、アカウントの設定表示します。"
 
 #: ../../install.rst:115
 msgid "**Step 3:** Click on **Copy token** to copy the token to your clipboard. Temporarily paste this into your favorite text editor for use in step 5."
-msgstr ""
+msgstr "**手順 3:** **Copy token** をクリックしてクリップボードにトークンをコピーし、テキストエディターに貼り付けてください。手順 5 で使用します。"
 
 #: ../../install.rst:121
 msgid "**Step 4:** Scroll down to the section titled **Your accounts**. Click on **copy url** for the account you would like to use. Temporarily paste this url into your favorite text editor for use in step 5."
-msgstr ""
+msgstr "**手順 4:** **Your accounts** セクションまで下にスクロールしてください。使用するアカウントで **copy url** をクリックし、テキストエディターに貼り付けてください。手順 5 で使用します。"
 
 #: ../../install.rst:128
 msgid "**Step 5:** Store your API token and url locally for later use in a configuration file called ``qiskitrc`` by running the following Python code:"
-msgstr ""
+msgstr "**手順 5:** 次の Python コードを実行し API トークンと URL をローカルに保存します。あとで構成ファイル ``qiskitrc`` 内で使用します。"
 
 #: ../../install.rst:136
 msgid "where ``MY_API_TOKEN`` and ``MY_URL`` should be replaced with the values you set aside in steps 3 and 4."
-msgstr ""
+msgstr "このとき ``MY_API_TOKEN`` と ``MY_URL`` は上の手順 3 と 4 で取得した値で置換してください。"
 
 #: ../../install.rst:139
 msgid "Refer to :ref:`advanced_use_of_ibm_q_devices_label` for more details, such as how to manage multiple IBM Q account credentials."
