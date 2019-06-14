@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 06:00\n"
+"PO-Revision-Date: 2019-06-14 06:50\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -147,15 +147,15 @@ msgstr "ソースからインストール"
 
 #: ../../contributing_to_qiskit.rst:94
 msgid "Installing the elements from source allows you to access the most recently updated version of Qiskit instead of using the version in the Python Package Index (PyPI) repository. This will give you the ability to inspect and extend the latest version of the Qiskit code more efficiently."
-msgstr ""
+msgstr "ソースからエレメントをインストールすることにより、Python Package Index (PyPI) リポジトリのバージョンを使う代わりに、最新のQiskitバージョンにアクセスすることが出来ます。これにより、Qiskit コードの最新版を調査したり、拡張することがより効果的にできるようになります。"
 
 #: ../../contributing_to_qiskit.rst:99
 msgid "When installing the elements and components from source, by default their ``development`` version (which corresponds to the ``master`` git branch) will be used, as opposed to the ``stable`` version (which contains the same codebase as the published ``pip`` packages). Since the ``development`` versions of an element or component usually includes new features and changes, in general they require using the ``development`` version of the rest of the items as well."
-msgstr ""
+msgstr "ソースからエレメントやコンポーネントをインストールする時には、デフォルトでは、``安定`` バージョン(``pip``パッケージとして公開されているコードベースと同じもの) ではなく、 ``開発`` バージョン( ``master`` git ブランチに該当) が使われます。 エレメントやコンポーネントの ``開発`` バージョンは通常新しい機能や変更が含まれているため、一般的には他の項目についても``開発`` バージョンを利用することが求められています。"
 
 #: ../../contributing_to_qiskit.rst:108
 msgid "The Terra and Aer packages both require a compiler to build from source before you can install. Ignis, Aqua, Qiskit Chemistry, and the IBM Q provider backend do not require a compiler."
-msgstr ""
+msgstr "Terra と Aer のパッケージはソースからビルドするためにコンパイラーが必要なため、インストール前に準備します。Ignis, Aqua, Qiskit Chemistry, IBM Q provider バックエンドにはコンパイラーは必要ありません。"
 
 #: ../../contributing_to_qiskit.rst:112
 msgid "Installing elements from source requires the following order of installation to prevent getting versions of elements that may be lower than those desired if the pip version is behind the source versions:"
