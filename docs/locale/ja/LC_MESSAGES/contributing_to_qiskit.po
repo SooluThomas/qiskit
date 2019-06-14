@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-13 10:18\n"
+"PO-Revision-Date: 2019-06-14 03:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -143,7 +143,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:92
 msgid "Install from Source"
-msgstr ""
+msgstr "ソースからのインストール"
 
 #: ../../contributing_to_qiskit.rst:94
 msgid "Installing the elements from source allows you to access the most recently updated version of Qiskit instead of using the version in the Python Package Index (PyPI) repository. This will give you the ability to inspect and extend the latest version of the Qiskit code more efficiently."
@@ -231,7 +231,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:179
 msgid "Install Qiskit Terra"
-msgstr ""
+msgstr "Qiskit Terraのインストール"
 
 #: ../../contributing_to_qiskit.rst:180
 msgid "Clone the Terra repository."
