@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 07:27\n"
+"PO-Revision-Date: 2019-06-14 09:42\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -207,11 +207,11 @@ msgstr "ソースから Terra をインストールする"
 
 #: ../../contributing_to_qiskit.rst:151
 msgid "Installing from source requires that you have a c++ compiler on your system that supports c++-11.  On most Linux platforms, the necessary GCC compiler is already installed."
-msgstr ""
+msgstr "ソースコードからインストールするには、C++-11をサポートしているC++コンパイラーがシステムにインストールされている必要があります。"
 
 #: ../../contributing_to_qiskit.rst:155
 msgid "Install a compiler for MacOS"
-msgstr ""
+msgstr "MacOSにコンパイラーをインストールする"
 
 #: ../../contributing_to_qiskit.rst:157
 msgid "If you use Apple OSX, you can install the Clang compiler by installing XCode. Check if you have XCode and clang installed by opening a terminal window and entering the following."
