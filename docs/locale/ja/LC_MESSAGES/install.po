@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 04:03\n"
+"PO-Revision-Date: 2019-06-14 07:27\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "要件"
 
 #: ../../install.rst:7
 msgid "Qiskit supports Python 3.5 or later."
-msgstr "QiskitはPython 3.5あるいはそれ以上をサポートします。"
+msgstr "QiskitはPython 3.5あるいはそれ以降をサポートします。"
 
 #: ../../install.rst:9
 msgid "We recommend installing `Anaconda <https://www.anaconda.com/download/>`_, a cross-platform Python distribution for scientific computing. Jupyter Notebook, included in Anaconda, is recommended for interacting with the `Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorial>`_."
@@ -39,15 +39,15 @@ msgstr "Qiskitは以下の64ビットシステムでテストされサポート�
 
 #: ../../install.rst:16
 msgid "Ubuntu 16.04 or later"
-msgstr "Ubunt 16.04またはそれ以上"
+msgstr "Ubunt 16.04またはそれ以降"
 
 #: ../../install.rst:17
 msgid "macOS 10.12.6 or later"
-msgstr "macOS 10.12.6またはそれ以上"
+msgstr "macOS 10.12.6またはそれ以降"
 
 #: ../../install.rst:18
 msgid "Windows 7 or later"
-msgstr "Windows 7またはそれ以上"
+msgstr "Windows 7またはそれ以降"
 
 #: ../../install.rst:20
 msgid "Using Qiskit on Windows requires VC++ runtime components. We recommend one of the following:"
@@ -75,15 +75,15 @@ msgstr "Qiskitを他のアプリケーションから明確に分離して、経
 
 #: ../../install.rst:40
 msgid "The simplest way to use environments is by using the ``conda`` command, included with Anaconda. A Conda environment allows you to specify a specific version of Python and set of libraries. Open a terminal window in the directory where you want to work."
-msgstr ""
+msgstr "環境を使用するもっともシンプルな方法は、Anacondaに含まれている ``conda`` コマンドを使う方法です。Conda環境では、Pythonの特定のバージョンおよびライブラリを指定することができます。作業したいディレクトリでターミナルウィンドウを開きます。"
 
 #: ../../install.rst:45
 msgid "Create a minimal environment with only Python installed in it."
-msgstr ""
+msgstr "Pythonのみをインストールした最小環境を作ります。"
 
 #: ../../install.rst:56
 msgid "Or, if you're using Windows, use the following command."
-msgstr ""
+msgstr "もしくは、Windowsであれば、以下のコマンドを使用します。"
 
 #: ../../install.rst:62
 msgid "Next, install the Qiskit package, which includes Terra, Aer, Ignis, and Aqua."
