@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-15 00:58\n"
+"PO-Revision-Date: 2019-06-15 01:06\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -155,13 +155,13 @@ msgstr "qiskit-terra パッケージのバージョンのみを表示します�
 
 #: ../../install.rst:157
 msgid "Instead if you would like to see the version of all the qiskit elements installed in your environment you can use the ``__qiskit_version`` attribute. This will return a dictionary of the different qiskit packages and the installed versions. For example, running::"
-msgstr ""
+msgstr "環境にインストールされたすべての qiskit 要素のバージョンを表示するには、代わりに ``__qiskit_version`` 属性を使用します。この属性は異なる qiskit パッケージとインストールされたバージョンの辞書を返します。たとえば以下のコマンドを実行すると"
 
 #: ../../install.rst:165
 msgid "will return a dictionary like"
-msgstr ""
+msgstr "以下のような辞書を返します"
 
 #: ../../install.rst:176
 msgid "If you're filing an issue or need to share your installed qiskit versions for something you should use the ``__qiskit_version__`` attribute."
-msgstr ""
+msgstr "問題を報告したり、インストールした qiskit のバージョン情報を知らせる場合には ``__qiskit_version__`` 属性を使用してください。"
 
