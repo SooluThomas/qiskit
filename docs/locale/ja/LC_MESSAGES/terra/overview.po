@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-15 01:36\n"
+"PO-Revision-Date: 2019-06-15 01:45\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -75,25 +75,25 @@ msgstr "「*バックエンド*」はシミュレータまたは実際の量子�
 
 #: ../../terra/overview.rst:72
 msgid "*Job* instances can be thought of as the “ticket” for a submitted job. They find out the execution’s state at a given point in time (for example, if the job is queued, running, or has failed) and also allow control over the job."
-msgstr ""
+msgstr "「*ジョブ*」インスタンスは、サブミットされたジョブの「*チケット*」と見なせます。 ある時点、たとえばジョブがキューされたときや実行中、あるいは失敗したときで実行状態を検索し、ジョブを制御できます。"
 
 #: ../../terra/overview.rst:76
 msgid "Once the job has finished Terra allows the results to be obtained from the remote backends using `result = job.result()`.  This result object holds the quantum data and the most common way of interacting with it is by using `result.get_counts(circuit)`. This method allows the user to get the raw counts from the quantum circuit and use them for more analysis with quantum inofrmation tools provided by Terra."
-msgstr ""
+msgstr "「ジョブ」の完了後は result = job.result() を使用してリモートの「バックエンド」から結果を取得します。 取得した結果オブジェクトには量子データが含まれ、通常は `result.get_counts(circuit)` を使用してやりとりします。 このメソッドでは量子回路から生のカウント数を取得でき、続けて Terra で提供される量子情報ツールを使用することで更に分析できます。"
 
 #: ../../terra/overview.rst:85
 msgid "Quantum Information"
-msgstr ""
+msgstr "量子情報"
 
 #: ../../terra/overview.rst:87
 msgid "To perform more advance algorithms and analysis of the circuits run on the quantum computer it is important to have tools to perform simple quantum information tasks. These include methods to estimate metrics on and generate quantum states, operations, and channels."
-msgstr ""
+msgstr "量子コンピュータで実行する回路の、より高度なアルゴリズムや分析を実行するには量子情報タスクを実行するシンプルなツールが重要です。 これにはメトリックスを評価し、量子状態、演算子、チャネルを生成する方法が含まれます。"
 
 #: ../../terra/overview.rst:93
 msgid "Visualization Tools"
-msgstr ""
+msgstr "ビジュアライゼーションツール"
 
 #: ../../terra/overview.rst:95
 msgid "In Terra we have many tools to visualize a quantum circuit. This allows a quick inspection of the quantum circuit to make sure it is what the user wanted to implement. There is a text, python and latex version. Once the circuit has run it is important to be able to view the output. There is a simple function (`plot_histogram`) to plot the results from a quantum circuit including an interactive version. There is also a function `plot_state` and ` plot_bloch_vector` that allow the plotting of a quantum state. These functions are usually only used when using the `statevector_simulator` backend but can also be used on real data after running state tomography experiments (ignis)."
-msgstr ""
+msgstr "「Terra」には量子回路をビジュアライズする多くのツールがあります。ツールを使用することで、量子回路が 実装したい形をしているかどうかを素早く確認できます。ツールにはテキスト版、python 版、LaTeX 版があります。 回路の実行後は、結果の表示が重要になります。量子回路から結果をプロットするシンプルな関数 `plot_histogram` があります。 これには対話バージョンもあります。また関数 `plot_state` と `plot_bloch_vector` は量子状態をプロットできます。 これらの関数は通常 statevector_simulator バックエンドの場合でのみ使用されますが、 状態トモグラフィー実験 (ignis) 後の実際のデータでも使用できます。"
 
