@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-15 01:16\n"
+"PO-Revision-Date: 2019-06-15 01:25\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -31,27 +31,27 @@ msgstr "Terra の構成"
 
 #: ../../terra/overview.rst:15
 msgid "Python example programs can be found in the *examples* directory, and test scripts are located in *test*. The *qiskit* directory is the main module of Terra. This module has six main parts."
-msgstr ""
+msgstr "*examples* ディレクトリには Python サンプルプログラム、*test* ディレクトリにはテストスクリプトがあります。 *qiskit* ディレクトリが Terra のメインモジュールです。モジュールには次の6個の主要パーツがあります。"
 
 #: ../../terra/overview.rst:21
 msgid "Quantum Circuits"
-msgstr ""
+msgstr "量子回路"
 
 #: ../../terra/overview.rst:23
 msgid "A quantum circuit is a model for quantum computing in which a computation is done by performing a sequence of quantum operations (usually gates) on a register of qubits. A quantum circuit usually starts with the qubits in the :math:`|0,…,0>` state (Terra assumes this unless otherwise specified) and these gates evolve the qubits to states that cannot be efficiently represented on a classical computer. To extract information on the state a quantum circuit must have a measurement which maps the outcomes (possible random due to the fundamental nature of quantum systems) to classical registers which can be efficiently represented."
-msgstr ""
+msgstr "「量子回路」は量子コンピューティングのモデルです。「量子回路」内では qubit のレジスター上で一連の量子演算子 (通常はゲート) を操作することで計算を行います。通常「量子回路」は :math:`|0,…,0>` 状態の qubit から始まり (特に指定がない場合も)、qubit はゲートによって古典コンピュータでは効率的に表現できない状態に変えられます。 状態から情報を取得するには量子回路を測定する必要があります。測定は量子システムの根本的な性質により恐らくはランダムな出力を、 効率的に表現可能な古典レジスターにマップします。"
 
 #: ../../terra/overview.rst:33
 msgid "Transpiler"
-msgstr ""
+msgstr "トランスパイラ"
 
 #: ../../terra/overview.rst:35
 msgid "A major part of research on quantum computing is working out how to run a quantum circuits on real devices.  In these devices, experimental errors and decoherence introduce errors during computation. Thus, to obtain a robust implementation it is essential to reduce the number of gates and the overall running time of the quantum circuit. The transpiler introduces the concept of a pass manager to allow users to explore optimization and find better quantum circuits for their given algorithm. We call it a transpiler as the end result is still a circuit."
-msgstr ""
+msgstr "量子コンピューティング研究の多くは、実際の装置上でどのように量子回路を実行するかになります。 装置内では測定誤差とデコヒーレンスにより、計算中にエラーが入り込みます。 堅牢な実装を得るには、ゲート数と量子回路の総実行時間の削減が重要です。 「トランスパイラ」ではパスマネージャの概念を導入しました。 ユーザーは最適化を実行し、与えたアルゴリズムに対するより良い量子回路を発見できます。 最終結果が回路であることに変わりはないためトランスパイラと呼ばれます。"
 
 #: ../../terra/overview.rst:45
 msgid "Tools"
-msgstr ""
+msgstr "ツール"
 
 #: ../../terra/overview.rst:47
 msgid "This directory contains tools that make working with Terra simpler. It contains functions that allow the user to execute quantum circuits and not worry about the optimization for a given backend. It also contains a compiler which uses the transpiler to map an array of quantum circuits to a `qobj` (quantum object) which can then be run on a backend. The `qobj` is a convenient representation (currently JSON) of the data that can be easily sent to the remote backends. It also has functions for monitoring jobs, backends, and parallelization of transpilation tasks."
