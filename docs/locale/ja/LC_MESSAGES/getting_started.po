@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:29\n"
+"PO-Revision-Date: 2019-06-15 02:04\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,63 +19,63 @@ msgstr ""
 
 #: ../../getting_started.rst:3
 msgid "Getting Started with Qiskit"
-msgstr ""
+msgstr "Qiskit 入門"
 
 #: ../../getting_started.rst:5
 msgid "The workflow of using Qiskit consists of three high-level steps:"
-msgstr ""
+msgstr "Qiskit を使用する流れには大きく3つの手順があります。"
 
 #: ../../getting_started.rst:7
 msgid "**Build**: design a quantum circuit that represents the problem you are considering."
-msgstr ""
+msgstr "**ビルド**: 検討している問題を表現する量子回路をデザインします。"
 
 #: ../../getting_started.rst:9
 msgid "**Execute**: run experiments on different backends (*which include both systems and simulators*)."
-msgstr ""
+msgstr "**実行**: 異なるバックエンド (*これにはシステムとシミュレータの両方が含まれます*) で実験を実行します。"
 
 #: ../../getting_started.rst:11
 msgid "**Analyze**: calculate summary statistics and visualize the results of experiments."
-msgstr ""
+msgstr "**分析**: 要約統計量を計算し、実験の結果をビジュアライズします。"
 
 #: ../../getting_started.rst:14
 msgid "Here is an example of the entire workflow, with each step explained in detail in subsequent sections:"
-msgstr ""
+msgstr "ワークフロー全体の例を挙げます。各手順は以下のセクションで詳しく説明します。"
 
 #: ../../getting_started.rst:73
 msgid "Workflow Step--by--Step"
-msgstr ""
+msgstr "ワークフローのステップバイステップ"
 
 #: ../../getting_started.rst:75
 msgid "The program above can be broken down into six steps:"
-msgstr ""
+msgstr "上のプログラムは6つの手順に分解できます。"
 
 #: ../../getting_started.rst:77
 msgid "Import packages"
-msgstr ""
+msgstr "パッケージのインポート"
 
 #: ../../getting_started.rst:78
 msgid "Initialize variables"
-msgstr ""
+msgstr "変数の初期化"
 
 #: ../../getting_started.rst:79
 msgid "Add gates"
-msgstr ""
+msgstr "ゲートの追加"
 
 #: ../../getting_started.rst:80
 msgid "Visualize the circuit"
-msgstr ""
+msgstr "回路のビジュアライズ"
 
 #: ../../getting_started.rst:81
 msgid "Simulate the experiment"
-msgstr ""
+msgstr "実験のシミュレート"
 
 #: ../../getting_started.rst:82
 msgid "Visualize the results"
-msgstr ""
+msgstr "結果のビジュアライズ"
 
 #: ../../getting_started.rst:87
 msgid "Step 1 : Import Packages"
-msgstr ""
+msgstr "手順1 : パッケージのインポート"
 
 #: ../../getting_started.rst:89
 msgid "The basic elements needed for your program are imported as follows:"
