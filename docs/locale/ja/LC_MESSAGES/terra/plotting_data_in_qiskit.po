@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:29\n"
+"PO-Revision-Date: 2019-06-16 14:28\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,23 +19,23 @@ msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:5
 msgid "Plotting Data in Qiskit"
-msgstr ""
+msgstr "Qiskitでのデータプロット方法"
 
 #: ../../terra/plotting_data_in_qiskit.rst:7
 msgid "There are optional dependencies that are required to use all the visualization functions available in Qiskit. You can install these optional dependencies with the following command:"
-msgstr ""
+msgstr "Qiskitで使うことのできるすべてのビジュアライゼーション機能を使用するためにはオプショナルな依存関係が必要です。 次のコマンドでこれらのオプショナルな依存関係をインストールできます。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:18
 msgid "Histograms"
-msgstr ""
+msgstr "ヒストグラム"
 
 #: ../../terra/plotting_data_in_qiskit.rst:20
 msgid "To visualize the data from a quantum circuit run on a real device or ``qasm_simulator`` we have made a simple function"
-msgstr ""
+msgstr "実デバイスまたは `` qasm_simulator``の上で実行される quantum circuit からのデータを視覚化するために、シンプルな関数があります。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:23
 msgid "``plot_histogram(data)``"
-msgstr ""
+msgstr "``plot_histogram(data)``"
 
 #: ../../terra/plotting_data_in_qiskit.rst:25
 msgid "As an example we make a 2 qubit Bell state"
