@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-16 14:56\n"
+"PO-Revision-Date: 2019-06-16 15:05\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -39,27 +39,27 @@ msgstr "以下を用いて量子及び古典のレジスタを宣言します。
 
 #: ../../terra/quantum_circuits.rst:35
 msgid "The name is optional. If not given Qiskit will name it ``qi`` where ``i`` is an integer which will count from 0. The name and size can be returned using the following:"
-msgstr ""
+msgstr "名前は任意です。特に指定しない場合, Qiskitがデフォルトで\"qi\"と名付けます。このとい\"i\"は0から始まる整数です。名前とサイズは以下のコマンドで確認できます。"
 
 #: ../../terra/quantum_circuits.rst:49
 msgid "You can test if the register are the same or different."
-msgstr ""
+msgstr "レジスタが異なるかどうかをテストすることができます。"
 
 #: ../../terra/quantum_circuits.rst:79
 msgid "Creating Circuits"
-msgstr ""
+msgstr "回路を作成する"
 
 #: ../../terra/quantum_circuits.rst:81
 msgid "Quantum Circuits are made using registers. Either when initiated or by using the ``add_register`` command."
-msgstr ""
+msgstr "量子回路初期化の際、または\"add_register\"コマンドではレジスタで作成されます。"
 
 #: ../../terra/quantum_circuits.rst:94
 msgid "is the same as"
-msgstr ""
+msgstr "と同じ"
 
 #: ../../terra/quantum_circuits.rst:111
 msgid "The order of registers in the list is the order they are initiated or added **not** the tensor product for quantum registers."
-msgstr ""
+msgstr "リスト上のレジスタは、量子レジスタのテンソル積としてではなく、初期化または\"add_register\"で追加された順番で表示されます。"
 
 #: ../../terra/quantum_circuits.rst:130
 msgid "The circuit drawer has the last register added at the bottom and if we add a new register it will add it to the bottom of the circuit."
