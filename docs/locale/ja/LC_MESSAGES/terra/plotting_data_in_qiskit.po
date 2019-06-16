@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-16 14:28\n"
+"PO-Revision-Date: 2019-06-16 14:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "``plot_histogram(data)``"
 
 #: ../../terra/plotting_data_in_qiskit.rst:25
 msgid "As an example we make a 2 qubit Bell state"
-msgstr ""
+msgstr "例として、2 qubitのベル状態を作ります。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:70
 msgid "Specifying Histogram Properties"
