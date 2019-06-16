@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 15:29\n"
+"PO-Revision-Date: 2019-06-16 14:56\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -31,11 +31,11 @@ msgstr ""
 
 #: ../../terra/quantum_circuits.rst:23
 msgid "Creating Registers"
-msgstr ""
+msgstr "レジスタの作成"
 
 #: ../../terra/quantum_circuits.rst:25
 msgid "Quantum and classical registers are declared using the following:"
-msgstr ""
+msgstr "以下を用いて量子及び古典のレジスタを宣言します。"
 
 #: ../../terra/quantum_circuits.rst:35
 msgid "The name is optional. If not given Qiskit will name it ``qi`` where ``i`` is an integer which will count from 0. The name and size can be returned using the following:"
