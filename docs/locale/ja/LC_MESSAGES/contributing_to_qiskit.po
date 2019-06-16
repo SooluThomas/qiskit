@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 09:42\n"
+"PO-Revision-Date: 2019-06-16 14:16\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -215,15 +215,15 @@ msgstr "MacOSにコンパイラーをインストールする"
 
 #: ../../contributing_to_qiskit.rst:157
 msgid "If you use Apple OSX, you can install the Clang compiler by installing XCode. Check if you have XCode and clang installed by opening a terminal window and entering the following."
-msgstr ""
+msgstr "Apple OSXを使用している場合は、XCodeをインストールすることでClandコンパイラーをインストール可能です。ターミナル・ウィンドウを開いて次のように入力して、XCodeとclangがインストールされているかどうかを確認します。"
 
 #: ../../contributing_to_qiskit.rst:165
 msgid "Install XCode and clang by using the following command."
-msgstr ""
+msgstr "以下のコマンドでXCodeとclandをインストールします。"
 
 #: ../../contributing_to_qiskit.rst:172
 msgid "Install a compiler for Windows"
-msgstr ""
+msgstr "Windowsへのコンパイラーのインストール"
 
 #: ../../contributing_to_qiskit.rst:173
 msgid "On Windows, it is easiest to install the Visual C++ compiler from the `Build Tools for Visual Studio 2017 <https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017>`_. You can instead install Visual Studio version 2015 or 2017, making sure to select the options for installing the C++ compiler."
