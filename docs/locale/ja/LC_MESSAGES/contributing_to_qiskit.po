@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 02:35\n"
+"PO-Revision-Date: 2019-06-17 03:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -263,7 +263,7 @@ msgstr "サンプルが動作していることを確認するため、以下の
 
 #: ../../contributing_to_qiskit.rst:221
 msgid "After you've installed Terra, you can install Aer as an add-on to run additional simulators."
-msgstr ""
+msgstr "Terraをインストールすると、追加のシミュレーターを実行するためのアドオンであるAerをインストールすることができます。"
 
 #: ../../contributing_to_qiskit.rst:223
 msgid "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer/blob/master/.github/ CONTRIBUTING.md>`__"
