@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 09:23\n"
+"PO-Revision-Date: 2019-06-17 10:26\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -163,7 +163,7 @@ msgstr "視覚化のために plot_histogram() 関数を呼び出した場合の
 
 #: ../../terra/plotting_data_in_qiskit.rst:372
 msgid "Interactive State Plots"
-msgstr ""
+msgstr "インタラクティブな量子状態のプロット"
 
 #: ../../terra/plotting_data_in_qiskit.rst:374
 msgid "Just like with ``plot_histogram()`` there is a second set of functions for each of the functions to plot the quantum state. These functions have the same name but with a prepended ``i``:"
