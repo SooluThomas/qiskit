@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 06:38\n"
+"PO-Revision-Date: 2019-06-17 06:47\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "ヒストグラムの保存"
 
 #: ../../terra/plotting_data_in_qiskit.rst:118
 msgid "When using the plot_histogram() function it returns a ``matplotlib.Figure`` for the rendered visualization. Jupyter notebooks understand this return type and renders it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, ``matplotlib.Figure`` class natively has methods to both display and save the visualization. You can call ``.show()`` on the returned object from ``plot_histogram()`` to open the image in a new window (assuming your configured matplotlib backend is interactive). Or alternatively you can call ``.savefig(out.png)`` to save the figure to ``out.png``. The ``savefig()`` takes a path so you can just the location and filename where you’re saving the output."
-msgstr ""
+msgstr "視覚化のために plot_histogram() 関数を呼び出した場合のリターンは ``matplotlib.Figure`` です。Jupyter notebook はリターンタイプを理解するので、このチュートリアルでは表示されますが、jupyter 以外で実行する場合にはこの機能は自動的には使えません。``matplotlib.Figure`` クラス自体は視覚化されたものを表示、保存する機能をもともと持っています。``plot_histogram()`` からの返却オブジェクトに対して ``.show()`` をコールするとイメージが新しいウィンドウで開きます (matplotlib バックエンドをインタラクティブに設定していることを想定)。あるいは ``.savefig(out.png)`` で 図を``out.png`` に保存できます。``savefig()`` はパスを引数に取り、保存しようとしている図の場所やファイル名を指定できます。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:134
 msgid "Interactive Histograms"
