@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 04:05\n"
+"PO-Revision-Date: 2019-06-17 04:57\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../getting_started.rst:162
 msgid "Step 4 : Visualize the Circuit"
-msgstr ""
+msgstr "ステップ４：回路の可視化"
 
 #: ../../getting_started.rst:164
 msgid "You can use ``QuantumCircuit.draw()`` to view the circuit that you have designed in the :ref:`various forms <Visualizing a Quantum Circuit>` used in many textbooks and research articles."
