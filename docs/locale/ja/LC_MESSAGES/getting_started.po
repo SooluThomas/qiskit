@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 05:25\n"
+"PO-Revision-Date: 2019-06-17 05:37\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -147,11 +147,11 @@ msgstr "上記コードは以下のゲートが適用されています。"
 
 #: ../../getting_started.rst:149
 msgid "``QuantumCircuit.h(0)``: A Hadamard gate :math:`H` on qubit 0, which puts it into a **superposition state**."
-msgstr "``QuantumCircuit.h(0)``: 0量子ビットに対するアダマール・ゲート :math:`H` 。0量子ビットを **重ね合わせ状態**にします。"
+msgstr "``QuantumCircuit.h(0)``: 量子ビット0に対するアダマール・ゲート :math:`H` 。量子ビット0を **重ね合わせ状態**にします。"
 
 #: ../../getting_started.rst:151
 msgid "``QuantumCircuit.cx(0,1)``: A controlled-Not operation (:math:`C_{X}`) on control qubit 0 and target qubit 1, putting the qubits in an **entangled state**."
-msgstr "``QuantumCircuit.cx(0,1)``: 0量子ビットをコントロール・ビット、1量子ビットをターゲット・ビットとした制御NOTゲート(:math:`C_{X}`)。量子ビットを **量子もつれ状態** にします。"
+msgstr "``QuantumCircuit.cx(0,1)``: 量子ビット0をコントロール・ビット、量子ビット1をターゲット・ビットとした制御NOTゲート(:math:`C_{X}`)。量子ビットを **量子もつれ状態** にします。"
 
 #: ../../getting_started.rst:154
 msgid "``QuantumCircuit.measure([0,1], [0,1])``: if you pass the entire quantum and classical registers to ``measure``, the ith qubit’s measurement result will be stored in the ith classical bit."
@@ -167,23 +167,23 @@ msgstr "``QuantumCircuit.draw()`` を使って作成した回路を可視化す�
 
 #: ../../getting_started.rst:175
 msgid "In this circuit, the qubits are ordered with qubit zero at the top and qubit one at the bottom. The circuit is read left-to-right, meaning that gates which are applied earlier in the circuit show up farther to the left."
-msgstr ""
+msgstr "この回路では、量子ビットは量子ビット0が上、量子ビット1が下に記述されています。回路は左から右に読み、左に表示されているゲートから順に適用されます。"
 
 #: ../../getting_started.rst:183
 msgid "Step 5 : Simulate the Experiment"
-msgstr ""
+msgstr "実験のシミュレーション"
 
 #: ../../getting_started.rst:185
 msgid "Qiskit Aer is a high performance simulator framework for quantum circuits. It provides :ref:`several backends <executing_quantum_programs>` to achieve different simulation goals."
-msgstr ""
+msgstr "Qiskit Aerは、量子回路の高パフォーマンス・シミュレーター・ワークフレームです。様々なシミュレーションの目標を達成するために、いくつかのバックエンド:ref:`several backends <executing_quantum_programs>` を提供します。"
 
 #: ../../getting_started.rst:189
 msgid "To simulate this circuit, you will use the ``qasm_simulator``. Each run of this circuit will yield either the bit string 00 or 11."
-msgstr ""
+msgstr "回路をシミュレートするためには、``qasm_simulator`` を使用します。回路の実行毎にビット文字列00もしくは11を生成します。"
 
 #: ../../getting_started.rst:205
 msgid "As expected, the output bit string is 00 approximately 50 percent of the time. The number of times the circuit is run can be specified via the ``shots`` argument of the ``execute`` method. The number of shots of the simulation was set to be 1000 (the default is 1024)."
-msgstr ""
+msgstr "期待通り、ビット文字列の出力が00になるのはだいたい50％です。回路の実行回数は ``execute`` メソッドの``shots`` 引数で指定できます。このシミュレーションの実行回数は1000(デフォルトは1024) に設定されています。"
 
 #: ../../getting_started.rst:210
 msgid "Once you have a ``result`` object, you can access the counts via the method ``get_counts(circuit)``. This gives you the aggregate outcomes of the experiment you ran."
