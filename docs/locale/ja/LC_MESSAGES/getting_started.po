@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-15 02:04\n"
+"PO-Revision-Date: 2019-06-17 03:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr "手順1 : パッケージのインポート"
 
 #: ../../getting_started.rst:89
 msgid "The basic elements needed for your program are imported as follows:"
-msgstr ""
+msgstr "プログラムに必要な基本的要素は以下のようにインポートされます。"
 
 #: ../../getting_started.rst:100
 msgid "In more detail, the imports are"
