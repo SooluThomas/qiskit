@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 08:53\n"
+"PO-Revision-Date: 2019-06-17 09:01\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -103,15 +103,15 @@ msgstr "ここでは、すべてのベクトルがゼロであるため、単一
 
 #: ../../terra/plotting_data_in_qiskit.rst:282
 msgid "Specifying State Plot Properties"
-msgstr ""
+msgstr "状態描画プロパティの指定"
 
 #: ../../terra/plotting_data_in_qiskit.rst:284
 msgid "The various functions for plotting quantum state provide a number of options to adjust the how the plots are rendered. Which options depend on the function being used."
-msgstr ""
+msgstr "量子状態を描画する様々な関数は、どのように描画するかを調整するためのたくさんのオプションを提供しています。どのオプションが使えるかは関数に依ります。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:288
 msgid "**plot_state_city()** options"
-msgstr ""
+msgstr "**plot_state_city()** のオプション"
 
 #: ../../terra/plotting_data_in_qiskit.rst:290
 #: ../../terra/plotting_data_in_qiskit.rst:305
@@ -119,7 +119,7 @@ msgstr ""
 #: ../../terra/plotting_data_in_qiskit.rst:339
 #: ../../terra/plotting_data_in_qiskit.rst:456
 msgid "**title** (str): a string that represents the plot title"
-msgstr ""
+msgstr "**title** (str): 描画のタイトル文字列"
 
 #: ../../terra/plotting_data_in_qiskit.rst:291
 #: ../../terra/plotting_data_in_qiskit.rst:306
@@ -127,7 +127,7 @@ msgstr ""
 #: ../../terra/plotting_data_in_qiskit.rst:335
 #: ../../terra/plotting_data_in_qiskit.rst:340
 msgid "**figsize** (tuple): figure size in inches (width, height)."
-msgstr ""
+msgstr "**figsize** (tuple): 図のサイズ。単位はインチ。 (幅, 高さ)."
 
 #: ../../terra/plotting_data_in_qiskit.rst:292
 msgid "**color** (list): a list of len=2 giving colors for real and imaginary components of matrix elements."
