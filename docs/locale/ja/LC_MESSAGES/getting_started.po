@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 06:07\n"
+"PO-Revision-Date: 2019-06-17 12:14\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgstr "インポートされるものの詳細は以下の通りです。"
 
 #: ../../getting_started.rst:102
 msgid "``QuantumCircuit``: can be thought as the instructions of the quantum system. It holds all your quantum operations."
-msgstr "\"量子回路\":量子ｺﾝﾋﾟｭｰﾀｰｼｽﾃﾑでの基盤であり、全ての量子操作がここで処理される。"
+msgstr "\"量子回路\": 量子ｺﾝﾋﾟｭｰﾀｰｼｽﾃﾑでの基盤であり、全ての量子操作がここで処理される。"
 
 #: ../../getting_started.rst:104
 msgid "``execute``: runs your circuit / experiment."
