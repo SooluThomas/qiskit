@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 05:37\n"
+"PO-Revision-Date: 2019-06-17 05:47\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgstr "実験のシミュレーション"
 
 #: ../../getting_started.rst:185
 msgid "Qiskit Aer is a high performance simulator framework for quantum circuits. It provides :ref:`several backends <executing_quantum_programs>` to achieve different simulation goals."
-msgstr "Qiskit Aerは、量子回路の高パフォーマンス・シミュレーター・ワークフレームです。様々なシミュレーションの目標を達成するために、いくつかのバックエンド:ref:`several backends <executing_quantum_programs>` を提供します。"
+msgstr "Qiskit Aerは、量子回路の高パフォーマンス・シミュレーター・ワークフレームです。様々なシミュレーションの目標を達成するために、:ref:`いくつかのバックエンド <executing_quantum_programs>` を提供します。"
 
 #: ../../getting_started.rst:189
 msgid "To simulate this circuit, you will use the ``qasm_simulator``. Each run of this circuit will yield either the bit string 00 or 11."
@@ -187,19 +187,19 @@ msgstr "期待通り、ビット文字列の出力が00になるのはだいた�
 
 #: ../../getting_started.rst:210
 msgid "Once you have a ``result`` object, you can access the counts via the method ``get_counts(circuit)``. This gives you the aggregate outcomes of the experiment you ran."
-msgstr ""
+msgstr "``result`` オブジェクトを取得できたら、``get_counts(circuit)``メソッドを使用して回数を取得することができます。実行した実験の総計を得ることができます。"
 
 #: ../../getting_started.rst:218
 msgid "Step 6 : Visualize the Results"
-msgstr ""
+msgstr "ステップ6：結果の可視化"
 
 #: ../../getting_started.rst:220
 msgid "Qiskit provides :ref:`many visualizations <plotting_data_in_qiskit>`, including the function ``plot_histogram``, to view your results."
-msgstr ""
+msgstr "Qiskitは結果を表示するため、``plot_histogram``関数などの :ref:`可視化ツール <plotting_data_in_qiskit>` を数多く提供しています。"
 
 #: ../../getting_started.rst:230
 msgid "The observed probabilities :math:`Pr(00)` and :math:`Pr(11)` are computed by taking the respective counts and dividing by the total number of shots."
-msgstr ""
+msgstr "観測された確率:math:`Pr(00)` と :math:`Pr(11)`は、対応する事象が観測された回数を全実行回数で割った数値です。"
 
 #: ../../getting_started.rst:234
 msgid "Try changing the ``shots`` keyword in the ``execute`` method to see how the estimated probabilities change."
