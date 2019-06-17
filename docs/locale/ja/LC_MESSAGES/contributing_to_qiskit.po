@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-16 14:16\n"
+"PO-Revision-Date: 2019-06-17 01:12\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -227,7 +227,7 @@ msgstr "Windowsへのコンパイラーのインストール"
 
 #: ../../contributing_to_qiskit.rst:173
 msgid "On Windows, it is easiest to install the Visual C++ compiler from the `Build Tools for Visual Studio 2017 <https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017>`_. You can instead install Visual Studio version 2015 or 2017, making sure to select the options for installing the C++ compiler."
-msgstr ""
+msgstr "Windowsの場合、以下ｻｲﾄの 'Build Tools for Visual Studio 2017' から Visual C++ ｺﾝﾊﾟｲﾗｰを導入するのが最も簡単である。`Build Tools for Visual Studio 2017 <https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017>` 。Visual Studio で 2015 か 2017 によって、C++ ｺﾝﾊﾟｲﾗｰの導入ｵﾌﾟｼｮﾝを確認し調整が必要になる場合がある。"
 
 #: ../../contributing_to_qiskit.rst:179
 msgid "Install Qiskit Terra"
