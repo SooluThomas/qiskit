@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-14 01:25\n"
+"PO-Revision-Date: 2019-06-17 10:10\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,47 +23,47 @@ msgstr "基本的操作"
 
 #: ../../terra/summary_of_quantum_operations.rst:7
 msgid "In this section we will go into the different operations that are available in Qiskit Terra. These are: - Single-qubit quantum gates - Multi-qubit quantum gates - Measurements - Reset - Conditionals - State initialization"
-msgstr ""
+msgstr "この説では、Qiskit Terraで使用可能なそれぞれの操作を説明します。ここには、単一キュービット量子ゲート、複数キュービット量子ゲート、測定、リセット、条件付き、状態初期化があります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:12
 msgid "We will also show you how to use the three different simulators: - unitary_simulator - qasm_simulator - statevector_simulator"
-msgstr ""
+msgstr "ユニタリシミュレーター、qasmシミュレーター、状態ベクトルシミュレーターの、3つの異なるシミュレーターの使い方も説明します。"
 
 #: ../../terra/summary_of_quantum_operations.rst:33
 msgid "Single Qubit Quantum states"
-msgstr ""
+msgstr "単一キュービット量子ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:35
 msgid "A single qubit quantum state can be written as"
-msgstr ""
+msgstr "単一キュービット量子状態は、次のように書けます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:37
 msgid "|\\psi\\rangle = \\alpha|0\\rangle + \\beta |1\\rangle"
-msgstr ""
+msgstr "|\\psi\\rangle = \\alpha|0\\rangle + \\beta |1\\rangle"
 
 #: ../../terra/summary_of_quantum_operations.rst:39
 msgid "where :math:`\\alpha` and :math:`\\beta` are complex numbers. In a measurement the probability of the bit being in :math:`|0\\rangle` is :math:`|\\alpha|^2` and :math:`|1\\rangle` is :math:`|\\beta|^2`. As a vector this is"
-msgstr ""
+msgstr "ここで、:math:`\\alpha` と :math:`\\beta` は複素数です。 測定において :math:`|0\\rangle` になる確率は :math:`|\\alpha|^2` であり :math:`|1\\rangle` になる確率は :math:`|\\beta|^2`です。ベクトルとしてこれは"
 
 #: ../../terra/summary_of_quantum_operations.rst:44
 msgid "|\\psi\\rangle = \\begin{pmatrix} \\alpha \\\\ \\beta \\end{pmatrix}."
-msgstr ""
+msgstr "|\\psi\\rangle = \\begin{pmatrix} \\alpha \\\\ \\beta \\end{pmatrix}　。"
 
 #: ../../terra/summary_of_quantum_operations.rst:53
 msgid "Note due to conservation probability :math:`|\\alpha|^2+ |\\beta|^2 = 1` and since global phase is undetectable :math:`|\\psi\\rangle := e^{i\\delta} |\\psi\\rangle` we only requires two real numbers to describe a single qubit quantum state."
-msgstr ""
+msgstr "確率の保存:math:`|\\alpha|^2+ |\\beta|^2 = 1`とグローバル位相:math:`|\\psi\\rangle := e^{i\\delta} |\\psi\\rangle`が測定できないため、単一キュービットの量子状態を書き表すためには、２つの実装が必要になることに注意しないといけません。"
 
 #: ../../terra/summary_of_quantum_operations.rst:58
 msgid "A convenient representation is"
-msgstr ""
+msgstr "便利な表記法としては"
 
 #: ../../terra/summary_of_quantum_operations.rst:60
 msgid "|\\psi\\rangle = \\cos(\\theta/2)|0\\rangle + \\sin(\\theta/2)e^{i\\phi}|1\\rangle"
-msgstr ""
+msgstr "|\\psi\\rangle = \\cos(\\theta/2)|0\\rangle + \\sin(\\theta/2)e^{i\\phi}|1\\rangle"
 
 #: ../../terra/summary_of_quantum_operations.rst:62
 msgid "where :math:`0\\leq \\phi < 2\\pi`, and :math:`0\\leq \\theta \\leq \\pi`. From this it is clear that there is a one-to-one correspondence between qubit states (:math:`\\mathbb{C}^2`) and the points on the surface of a unit sphere (:math:`\\mathbb{R}^3`). This is called the Bloch sphere representation of a qubit state."
-msgstr ""
+msgstr "ここで、 :math:`0\\leq \\phi < 2\\pi`、と :math:`0\\leq \\theta \\leq \\pi`になっています。このことから、キュービットの状態(:math:`\\mathbb{C}^2`) と単位球(:math:`\\mathbb{R}^3`)の球面上の各点との間に1対1の関係があることは明らかです。"
 
 #: ../../terra/summary_of_quantum_operations.rst:68
 msgid "Quantum gates/operations are usually represented as matrices. A gate which acts on a qubit is represented by a :math:`2\\times 2` unitary matrix :math:`U`. The action of the quantum gate is found by multiplying the matrix representing the gate with the vector which represents the quantum state."
