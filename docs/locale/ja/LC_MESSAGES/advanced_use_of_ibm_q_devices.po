@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-13 10:25\n"
+"PO-Revision-Date: 2019-06-17 13:14\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:294
 msgid "Filtering the backends"
-msgstr ""
+msgstr "バックエンドのフィルタリング"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:296
 msgid "You may also optionally filter the set of returned backends, by passing arguments that query the backend’s ``configuration`` or ``status`` or ``properties``. The filters are passed by conditions and for more general filters you can make advanced functions using the lambda function."
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:302
 msgid "As a first example: only return currently operational devices"
-msgstr ""
+msgstr "最初の例：現在使用可能なデバイスを返す"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:318
 msgid "only return backends that are real devices, have more than 10 qubits and are operational"
