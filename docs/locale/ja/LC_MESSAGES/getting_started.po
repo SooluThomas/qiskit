@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 05:47\n"
+"PO-Revision-Date: 2019-06-17 06:07\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -203,29 +203,29 @@ msgstr "観測された確率:math:`Pr(00)` と :math:`Pr(11)`は、対応する
 
 #: ../../getting_started.rst:234
 msgid "Try changing the ``shots`` keyword in the ``execute`` method to see how the estimated probabilities change."
-msgstr ""
+msgstr "``execute``メソッドの ``shots`` 引数を変更して、推定される確率がどのように変化するか見てみましょう。"
 
 #: ../../getting_started.rst:241
 msgid "Next Steps"
-msgstr ""
+msgstr "次のステップ"
 
 #: ../../getting_started.rst:243
 msgid "Now that you have learnt the basics, consider these learning resources:"
-msgstr ""
+msgstr "基礎の学習が終わりました。次は、以下の学習リソースがあります。"
 
 #: ../../getting_started.rst:245
 msgid "`Notebook tutorials <https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorials/blob/master/qiskit/start_here.ipynb>`_"
-msgstr ""
+msgstr "`ノートブック・チュートリアル <https://nbviewer.jupyter.org/github/Qiskit/qiskit-tutorials/blob/master/qiskit/start_here.ipynb>`_"
 
 #: ../../getting_started.rst:246
 msgid "`Video tutorials <https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A/featured>`_"
-msgstr ""
+msgstr "`ビデオ・チュートリアル <https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A/featured>`_"
 
 #: ../../getting_started.rst:247
 msgid "`Interactive tutorials in IBM Q Experience`_"
-msgstr ""
+msgstr "`IBM Q Experience内の対話式チュートリアル`_"
 
 #: ../../getting_started.rst:248
 msgid ":ref:`Frequently Asked Questions <faq>`"
-msgstr ""
+msgstr ":ref:`よくある質問 <faq>`"
 
