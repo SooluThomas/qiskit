@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 11:30\n"
+"PO-Revision-Date: 2019-06-17 11:42\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr "回路は事前定義のﾚｼﾞｽﾀｰを無しで作成すること
 
 #: ../../terra/quantum_circuits.rst:143
 msgid "With this syntax, registers are created automatically and can be accessed as properties of the ``QuantumCircuit``."
-msgstr ""
+msgstr "この文法で、ﾚｼﾞｽﾀｰは自動的に作成され、”量子回路”特性でｱｸｾｽされます。"
 
 #: ../../terra/quantum_circuits.rst:156
 msgid "Qubits and bits can be indexed directly, without indexing into a ``QuantumRegister``. A gate's expected argument types will determine whether an index refers to a qubit or a bit. For example, ``cx`` expects a qubit followed by a bit."
