@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 03:44\n"
+"PO-Revision-Date: 2019-06-17 04:05\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -107,51 +107,51 @@ msgstr "ステップ2：変数の初期化"
 
 #: ../../getting_started.rst:114
 msgid "Consider the next line of code"
-msgstr ""
+msgstr "次のコードを考えてみます。"
 
 #: ../../getting_started.rst:120
 msgid "Here, you are initializing with 2 qubits in the zero state; with 2 classical bits set to zero; and ``circuit`` is the quantum circuit."
-msgstr ""
+msgstr "ここでは、二つの量子ビットをゼロの状態に、二つの古典ビットをゼロに初期化し、量子回路``circuit``に代入しています。"
 
 #: ../../getting_started.rst:123
 msgid "Syntax:"
-msgstr ""
+msgstr "構文："
 
 #: ../../getting_started.rst:125
 msgid "``QuantumCircuit(int, int)``"
-msgstr ""
+msgstr "``QuantumCircuit(int, int)``"
 
 #: ../../getting_started.rst:131
 msgid "Step 3 : Add Gates"
-msgstr ""
+msgstr "ステップ3：ゲートの追加"
 
 #: ../../getting_started.rst:133
 msgid "You can add gates (operations) to manipulate the registers of your circuit."
-msgstr ""
+msgstr "ゲート(演算子) を追加することで、回路のレジスターを操作します。"
 
 #: ../../getting_started.rst:135
 msgid "Consider the following three lines of code:"
-msgstr ""
+msgstr "次の3行のコードを考えてみます。"
 
 #: ../../getting_started.rst:143
 msgid "The gates are added to the circuit one-by-one to form the Bell state"
-msgstr ""
+msgstr "ゲートが一つづつ回路に追加され、Bell状態が形成されています。"
 
 #: ../../getting_started.rst:145
 msgid "|\\psi\\rangle = \\left(|00\\rangle+|11\\rangle\\right)/\\sqrt{2}."
-msgstr ""
+msgstr "|\\psi\\rangle = \\left(|00\\rangle+|11\\rangle\\right)/\\sqrt{2}"
 
 #: ../../getting_started.rst:147
 msgid "The code above applies the following gates:"
-msgstr ""
+msgstr "上記コードは以下のゲートが適用されています。"
 
 #: ../../getting_started.rst:149
 msgid "``QuantumCircuit.h(0)``: A Hadamard gate :math:`H` on qubit 0, which puts it into a **superposition state**."
-msgstr ""
+msgstr "``QuantumCircuit.h(0)``: 0量子ビットに対するアダマール・ゲート :math:`H` 。0量子ビットを **重ね合わせ状態**にします。"
 
 #: ../../getting_started.rst:151
 msgid "``QuantumCircuit.cx(0,1)``: A controlled-Not operation (:math:`C_{X}`) on control qubit 0 and target qubit 1, putting the qubits in an **entangled state**."
-msgstr ""
+msgstr "``QuantumCircuit.cx(0,1)``: 0量子ビットをコントロール・ビット、1量子ビットをターゲット・ビットとした制御NOTゲート(:math:`C_{X}`)。量子ビットを **量子もつれ状態** にします。"
 
 #: ../../getting_started.rst:154
 msgid "``QuantumCircuit.measure([0,1], [0,1])``: if you pass the entire quantum and classical registers to ``measure``, the ith qubit’s measurement result will be stored in the ith classical bit."
