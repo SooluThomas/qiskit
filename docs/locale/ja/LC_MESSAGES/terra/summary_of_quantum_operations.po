@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 10:10\n"
+"PO-Revision-Date: 2019-06-17 10:18\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -67,11 +67,11 @@ msgstr "ここで、 :math:`0\\leq \\phi < 2\\pi`、と :math:`0\\leq \\theta \\
 
 #: ../../terra/summary_of_quantum_operations.rst:68
 msgid "Quantum gates/operations are usually represented as matrices. A gate which acts on a qubit is represented by a :math:`2\\times 2` unitary matrix :math:`U`. The action of the quantum gate is found by multiplying the matrix representing the gate with the vector which represents the quantum state."
-msgstr ""
+msgstr "量子ゲート/操作は通常、行列で表現されます。あるキュービットに作用するゲートは、:math:`2\\times 2`のユニタリ行列 :math:`U`として表現されます。量子ゲートの作用は、量子状態を表すベクトルとゲートを表す行列の積の形として表されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:74
 msgid "|\\psi'\\rangle = U|\\psi\\rangle"
-msgstr ""
+msgstr "|\\psi'\\rangle = U|\\psi\\rangle"
 
 #: ../../terra/summary_of_quantum_operations.rst:76
 msgid "A general unitary must be able to take the :math:`|0\\rangle` to the above state. That is"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:79
 msgid "U = \\begin{pmatrix} \\cos(\\theta/2) & a \\\\ e^{i\\phi}\\sin(\\theta/2) & b \\end{pmatrix}"
-msgstr ""
+msgstr "U = \\begin{pmatrix} \\cos(\\theta/2) & a \\\\ e^{i\\phi}\\sin(\\theta/2) & b \\end{pmatrix}"
 
 #: ../../terra/summary_of_quantum_operations.rst:87
 msgid "where :math:`a` and :math:`b` are complex numbers constrained such that :math:`U^\\dagger U = I` for all :math:`0\\leq\\theta\\leq\\pi` and :math:`0\\leq \\phi<2\\pi`. This gives 3 constraints and as such :math:`a\\rightarrow -e^{i\\lambda}\\sin(\\theta/2)` and :math:`b\\rightarrow e^{i\\lambda+i\\phi}\\cos(\\theta/2)` where :math:`0\\leq \\lambda<2\\pi` giving"
