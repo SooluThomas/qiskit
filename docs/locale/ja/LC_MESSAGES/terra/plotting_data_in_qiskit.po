@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 10:26\n"
+"PO-Revision-Date: 2019-06-17 10:53\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -167,37 +167,37 @@ msgstr "インタラクティブな量子状態のプロット"
 
 #: ../../terra/plotting_data_in_qiskit.rst:374
 msgid "Just like with ``plot_histogram()`` there is a second set of functions for each of the functions to plot the quantum state. These functions have the same name but with a prepended ``i``:"
-msgstr ""
+msgstr "``plot_histogram()``関数同様、量子状態を描画するプロット関数の第二セットが存在します。最初のセットと同じ名前ですが、先頭に ``i``が追加されます。:"
 
 #: ../../terra/plotting_data_in_qiskit.rst:386
 msgid "these functions are made using an externally hosted JS library for use in Jupyter notebooks. The interactive plot can only be used if you’re running inside a jupyter notebook and only if you have external connectivity to the host with the JS library. If you use these functions outside of a jupyter notebook it will fail."
-msgstr ""
+msgstr "jupyter notebook で実行している時にはヒストグラムのプロットに別の関数が使えます。この関数、``iplot_histogram()`` 、は Jupyter Notebook 利用のために外部でホストされた JS ライブラリで利用されます。つまり、インタラクティブなプロットは Jupyter Notebookの内部で実行しており、さらに JS ライブラリをもったホストへの外部接続がある場合に限って利用できます。``iplot_histogram()``を Jupyter Notebook の外部で実行すると失敗します。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:429
 msgid "Bloch Vector Plots"
-msgstr ""
+msgstr "ブロッホ・ベクトル・プロット"
 
 #: ../../terra/plotting_data_in_qiskit.rst:431
 msgid "A standard way of plotting a quantum system is using the Bloch vector. This only works for a single qubit and takes as inputs the Bloch vector."
-msgstr ""
+msgstr "量子系をプロットする標準的な方法に、ブロッホ・ベクトルを利用する方法があります。ブロッホ・ベクトルを入力値として扱うこの方法は一量子ビットにしか適用できません。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:434
 msgid "The Bloch vector is defined as :math:`[x = \\mathrm{Tr}[X \\rho], y = \\mathrm{Tr}[Y \\rho], z = \\mathrm{Tr}[Z \\rho]]`, where :math:`X`, :math:`Y`, and :math:`Z` are the Pauli operators for a single qubit and :math:`\\rho` is the state matrix."
-msgstr ""
+msgstr "ブロッホ・ベクトルは :math:`[x = \\mathrm{Tr}[X \\rho], y = \\mathrm{Tr}[Y \\rho], z = \\mathrm{Tr}[Z \\rho]]`, として定義されます。このとき :math:`X`, :math:`Y`, and :math:`Z` は一量子ビットのパウリ演算子であり :math:`\\rho` は状態行列になります。"
 
 #: ../../terra/plotting_data_in_qiskit.rst:454
 msgid "Specifying Bloch Vector Plot Properties"
-msgstr ""
+msgstr "ブロッホ・ベクトルのプロパティの指定"
 
 #: ../../terra/plotting_data_in_qiskit.rst:457
 msgid "**figsize** (tuple): Figure size in inches (width, height)."
-msgstr ""
+msgstr "**figsize** (tuple): 図のサイズ。単位はインチ。 (幅, 高さ)."
 
 #: ../../terra/plotting_data_in_qiskit.rst:471
 msgid "Saving Bloch Vector Plots"
-msgstr ""
+msgstr "ブロッホ・ベクトル・プロットの保存"
 
 #: ../../terra/plotting_data_in_qiskit.rst:473
 msgid "When using the ``plot_bloch_vector`` function it returns a ``matplotlib.Figure`` for the rendered visualization. Jupyter notebooks understand this return type and renders it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, ``matplotlib.Figure`` class natively has methods to both display and save the visualization. You can call ``.show()`` on the returned object to open the image in a new window (assuming your configured matplotlib backend is interactive). Or alternatively you can call ``.savefig(out.png)`` to save the figure to ``out.png`` in the current working directory. The ``savefig()`` takes a path so you can just the location and filename where you’re saving the output."
-msgstr ""
+msgstr "視覚化のために plot_histogram() 関数を呼び出した場合の戻り値は ``matplotlib.Figure`` です。Jupyter notebook は戻り値の型を理解するので、このチュートリアルでは表示されますが、jupyter 以外で実行する場合にはこの機能は自動的には使えません。``matplotlib.Figure`` クラス自体は視覚化されたものを表示、保存する機能をもともと持っています。``plot_histogram()`` から返されたオブジェクトに対して ``.show()`` を呼ぶとイメージが新しいウィンドウで開きます (このときmatplotlib バックエンドをインタラクティブに設定していることを想定) 。あるいは ``.savefig(out.png)`` で 図を``out.png`` に保存できます。``savefig()`` はパスを引数に取り、保存しようとしている図の場所やファイル名を指定できます。"
 
