@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 03:35\n"
+"PO-Revision-Date: 2019-06-17 03:44\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -83,27 +83,27 @@ msgstr "プログラムに必要な基本的要素は以下のようにインポ
 
 #: ../../getting_started.rst:100
 msgid "In more detail, the imports are"
-msgstr ""
+msgstr "インポートされるものの詳細は以下の通りです。"
 
 #: ../../getting_started.rst:102
 msgid "``QuantumCircuit``: can be thought as the instructions of the quantum system. It holds all your quantum operations."
-msgstr ""
+msgstr "\"量子回路\":量子ｺﾝﾋﾟｭｰﾀｰｼｽﾃﾑでの基盤であり、全ての量子操作がここで処理される。"
 
 #: ../../getting_started.rst:104
 msgid "``execute``: runs your circuit / experiment."
-msgstr ""
+msgstr "``execute``: 回路や実験を実行する"
 
 #: ../../getting_started.rst:105
 msgid "``Aer``: handles simulator backends."
-msgstr ""
+msgstr "``Aer``: シミュレーターのバックエンドを管理する"
 
 #: ../../getting_started.rst:106
 msgid "``plot_histogram``: creates histograms."
-msgstr ""
+msgstr "``plot_histogram``: ヒストグラムを作成する"
 
 #: ../../getting_started.rst:112
 msgid "Step 2 : Initialize Variables"
-msgstr ""
+msgstr "ステップ2：変数の初期化"
 
 #: ../../getting_started.rst:114
 msgid "Consider the next line of code"
