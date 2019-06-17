@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 10:53\n"
+"PO-Revision-Date: 2019-06-17 11:01\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -179,27 +179,27 @@ msgstr "X   = \\begin{pmatrix} 0 & 1\\\\ 1 & 0 \\end{pmatrix}= u3(\\pi,0,\\pi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:358
 msgid ":math:`Y`: bit- and phase-flip gate"
-msgstr ""
+msgstr ":math:`Y`:ビットと位相フリップゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:360
 msgid "The :math:`Y` gate is defined as:"
-msgstr ""
+msgstr ":math:`Y`は次のように定義されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:362
 msgid "Y  = \\begin{pmatrix} 0 & -i\\\\ i & 0 \\end{pmatrix}=u3(\\pi,\\pi/2,\\pi/2)"
-msgstr ""
+msgstr "Y  = \\begin{pmatrix} 0 & -i\\\\ i & 0 \\end{pmatrix}=u3(\\pi,\\pi/2,\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:399
 msgid ":math:`Z`: phase-flip gate"
-msgstr ""
+msgstr ":math:`Z`: 位相フリップゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:401
 msgid "The phase flip gate :math:`Z` is defined as:"
-msgstr ""
+msgstr "位相フリップゲート:math:`Z` は次のように定義されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:403
 msgid "Z = \\begin{pmatrix} 1 & 0\\\\ 0 & -1 \\end{pmatrix}=u1(\\pi)"
-msgstr ""
+msgstr "Z = \\begin{pmatrix} 1 & 0\\\\ 0 & -1 \\end{pmatrix}=u1(\\pi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:440
 msgid "Clifford gates"
@@ -211,51 +211,51 @@ msgstr "アダマールゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:445
 msgid "H = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 & 1\\\\ 1 & -1 \\end{pmatrix}= u2(0,\\pi)"
-msgstr ""
+msgstr "H = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 & 1\\\\ 1 & -1 \\end{pmatrix}= u2(0,\\pi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:483
 msgid ":math:`S` (or, :math:`\\sqrt{Z}` phase) gate"
-msgstr ""
+msgstr ":math:`S` （もしくは :math:`\\sqrt{Z}` 位相）ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:485
 msgid "S = \\begin{pmatrix} 1 & 0\\\\ 0 & i \\end{pmatrix}= u1(\\pi/2)"
-msgstr ""
+msgstr "S = \\begin{pmatrix} 1 & 0\\\\ 0 & i \\end{pmatrix}= u1(\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:523
 msgid ":math:`S^{\\dagger}` (or, conjugate of :math:`\\sqrt{Z}` phase) gate"
-msgstr ""
+msgstr ":math:`S^{\\dagger}` (または :math:`\\sqrt{Z}`の位相共役) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:525
 msgid "S^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & -i \\end{pmatrix}= u1(-\\pi/2)"
-msgstr ""
+msgstr "S^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & -i \\end{pmatrix}= u1(-\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:563
 msgid ":math:`C3` gates"
-msgstr ""
+msgstr ":math:`C3` ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:566
 msgid ":math:`T` (or, :math:`\\sqrt{S}` phase) gate"
-msgstr ""
+msgstr ":math:`T` (または :math:`\\sqrt{S}` 位相) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:568
 msgid "T = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{i \\pi/4} \\end{pmatrix}= u1(\\pi/4)"
-msgstr ""
+msgstr "T = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{i \\pi/4} \\end{pmatrix}= u1(\\pi/4)"
 
 #: ../../terra/summary_of_quantum_operations.rst:606
 msgid ":math:`T^{\\dagger}` (or, conjugate of :math:`\\sqrt{S}` phase) gate"
-msgstr ""
+msgstr ":math:`T^{\\dagger}` (または:math:`\\sqrt{S}`位相共役) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:608
 msgid "T^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{-i \\pi/4} \\end{pmatrix}= u1(-\\pi/4)"
-msgstr ""
+msgstr "T^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{-i \\pi/4} \\end{pmatrix}= u1(-\\pi/4)"
 
 #: ../../terra/summary_of_quantum_operations.rst:617
 msgid "They can be added as below."
-msgstr ""
+msgstr "それらは以下のように加えられます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:648
 msgid "Standard Rotations"
-msgstr ""
+msgstr "標準回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:650
 msgid "The standard rotation gates are those that define rotations around the Paulis :math:`P=\\{X,Y,Z\\}`. They are defined as"
