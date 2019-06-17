@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 03:34\n"
+"PO-Revision-Date: 2019-06-17 12:14\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,8 @@ msgstr "Qiskit ドキュメントは `docs as code <https://www.writethedocs.org
 
 #: ../../contributing_to_qiskit.rst:51
 msgid "The `published documentation <https://qiskit.org/documentation/index.html>`_ is built from the master branch of `Qiskit/qiskit/docs <https://github.com/Qiskit/qiskit/tree/master/docs>`_ using `Sphinx <http://www.sphinx-doc.org/en/master/>`_."
-msgstr "`公開されているドキュメント <https://qiskit.org/documentation/index.html>`_ は、 `Sphinx <http://www.sphinx-doc.org/en/master/>`_を利用して、`Qiskit/qiskit/docs <https://github.com/Qiskit/qiskit/tree/master/docs>`_ の master ブランチからビルドされています。"
+msgstr "`公開されているドキュメント \n"
+" <https://qiskit.org/documentation/index.html>`_ は、 `Sphinx <http://www.sphinx-doc.org/en/master/>`_を利用して、`Qiskit/qiskit/docs <https://github.com/Qiskit/qiskit/tree/master/docs>`_ の master ブランチからビルドされています。"
 
 #: ../../contributing_to_qiskit.rst:56
 msgid "You can build a local copy of the documentation from your local clone of the `Qiskit/qiskit` repository as follows:"
