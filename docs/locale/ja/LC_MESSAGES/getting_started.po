@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 04:57\n"
+"PO-Revision-Date: 2019-06-17 05:16\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -155,7 +155,7 @@ msgstr "``QuantumCircuit.cx(0,1)``: 0量子ビットをコントロール・ビ�
 
 #: ../../getting_started.rst:154
 msgid "``QuantumCircuit.measure([0,1], [0,1])``: if you pass the entire quantum and classical registers to ``measure``, the ith qubit’s measurement result will be stored in the ith classical bit."
-msgstr ""
+msgstr "``QuantumCircuit.measure([0,1], [0,1])``: 全ての量子レジスターと古典レジスターを``measure``に送ると、i番目の量子ビットの結果がi番目の古典ビットに保存されます。"
 
 #: ../../getting_started.rst:162
 msgid "Step 4 : Visualize the Circuit"
