@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 01:57\n"
+"PO-Revision-Date: 2019-06-17 02:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -235,11 +235,11 @@ msgstr "Qiskit Terraのインストール"
 
 #: ../../contributing_to_qiskit.rst:180
 msgid "Clone the Terra repository."
-msgstr ""
+msgstr "Terraレポジトリをクローンします。"
 
 #: ../../contributing_to_qiskit.rst:186
 msgid "Cloning the repository creates a local folder called ``qiskit-terra``."
-msgstr ""
+msgstr "レポジトリをクローンすると、'qiskit-terra'という名前のローカル・フォルダが作成されます。"
 
 #: ../../contributing_to_qiskit.rst:192
 msgid "Install the Python requirements libraries from your ``qiskit-terra`` directory."
