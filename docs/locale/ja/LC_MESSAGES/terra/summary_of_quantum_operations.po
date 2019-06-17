@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 11:01\n"
+"PO-Revision-Date: 2019-06-17 11:18\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -259,35 +259,35 @@ msgstr "標準回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:650
 msgid "The standard rotation gates are those that define rotations around the Paulis :math:`P=\\{X,Y,Z\\}`. They are defined as"
-msgstr ""
+msgstr "標準回転ゲートは、パウリ行列 :math:`P=\\{X,Y,Z\\}`での回転になります。これらは、次のように定義されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:653
 msgid "R_P(\\theta) = \\exp(-i \\theta P/2) = \\cos(\\theta/2)I -i \\sin(\\theta/2)P"
-msgstr ""
+msgstr "R_P(\\theta) = \\exp(-i \\theta P/2) = \\cos(\\theta/2)I -i \\sin(\\theta/2)P"
 
 #: ../../terra/summary_of_quantum_operations.rst:656
 msgid "Rotation around X-axis"
-msgstr ""
+msgstr "X軸周りの回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:658
 msgid "R_x(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & -i\\sin(\\theta/2)\\\\ -i\\sin(\\theta/2) & \\cos(\\theta/2) \\end{pmatrix} = u3(\\theta, -\\pi/2,\\pi/2)"
-msgstr ""
+msgstr "R_x(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & -i\\sin(\\theta/2)\\\\ -i\\sin(\\theta/2) & \\cos(\\theta/2) \\end{pmatrix} = u3(\\theta, -\\pi/2,\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:696
 msgid "Rotation around Y-axis"
-msgstr ""
+msgstr "Y軸周りの回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:698
 msgid "R_y(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & - \\sin(\\theta/2)\\\\ \\sin(\\theta/2) & \\cos(\\theta/2). \\end{pmatrix} =u3(\\theta,0,0)"
-msgstr ""
+msgstr "R_y(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & - \\sin(\\theta/2)\\\\ \\sin(\\theta/2) & \\cos(\\theta/2). \\end{pmatrix} =u3(\\theta,0,0)"
 
 #: ../../terra/summary_of_quantum_operations.rst:736
 msgid "Rotation around Z-axis"
-msgstr ""
+msgstr "Z軸周りの回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:738
 msgid "R_z(\\phi) = \\begin{pmatrix} e^{-i \\phi/2} & 0 \\\\ 0 & e^{i \\phi/2} \\end{pmatrix}\\equiv u1(\\phi)"
-msgstr ""
+msgstr "R_z(\\phi) = \\begin{pmatrix} e^{-i \\phi/2} & 0 \\\\ 0 & e^{i \\phi/2} \\end{pmatrix}\\equiv u1(\\phi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:747
 msgid "Note here we have used an equivalent as is different to u1 by global phase :math:`e^{-i \\phi/2}`."
@@ -295,15 +295,15 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:778
 msgid "Note this is different due only to a global phase"
-msgstr ""
+msgstr "ここでは、グローバル位相の分だけ異なる。"
 
 #: ../../terra/summary_of_quantum_operations.rst:781
 msgid "Multi-Qubit Gates"
-msgstr ""
+msgstr "複数キュービットゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:784
 msgid "Mathematical Preliminaries"
-msgstr ""
+msgstr "数学的準備"
 
 #: ../../terra/summary_of_quantum_operations.rst:786
 msgid "The space of quantum computer grows exponential with the number of qubits. For :math:`n` qubits the complex vector space has dimensions :math:`d=2^n`. To describe states of a multi-qubit system, the tensor product is used to “glue together” operators and basis vectors."
