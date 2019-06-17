@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-16 15:05\n"
+"PO-Revision-Date: 2019-06-17 11:18\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "``QuantumCircuit``, ``QuantumRegister``, ``ClassicalRegister`` はそれ
 
 #: ../../terra/quantum_circuits.rst:10
 msgid "The following imports will be used in the examples below."
-msgstr ""
+msgstr "以下に例を示します。"
 
 #: ../../terra/quantum_circuits.rst:23
 msgid "Creating Registers"
