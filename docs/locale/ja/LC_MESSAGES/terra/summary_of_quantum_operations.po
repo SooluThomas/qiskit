@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 11:18\n"
+"PO-Revision-Date: 2019-06-17 11:30\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -307,31 +307,31 @@ msgstr "数学的準備"
 
 #: ../../terra/summary_of_quantum_operations.rst:786
 msgid "The space of quantum computer grows exponential with the number of qubits. For :math:`n` qubits the complex vector space has dimensions :math:`d=2^n`. To describe states of a multi-qubit system, the tensor product is used to “glue together” operators and basis vectors."
-msgstr ""
+msgstr "量子コンピューターの次元は、キュービットの数に対して指数関数的に大きくなります。:math:`n` キュービットの場合、複素数ベクトル空間は :math:`d=2^n`次元になります。複数キュービット系の状態を表すためには、テンソル積が演算子と基底ベクトルの”結合”として使われます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:791
 msgid "Let’s start by considering a 2-qubit system. Given two operators :math:`A` and :math:`B` that each act on one qubit, the joint operator :math:`A \\otimes B` acting on two qubits is"
-msgstr ""
+msgstr "2キュービットシステムを考える所から始めてみましょう。それぞれ片方のキュービットに作用する :math:`A`と :math:`B` という2つの演算子を用意し、2つのキュービットに作用する結合演算子:math:`A \\otimes B` は"
 
 #: ../../terra/summary_of_quantum_operations.rst:795
 msgid "\\begin{equation}     A\\otimes B =     \\begin{pmatrix}         A_{00} \\begin{pmatrix}             B_{00} & B_{01} \\\\             B_{10} & B_{11}         \\end{pmatrix} & A_{01}  \\begin{pmatrix}                 B_{00} & B_{01} \\\\                 B_{10} & B_{11}             \\end{pmatrix} \\\\         A_{10}  \\begin{pmatrix}                     B_{00} & B_{01} \\\\                     B_{10} & B_{11}                 \\end{pmatrix} & A_{11}  \\begin{pmatrix}                             B_{00} & B_{01} \\\\                             B_{10} & B_{11}                         \\end{pmatrix}     \\end{pmatrix}, \\end{equation}"
-msgstr ""
+msgstr "\\begin{equation}     A\\otimes B =     \\begin{pmatrix}         A_{00} \\begin{pmatrix}             B_{00} & B_{01} \\\\             B_{10} & B_{11}         \\end{pmatrix} & A_{01}  \\begin{pmatrix}                 B_{00} & B_{01} \\\\                 B_{10} & B_{11}             \\end{pmatrix} \\\\         A_{10}  \\begin{pmatrix}                     B_{00} & B_{01} \\\\                     B_{10} & B_{11}                 \\end{pmatrix} & A_{11}  \\begin{pmatrix}                             B_{00} & B_{01} \\\\                             B_{10} & B_{11}                         \\end{pmatrix}     \\end{pmatrix}, \\end{equation}"
 
 #: ../../terra/summary_of_quantum_operations.rst:817
 msgid "where :math:`A_{jk}` and :math:`B_{lm}` are the matrix elements of :math:`A` and :math:`B`, respectively."
-msgstr ""
+msgstr "ここでは、 :math:`A_{jk}` と:math:`B_{lm}` は :math:`A` と:math:`B`それぞれの行列成分になります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:820
 msgid "Analogously, the basis vectors for the 2-qubit system are formed using the tensor product of basis vectors for a single qubit:"
-msgstr ""
+msgstr "類似的に、2キュービット系の基底ベクトルは、単一キュービットでの基底ベクトルのテンソル積を使って形成されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:823
 msgid "\\begin{equation}\\begin{split}     |{00}\\rangle &= \\begin{pmatrix}         1 \\begin{pmatrix}             1  \\\\             0         \\end{pmatrix} \\\\         0 \\begin{pmatrix}             1  \\\\             0         \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\0 \\end{pmatrix}~~~|{01}\\rangle = \\begin{pmatrix}     1 \\begin{pmatrix}     0 \\\\     1     \\end{pmatrix} \\\\     0 \\begin{pmatrix}     0  \\\\     1     \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix}0 \\\\ 1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\end{split} \\end{equation}"
-msgstr ""
+msgstr "\\begin{equation}\\begin{split}     |{00}\\rangle &= \\begin{pmatrix}         1 \\begin{pmatrix}             1  \\\\             0         \\end{pmatrix} \\\\         0 \\begin{pmatrix}             1  \\\\             0         \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\\\0 \\end{pmatrix}~~~|{01}\\rangle = \\begin{pmatrix}     1 \\begin{pmatrix}     0 \\\\     1     \\end{pmatrix} \\\\     0 \\begin{pmatrix}     0  \\\\     1     \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix}0 \\\\ 1 \\\\ 0 \\\\ 0 \\end{pmatrix}\\end{split} \\end{equation}"
 
 #: ../../terra/summary_of_quantum_operations.rst:847
 msgid "\\begin{equation}\\begin{split}|{10}\\rangle = \\begin{pmatrix}     0\\begin{pmatrix}     1  \\\\     0     \\end{pmatrix} \\\\     1\\begin{pmatrix}     1 \\\\     0     \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix}~~~   |{11}\\rangle = \\begin{pmatrix}     0 \\begin{pmatrix}     0  \\\\     1     \\end{pmatrix} \\\\     1\\begin{pmatrix}     0  \\\\     1     \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\1 \\end{pmatrix}\\end{split} \\end{equation}."
-msgstr ""
+msgstr "\\begin{equation}\\begin{split}|{10}\\rangle = \\begin{pmatrix}     0\\begin{pmatrix}     1  \\\\     0     \\end{pmatrix} \\\\     1\\begin{pmatrix}     1 \\\\     0     \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\\\ 0 \\end{pmatrix}~~~   |{11}\\rangle = \\begin{pmatrix}     0 \\begin{pmatrix}     0  \\\\     1     \\end{pmatrix} \\\\     1\\begin{pmatrix}     0  \\\\     1     \\end{pmatrix}     \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\\\1 \\end{pmatrix}\\end{split} \\end{equation}."
 
 #: ../../terra/summary_of_quantum_operations.rst:870
 msgid "Note we’ve introduced a shorthand for the tensor product of basis vectors, wherein :math:`|0\\rangle \\otimes |0\\rangle` is written as :math:`|00\\rangle`. The state of an :math:`n`-qubit system can described using the :math:`n`-fold tensor product of single-qubit basis vectors. Notice that the basis vectors for a 2-qubit system are 4-dimensional; in general, the basis vectors of an :math:`n`-qubit sytsem are :math:`2^{n}`-dimensional, as noted earlier."
