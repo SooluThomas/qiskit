@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 04:35\n"
+"PO-Revision-Date: 2019-06-18 04:47\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -107,7 +107,7 @@ msgstr "回路結果の検査"
 
 #: ../../terra/quantum_circuits.rst:289
 msgid "In the circuit output, the most significant bit (MSB) is to the left and the least significant bit (LSB) is to the right (i.e. we follow the regular computer science little endian ordering). In this example:"
-msgstr ""
+msgstr "回路の出力では、最重要ビット(Most Significant Bit, MSB) が左に、最瑣末ビット(Least Significant Bit, LSB) が右に配置されます(通常のコンピュータ・サイエンスにおけるリトル・エンディアン)。次の例において:"
 
 #: ../../terra/quantum_circuits.rst:300
 msgid "qqubit register :math:`Q_0` is prepared in the state :math:`|10\\rangle` and :math:`Q_1` is in the state :math:`|01\\rangle` giving a total state :math:`|0110\\rangle` (:math:`Q1\\otimes Q0`)."
