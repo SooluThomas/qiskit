@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 04:18\n"
+"PO-Revision-Date: 2019-06-18 04:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -95,15 +95,15 @@ msgstr "2つの回路を結合して、1つの新しい回路を作成したい�
 
 #: ../../terra/quantum_circuits.rst:264
 msgid "The new register is added to the circuit:"
-msgstr ""
+msgstr "新しいレジスタを回路に追加します。"
 
 #: ../../terra/quantum_circuits.rst:274
 msgid "We have also overloaded ``+=`` to the ``QuantumCircuit`` object:"
-msgstr ""
+msgstr "``+=``も``QuantumCircuit`` オブジェクトに対してオーバーロードされてます。"
 
 #: ../../terra/quantum_circuits.rst:287
 msgid "Examining Circuit Results"
-msgstr ""
+msgstr "回路結果の検査"
 
 #: ../../terra/quantum_circuits.rst:289
 msgid "In the circuit output, the most significant bit (MSB) is to the left and the least significant bit (LSB) is to the right (i.e. we follow the regular computer science little endian ordering). In this example:"
