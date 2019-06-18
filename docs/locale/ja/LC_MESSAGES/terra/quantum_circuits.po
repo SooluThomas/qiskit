@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 04:47\n"
+"PO-Revision-Date: 2019-06-18 10:02\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "回路の出力では、最重要ビット(Most Significant Bit, MSB) �
 
 #: ../../terra/quantum_circuits.rst:300
 msgid "qqubit register :math:`Q_0` is prepared in the state :math:`|10\\rangle` and :math:`Q_1` is in the state :math:`|01\\rangle` giving a total state :math:`|0110\\rangle` (:math:`Q1\\otimes Q0`)."
-msgstr ""
+msgstr "量子ビットレジスター :math:`Q_0` は、状態:math:`|10\\rangle` に、 :math:`Q_1` は状態 :math:`|01\\rangle` にセットされ、全体の状態は :math:`|0110\\rangle` (:math:`Q1\\otimes Q0`) となります。"
 
 #: ../../terra/quantum_circuits.rst:306
 msgid "The tensor order in Qiskit goes as :math:`Q_n \\otimes .. Q_1 \\otimes Q_0`"
