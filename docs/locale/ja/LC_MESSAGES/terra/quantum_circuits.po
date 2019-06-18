@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 10:02\n"
+"PO-Revision-Date: 2019-06-18 10:19\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -115,11 +115,11 @@ msgstr "量子ビットレジスター :math:`Q_0` は、状態:math:`|10\\rangl
 
 #: ../../terra/quantum_circuits.rst:306
 msgid "The tensor order in Qiskit goes as :math:`Q_n \\otimes .. Q_1 \\otimes Q_0`"
-msgstr ""
+msgstr "Qiskit内でのテンソルの順番は、 :math:`Q_n \\otimes .. Q_1 \\otimes Q_0`です。"
 
 #: ../../terra/quantum_circuits.rst:308
 msgid "That is the four qubit statevector of length 16 with the 6th element (``int('0110',2)=6``) being one. Note the element count starts from zero."
-msgstr ""
+msgstr "これは長さ16の4量子ビット状態ベクトルで、6番目(``int('0110',2)=6``) の要素が1になります。要素の番号は0から始まることに注意してください。"
 
 #: ../../terra/quantum_circuits.rst:326
 msgid "To check the fidelity of this state with the ``basis_state`` in Qiskit Terra you can use:"
