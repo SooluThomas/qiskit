@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 11:42\n"
+"PO-Revision-Date: 2019-06-18 04:13\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../terra/quantum_circuits.rst:176
 msgid "The indexing method above works for ``QuantumCircuit`` objects constructed with or without predefined ``QuantumRegister`` objects."
-msgstr ""
+msgstr "上記のインデキシングの方式は、あらかじめ定義した``QuantumRegister`` を使って作成したか否かに関わらず`、`QuantumCircuit``オブジェクト上で動作します。"
 
 #: ../../terra/quantum_circuits.rst:179
 msgid "For circuits with multiple registers, index ordering will correspond to the order registers were added to the circuit, and can be verified by inspecting the circuit's ``qubits`` and ``clbits`` properties."
