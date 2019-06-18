@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 11:30\n"
+"PO-Revision-Date: 2019-06-18 06:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -335,11 +335,11 @@ msgstr "\\begin{equation}\\begin{split}|{10}\\rangle = \\begin{pmatrix}     0\\b
 
 #: ../../terra/summary_of_quantum_operations.rst:870
 msgid "Note we’ve introduced a shorthand for the tensor product of basis vectors, wherein :math:`|0\\rangle \\otimes |0\\rangle` is written as :math:`|00\\rangle`. The state of an :math:`n`-qubit system can described using the :math:`n`-fold tensor product of single-qubit basis vectors. Notice that the basis vectors for a 2-qubit system are 4-dimensional; in general, the basis vectors of an :math:`n`-qubit sytsem are :math:`2^{n}`-dimensional, as noted earlier."
-msgstr ""
+msgstr "ここでは、基底ベクトルの略記を導入します。:math:`|0\\rangle \\otimes |0\\rangle` は :math:`|00\\rangle`と表現されます。:math:`n`キュービット系の状態は、単一キュービットベクトルの:math:`n`階のテンソル積を使って書き下すことができます。2キュービット系の基底ベクトルは、4次元になります。前に述べたように、一般に、:math:`n`キュービット系の基底ベクトルは、:math:`2^{n}`次元になります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:879
 msgid "Basis vector ordering in Qiskit"
-msgstr ""
+msgstr "Qiskitにおける基底ベクトル表記の順番"
 
 #: ../../terra/summary_of_quantum_operations.rst:881
 msgid "Within the physics community, the qubits of a multi-qubit systems are typically ordered with the first qubit on the left-most side of the tensor product and the last qubit on the right-most side. For instance, if the first qubit is in state :math:`|0\\rangle` and second is in state :math:`|1\\rangle`, their joint state would be :math:`|01\\rangle`. Qiskit uses a slightly different ordering of the qubits, in which the qubits are represented from the most significant bit (MSB) on the left to the least significant bit (LSB) on the right (big-endian). This is similar to bitstring representation on classical computers, and enables easy conversion from bitstrings to integers after measurements are performed. For the example just given, the joint state would be represented as :math:`|10\\rangle`. Importantly, *this change in the representation of multi-qubit states affects the way multi-qubit gates are represented in Qiskit*, as discussed below."
