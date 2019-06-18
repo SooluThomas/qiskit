@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 04:13\n"
+"PO-Revision-Date: 2019-06-18 04:18\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -83,15 +83,15 @@ msgstr "上記のインデキシングの方式は、あらかじめ定義した
 
 #: ../../terra/quantum_circuits.rst:179
 msgid "For circuits with multiple registers, index ordering will correspond to the order registers were added to the circuit, and can be verified by inspecting the circuit's ``qubits`` and ``clbits`` properties."
-msgstr ""
+msgstr "複数のレジスタを持つ回路では、インデックスの順序は回路にレジスターが追加された順序に対応し、回路の``qubits`` 、 ``clbits`` プロパティを調べることで確認できます。"
 
 #: ../../terra/quantum_circuits.rst:205
 msgid "Concatenating Circuits"
-msgstr ""
+msgstr "回路の結合"
 
 #: ../../terra/quantum_circuits.rst:207
 msgid "In many situations you may have two circuits that you want to concatenate together to form a new circuit. This is very useful when one circuit has no measurements and the final circuit represents a measurement."
-msgstr ""
+msgstr "2つの回路を結合して、1つの新しい回路を作成したい場合が多くあります。ある回路が測定を持たず、最後の回路で測定させるとき、特に便利な手法です。"
 
 #: ../../terra/quantum_circuits.rst:264
 msgid "The new register is added to the circuit:"
