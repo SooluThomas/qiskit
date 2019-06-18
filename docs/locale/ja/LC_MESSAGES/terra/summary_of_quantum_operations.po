@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 07:42\n"
+"PO-Revision-Date: 2019-06-18 07:52\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -367,11 +367,11 @@ msgstr "2-qubit (two-qubit) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:920
 msgid "Most of the two-gates are of the controlled type (the SWAP gate being the exception). In general, a controlled two-qubit gate :math:`C_{U}` acts to apply the single-qubit unitary :math:`U` to the second qubit when the state of the first qubit is in :math:`|1\\rangle`. Suppose :math:`U` has a matrix representation"
-msgstr ""
+msgstr "多くの2ゲート(two-gates) は制御タイプのものです（SWAP ゲートは例外になります）。一般的に、制御 2-qubit (two-qubit) ゲート :math:`C_{U}` は　最初の qubit が :math:`|1\\rangle` の時に、2つ目の qubit に対して単独 qubit (single-qubit) :math:`U` を適用します。 :math:`U` が以下の行列表示であるとします。"
 
 #: ../../terra/summary_of_quantum_operations.rst:926
 msgid "U = \\begin{pmatrix} u_{00} & u_{01} \\\\ u_{10} & u_{11}\\end{pmatrix}."
-msgstr ""
+msgstr "U = \\begin{pmatrix} u_{00} & u_{01} \\\\ u_{10} & u_{11}\\end{pmatrix}."
 
 #: ../../terra/summary_of_quantum_operations.rst:928
 msgid "We can work out the action of :math:`C_{U}` as follows. Recall that the basis vectors for a two-qubit system are ordered as :math:`|00\\rangle, |01\\rangle, |10\\rangle, |11\\rangle`. Suppose the **control qubit** is **qubit 0** (which, according to Qiskit’s convention, is one the *right-hand* side of the tensor product). If the control qubit is in :math:`|1\\rangle`, :math:`U` should be applied to the **target** (qubit 1, on the *left-hand* side of the tensor product). Therefore, under the action of :math:`C_{U}`, the basis vectors are transformed according to"
