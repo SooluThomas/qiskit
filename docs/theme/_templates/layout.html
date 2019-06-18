@@ -75,4 +75,16 @@
           };
        </script>
         <script async src="https://cloud.ibm.com/analytics/build/bluemix-analytics.min.js"></script>
+        <script>
+	            var el = document.getElementById('language');
+	            el.addEventListener('change', function(evt){
+	                var language = evt.target.options[el.selectedIndex].value;
+	                if (language === 'ja') {
+	                    window.location.href = '/locale/ja';
+	                }
+	                if (language === 'en') {
+	                    window.location.href = '/';
+	                }
+	            });
+	        </script>
 {%- endblock %}
