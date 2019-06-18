@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 07:52\n"
+"PO-Revision-Date: 2019-06-18 08:14\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -375,51 +375,51 @@ msgstr "U = \\begin{pmatrix} u_{00} & u_{01} \\\\ u_{10} & u_{11}\\end{pmatrix}.
 
 #: ../../terra/summary_of_quantum_operations.rst:928
 msgid "We can work out the action of :math:`C_{U}` as follows. Recall that the basis vectors for a two-qubit system are ordered as :math:`|00\\rangle, |01\\rangle, |10\\rangle, |11\\rangle`. Suppose the **control qubit** is **qubit 0** (which, according to Qiskit’s convention, is one the *right-hand* side of the tensor product). If the control qubit is in :math:`|1\\rangle`, :math:`U` should be applied to the **target** (qubit 1, on the *left-hand* side of the tensor product). Therefore, under the action of :math:`C_{U}`, the basis vectors are transformed according to"
-msgstr ""
+msgstr ":math:`C_{U}` の動作は以下のように示せます。 2 qubit システムの基底ベクトルは :math:`|00\\rangle, |01\\rangle, |10\\rangle, |11\\rangle` のような順になっていることを思い出しましょう。**制御 qubit** を **qubit 0** とします(これは Qiskit での決まりで テンソル積の *右側* のものです)。制御 qubit が :math:`|1\\rangle` の時、**ターゲット** (qubit 1 でテンソル積の*左側* にあるもの) に対して :math:`U` を適用せよとするものです。従って、 :math:`C_{U}` の作用の結果として、基底ベクトルは次のように変換します。"
 
 #: ../../terra/summary_of_quantum_operations.rst:938
 msgid "\\begin{align*} C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{U|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{U|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle}\\\\ \\end{align*}."
-msgstr ""
+msgstr "\\begin{align*} C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{U|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{U|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle}\\\\ \\end{align*}."
 
 #: ../../terra/summary_of_quantum_operations.rst:947
 msgid "In matrix form, the action of :math:`C_{U}` is"
-msgstr ""
+msgstr "行列形式では、 :math:`C_{U}` の作用は"
 
 #: ../../terra/summary_of_quantum_operations.rst:949
 msgid "\\begin{equation}     C_U = \\begin{pmatrix}     1 & 0 & 0 & 0 \\\\     0 & u_{00} & 0 & u_{01} \\\\     0 & 0 & 1 & 0 \\\\     0 & u_{10} &0 & u_{11}         \\end{pmatrix}. \\end{equation}"
-msgstr ""
+msgstr "\\begin{equation}     C_U = \\begin{pmatrix}     1 & 0 & 0 & 0 \\\\     0 & u_{00} & 0 & u_{01} \\\\     0 & 0 & 1 & 0 \\\\     0 & u_{10} &0 & u_{11}         \\end{pmatrix}. \\end{equation}"
 
 #: ../../terra/summary_of_quantum_operations.rst:960
 msgid "To work out these matrix elements, let"
-msgstr ""
+msgstr "行列要素は"
 
 #: ../../terra/summary_of_quantum_operations.rst:962
 msgid "C_{(jk), (lm)} = \\left(\\underset{\\text{qubit}~1}{\\langle j |} \\otimes \\underset{\\text{qubit}~0}{\\langle k |}\\right) C_{U} \\left(\\underset{\\text{qubit}~1}{| l \\rangle} \\otimes \\underset{\\text{qubit}~0}{| k \\rangle}\\right),"
-msgstr ""
+msgstr "C_{(jk), (lm)} = \\left(\\underset{\\text{qubit}~1}{\\langle j |} \\otimes \\underset{\\text{qubit}~0}{\\langle k |}\\right) C_{U} \\left(\\underset{\\text{qubit}~1}{| l \\rangle} \\otimes \\underset{\\text{qubit}~0}{| k \\rangle}\\right),"
 
 #: ../../terra/summary_of_quantum_operations.rst:964
 msgid "compute the action of :math:`C_{U}` (given above), and compute the inner products."
-msgstr ""
+msgstr "として、 :math:`C_{U}` (上記のもの)を作用させ、内積を計算することで導出されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:967
 msgid "As shown in the examples below, this operation is implemented in Qiskit as ``cU(q[0],q[1])``."
-msgstr ""
+msgstr "以下の例に示すように、この操作は Qiskit では ``cU(q[0],q[1])`` として実装されています。"
 
 #: ../../terra/summary_of_quantum_operations.rst:970
 msgid "If **qubit 1 is the control and qubit 0 is the target**, then the basis vectors are transformed according to"
-msgstr ""
+msgstr "もし **qubit 1 が制御で、qubit 0 が target**の場合には、基底ベクトルは次のもので変換されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:973
 msgid "\\begin{align*} C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{U|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{U|1\\rangle}\\\\ \\end{align*},"
-msgstr ""
+msgstr "\\begin{align*} C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|0\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|0\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{U|0\\rangle}\\\\ C_{U}: \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{|1\\rangle} &\\rightarrow \\underset{\\text{qubit}~1}{|1\\rangle}\\otimes \\underset{\\text{qubit}~0}{U|1\\rangle}\\\\ \\end{align*},"
 
 #: ../../terra/summary_of_quantum_operations.rst:982
 msgid "which implies the matrix form of :math:`C_{U}` is"
-msgstr ""
+msgstr "この場合の :math:`C_{U}` の行列表示は次のようになります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:984
 msgid "\\begin{equation}     C_U = \\begin{pmatrix}     1 & 0 & 0  & 0 \\\\     0 & 1 & 0 & 0 \\\\     0 & 0 & u_{00} & u_{01} \\\\     0 & 0 & u_{10} & u_{11}         \\end{pmatrix}. \\end{equation}"
-msgstr ""
+msgstr "\\begin{equation}     C_U = \\begin{pmatrix}     1 & 0 & 0  & 0 \\\\     0 & 1 & 0 & 0 \\\\     0 & 0 & u_{00} & u_{01} \\\\     0 & 0 & u_{10} & u_{11}         \\end{pmatrix}. \\end{equation}"
 
 #: ../../terra/summary_of_quantum_operations.rst:1000
 msgid "Controlled Pauli Gates"
