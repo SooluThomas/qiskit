@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 06:24\n"
+"PO-Revision-Date: 2019-06-18 07:42\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:918
 msgid "Two-qubit gates"
-msgstr ""
+msgstr "2-qubit (two-qubit) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:920
 msgid "Most of the two-gates are of the controlled type (the SWAP gate being the exception). In general, a controlled two-qubit gate :math:`C_{U}` acts to apply the single-qubit unitary :math:`U` to the second qubit when the state of the first qubit is in :math:`|1\\rangle`. Suppose :math:`U` has a matrix representation"
