@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-19 04:41\n"
+"PO-Revision-Date: 2019-06-19 04:46\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -139,11 +139,11 @@ msgstr "これは、量子状態を古典系にマップします。この状態
 
 #: ../../terra/quantum_circuits.rst:398
 msgid "To show that it does not matter how you add the registers we run the same as above on the second example circuit:"
-msgstr ""
+msgstr "どのようにレジスターを追加したかは関係ないことを示すため、2番目の回路例に対して上と同じことを実行します。"
 
 #: ../../terra/quantum_circuits.rst:452
 msgid "Determining Circuit Resources"
-msgstr ""
+msgstr "回路リソースの決定"
 
 #: ../../terra/quantum_circuits.rst:454
 msgid "A ``QuantumCircuit`` object provides methods for inquiring its resource use. This includes the number of qubits, operations, and a few other things."
