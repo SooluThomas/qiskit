@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 10:19\n"
+"PO-Revision-Date: 2019-06-19 04:25\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -123,11 +123,11 @@ msgstr "これは長さ16の4量子ビット状態ベクトルで、6番目(``in
 
 #: ../../terra/quantum_circuits.rst:326
 msgid "To check the fidelity of this state with the ``basis_state`` in Qiskit Terra you can use:"
-msgstr ""
+msgstr "Qiskit Terraにおいて`basis_state``を用いてこの状態の忠実度を確認するには、以下を使用します："
 
 #: ../../terra/quantum_circuits.rst:342
 msgid "We can also use Qiskit Terra to make the unitary operator representing the circuit (provided there are no measurements). This will be a :math:`16\\times16` matrix equal to :math:`I\\otimes X\\otimes X\\otimes I`. To check this is correct we can use the ``Pauli`` class and the ``process_fidelity`` function."
-msgstr ""
+msgstr "また、Qiskit Terraを使って、回路(測定値がない場合)を表現するユニタリー演算子を作成することができます。この例では :math:`I\\otimes X\\otimes X\\otimes I`に等しい:math:`16\\times16` の行列です。これが正しいことを確認するには、``Pauli`` クラスと ``process_fidelity`` 関数を使用します。"
 
 #: ../../terra/quantum_circuits.rst:364
 msgid "To map the information of the quantum state to the classial world we have to use the example with measurements ``qc``:"
