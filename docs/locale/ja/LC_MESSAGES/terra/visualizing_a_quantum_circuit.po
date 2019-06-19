@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-19 08:38\n"
+"PO-Revision-Date: 2019-06-19 08:48\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,11 @@ msgstr "量子回路の描画"
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:14
 msgid "When building a quantum circuit it often helps to draw the circuit. This is supported natively by a ``QuantumCircuit`` object. You can either just call ``print()`` on the circuit or call the ``draw()`` method on the object. This will render a `ASCII art version <https://en.wikipedia.org/wiki/ASCII_art>`__ of the circuit diagram."
-msgstr ""
+msgstr "量子回路の作成中、回路の描画が助けになることがよくあります。回路の描画は、``QuantumCircuit`` オブジェクトによりネイティブにサポートされています。回路について単に``print()`` を呼ぶことも、オブジェクトに対して``draw()``メソッドを呼ぶこともできます。これらは、回路図を`アスキー・アート <https://en.wikipedia.org/wiki/ASCII_art>`__ 風に描画します。"
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:87
 msgid "Alternative Renderers for Circuits"
-msgstr ""
+msgstr "回路の別なレンダラー"
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:89
 msgid "While a text output is useful for quickly seeing the output while developing a circuit it doesn’t provide the most flexibility in it’s output. There are 2 other alternative output renderers for the quantum circuit. One uses `matplotlib <https://matplotlib.org/>`__ and the other uses `LaTex <https://www.latex-project.org/>`__ leveraging the `qcircuit package <https://github.com/CQuIC/qcircuit>`__. These can be specified by using ``mpl`` and ``latex`` values for the ``output`` kwarg on the draw() method."
