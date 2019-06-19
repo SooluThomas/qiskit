@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 13:14\n"
+"PO-Revision-Date: 2019-06-19 07:30\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "IBM Q デバイスの進んだ使い方"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:6
 msgid "In Qiskit we have an interface for backends and jobs that will be useful for running circuits and extending to third-party backends. In this section, we will review the core components of Qiskit’s base backend framework, using the IBM Q provider as an example."
-msgstr ""
+msgstr "Quiskitにはバックエンドとジョブのインターフェース機能があります。この機能によって、回路を実行したりサードパーティのバックエンドに拡張することが容易にできる様になります。本項では、IBM Qプロバイダーを例として、Qiskitのベースバックエンドフレームワークのコア要素を確認します。"
 
 #: ../../advanced_use_of_ibm_q_devices.rst:10
 msgid "The interface has three parts: the provider, the backend, and the job:"
