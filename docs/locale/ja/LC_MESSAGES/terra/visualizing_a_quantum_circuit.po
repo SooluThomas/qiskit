@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:29\n"
+"PO-Revision-Date: 2019-06-19 08:38\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:5
 msgid "Visualizing a Quantum Circuit"
-msgstr ""
+msgstr "量子ゲートの可視化"
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:12
 msgid "Drawing a Quantum Circuit"
-msgstr ""
+msgstr "量子回路の描画"
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:14
 msgid "When building a quantum circuit it often helps to draw the circuit. This is supported natively by a ``QuantumCircuit`` object. You can either just call ``print()`` on the circuit or call the ``draw()`` method on the object. This will render a `ASCII art version <https://en.wikipedia.org/wiki/ASCII_art>`__ of the circuit diagram."
