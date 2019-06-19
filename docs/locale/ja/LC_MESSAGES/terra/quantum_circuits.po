@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-19 04:25\n"
+"PO-Revision-Date: 2019-06-19 04:41\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -131,11 +131,11 @@ msgstr "また、Qiskit Terraを使って、回路(測定値がない場合)を�
 
 #: ../../terra/quantum_circuits.rst:364
 msgid "To map the information of the quantum state to the classial world we have to use the example with measurements ``qc``:"
-msgstr ""
+msgstr "量子状態の情報を古典系にマップするには、 測定``qc``を使用する必要があります。"
 
 #: ../../terra/quantum_circuits.rst:381
 msgid "This will map the quantum state to the classical world and since the state has no superpositions it will be deterministic and equal to ``'01 10'``. Here a space is used to separate the registers."
-msgstr ""
+msgstr "これは、量子状態を古典系にマップします。この状態は重ね合わせがないので、決定論的で``'01 10'``に等しいです。ここでスペースはレジスターを分割するために使用されています。"
 
 #: ../../terra/quantum_circuits.rst:398
 msgid "To show that it does not matter how you add the registers we run the same as above on the second example circuit:"
