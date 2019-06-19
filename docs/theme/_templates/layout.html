@@ -106,30 +106,30 @@
         link.addEventListener('click', clickExternalLink);
     </script>
     <script>
- var el = document.getElementById('language');
-       var optionsToSelect = ['en', 'ja']
-       var changeLoc = function(evt) {
-         var language = evt.target.options[el.selectedIndex].value;
-         if (language === 'ja') {
-             window.location.href = '/testTranslation/locale/ja';
+      var el = document.getElementById('language');
+      var optionsToSelect = ['en', 'ja']
+      var changeLoc = function(evt) {
+        var language = evt.target.options[el.selectedIndex].value;
+        if (language === 'ja') {
+          window.location.href = '/testTranslation/locale/ja';
 
-         }
-         if (language === 'en') {
-             window.location.href = '/testTranslation';
-         }
-       };
-       el.addEventListener('change', changeLoc);
+        }
+        if (language === 'en') {
+          window.location.href = '/testTranslation';
+        }
+      };
+      el.addEventListener('change', changeLoc);
 
-       var changeSelect = function(select) {
-         const tokens = window.location.pathname.split('/');
-         const optionToSelect = tokens[tokens.length - 2] || 'en';
-         for (var i = 0; i < select.options.length; i++) {
-           var o = select.options[i];
-           if (optionToSelect == o.value) {
-             o.selected = true;
-           }
-         }
-       };
-       changeSelect(el);
-      </script>
+      var changeSelect = function(select) {
+        const tokens = window.location.pathname.split('/');
+        const optionToSelect = tokens[tokens.length - 2] || 'en';
+        for (var i = 0; i < select.options.length; i++) {
+          var o = select.options[i];
+          if (optionToSelect == o.value) {
+            o.selected = true;
+          }
+        }
+      };
+      changeSelect(el);
+    </script>
 {%- endblock %}
