@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-19 04:46\n"
+"PO-Revision-Date: 2019-06-19 04:56\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -147,5 +147,5 @@ msgstr "回路リソースの決定"
 
 #: ../../terra/quantum_circuits.rst:454
 msgid "A ``QuantumCircuit`` object provides methods for inquiring its resource use. This includes the number of qubits, operations, and a few other things."
-msgstr ""
+msgstr "``QuantumCircuit``オブジェクトは、量子回路が使用しているリソースを調べるメソッドを提供しています。これには、量子ビットや演算子、その他の数が含まれます。"
 
