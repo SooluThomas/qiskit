@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-20 05:06\n"
+"PO-Revision-Date: 2019-06-20 05:20\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -291,7 +291,7 @@ msgstr "R_z(\\phi) = \\begin{pmatrix} e^{-i \\phi/2} & 0 \\\\ 0 & e^{i \\phi/2} 
 
 #: ../../terra/summary_of_quantum_operations.rst:747
 msgid "Note here we have used an equivalent as is different to u1 by global phase :math:`e^{-i \\phi/2}`."
-msgstr ""
+msgstr "ここでは u1 とグローバル位相 :math:`e^{-i \\phi/2}` だけ異なるものを同じとしていることに注意してください。"
 
 #: ../../terra/summary_of_quantum_operations.rst:778
 msgid "Note this is different due only to a global phase"
