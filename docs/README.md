@@ -68,7 +68,7 @@ Step 2. [Navigate to the QiskitDocs project](https://crowdin.com/project/qiskitd
 
 Step 3. Choose your language.
 
-Step 4. Choose a portable object (PO) file to translate.
+Step 4. Choose a portable object (.po) file to translate.
 
 Step 5. Review the **SOURCE STRING**.
 
