@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-20 05:20\n"
+"PO-Revision-Date: 2019-06-20 05:29\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -343,15 +343,15 @@ msgstr "Qiskitにおける基底ベクトル表記の順番"
 
 #: ../../terra/summary_of_quantum_operations.rst:881
 msgid "Within the physics community, the qubits of a multi-qubit systems are typically ordered with the first qubit on the left-most side of the tensor product and the last qubit on the right-most side. For instance, if the first qubit is in state :math:`|0\\rangle` and second is in state :math:`|1\\rangle`, their joint state would be :math:`|01\\rangle`. Qiskit uses a slightly different ordering of the qubits, in which the qubits are represented from the most significant bit (MSB) on the left to the least significant bit (LSB) on the right (big-endian). This is similar to bitstring representation on classical computers, and enables easy conversion from bitstrings to integers after measurements are performed. For the example just given, the joint state would be represented as :math:`|10\\rangle`. Importantly, *this change in the representation of multi-qubit states affects the way multi-qubit gates are represented in Qiskit*, as discussed below."
-msgstr ""
+msgstr "物理コミュニティーでは、マルチ qubit システムの qubit の取り扱いを典型的にはテンソル積の一番左端を最初の qubit とし、一番右端のものを最後の qubit としています。例えば、最初の qubit が :math:`|0\\rangle` 状態で、２番目のものが :math:`|1\\rangle` 状態の場合、その結合状態は :math:`|01\\rangle` です。Qiskit では qubits の順番に少し異なる方法をとります。qubit は最上位ビット (Most Significant Bit - MSB) を左にとり、最下位ビット (Least Significant Bit - LSB) を右にとります(ビッグエンディアン - big-endian)。これにより、古典コンピューター上でのビット列表現と同じようになり、測定が実行された後のビット文字列から整数への変換が容易になります。例えば、先の例は :math:`|10\\rangle` という結合状態で表現されます。以下で説明するように重要なこととして、* マルチ qubit 状態に対するこの変更により、Qiskit でのマルチ qubit ゲートの表現に影響があるということです*。"
 
 #: ../../terra/summary_of_quantum_operations.rst:896
 msgid "The representation used in Qiskit enumerates the basis vectors in increasing order of the integers they represent. For instance, the basis vectors for a 2-qubit system would be ordered as :math:`|00\\rangle`, :math:`|01\\rangle`, :math:`|10\\rangle`, and :math:`|11\\rangle`. Thinking of the basis vectors as bit strings, they encode the integers 0,1,2 and 3, respectively."
-msgstr ""
+msgstr "Qiskit での表現では、基底ベクトルを、表現されている数字が増加する順番で列挙します。例えば、2-qubit システムでは、 :math:`|00\\rangle`, :math:`|01\\rangle`, :math:`|10\\rangle`, and :math:`|11\\rangle` の順になります。ビット文字列と考えると、これらは整数 0, 1, 2, 3 をそれぞれエンコードしています。"
 
 #: ../../terra/summary_of_quantum_operations.rst:904
 msgid "Controlled operations on qubits"
-msgstr ""
+msgstr "Qubit に対する制御操作"
 
 #: ../../terra/summary_of_quantum_operations.rst:906
 msgid "A common multi-qubit gate involves the application of a gate to one qubit, conditioned on the state of another qubit. For instance, we might want to flip the state of the second qubit when the first qubit is in :math:`|0\\rangle`. Such gates are known as *controlled gates*. The standard multi-qubit gates consist of two-qubit gates and three-qubit gates. The two-qubit gates are: - controlled Pauli gates - controlled Hadamard gate - controlled rotation gates - controlled phase gate - controlled u3 gate - swap gate"
