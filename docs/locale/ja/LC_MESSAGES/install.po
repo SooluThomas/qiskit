@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-15 01:06\n"
+"PO-Revision-Date: 2019-06-20 14:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,135 +19,135 @@ msgstr ""
 
 #: ../../install.rst:2
 msgid "Installing Qiskit"
-msgstr "Qiskitのインストール"
+msgstr ""
 
 #: ../../install.rst:5
 msgid "Requirements"
-msgstr "要件"
+msgstr ""
 
 #: ../../install.rst:7
 msgid "Qiskit supports Python 3.5 or later."
-msgstr "QiskitはPython 3.5あるいはそれ以降をサポートします。"
+msgstr ""
 
 #: ../../install.rst:9
 msgid "We recommend installing `Anaconda <https://www.anaconda.com/download/>`_, a cross-platform Python distribution for scientific computing. Jupyter Notebook, included in Anaconda, is recommended for interacting with the `Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorial>`_."
-msgstr "科学技術計算用のPythonディストリビューションである `Anaconda <https://www.anaconda.com/download/>`_をインストールすることをおすすめします。`Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorial>`_とのやり取りには、Anacondaに含まれるJupyter Notebookをおすすめします。"
+msgstr ""
 
 #: ../../install.rst:14
 msgid "Qiskit is tested and supported on the following 64-bit systems:"
-msgstr "Qiskitは以下の64ビットシステムでテストされサポートされています。"
+msgstr ""
 
 #: ../../install.rst:16
 msgid "Ubuntu 16.04 or later"
-msgstr "Ubunt 16.04またはそれ以降"
+msgstr ""
 
 #: ../../install.rst:17
 msgid "macOS 10.12.6 or later"
-msgstr "macOS 10.12.6またはそれ以降"
+msgstr ""
 
 #: ../../install.rst:18
 msgid "Windows 7 or later"
-msgstr "Windows 7またはそれ以降"
+msgstr ""
 
 #: ../../install.rst:20
 msgid "Using Qiskit on Windows requires VC++ runtime components. We recommend one of the following:"
-msgstr "WindowsでQiskitを使用するにはVC++ランタイムコンポーネントが必要です。下記のいずれかをおすすめします。"
+msgstr ""
 
 #: ../../install.rst:23
 msgid "`Microsoft Visual C++ Redistributable for Visual Studio 2017 <https:// go.microsoft.com/fwlink/?LinkId=746572>`_"
-msgstr "`Microsoft Visual C++ Redistributable for Visual Studio 2017 <https:// go.microsoft.com/fwlink/?LinkId=746572>`_"
+msgstr ""
 
 #: ../../install.rst:25
 msgid "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// www.microsoft.com/en-US/download/details.aspx?id=48145>`_"
-msgstr "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// www.microsoft.com/en-US/download/details.aspx?id=48145>`_"
+msgstr ""
 
 #: ../../install.rst:30
 msgid "If you want to contribute to the Qiskit community by developing and contributing code with the most recently updated Qiskit code, see :ref:`Build Qiskit packages from source <install_install_from_source_label>`."
-msgstr "最新のQiskitコードに対して開発や寄与を行うことによってQiskitコミュニティに貢献したいときは、 :ref:`Build Qiskit packages from source <install_install_from_source_label>` を参照してください。"
+msgstr ""
 
 #: ../../install.rst:35
 msgid "Install"
-msgstr "インストール"
+msgstr ""
 
 #: ../../install.rst:37
 msgid "We recommend using Python virtual environments to cleanly separate Qiskit from other applications and improve your experience."
-msgstr "Qiskitを他のアプリケーションから明確に分離して、経験をよりよいものにするため、Python仮想環境を使用することをおすすめします。"
+msgstr ""
 
 #: ../../install.rst:40
 msgid "The simplest way to use environments is by using the ``conda`` command, included with Anaconda. A Conda environment allows you to specify a specific version of Python and set of libraries. Open a terminal window in the directory where you want to work."
-msgstr "環境を使用するもっともシンプルな方法は、Anacondaに含まれている ``conda`` コマンドを使う方法です。Conda環境では、Pythonの特定のバージョンおよびライブラリを指定することができます。作業したいディレクトリでターミナルウィンドウを開きます。"
+msgstr ""
 
 #: ../../install.rst:45
 msgid "Create a minimal environment with only Python installed in it."
-msgstr "Pythonのみをインストールした最小環境を作ります。"
+msgstr ""
 
 #: ../../install.rst:56
 msgid "Or, if you're using Windows, use the following command."
-msgstr "もしくは、Windowsを使っているのであれば、以下のコマンドを使用します。"
+msgstr ""
 
 #: ../../install.rst:62
 msgid "Next, install the Qiskit package, which includes Terra, Aer, Ignis, and Aqua."
-msgstr "次に、Qiskitパッケージをインストールします。Terra, Aer, Ignis, そしてAquaが含まれています。"
+msgstr ""
 
 #: ../../install.rst:68
 msgid "If the packages installed correctly, you can run ``conda list`` to see the active packages in your virtual environment."
-msgstr "パッケージが正しくインストールされると、``conda list`` で仮想環境に存在するアクティブなパッケージを見ることができます。"
+msgstr ""
 
 #: ../../install.rst:73
 msgid "During installation, you might see the warning message ``Failed to build qiskit``. This is a non-fatal error that does not affect installation."
-msgstr "インストール中に、``Failed to build qiskit`` という警告メッセージを見るかもしれません。これは致命的なエラーではなく、インストールには影響ありません。"
+msgstr ""
 
 #: ../../install.rst:77
 msgid "There are optional dependencies that are required to use all the visualization functions available in Qiskit. You can install these optional dependencies by with the following command"
-msgstr "Qiskitで使うことのできるすべての表示機能を使うために必要となる、オプションの依存関係があります。これらのオプション依存関係は、以下のコマンドでインストールすることができます。"
+msgstr ""
 
 #: ../../install.rst:85
 msgid "After you've installed and verified the Qiskit packages you want to use, import them into your environment with Python to begin working."
-msgstr "使いたいQiskitパッケージをインストールおよび検証したら、Pythonのある自分の環境にインポートして作業を始めます。"
+msgstr ""
 
 #: ../../install.rst:96
 msgid "Access IBM Q Systems"
-msgstr "IBM Q Sysemsへのアクセス"
+msgstr ""
 
 #: ../../install.rst:98
 msgid "IBM Q offers several real quantum computers and high-performance classical computing simulators through its `quantum cloud services`_ with Qiskit. Follow these steps to setup your Qiskit environment to send jobs to IBM Q systems."
-msgstr "IBM Q では Qiskit の `量子クラウドサービス`_ を介してリアルな量子コンピュータと高パフォーマンスの古典コンピューティングシミュレータを提供します。IBM Q システムにジョブを送信するには次の手順にしたがって Qiskit 環境をセットアップしてください。"
+msgstr ""
 
 #: ../../install.rst:105
 msgid "**Step 1:** `Create a free IBM Q Experience account`_."
-msgstr "**手順 1:** `無料の IBM Q Experience アカウントの作成します`_。"
+msgstr ""
 
 #: ../../install.rst:110
 msgid "**Step 2:**  Navigate to **My Account** to view your account settings."
-msgstr "**手順 2:**  **My Account** に移動し、アカウントの設定表示します。"
+msgstr ""
 
 #: ../../install.rst:115
 msgid "**Step 3:** Click on **Copy token** to copy the token to your clipboard. Temporarily paste this into your favorite text editor for use in step 5."
-msgstr "**手順 3:** **Copy token** をクリックしてクリップボードにトークンをコピーし、テキストエディターに貼り付けてください。手順 5 で使用します。"
+msgstr ""
 
 #: ../../install.rst:121
 msgid "**Step 4:** Scroll down to the section titled **Your accounts**. Click on **copy url** for the account you would like to use. Temporarily paste this url into your favorite text editor for use in step 5."
-msgstr "**手順 4:** **Your accounts** セクションまで下にスクロールしてください。使用するアカウントで **copy url** をクリックし、テキストエディターに貼り付けてください。手順 5 で使用します。"
+msgstr ""
 
 #: ../../install.rst:128
 msgid "**Step 5:** Store your API token and url locally for later use in a configuration file called ``qiskitrc`` by running the following Python code:"
-msgstr "**手順 5:** 次の Python コードを実行し API トークンと URL をローカルに保存します。あとで構成ファイル ``qiskitrc`` 内で使用します。"
+msgstr ""
 
 #: ../../install.rst:136
 msgid "where ``MY_API_TOKEN`` and ``MY_URL`` should be replaced with the values you set aside in steps 3 and 4."
-msgstr "このとき ``MY_API_TOKEN`` と ``MY_URL`` は上の手順 3 と 4 で取得した値で置換してください。"
+msgstr ""
 
 #: ../../install.rst:139
 msgid "Refer to :ref:`advanced_use_of_ibm_q_devices_label` for more details, such as how to manage multiple IBM Q account credentials."
-msgstr "復数の IBM Q アカウント認証情報の管理方法など詳細については :ref:`advanced_use_of_ibm_q_devices_label` を参照してください。"
+msgstr ""
 
 #: ../../install.rst:145
 msgid "Checking Which Version is Installed"
-msgstr "インストールされたバージョンの確認方法"
+msgstr ""
 
 #: ../../install.rst:147
 msgid "Since the Qiskit project is actually a constellation of different elements simply printing the version string can be misleading. When you run::"
-msgstr "Qiskit プロジェクトは実際には異なる要素の集まりのため、単純にバージョン文字列を表示するだけでは不十分です。たとえば以下のコマンドを実行すると"
+msgstr ""
 
 #: ../../install.rst:153
 msgid "This only gives you the version for the qiskit-terra package. This is because the ``qiskit`` namespace in python doesn't come from the qiskit package, but instead is part of the qiskit-terra package."
@@ -155,13 +155,13 @@ msgstr "qiskit-terra パッケージのバージョンのみを表示します�
 
 #: ../../install.rst:157
 msgid "Instead if you would like to see the version of all the qiskit elements installed in your environment you can use the ``__qiskit_version`` attribute. This will return a dictionary of the different qiskit packages and the installed versions. For example, running::"
-msgstr "環境にインストールされたすべての qiskit 要素のバージョンを表示するには、代わりに ``__qiskit_version`` 属性を使用します。この属性は異なる qiskit パッケージとインストールされたバージョンの辞書を返します。たとえば以下のコマンドを実行すると"
+msgstr ""
 
 #: ../../install.rst:165
 msgid "will return a dictionary like"
-msgstr "以下のような辞書を返します"
+msgstr ""
 
 #: ../../install.rst:176
 msgid "If you're filing an issue or need to share your installed qiskit versions for something you should use the ``__qiskit_version__`` attribute."
-msgstr "問題を報告したり、インストールした qiskit のバージョン情報を知らせる場合には ``__qiskit_version__`` 属性を使用してください。"
+msgstr ""
 
