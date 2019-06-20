@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-19 07:30\n"
+"PO-Revision-Date: 2019-06-20 14:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,39 +19,39 @@ msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:4
 msgid "Advanced Use of IBM Q Devices"
-msgstr "IBM Q デバイスの進んだ使い方"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:6
 msgid "In Qiskit we have an interface for backends and jobs that will be useful for running circuits and extending to third-party backends. In this section, we will review the core components of Qiskit’s base backend framework, using the IBM Q provider as an example."
-msgstr "Quiskitにはバックエンドとジョブのインターフェース機能があります。この機能によって、回路を実行したりサードパーティのバックエンドに拡張することが容易にできる様になります。本項では、IBM Qプロバイダーを例として、Qiskitのベースバックエンドフレームワークのコア要素を確認します。"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:10
 msgid "The interface has three parts: the provider, the backend, and the job:"
-msgstr "インタフェースは３つのパーツがあります：プロバイダー、バックエンド、ジョブ："
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:12
 msgid "provider: accesses backends and provides backend objects"
-msgstr "プロバイダー：バックエンドにアクセスしバックエンド オブジェクトを提供"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:13
 msgid "backend: runs the quantum circuit"
-msgstr "バックエンド：量子回路を実行"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:14
 msgid "job: keeps track of the submitted job"
-msgstr "ジョブ：サブミットされたジョブの追跡"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:17
 msgid "The Provider"
-msgstr "プロバイダー"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:19
 msgid "The IBMQ Provider is an entity that provides access to a group of different backends (for example, backends available through the IBM Q Experience or IBM Q Network quantum cloud services)."
-msgstr "IBM Q プロバイダーは異なるバックエンドグループへのアクセスを提供します( IBM Q Experience や IBM Q ネットワークの量子クラウドサービスを通じたバックエンドなど)。"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:23
 msgid "The IBMQ provider inherits from BaseProvider and implements the methods:"
-msgstr "IBM Q プロバイダーは BaseProvider を継承し、以下のメソッドを実装しています："
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:25
 msgid "``backends()``: returns all backend objects known to the provider."
@@ -187,7 +187,7 @@ msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:294
 msgid "Filtering the backends"
-msgstr "バックエンドのフィルタリング"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:296
 msgid "You may also optionally filter the set of returned backends, by passing arguments that query the backend’s ``configuration`` or ``status`` or ``properties``. The filters are passed by conditions and for more general filters you can make advanced functions using the lambda function."
@@ -195,7 +195,7 @@ msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:302
 msgid "As a first example: only return currently operational devices"
-msgstr "最初の例：現在使用可能なデバイスを返す"
+msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:318
 msgid "only return backends that are real devices, have more than 10 qubits and are operational"
