@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-20 05:29\n"
+"PO-Revision-Date: 2019-06-20 08:13\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -355,11 +355,11 @@ msgstr "Qubit に対する制御操作"
 
 #: ../../terra/summary_of_quantum_operations.rst:906
 msgid "A common multi-qubit gate involves the application of a gate to one qubit, conditioned on the state of another qubit. For instance, we might want to flip the state of the second qubit when the first qubit is in :math:`|0\\rangle`. Such gates are known as *controlled gates*. The standard multi-qubit gates consist of two-qubit gates and three-qubit gates. The two-qubit gates are: - controlled Pauli gates - controlled Hadamard gate - controlled rotation gates - controlled phase gate - controlled u3 gate - swap gate"
-msgstr ""
+msgstr "複数 qubit ゲートに共通なものとして、一つの qubit にゲートを適用し、別の qubit の状態に応じて制御するというものがあります。例えば、最初の qubit が :math:`|0\\rangle` の時に、2つ目の qubit の状態をフリップしたい場合があります。このようなゲートは*制御ゲート*と知られています。標準的な複数 qubit ゲートは 2 qubit ゲートと 3 qubit ゲートから構成されています。2 qubit ゲートは： - 制御パウリゲート -制御アダマールゲート - 制御回転ゲート - 制御位相ゲート - 制御 u3 ゲート -スワップゲート です。"
 
 #: ../../terra/summary_of_quantum_operations.rst:915
 msgid "The three-qubit gates are: - Toffoli gate - Fredkin gate"
-msgstr ""
+msgstr "3 qubit ゲートは: - トフォリゲート -フレドキンゲートです。"
 
 #: ../../terra/summary_of_quantum_operations.rst:918
 msgid "Two-qubit gates"
@@ -423,11 +423,11 @@ msgstr "\\begin{equation}     C_U = \\begin{pmatrix}     1 & 0 & 0  & 0 \\\\    
 
 #: ../../terra/summary_of_quantum_operations.rst:1000
 msgid "Controlled Pauli Gates"
-msgstr ""
+msgstr "制御パウリゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:1003
 msgid "Controlled-X (or, controlled-NOT) gate"
-msgstr ""
+msgstr "制御 X (制御NOT) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:1005
 msgid "The controlled-not gate flips the ``target`` qubit when the control qubit is in the state :math:`|1\\rangle`. If we take the MSB as the control qubit (e.g. ``cx(q[1],q[0])``), then the matrix would look like"
