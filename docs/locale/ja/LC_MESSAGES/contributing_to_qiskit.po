@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 12:14\n"
+"PO-Revision-Date: 2019-06-20 14:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,95 +19,95 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:4
 msgid "Contributing to Qiskit"
-msgstr "QisKit に貢献する"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:6
 msgid "Qiskit is an open-source project committed to bringing quantum computing to people of all backgrounds. This page describes how you can join the Qiskit community in this goal."
-msgstr "QisKit はどのようなバックグランドをもった人にも量子コンピューティングをもたらすことにコミットしたオープンソースプロジェクトです。このページでは、この目標のなかでどのように QisKit コミュニティーに参加できるかを説明しています。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:12
 msgid "Where Things Are"
-msgstr "場所について"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:14
 msgid "The code for Qiskit is located in the `Qiskit GitHub organization <https://github.com/Qiskit>`_, where you can find the individual projects that make up Qiskit, including"
-msgstr "QisKit のコードは `QisKit GitHub組織 <https://github.com/QisKit>`_ にあり、 QisKit を構成する個別のプロジェクトが見つかります。以下があります。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:17
 msgid "`Qiskit Terra <https://github.com/Qiskit/qiskit-terra>`__"
-msgstr "`Qiskit Terra <https://github.com/Qiskit/qiskit-terra>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:18
 msgid "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer>`__"
-msgstr "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:19
 msgid "`Qiskit Ignis <https://github.com/Qiskit/qiskit-ignis>`__"
-msgstr "`Qiskit Ignis <https://github.com/Qiskit/qiskit-ignis>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:20
 msgid "`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua>`__"
-msgstr "`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:21
 msgid "`Qiskit Chemistry <https://github.com/Qiskit/qiskit-chemistry>`__"
-msgstr "`Qiskit Chemistry <https://github.com/Qiskit/qiskit-chemistry>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:22
 msgid "`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-provider>`__"
-msgstr "`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-provider>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:23
 msgid "`Qiskit Tutorials <https://github.com/Qiskit/qiskit-tutorials>`__"
-msgstr "`Qiskit チュートリアル <https://github.com/Qiskit/qiskit-tutorials>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:24
 msgid "`Qiskit Documentation <https://github.com/Qiskit/qiskit/tree/master/docs>`__"
-msgstr "`Qiskit ドキュメント <https://github.com/Qiskit/qiskit/tree/master/docs>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:29
 msgid "Getting Started"
-msgstr "はじめましょう"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:31
 msgid "Learn how members of the Qiskit community"
-msgstr "QisKit コミュニティーメンバーの活動方針は以下の通りです"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:33
 msgid "`Relate to one another <https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
-msgstr "`他者との関係 <https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:34
 msgid "`Discuss ideas <https://qiskit.slack.com/>`_"
-msgstr "`アイデアの交換 <https://qiskit.slack.com/>`_"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:35
 msgid "`Get help when we're stuck <https://quantumcomputing.stackexchange.com/questions/tagged/qiskit>`_"
-msgstr "`躓いてヘルプが欲しい場合 <https://quantumcomputing.stackexchange.com/questions/tagged/qiskit>`_"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:36
 msgid "`Stay informed of news in the community <https://medium.com/qiskit>`_"
-msgstr "`コミュニティーの最新情報を受け取る <https://medium.com/qiskit>`_"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:37
 msgid "`Keep a consistent style <https://www.python.org/dev/peps/pep-0008>`_"
-msgstr "`スタイル方針 <https://www.python.org/dev/peps/pep-0008>`_"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:38
 msgid "`Work together on GitHub <https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
-msgstr "`GitHub 作業方針 <https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:39
 msgid ":ref:`Build Qiskit packages from source <install_install_from_source_label>`"
-msgstr ":ref:`ソースから QisKit パッケージをビルドする <install_install_from_source_label>`"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:44
 msgid "Writing and Building Documentation"
-msgstr "ドキュメントの記述とビルド"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:46
 msgid "Qiskit documentation is shaped by the `docs as code <https://www.writethedocs.org/guide/docs-as-code/>`_ philosophy and follows the `IBM style guidelines <https://www.ibm.com/developerworks/library/styleguidelines/>`_."
-msgstr "Qiskit ドキュメントは `docs as code <https://www.writethedocs.org/guide/docs-as-code/>`_ 原則に沿っており、 `IBM style guidelines <https://www.ibm.com/developerworks/library/styleguidelines/>`_ に則っています。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:51
 msgid "The `published documentation <https://qiskit.org/documentation/index.html>`_ is built from the master branch of `Qiskit/qiskit/docs <https://github.com/Qiskit/qiskit/tree/master/docs>`_ using `Sphinx <http://www.sphinx-doc.org/en/master/>`_."
@@ -116,173 +116,173 @@ msgstr "`公開されているドキュメント \n"
 
 #: ../../contributing_to_qiskit.rst:56
 msgid "You can build a local copy of the documentation from your local clone of the `Qiskit/qiskit` repository as follows:"
-msgstr "以下の方法で`Qiskit/qiskit` のローカルクローンからドキュメントのローカルコピーをビルドすることが出来ます。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:59
 msgid "Clone `Qiskit/qiskit` (or your personal fork)."
-msgstr "Clone `Qiskit/qiskit` をクローンする (もしくは 個人的な fork をする)。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:61
 msgid "`Install Sphinx <http://www.sphinx-doc.org/en/master/usage/installation.html>`_."
-msgstr "`Sphinx <http://www.sphinx-doc.org/en/master/usage/installation.html>`_をインストールする。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:63
 msgid "Install the `Material Design HTML Theme for Sphinx` by running the following in a terminal window:"
-msgstr "端末ウィンドウから以下を実行して `Material Design HTML Theme for Sphinx` をインストールします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:70
 msgid "Build the documentation by navigating to your local clone of `Qiskit/qiskit` and running the following command in a terminal window:"
-msgstr "`Qiskit/qiskit` クローンの場所に移動し、端末ウィンドウから以下のコマンドを実行してドキュメントをビルドします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:77
 msgid "As you make changes to your local RST files, you can update your HTML files by navigating to `/doc/` and running the following in a terminal window:"
-msgstr "ローカル RST ファイルを変更した場合には、端末ウィンドウで`/doc/` に移動し、以下のコマンドを実行すると HTML ファイルを更新することができます："
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:85
 msgid "This will build a styled, HTML version of your local documentation repository in the subdirectory `/docs/_build/html/`."
-msgstr "これで スタイル化された HTML バージョンのローカルドキュメントリポジトリが `/docs/_build/html/` にビルドされます。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:92
 msgid "Install from Source"
-msgstr "ソースからインストール"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:94
 msgid "Installing the elements from source allows you to access the most recently updated version of Qiskit instead of using the version in the Python Package Index (PyPI) repository. This will give you the ability to inspect and extend the latest version of the Qiskit code more efficiently."
-msgstr "ソースからエレメントをインストールすることにより、Python Package Index (PyPI) リポジトリのバージョンを使う代わりに、最新のQiskitバージョンにアクセスすることが出来ます。これにより、Qiskit コードの最新版を調査したり、拡張することがより効果的にできるようになります。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:99
 msgid "When installing the elements and components from source, by default their ``development`` version (which corresponds to the ``master`` git branch) will be used, as opposed to the ``stable`` version (which contains the same codebase as the published ``pip`` packages). Since the ``development`` versions of an element or component usually includes new features and changes, in general they require using the ``development`` version of the rest of the items as well."
-msgstr "ソースからエレメントやコンポーネントをインストールする時には、デフォルトでは、``安定`` バージョン(``pip``パッケージとして公開されているコードベースと同じもの) ではなく、 ``開発`` バージョン( ``master`` git ブランチに該当) が使われます。 エレメントやコンポーネントの ``開発`` バージョンは通常新しい機能や変更が含まれているため、一般的には他の項目についても``開発`` バージョンを利用することが求められています。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:108
 msgid "The Terra and Aer packages both require a compiler to build from source before you can install. Ignis, Aqua, Qiskit Chemistry, and the IBM Q provider backend do not require a compiler."
-msgstr "Terra と Aer のパッケージはソースからビルドするためにコンパイラーが必要なため、インストール前に準備します。Ignis, Aqua, Qiskit Chemistry, IBM Q provider バックエンドにはコンパイラーは必要ありません。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:112
 msgid "Installing elements from source requires the following order of installation to prevent getting versions of elements that may be lower than those desired if the pip version is behind the source versions:"
-msgstr "Pip バージョンがソースバージョンより古い場合に、要求するものよりも古いバージョンを取得してしまうことを防ぐため、ソースからエレメントをインストールするには以下の順番で実施します："
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:116
 msgid "qiskit-terra"
-msgstr "qiskit-terra"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:117
 msgid "qiskit-ibmq-provider (if wanting to connect to the IBM Q devices or online simulator)"
-msgstr "qiskit-ibmq-provider ( IBM Q デバイスやオンラインシミュレーターに接続したい場合)"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:119
 msgid "qiskit-aer"
-msgstr "qiskit-aer"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:120
 msgid "qiskit-ignis"
-msgstr "qiskit-ignis"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:121
 msgid "qiskit-aqua"
-msgstr "qiskit-aqua"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:123
 msgid "To work with several components and elements simultaneously, use the following steps for each element."
-msgstr "いくつかのコンポーネントとエレメントで同時に作業したい場合には、各エレメントに対して以下のステップを踏みます。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:126
 msgid "The following steps show the installation process for Ignis."
-msgstr "以下のステップは Ignis インストールプロセスです。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:128
 msgid "Clone the Qiskit element repository."
-msgstr "Qiskit エレメントリポジトリをクローンします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:134
 msgid "Create a virtual development environment."
-msgstr "仮想開発環境を作成します。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:141
 msgid "Install the package in `editable mode <https://pip.pypa.io/en/stable/ reference/pip_install/#editable-installs>`_ from the root directory of the repository. The following example shows the installation for Ignis."
-msgstr "リポジトリのルートディレクトリからパッケージを`編集モード<https://pip.pypa.io/en/stable/reference/pip_install/#editable-installs>`_ でインストールします。以下の例では、Ignis のインストールを示しています。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:150
 msgid "Install Terra from Source"
-msgstr "ソースから Terra をインストールする"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:151
 msgid "Installing from source requires that you have a c++ compiler on your system that supports c++-11.  On most Linux platforms, the necessary GCC compiler is already installed."
-msgstr "ソースコードからインストールするには、C++-11をサポートしているC++コンパイラーがシステムにインストールされている必要があります。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:155
 msgid "Install a compiler for MacOS"
-msgstr "MacOSにコンパイラーをインストールする"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:157
 msgid "If you use Apple OSX, you can install the Clang compiler by installing XCode. Check if you have XCode and clang installed by opening a terminal window and entering the following."
-msgstr "Apple OSXを使用している場合は、XCodeをインストールすることでClandコンパイラーをインストール可能です。ターミナル・ウィンドウを開いて次のように入力して、XCodeとclangがインストールされているかどうかを確認します。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:165
 msgid "Install XCode and clang by using the following command."
-msgstr "以下のコマンドでXCodeとclandをインストールします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:172
 msgid "Install a compiler for Windows"
-msgstr "Windowsへのコンパイラーのインストール"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:173
 msgid "On Windows, it is easiest to install the Visual C++ compiler from the `Build Tools for Visual Studio 2017 <https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017>`_. You can instead install Visual Studio version 2015 or 2017, making sure to select the options for installing the C++ compiler."
-msgstr "Windowsでは、Visual C++ Compilerを WebのBuild Tools for Visual Studio 2017 <https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017> からインストールする方法が最も簡単です。その他に Visual Studio 2015 あるいは 2017をインストールする方法もありますが、その際にはインストールオプションの C++ compiler を選択することを忘れない様にしてください。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:179
 msgid "Install Qiskit Terra"
-msgstr "Qiskit Terraのインストール"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:180
 msgid "Clone the Terra repository."
-msgstr "Terraレポジトリをクローンします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:186
 msgid "Cloning the repository creates a local folder called ``qiskit-terra``."
-msgstr "レポジトリをクローンすると、``qiskit-terra``という名前のローカル・フォルダが作成されます。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:192
 msgid "Install the Python requirements libraries from your ``qiskit-terra`` directory."
-msgstr "作成された``qiskit-terra``ディレクトリから、Pythonの必要なライブラリをインストールします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:198
 msgid "If you want to run tests or linting checks, install the developer requirements."
-msgstr "もし、テストを実行したり文法をチェックしたい場合は、開発者向けライブラリをインストールします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:204
 msgid "Install the Qiskit modules."
-msgstr "Qiskitモジュールをインストールします。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:206
 msgid "If you want to only install ``qiskit-terra`` onto your system."
-msgstr "もし、``qiskit-terra``だけをインストールしたい場合。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:213
 msgid "To get the examples working, install and run them with the following commands."
-msgstr "サンプルが動作していることを確認するため、以下のコマンドを使ってそれらをインストールして実行します。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:221
 msgid "After you've installed Terra, you can install Aer as an add-on to run additional simulators."
-msgstr "Terraをインストールすると、追加のシミュレーターを実行するためのアドオンであるAerをインストールすることができます。"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:223
 msgid "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer/blob/master/.github/ CONTRIBUTING.md>`__"
-msgstr "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer/blob/master/.github/ CONTRIBUTING.md>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:225
 msgid "`Qiskit Ignis <https://github.com/Qiskit/qiskit-ignis/blob/master/.github/ CONTRIBUTING.md>`_"
-msgstr "`Qiskit Ignis <https://github.com/Qiskit/qiskit-ignis/blob/master/.github/ CONTRIBUTING.md>`_"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:227
 msgid "`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua/blob/master/.github/ CONTRIBUTING.rst>`__"
-msgstr "`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua/blob/master/.github/ CONTRIBUTING.rst>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:229
 msgid "`Qiskit Chemistry <https://github.com/Qiskit/qiskit-chemistry/blob/master/ .github/CONTRIBUTING.rst>`__"
-msgstr "`Qiskit Chemistry <https://github.com/Qiskit/qiskit-chemistry/blob/master/ .github/CONTRIBUTING.rst>`__"
+msgstr ""
 
 #: ../../contributing_to_qiskit.rst:231
 msgid "`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-provider/blob/ master/.github/CONTRIBUTING.rst>`__"
-msgstr "`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-provider/blob/ master/.github/CONTRIBUTING.rst>`__"
+msgstr ""
 
