@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-17 10:53\n"
+"PO-Revision-Date: 2019-06-20 14:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,99 +19,99 @@ msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:5
 msgid "Plotting Data in Qiskit"
-msgstr "Qiskitでのデータプロット方法"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:7
 msgid "There are optional dependencies that are required to use all the visualization functions available in Qiskit. You can install these optional dependencies with the following command:"
-msgstr "Qiskitで使うことのできるすべてのビジュアライゼーション機能を使用するためにはオプショナルな依存関係が必要です。 次のコマンドでこれらのオプショナルな依存関係をインストールできます。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:18
 msgid "Histograms"
-msgstr "ヒストグラム"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:20
 msgid "To visualize the data from a quantum circuit run on a real device or ``qasm_simulator`` we have made a simple function"
-msgstr "実デバイスまたは `` qasm_simulator``の上で実行される quantum circuit からのデータを視覚化するために、シンプルな関数があります。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:23
 msgid "``plot_histogram(data)``"
-msgstr "``plot_histogram(data)``"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:25
 msgid "As an example we make a 2 qubit Bell state"
-msgstr "例として、2 qubitのベル状態を作ります。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:70
 msgid "Specifying Histogram Properties"
-msgstr "ヒストグラムプロパティーの指定"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:72
 msgid "The ``plot_histogram()`` has a few options to adjust the output graph. The first option is the ``legend`` kwarg. This is used to provide a label for the executions. It takes a list of strings use to label each execution’s results. This is mostly useful when plotting multiple execution results in the same histogram. The ``sort`` kwarg is used to adjust the order the bars in the histogram are rendered. It can be set to either ascending order with ``asc`` or descending order with ``dsc``. The ``number_to_keep`` kwarg takes an integer for the number of terms to show, the rest are grouped together in a single bar called rest. You can adjust the color of the bars with the ``color`` kwarg which either takes a string or a list of strings for the colors to use for the bars for each execution. You can adjust whether labels are printed above the bars or not with the ``bar_labels`` kwarg. The last option available is the ``figsize`` kwarg which takes a tuple of the size in inches to make the output figure."
-msgstr "``plot_histogram()`` には出力グラフの調整のための幾つかのオプションがあります。最初のオプションは``legend`` kwarg (可変長引数) です。これは実行のラベル指定に利用します。特に同じヒストグラム中の複数の実行結果をプロットする場合に有益です。``sort`` kwarg はヒストグラム描画においてバーの順番を調整します。 ``asc`` 昇順 か``dsc``降順のどちらかを指定できます。`number_to_keep`` kwarg は表示の項目数を指定します。それ以外はrest と呼ばれるバーに集約されます。``color`` kwarg はバーの配色を調整します。各実行のバーに利用される配色の文字列か文字列のリストを指定します。``bar_labels`` kwarg ではバーの上にラベルを表示するかを調整できます。最後のオプションは ``figsize`` kwarg で、出力図形のサイズをインチで指定したタップルです。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:116
 msgid "Saving Histograms"
-msgstr "ヒストグラムの保存"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:118
 msgid "When using the plot_histogram() function it returns a ``matplotlib.Figure`` for the rendered visualization. Jupyter notebooks understand this return type and renders it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, ``matplotlib.Figure`` class natively has methods to both display and save the visualization. You can call ``.show()`` on the returned object from ``plot_histogram()`` to open the image in a new window (assuming your configured matplotlib backend is interactive). Or alternatively you can call ``.savefig(out.png)`` to save the figure to ``out.png``. The ``savefig()`` takes a path so you can just the location and filename where you’re saving the output."
-msgstr "視覚化のために plot_histogram() 関数を呼び出した場合のリターンは ``matplotlib.Figure`` です。Jupyter notebook はリターンタイプを理解するので、このチュートリアルでは表示されますが、jupyter 以外で実行する場合にはこの機能は自動的には使えません。``matplotlib.Figure`` クラス自体は視覚化されたものを表示、保存する機能をもともと持っています。``plot_histogram()`` からの返却オブジェクトに対して ``.show()`` をコールするとイメージが新しいウィンドウで開きます (matplotlib バックエンドをインタラクティブに設定していることを想定)。あるいは ``.savefig(out.png)`` で 図を``out.png`` に保存できます。``savefig()`` はパスを引数に取り、保存しようとしている図の場所やファイル名を指定できます。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:134
 msgid "Interactive Histograms"
-msgstr "インタラクティブなヒストグラム"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:136
 msgid "There is an alternative function for plotting histograms when running in a Jupyter notebook. This function, ``iplot_histogram()``, is made using an externally hosted JS library for use in Jupyter Notebooks. The interactive plot can only be used if you are running inside a Jupyter Notebook and only if you have external connectivity to the host with the JS library. If you use ``iplot_histogram()`` outside of a Jupyter Notebook, it will fail."
-msgstr "Jupyter notebook で実行している時にはヒストグラムのプロットに別の関数が使えます。この関数、``iplot_histogram()`` 、は Jupyter Notebook 利用のために外部でホストされた JS ライブラリで利用されます。つまり、インタラクティブなプロットは Jupyter Notebookの内部で実行しており、さらに JS ライブラリをもったホストへの外部接続がある場合に限って利用できます。``iplot_histogram()``を Jupyter Notebook の外部で実行すると失敗します。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:181
 msgid "State Plots"
-msgstr "状態プロット"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:183
 msgid "In many situations you want to see the state of a quantum computer. This could be for debugging. Here we assume you have this state (either from simulation or state tomography) and the goal is to visualize the quantum state. This requires exponential resources, so we advise to only view the state of small quantum systems. There are several functions for generating different types of visualization of a quantum state"
-msgstr "多くの場合、量子コンピューターの状態を見たい場合があります。デバッグのためなどが考えられます。ここではこの状態(シミュレーションからか状態トモグラフィーから) があると仮定し、目的は量子状態を視覚化することです。これには指数関数的なリソースが必要になるので、小さな量子システムの状態の表示だけに留めるようにしてください。量子状態の様々なタイプ視覚化のための関数が幾つか用意されています。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:198
 msgid "A quantum state is either a state matrix :math:`\\rho` (Hermitian matrix) or statevector :math:`|\\psi\\rangle` (complex vector). The state matrix is related to the statevector by"
-msgstr "量子状態は状態行列 :math:`\\rho` (エルミート行列)か状態ベクトル :math:`|\\psi\\rangle` (複素ベクトル)です。状態行列は状態ベクトルと以下の関係にあります。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:202
 msgid "\\rho = |\\psi\\rangle\\langle \\psi|."
-msgstr "\\rho = |\\psi\\rangle\\langle \\psi|."
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:204
 msgid "And is more general as it can represent mixed states (positive sum of statevectors)"
-msgstr "またこれは混合状態(状態ベクトルの正値和) を表すのでより一般的です。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:207
 msgid "\\rho = \\sum_k p_k |\\psi_k\\rangle\\langle \\psi_k |."
-msgstr "\\rho = \\sum_k p_k |\\psi_k\\rangle\\langle \\psi_k |."
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:220
 msgid "The visualizations generated by the functions are: - ``'plot_state_city'``: The standard view for quantum states where the real and imaginary (imag) parts of the state matrix are plotted like a city - ``'plot_state_qsphere'``: The Qiskit unique view of a quantum state where the amplitude and phase of the state vector are plotted in a spherical ball. The amplitude is the thickness of the arrow and the phase is the color. For mixed states it will show different ``'qsphere'`` for each component. - ``'plot_state_paulivec'``: The representation of the state matrix using Pauli operators as the basis :math:`\\rho=\\sum_{q=0}^{d^2-1}p_jP_j/d` - ``'plot_state_hinton'``: Same as ``'city'`` but with the size of the element represents the value of the matrix element."
-msgstr "各関数は以下の視覚化情報を生成します - ``'plot_state_city'``: 量子状態の標準的な表現方法で、状態行列の実部と虚部(imag) が都市のように描画されます。- ``'plot_state_qsphere'``: 量子状態のQiskit独自の表現方法で、状態ベクトルの振幅と位相が球体内に描画されます。振幅は矢印の太さで、位相は色で表現されます。混合状態は各コンポーネントに対し異なる``'qsphere'`` で表現されます。- ``'plot_state_paulivec'``: :math:`\\rho=\\sum_{q=0}^{d^2-1}p_jP_j/d` を基底としたPauli演算子を用いて状態行列を表現します。- ``'plot_state_hinton'``: 要素のサイズが行列要素の値を表現していること以外は``'city'`` と同じです。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:222
 msgid "- ``'plot_bloch_multivector'``: The projection of the quantum state onto the single qubit space and plotting on a bloch sphere."
-msgstr "- ``'plot_bloch_multivector'``: 量子状態を単一量子ビット空間へ射影し、ブロッホ球上に描画したものです。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:275
 msgid "Here we see that there is no information about the quantum state in the single qubit space as all vectors are zero."
-msgstr "ここでは、すべてのベクトルがゼロであるため、単一量子ビット空間内に量子状態に関する情報がないことがわかります。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:282
 msgid "Specifying State Plot Properties"
-msgstr "状態描画プロパティの指定"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:284
 msgid "The various functions for plotting quantum state provide a number of options to adjust the how the plots are rendered. Which options depend on the function being used."
-msgstr "量子状態を描画する様々な関数は、どのように描画するかを調整するためのたくさんのオプションを提供しています。どのオプションが使えるかは関数に依ります。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:288
 msgid "**plot_state_city()** options"
-msgstr "**plot_state_city()** のオプション"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:290
 #: ../../terra/plotting_data_in_qiskit.rst:305
@@ -119,7 +119,7 @@ msgstr "**plot_state_city()** のオプション"
 #: ../../terra/plotting_data_in_qiskit.rst:339
 #: ../../terra/plotting_data_in_qiskit.rst:456
 msgid "**title** (str): a string that represents the plot title"
-msgstr "**title** (str): 描画のタイトル文字列"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:291
 #: ../../terra/plotting_data_in_qiskit.rst:306
@@ -127,77 +127,77 @@ msgstr "**title** (str): 描画のタイトル文字列"
 #: ../../terra/plotting_data_in_qiskit.rst:335
 #: ../../terra/plotting_data_in_qiskit.rst:340
 msgid "**figsize** (tuple): figure size in inches (width, height)."
-msgstr "**figsize** (tuple): 図のサイズ。単位はインチ。 (幅, 高さ)."
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:292
 msgid "**color** (list): a list of len=2 giving colors for real and imaginary components of matrix elements."
-msgstr "**color** (list): 行列要素の実部と虚部の色を指定する長さ2のリスト"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:303
 msgid "**plot_state_hinton()** options"
-msgstr "**plot_state_hinton()** オプション"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:316
 msgid "**plot_state_paulivec()** options"
-msgstr "**plot_state_paulivec()** オプション"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:320
 msgid "**color** (list or str): color of the expectation value bars."
-msgstr "**color** (list or str): 期待値バーの色"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:333
 msgid "**plot_state_qsphere()** options"
-msgstr "**plot_state_qsphere()** オプション"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:337
 msgid "**plot_bloch_multivector()** options"
-msgstr "**plot_bloch_multivector()** オプション"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:354
 msgid "Saving State Plots"
-msgstr "状態描画の保存"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:356
 msgid "When using the any of the state plotting functions it returns a ``matplotlib.Figure`` for the rendered visualization. Jupyter notebooks understand this return type and renders it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, ``matplotlib.Figure`` class natively has methods to both display and save the visualization. You can call ``.show()`` on the returned object to open the image in a new window (assuming your configured matplotlib backend is interactive). Or alternatively you can call ``.savefig(out.png)`` to save the figure to ``out.png`` in the current working directory. The ``savefig()`` takes a path so you can just the location and filename where you’re saving the output."
-msgstr "視覚化のために plot_histogram() 関数を呼び出した場合の戻り値は ``matplotlib.Figure`` です。Jupyter notebook は戻り値の型を理解するので、このチュートリアルでは表示されますが、jupyter 以外で実行する場合にはこの機能は自動的には使えません。``matplotlib.Figure`` クラス自体は視覚化されたものを表示、保存する機能をもともと持っています。``plot_histogram()`` から返されたオブジェクトに対して ``.show()`` を呼ぶとイメージが新しいウィンドウで開きます (このときmatplotlib バックエンドをインタラクティブに設定していることを想定) 。あるいは ``.savefig(out.png)`` で 図を``out.png`` に保存できます。``savefig()`` はパスを引数に取り、保存しようとしている図の場所やファイル名を指定できます。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:372
 msgid "Interactive State Plots"
-msgstr "インタラクティブな量子状態のプロット"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:374
 msgid "Just like with ``plot_histogram()`` there is a second set of functions for each of the functions to plot the quantum state. These functions have the same name but with a prepended ``i``:"
-msgstr "``plot_histogram()``関数同様、量子状態を描画するプロット関数の第二セットが存在します。最初のセットと同じ名前ですが、先頭に ``i``が追加されます。:"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:386
 msgid "these functions are made using an externally hosted JS library for use in Jupyter notebooks. The interactive plot can only be used if you’re running inside a jupyter notebook and only if you have external connectivity to the host with the JS library. If you use these functions outside of a jupyter notebook it will fail."
-msgstr "jupyter notebook で実行している時にはヒストグラムのプロットに別の関数が使えます。この関数、``iplot_histogram()`` 、は Jupyter Notebook 利用のために外部でホストされた JS ライブラリで利用されます。つまり、インタラクティブなプロットは Jupyter Notebookの内部で実行しており、さらに JS ライブラリをもったホストへの外部接続がある場合に限って利用できます。``iplot_histogram()``を Jupyter Notebook の外部で実行すると失敗します。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:429
 msgid "Bloch Vector Plots"
-msgstr "ブロッホ・ベクトル・プロット"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:431
 msgid "A standard way of plotting a quantum system is using the Bloch vector. This only works for a single qubit and takes as inputs the Bloch vector."
-msgstr "量子系をプロットする標準的な方法に、ブロッホ・ベクトルを利用する方法があります。ブロッホ・ベクトルを入力値として扱うこの方法は一量子ビットにしか適用できません。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:434
 msgid "The Bloch vector is defined as :math:`[x = \\mathrm{Tr}[X \\rho], y = \\mathrm{Tr}[Y \\rho], z = \\mathrm{Tr}[Z \\rho]]`, where :math:`X`, :math:`Y`, and :math:`Z` are the Pauli operators for a single qubit and :math:`\\rho` is the state matrix."
-msgstr "ブロッホ・ベクトルは :math:`[x = \\mathrm{Tr}[X \\rho], y = \\mathrm{Tr}[Y \\rho], z = \\mathrm{Tr}[Z \\rho]]`, として定義されます。このとき :math:`X`, :math:`Y`, and :math:`Z` は一量子ビットのパウリ演算子であり :math:`\\rho` は状態行列になります。"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:454
 msgid "Specifying Bloch Vector Plot Properties"
-msgstr "ブロッホ・ベクトルのプロパティの指定"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:457
 msgid "**figsize** (tuple): Figure size in inches (width, height)."
-msgstr "**figsize** (tuple): 図のサイズ。単位はインチ。 (幅, 高さ)."
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:471
 msgid "Saving Bloch Vector Plots"
-msgstr "ブロッホ・ベクトル・プロットの保存"
+msgstr ""
 
 #: ../../terra/plotting_data_in_qiskit.rst:473
 msgid "When using the ``plot_bloch_vector`` function it returns a ``matplotlib.Figure`` for the rendered visualization. Jupyter notebooks understand this return type and renders it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, ``matplotlib.Figure`` class natively has methods to both display and save the visualization. You can call ``.show()`` on the returned object to open the image in a new window (assuming your configured matplotlib backend is interactive). Or alternatively you can call ``.savefig(out.png)`` to save the figure to ``out.png`` in the current working directory. The ``savefig()`` takes a path so you can just the location and filename where you’re saving the output."
-msgstr "視覚化のために plot_histogram() 関数を呼び出した場合の戻り値は ``matplotlib.Figure`` です。Jupyter notebook は戻り値の型を理解するので、このチュートリアルでは表示されますが、jupyter 以外で実行する場合にはこの機能は自動的には使えません。``matplotlib.Figure`` クラス自体は視覚化されたものを表示、保存する機能をもともと持っています。``plot_histogram()`` から返されたオブジェクトに対して ``.show()`` を呼ぶとイメージが新しいウィンドウで開きます (このときmatplotlib バックエンドをインタラクティブに設定していることを想定) 。あるいは ``.savefig(out.png)`` で 図を``out.png`` に保存できます。``savefig()`` はパスを引数に取り、保存しようとしている図の場所やファイル名を指定できます。"
+msgstr ""
 
