@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-18 08:14\n"
+"PO-Revision-Date: 2019-06-20 05:06\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "|\\psi'\\rangle = U|\\psi\\rangle"
 
 #: ../../terra/summary_of_quantum_operations.rst:76
 msgid "A general unitary must be able to take the :math:`|0\\rangle` to the above state. That is"
-msgstr ""
+msgstr "一般的なユニタリーは :math:`|0\\rangle` を上記の状態に変換できなければなりません。つまり、"
 
 #: ../../terra/summary_of_quantum_operations.rst:79
 msgid "U = \\begin{pmatrix} \\cos(\\theta/2) & a \\\\ e^{i\\phi}\\sin(\\theta/2) & b \\end{pmatrix}"
