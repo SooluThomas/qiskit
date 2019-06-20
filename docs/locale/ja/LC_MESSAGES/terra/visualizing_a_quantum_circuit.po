@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-19 09:59\n"
+"PO-Revision-Date: 2019-06-20 14:23\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,39 +19,39 @@ msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:5
 msgid "Visualizing a Quantum Circuit"
-msgstr "量子ゲートの可視化"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:12
 msgid "Drawing a Quantum Circuit"
-msgstr "量子回路の描画"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:14
 msgid "When building a quantum circuit it often helps to draw the circuit. This is supported natively by a ``QuantumCircuit`` object. You can either just call ``print()`` on the circuit or call the ``draw()`` method on the object. This will render a `ASCII art version <https://en.wikipedia.org/wiki/ASCII_art>`__ of the circuit diagram."
-msgstr "量子回路の作成中、回路の描画が助けになることがよくあります。回路の描画は、``QuantumCircuit`` オブジェクトによりネイティブにサポートされています。回路について単に``print()`` を呼ぶことも、オブジェクトに対して``draw()``メソッドを呼ぶこともできます。これらは、回路図を`アスキー・アート <https://en.wikipedia.org/wiki/ASCII_art>`__ 風に描画します。"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:87
 msgid "Alternative Renderers for Circuits"
-msgstr "回路の別なレンダラー"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:89
 msgid "While a text output is useful for quickly seeing the output while developing a circuit it doesn’t provide the most flexibility in it’s output. There are 2 other alternative output renderers for the quantum circuit. One uses `matplotlib <https://matplotlib.org/>`__ and the other uses `LaTex <https://www.latex-project.org/>`__ leveraging the `qcircuit package <https://github.com/CQuIC/qcircuit>`__. These can be specified by using ``mpl`` and ``latex`` values for the ``output`` kwarg on the draw() method."
-msgstr "テキスト出力は、回路の構築中、出力を早く見るのに便利な一方、最も柔軟な出力を提供しているわけではありません。量子回路には、他に2つの出力レンダラーがあります。`matplotlib <https://matplotlib.org/>`__ を使うものと、 `qcircuit パッケージ <https://github.com/CQuIC/qcircuit>`__を活用した `LaTex <https://www.latex-project.org/>`__ を使うものです。これらは``drow()``メソッドの``output`` キーワード引数に``mpl`` もしくは ``latex`` の値をセットすることで指定できます。"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:122
 msgid "Controlling output from circuit.draw()"
-msgstr "circuit.draw()からの出力の制御"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:124
 msgid "By default the draw method returns the rendered image as an object and does not output anything. The exact class returned depends on the output specified: ``'text'``\\ (the default returns a ``TextDrawer`` object, ``'mpl'`` returns a ``matplotlib.Figure`` object, and ``latex`` returns a ``PIL.Image`` object. Having the return types enables modifying or directly interacting with the rendered output from the drawers. Jupyter notebooks understand these return types and render it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, the ``draw()`` method has optional arguments to display or save the output. When specified the ``filename`` kwarg takes a path to save the rendered output to. Or if you’re using the ``mpl`` or ``latex`` outputs you can leverage the ``interactive`` kwarg to open the image in a new window (this will not always work from within a notebook but will be demonstrated anyway)."
-msgstr "``draw()``メソッドは、デフォルトではレンダリングされたイメージをオブジェクトとして返すだけで、何も出力しません。返される正確なクラスは``output``に指定された値に依ります：``'text'``(デフォルト) は``TextDrawer``オブジェクトを、``'mpl'`` は``matplotlib.Figure``オブジェクトを、``latex`` は``PIL.Image``オブジェクトを返します。 戻り値の型があることで、レンダリングされたイメージを描画システムから修正したり直接相互作用したりできます。Jupyter Notebookはこれらの戻り値型を理解するので、このチュートリアル中でイメージを描画してくれますが、Jupyter Notebookの外ではこの機能は自動的には使用できません。しかし、 ``draw()`` メソッドには出力を表示したり保存するためのオプションの引数があります。``filename``キーワード引数には、レンダリングされた出力を保存するためのパスを指定します。 ``mpl`` もしくは ``latex``出力を使用している場合は、新しいウィンドウを開いてイメージを表示するために、``interactive`` キーワード引数を活用できます(Notebook内で必ず動作するとは限りませんが、とにかく実際にやってみます)。"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:140
 msgid "Customizing the output"
-msgstr "出力のカスタマイズ"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:142
 msgid "Depending on the output there are also options to customize the circuit diagram rendered by the circuit."
-msgstr "出力によっては、回路によって表示される回路図をカスタマイズするオプションもあります。"
+msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:146
 msgid "Disable Plot Barriers and Reversing Bit Order"
