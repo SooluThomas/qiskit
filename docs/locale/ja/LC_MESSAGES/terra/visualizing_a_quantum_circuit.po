@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-20 14:23\n"
+"POT-Creation-Date: 2019-06-20 22:43+0000\n"
+"PO-Revision-Date: 2019-06-22 01:55\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgid "Controlling output from circuit.draw()"
 msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:124
-msgid "By default the draw method returns the rendered image as an object and does not output anything. The exact class returned depends on the output specified: ``'text'``\\ (the default returns a ``TextDrawer`` object, ``'mpl'`` returns a ``matplotlib.Figure`` object, and ``latex`` returns a ``PIL.Image`` object. Having the return types enables modifying or directly interacting with the rendered output from the drawers. Jupyter notebooks understand these return types and render it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, the ``draw()`` method has optional arguments to display or save the output. When specified the ``filename`` kwarg takes a path to save the rendered output to. Or if you’re using the ``mpl`` or ``latex`` outputs you can leverage the ``interactive`` kwarg to open the image in a new window (this will not always work from within a notebook but will be demonstrated anyway)."
+msgid "By default the draw method returns the rendered image as an object and does not output anything. The exact class returned depends on the output specified: ``'text'``\\(the default output type) returns a ``TextDrawer`` object, ``'mpl'`` returns a ``matplotlib.Figure`` object, and ``latex`` returns a ``PIL.Image`` object. Having the return types enables modifying or directly interacting with the rendered output from the drawers. Jupyter notebooks understand these return types and render it for us in this tutorial, but when running outside of jupyter you do not have this feature automatically. However, the ``draw()`` method has optional arguments to display or save the output. When specified the ``filename`` kwarg takes a path to save the rendered output to. Or if you’re using the ``mpl`` or ``latex`` outputs you can leverage the ``interactive`` kwarg to open the image in a new window (this will not always work from within a notebook but will be demonstrated anyway)."
 msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst:140
