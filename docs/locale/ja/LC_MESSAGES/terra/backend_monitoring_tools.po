@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:30\n"
+"POT-Creation-Date: 2019-06-24 14:13+0000\n"
+"PO-Revision-Date: 2019-06-24 20:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -66,7 +66,7 @@ msgid "Monitor the job using ``job_monitor`` in blocking-mode (i.e. using the s
 msgstr ""
 
 #: ../../terra/backend_monitoring_tools.rst:89
-msgid "It is also possible to monitor the job using ``job_monitor`` in async-mode (Jupyter notebooks only). The job will be monitored in a separate thread, allowing you to continue to work in the notebook. For details see: `Jupyter tools for Monitoring jobs and backends <../../../../../qiskit-tutorials/blob/master/qiskit/jupyter/jupyter_backend_tools.ipynb>`__"
+msgid "It is also possible to monitor the job using ``job_monitor`` in async-mode (Jupyter notebooks only). The job will be monitored in a separate thread, allowing you to continue to work in the notebook. For details see: `Jupyter tools for Monitoring jobs and backends <https://github.com/Qiskit/qiskit-tutorials/blob/master/qiskit/terra/backend_monitoring_tools.ipynb>`__"
 msgstr ""
 
 #: ../../terra/backend_monitoring_tools.rst:96
@@ -90,6 +90,6 @@ msgid "Or, if we are interested in a higher-level view of all the backends avail
 msgstr ""
 
 #: ../../terra/backend_monitoring_tools.rst:218
-msgid "There are also Jupyter magic equivalents that give more detailed information, as demonstrated here: `Jupyter tools for Monitoring jobs and backends <../../../../../qiskit-tutorials/blob/master/qiskit/jupyter/jupyter_backend_tools.ipynb>`__"
+msgid "There are also Jupyter magic equivalents that give more detailed information, as demonstrated here: `Jupyter tools for Monitoring jobs and backends <https://github.com/Qiskit/qiskit-tutorials/blob/master/qiskit/terra/backend_monitoring_tools.ipynb>`__"
 msgstr ""
 
