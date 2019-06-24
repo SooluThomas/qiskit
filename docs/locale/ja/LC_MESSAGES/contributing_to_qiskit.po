@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 22:43+0000\n"
-"PO-Revision-Date: 2019-06-22 01:55\n"
+"POT-Creation-Date: 2019-06-24 14:13+0000\n"
+"PO-Revision-Date: 2019-06-24 20:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -275,351 +275,411 @@ msgid "Install the package in `editable mode <https://pip.pypa.io/en/stable/ ref
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:201
-msgid "Installing from source requires that you have a c++ compiler on your system that supports c++-11.  On most Linux platforms, the necessary GCC compiler is already installed."
+msgid "Installing Terra from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:202
+msgid "Installing from source requires that you have a c++ compiler on your system that supports c++-11."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:207
+msgid "Compiler for Linux"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:209
+msgid "On most Linux platforms, the necessary GCC compiler is already installed."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:211
+msgid "Compiler for macOS"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:213
 msgid "If you use macOS, you can install the Clang compiler by installing XCode. Check if you have XCode and clang installed by opening a terminal window and entering the following."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:215
+#: ../../contributing_to_qiskit.rst:221
 msgid "Install XCode and clang by using the following command."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:223
+#: ../../contributing_to_qiskit.rst:227
+msgid "Compiler for Windows"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:229
 msgid "On Windows, it is easiest to install the Visual C++ compiler from the `Build Tools for Visual Studio 2017 <https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017>`_. You can instead install Visual Studio version 2015 or 2017, making sure to select the options for installing the C++ compiler."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:230
-msgid "Clone the Terra repository."
+#: ../../contributing_to_qiskit.rst:234
+msgid "Once the compilers are installed, you are ready to install Qiskit Terra."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:236
-msgid "Cloning the repository creates a local folder called ``qiskit-terra``."
+msgid "Clone the Terra repository."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:242
-msgid "Install the Python requirements libraries from your ``qiskit-terra`` directory."
+msgid "Cloning the repository creates a local folder called ``qiskit-terra``."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:248
+msgid "Install the Python requirements libraries from your ``qiskit-terra`` directory."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:256
+msgid "Run Tests"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:258
 msgid "If you want to run tests or linting checks, install the developer requirements."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:254
+#: ../../contributing_to_qiskit.rst:264
 msgid "Install ``qiskit-terra``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:260 ../../contributing_to_qiskit.rst:586
-#: ../../contributing_to_qiskit.rst:623 ../../contributing_to_qiskit.rst:659
-#: ../../contributing_to_qiskit.rst:695
+#: ../../contributing_to_qiskit.rst:270
+msgid "Editable Mode"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:272 ../../contributing_to_qiskit.rst:321
+#: ../../contributing_to_qiskit.rst:637 ../../contributing_to_qiskit.rst:674
+#: ../../contributing_to_qiskit.rst:711
 msgid "If you want to install it in editable mode, meaning that code changes to the project don't require a reinstall to be applied you can do this with:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:267
+#: ../../contributing_to_qiskit.rst:279
+msgid "Run Examples"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:281
 msgid "You can then run the code examples working after installing terra. You can run the example with the following command."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:275
+#: ../../contributing_to_qiskit.rst:289
 msgid "After you've installed Terra, you can install Aer as an add-on to run additional simulators."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:280
-msgid "Clone the Aer repository."
+#: ../../contributing_to_qiskit.rst:293
+msgid "Installing IBMQ Provider from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:286
-msgid "Install build requirements."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:292
-msgid "After this the steps to install Aer depend on which operating system you are using. Since Aer is a compiled C++ program with a python interface there are non-python dependencies for building the Aer binary which can't be installed universally depending on operating system."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:300
-msgid "Install compiler requirements."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:302
-msgid "Building Aer requires a C++ compiler and development headers"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:304
-msgid "If you're using Ubuntu>=16.04 or an equivalent Debian Linux distribution you can install this with:"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:311
-msgid "Install OpenBLAS development headers."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:313
-msgid "If you're using Ubuntu>=16.04 or an equivalent Debian Linux distribution, you can install this with:"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:321
-msgid "Build and install qiskit-aer directly"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:323 ../../contributing_to_qiskit.rst:389
-msgid "If you have pip <19.0.0 installed and your environment doesn't require a custom build options you can just run:"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:331
-msgid "This will both build the binaries and install Aer."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:333
-msgid "Alternatively if you have a newer pip installed, or have some custom requirement you can build a python wheel manually."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:341 ../../contributing_to_qiskit.rst:407
-#: ../../contributing_to_qiskit.rst:459
-msgid "If you need to set a custom option during the wheel build you can refer to :ref:`aer_wheel_build_options`."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:344 ../../contributing_to_qiskit.rst:410
-#: ../../contributing_to_qiskit.rst:462
-msgid "After you build the python wheel it will be stored in the ``dist/`` dir in the Aer repository. The exact version will depend"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:352 ../../contributing_to_qiskit.rst:418
-#: ../../contributing_to_qiskit.rst:470
-msgid "The exact filename of the output wheel file depends on the current version of Aer under development."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:358
-msgid "Install dependencies."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:360
-msgid "To use the `Clang`_ compiler on macOS, you need to install an extra library for supporting `OpenMP`_.  You can use `brew`_ to install this and other dependencies."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:372
-msgid "You then also have to install a BLAS implementation, `OpenBLAS`_ is the default choice."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:381
-msgid "You also need to have ``Xcode Command Line Tools`` installed."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:387
-msgid "Build and install qiskit"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:397
-msgid "This will both build the binaries and install aer."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:399
-msgid "Alternatively if you have a newer pip installed, or need to set custom options for your environment you can build a python wheel manually."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:424
-msgid "On Windows you need to use `Anaconda3`_ or `Miniconda3`_ to install all the dependencies."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:430
-msgid "Install compiler requirements"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:436
-msgid "Install binary and build dependencies"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:442
-msgid "Install the package"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:444
-msgid "If you have pip <19.0.0 installed you can just run"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:451
-msgid "if you're using pip >=19.0.0 then you can manually build a wheel file and install that instead."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:478
-msgid "The Aer build system uses `scikit-build`_ to run the compilation when building it with the python interface. It acts as an interface for `setuptools`_ to call `CMake`_ and compile the binaries for your local system."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:486
-msgid "Due to the complexity of compiling the binaries you may need to pass options to a certain part of the build process. The way to pass variables is:"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:493
-msgid "where the elements within square brackets `[]` are optional, and ``skbuild_opts``, ``cmake_opts``, ``build_tool_opts`` are to be replaced by flags of your choice. A list of *CMake* options is available here: https://cmake.org/cmake/help/v3.6/manual/cmake.1.html#options . For example, you could run something like:"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:503
-msgid "This is passing the flag `-j8` to the underlying build system (which in this case is `Automake`_) telling it that you want to build in parallel using 8 processes."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:509
-msgid "For example, a common use case for these flags on linux is to specify a specific version of the C++ compiler to use (normally if the default is too old)."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:517
-msgid "which will tell CMake to use the g++-7 command instead of the default g++ when compiling Aer"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:520
-msgid "Another common use case for this, depending on your environment, is that you may need to specify your platform name and turn off static linking."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:528
-msgid "Here ``--plat-name`` is a flag to setuptools, to specify the platform name to use in the package metadata, ``-DSTATIC_LINKING`` is a flag to CMake being used to disable static linking, and ``-j8`` is a flag to Automake being used to use 8 processes for compilation."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:533
-msgid "A list of common options depending on platform are:"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:536
-msgid "Platform"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:536
-msgid "Tool"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:536
-msgid "Option"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:536
-msgid "Use Case"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:538
-msgid "All"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:538
-msgid "Automake"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:538
-msgid "-j"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:538
-msgid "Followed by a number this set the number of process to use for compilation"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:541
-msgid "Linux"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:541 ../../contributing_to_qiskit.rst:548
-msgid "CMake"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:541
-msgid "-DCMAKE_CXX_COMPILER"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:541
-msgid "Used to specify a specific C++ compiler, this is often needed if you default g++ is too."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:545 ../../contributing_to_qiskit.rst:548
-msgid "OSX"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:545
-msgid "setuptools"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:545
-msgid "--plat-name"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:545
-msgid "Used to specify the platform name in the output Python package."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:548
-msgid "-DSTATIC_LINKING"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:548
-msgid "Used to specify whether static linking should be used or not"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:553
-msgid "Some of these options are not platform specific, if a platform is listed this is just outlining it's commonly used in that environment. Refer to the tool documentation for more information."
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:560
+#: ../../contributing_to_qiskit.rst:295
 msgid "Clone the qiskit-ibmq-provider repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:566
+#: ../../contributing_to_qiskit.rst:301
 msgid "Cloning the repository creates a local directory called ``qiskit-ibmq-provider``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:572
-msgid "3. If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-ibmq-provider package when installing from source."
+#: ../../contributing_to_qiskit.rst:307
+msgid "If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-ibmq-provider package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:580
+#: ../../contributing_to_qiskit.rst:315
 msgid "Install qiskit-ibmq-provider"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:597
-msgid "Clone the ignis repository."
+#: ../../contributing_to_qiskit.rst:330
+msgid "Installing Aer from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:332
+msgid "Clone the Aer repository."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:338
+msgid "Install build requirements."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:344
+msgid "After this the steps to install Aer depend on which operating system you are using. Since Aer is a compiled C++ program with a python interface there are non-python dependencies for building the Aer binary which can't be installed universally depending on operating system."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:351 ../../contributing_to_qiskit.rst:591
+msgid "Linux"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:353
+msgid "Install compiler requirements."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:355
+msgid "Building Aer requires a C++ compiler and development headers"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:357
+msgid "If you're using Ubuntu>=16.04 or an equivalent Debian Linux distribution you can install this with:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:364
+msgid "Install OpenBLAS development headers."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:366
+msgid "If you're using Ubuntu>=16.04 or an equivalent Debian Linux distribution, you can install this with:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:374
+msgid "Build and install qiskit-aer directly"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:376 ../../contributing_to_qiskit.rst:441
+msgid "If you have pip <19.0.0 installed and your environment doesn't require a custom build options you can just run:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:384
+msgid "This will both build the binaries and install Aer."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:386
+msgid "Alternatively if you have a newer pip installed, or have some custom requirement you can build a python wheel manually."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:394 ../../contributing_to_qiskit.rst:459
+#: ../../contributing_to_qiskit.rst:510
+msgid "If you need to set a custom option during the wheel build you can refer to :ref:`aer_wheel_build_options`."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:397 ../../contributing_to_qiskit.rst:462
+#: ../../contributing_to_qiskit.rst:513
+msgid "After you build the python wheel it will be stored in the ``dist/`` dir in the Aer repository. The exact version will depend"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:405 ../../contributing_to_qiskit.rst:470
+#: ../../contributing_to_qiskit.rst:521
+msgid "The exact filename of the output wheel file depends on the current version of Aer under development."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:408
+msgid "macOS"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:410
+msgid "Install dependencies."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:412
+msgid "To use the `Clang`_ compiler on macOS, you need to install an extra library for supporting `OpenMP`_.  You can use `brew`_ to install this and other dependencies."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:424
+msgid "You then also have to install a BLAS implementation, `OpenBLAS`_ is the default choice."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:433
+msgid "You also need to have ``Xcode Command Line Tools`` installed."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:439
+msgid "Build and install qiskit"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:449
+msgid "This will both build the binaries and install aer."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:451
+msgid "Alternatively if you have a newer pip installed, or need to set custom options for your environment you can build a python wheel manually."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:473
+msgid "Windows"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:475
+msgid "On Windows you need to use `Anaconda3`_ or `Miniconda3`_ to install all the dependencies."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:481
+msgid "Install compiler requirements"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:487
+msgid "Install binary and build dependencies"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:493
+msgid "Install the package"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:495
+msgid "If you have pip <19.0.0 installed you can just run"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:502
+msgid "if you're using pip >=19.0.0 then you can manually build a wheel file and install that instead."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:526
+msgid "Custom options during wheel builds"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:528
+msgid "The Aer build system uses `scikit-build`_ to run the compilation when building it with the python interface. It acts as an interface for `setuptools`_ to call `CMake`_ and compile the binaries for your local system."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:536
+msgid "Due to the complexity of compiling the binaries you may need to pass options to a certain part of the build process. The way to pass variables is:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:543
+msgid "where the elements within square brackets `[]` are optional, and ``skbuild_opts``, ``cmake_opts``, ``build_tool_opts`` are to be replaced by flags of your choice. A list of *CMake* options is available here: https://cmake.org/cmake/help/v3.6/manual/cmake.1.html#options . For example, you could run something like:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:553
+msgid "This is passing the flag `-j8` to the underlying build system (which in this case is `Automake`_) telling it that you want to build in parallel using 8 processes."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:559
+msgid "For example, a common use case for these flags on linux is to specify a specific version of the C++ compiler to use (normally if the default is too old)."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:567
+msgid "which will tell CMake to use the g++-7 command instead of the default g++ when compiling Aer"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:570
+msgid "Another common use case for this, depending on your environment, is that you may need to specify your platform name and turn off static linking."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:578
+msgid "Here ``--plat-name`` is a flag to setuptools, to specify the platform name to use in the package metadata, ``-DSTATIC_LINKING`` is a flag to CMake being used to disable static linking, and ``-j8`` is a flag to Automake being used to use 8 processes for compilation."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:583
+msgid "A list of common options depending on platform are:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:586
+msgid "Platform"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:586
+msgid "Tool"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:586
+msgid "Option"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:586
+msgid "Use Case"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:588
+msgid "All"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:588
+msgid "Automake"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:588
+msgid "-j"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:588
+msgid "Followed by a number this set the number of process to use for compilation"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:591 ../../contributing_to_qiskit.rst:598
+msgid "CMake"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:591
+msgid "-DCMAKE_CXX_COMPILER"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:591
+msgid "Used to specify a specific C++ compiler, this is often needed if you default g++ is too."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:595 ../../contributing_to_qiskit.rst:598
+msgid "OSX"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:595
+msgid "setuptools"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:595
+msgid "--plat-name"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:595
+msgid "Used to specify the platform name in the output Python package."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:598
+msgid "-DSTATIC_LINKING"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:598
+msgid "Used to specify whether static linking should be used or not"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:603
-msgid "Cloning the repository creates a local directory called ``qiskit-ignis``."
+msgid "Some of these options are not platform specific, if a platform is listed this is just outlining it's commonly used in that environment. Refer to the tool documentation for more information."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:609
-msgid "3. If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-ignis package when installing from source."
+msgid "Installing Ignis from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:611
+msgid "Clone the ignis repository."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:617
+msgid "Cloning the repository creates a local directory called ``qiskit-ignis``."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:623
+msgid "If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-ignis package when installing from source."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:631
 msgid "Install ignis"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:633
+#: ../../contributing_to_qiskit.rst:646
+msgid "Installing Aqua from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:648
 msgid "Clone the Aqua repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:639
+#: ../../contributing_to_qiskit.rst:654
 msgid "Cloning the repository creates a local directory called ``qiskit-aqua``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:645
-msgid "3. If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-aqua package when installing from source."
+#: ../../contributing_to_qiskit.rst:660
+msgid "If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-aqua package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:649
-msgid "... code:: sh"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:651
-msgid "pip install -r requirements-dev.txt"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:653
+#: ../../contributing_to_qiskit.rst:668
 msgid "Install aqua"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:669
+#: ../../contributing_to_qiskit.rst:683
+msgid "Install Chemistry from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:685
 msgid "Clone the qiskit-chemistry repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:675
+#: ../../contributing_to_qiskit.rst:691
 msgid "Cloning the repository creates a local directory called ``qiskit-chemistry``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:681
-msgid "3. If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-chemistry package when installing from source."
+#: ../../contributing_to_qiskit.rst:697
+msgid "If you want to run tests or linting checks, install the developer requirements. This is not required to install or use the qiskit-chemistry package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:689
+#: ../../contributing_to_qiskit.rst:705
 msgid "Install qiskit-chemistry"
 msgstr ""
 
