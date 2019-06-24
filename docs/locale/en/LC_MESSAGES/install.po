@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-19 21:09+0000\n"
+"POT-Creation-Date: 2019-06-24 14:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,29 +196,29 @@ msgstr ""
 msgid ""
 "Since the Qiskit project is actually a constellation of different "
 "elements simply printing the version string can be misleading. When you "
-"run::"
+"run"
 msgstr ""
 
-#: ../../install.rst:153
+#: ../../install.rst:155
 msgid ""
 "This only gives you the version for the qiskit-terra package. This is "
 "because the ``qiskit`` namespace in python doesn't come from the qiskit "
 "package, but instead is part of the qiskit-terra package."
 msgstr ""
 
-#: ../../install.rst:157
+#: ../../install.rst:159
 msgid ""
 "Instead if you would like to see the version of all the qiskit elements "
 "installed in your environment you can use the ``__qiskit_version`` "
 "attribute. This will return a dictionary of the different qiskit packages"
-" and the installed versions. For example, running::"
+" and the installed versions. For example, running"
 msgstr ""
 
-#: ../../install.rst:165
+#: ../../install.rst:169
 msgid "will return a dictionary like"
 msgstr ""
 
-#: ../../install.rst:176
+#: ../../install.rst:180
 msgid ""
 "If you're filing an issue or need to share your installed qiskit versions"
 " for something you should use the ``__qiskit_version__`` attribute."
