@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-20 14:24\n"
+"POT-Creation-Date: 2019-06-24 14:13+0000\n"
+"PO-Revision-Date: 2019-06-24 20:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -146,22 +146,22 @@ msgid "Checking Which Version is Installed"
 msgstr ""
 
 #: ../../install.rst:147
-msgid "Since the Qiskit project is actually a constellation of different elements simply printing the version string can be misleading. When you run::"
+msgid "Since the Qiskit project is actually a constellation of different elements simply printing the version string can be misleading. When you run"
 msgstr ""
 
-#: ../../install.rst:153
+#: ../../install.rst:155
 msgid "This only gives you the version for the qiskit-terra package. This is because the ``qiskit`` namespace in python doesn't come from the qiskit package, but instead is part of the qiskit-terra package."
 msgstr "qiskit-terra パッケージのバージョンのみを表示します。これは python の ``qiskit`` 名前空間が qiskit パッケージではなく、 qiskit-terra パッケージの一部から来ているためです。"
 
-#: ../../install.rst:157
-msgid "Instead if you would like to see the version of all the qiskit elements installed in your environment you can use the ``__qiskit_version`` attribute. This will return a dictionary of the different qiskit packages and the installed versions. For example, running::"
+#: ../../install.rst:159
+msgid "Instead if you would like to see the version of all the qiskit elements installed in your environment you can use the ``__qiskit_version`` attribute. This will return a dictionary of the different qiskit packages and the installed versions. For example, running"
 msgstr ""
 
-#: ../../install.rst:165
+#: ../../install.rst:169
 msgid "will return a dictionary like"
 msgstr ""
 
-#: ../../install.rst:176
+#: ../../install.rst:180
 msgid "If you're filing an issue or need to share your installed qiskit versions for something you should use the ``__qiskit_version__`` attribute."
 msgstr ""
 
