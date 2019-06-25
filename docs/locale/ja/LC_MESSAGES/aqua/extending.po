@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:19\n"
+"POT-Creation-Date: 2019-06-25 14:48+0000\n"
+"PO-Revision-Date: 2019-06-25 14:59\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgid "Contribution Guidelines"
 msgstr ""
 
 #: ../../aqua/extending.rst:16
-msgid "Any user who would like to contribute to Aqua should follow the Aqua `contribution guidelines <https://github.com/QISKit/aqua/blob/master/.github/CONTRIBUTING.rst>`__."
+msgid "Any user who would like to contribute to Aqua should follow the Aqua `contribution guidelines <https://github.com/Qiskit/qiskit-aqua/blob/master/CONTRIBUTING.md>`__."
 msgstr ""
 
 #: ../../aqua/extending.rst:19
