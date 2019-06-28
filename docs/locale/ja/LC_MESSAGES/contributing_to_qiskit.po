@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 14:13+0000\n"
-"PO-Revision-Date: 2019-06-24 20:36\n"
+"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"PO-Revision-Date: 2019-06-28 20:32\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -428,7 +428,7 @@ msgstr ""
 msgid "If you have pip <19.0.0 installed and your environment doesn't require a custom build options you can just run:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:384
+#: ../../contributing_to_qiskit.rst:384 ../../contributing_to_qiskit.rst:449
 msgid "This will both build the binaries and install Aer."
 msgstr ""
 
@@ -473,10 +473,6 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:439
 msgid "Build and install qiskit"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:449
-msgid "This will both build the binaries and install aer."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:451
