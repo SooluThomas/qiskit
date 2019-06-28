@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-27 00:18+0000\n"
-"PO-Revision-Date: 2019-06-27 01:15\n"
+"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"PO-Revision-Date: 2019-06-28 20:32\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -366,7 +366,7 @@ msgid "latexdrawerstyle(bool)"
 msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst
-msgid "FALSE"
+msgid "``False``"
 msgstr ""
 
 #: ../../terra/visualizing_a_quantum_circuit.rst
