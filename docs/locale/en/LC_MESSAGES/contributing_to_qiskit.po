@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-27 00:18+0000\n"
+"POT-Creation-Date: 2019-06-28 13:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -542,7 +542,7 @@ msgid ""
 "custom build options you can just run:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:384
+#: ../../contributing_to_qiskit.rst:384 ../../contributing_to_qiskit.rst:449
 msgid "This will both build the binaries and install Aer."
 msgstr ""
 
@@ -600,10 +600,6 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:439
 msgid "Build and install qiskit"
-msgstr ""
-
-#: ../../contributing_to_qiskit.rst:449
-msgid "This will both build the binaries and install aer."
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:451
