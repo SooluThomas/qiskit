@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,9 +95,7 @@ msgid "Tal Kachman"
 msgstr ""
 
 #: ../../aqua/CONTRIBUTORS.rst:23
-msgid ""
-"`Peng Liu <https://researcher.watson.ibm.com/researcher/view.php?person"
-"=us-liup>`__"
+msgid "Peng Liu"
 msgstr ""
 
 #: ../../aqua/CONTRIBUTORS.rst:24
@@ -105,75 +103,92 @@ msgid "Manoel Marques"
 msgstr ""
 
 #: ../../aqua/CONTRIBUTORS.rst:25
-msgid "Antonio Mezzacapo"
+msgid ""
+"`Atsushi Matsuo "
+"<https://researcher.watson.ibm.com/researcher/view.php?person=jp-"
+"MATSUOA>`__"
 msgstr ""
 
 #: ../../aqua/CONTRIBUTORS.rst:26
+msgid "Antonio Mezzacapo"
+msgstr ""
+
+#: ../../aqua/CONTRIBUTORS.rst:27
 msgid ""
 "`Nikolaj Moll "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=zurich-"
 "NIM>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:27
+#: ../../aqua/CONTRIBUTORS.rst:28
 msgid ""
 "`Giacomo Nannicini "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=us-"
 "nannicini>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:28
-msgid "Pauline Ollitrault"
+#: ../../aqua/CONTRIBUTORS.rst:29
+msgid ""
+"`Pauline Ollitrault "
+"<https://researcher.watson.ibm.com/researcher/view.php?person=zurich-"
+"aul>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:29
+#: ../../aqua/CONTRIBUTORS.rst:30
 msgid ""
 "`Anna Phan "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=au1-anna.phan>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:30
+#: ../../aqua/CONTRIBUTORS.rst:31
 msgid ""
 "`Marco Pistoia "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=us-"
 "pistoia>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:31
+#: ../../aqua/CONTRIBUTORS.rst:32
 msgid ""
 "`Julia Rice <https://researcher.watson.ibm.com/researcher/view.php?person"
 "=us-jrice>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:32
+#: ../../aqua/CONTRIBUTORS.rst:33
 msgid ""
 "`Raymond Harry Putra Rudy "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=jp-"
 "RUDYHAR>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:33
+#: ../../aqua/CONTRIBUTORS.rst:34
 msgid "`Kanav Setia <https://physics.dartmouth.edu/people/kanav-setia>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:34
+#: ../../aqua/CONTRIBUTORS.rst:35
 msgid ""
 "`Ivano Tavernelli "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=zurich-"
 "ITA>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:35
+#: ../../aqua/CONTRIBUTORS.rst:36
 msgid ""
 "`Stephen Wood "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=us-"
 "woodsp>`__"
 msgstr ""
 
-#: ../../aqua/CONTRIBUTORS.rst:36
+#: ../../aqua/CONTRIBUTORS.rst:37
 msgid ""
 "`Stefan Woerner "
 "<https://researcher.watson.ibm.com/researcher/view.php?person=zurich-"
 "wor>`__"
+msgstr ""
+
+#: ../../aqua/CONTRIBUTORS.rst:38
+msgid ""
+"`Christa Zoufal "
+"<https://researcher.watson.ibm.com/researcher/view.php?person=zurich-"
+"ouf>`__"
 msgstr ""
 

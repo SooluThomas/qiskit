@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,18 +52,24 @@ msgid "Transforms one quantum channel to another based on a specified criteria."
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:1
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.channel_matrix_representation:1
 msgid ""
-"Generates a list of 4x4 symbolic matrices describing the channel defined "
-"from the given operators"
+"We convert the operators to a matrix by applying the channel to the four "
+"basis elements of the 2x2 matrix space representing density operators; "
+"this is standard linear algebra"
 msgstr ""
 
 #: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.channel_matrix_representation
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_channel_operation
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.flatten_matrix
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_const_matrix_from_channel
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_matrix_from_channel
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_matrix
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.prepare_honesty_constraint
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error
@@ -71,12 +77,140 @@ msgid "パラメータ"
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:3
-msgid "a list of tuples of matrices which represent Kraus operators"
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.channel_matrix_representation:5
+msgid "The list of operators to transform into a Matrix"
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:14
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.channel_matrix_representation
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_P
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_channel_operation
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_q
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.flatten_matrix
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_const_matrix_from_channel
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_matrix_from_channel
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_circuit
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_matrix
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.prepare_channel_operator_list
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list
+#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model
+#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error
+#: qiskit.providers.aer.noise.utils.noise_transformation.pauli_operators
+#: qiskit.providers.aer.noise.utils.noise_transformation.reset_operators
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.channel_matrix_representation:8
+msgid "The matrx representation of the operators"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.channel_matrix_representation
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_P
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_channel_operation
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_q
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.flatten_matrix
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_const_matrix_from_channel
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_matrix_from_channel
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_circuit
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_matrix
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.prepare_channel_operator_list
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list
+#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model
+#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error
+#: qiskit.providers.aer.noise.utils.noise_transformation.pauli_operators
+#: qiskit.providers.aer.noise.utils.noise_transformation.reset_operators
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_P:1
+msgid ""
+"This method creates the matrix P in the f(x) = 1/2(x*P*x)+q*x "
+"representation of the objective function :param As: list of symbolic "
+"matrices repersenting the channel matrices :type As: list"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_P:7
+msgid "The matrix P for the description of the quadaric program"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_channel_operation:1
+msgid ""
+"Given a quantum state's density function rho, the effect of the channel "
+"on this state is: rho -> sum_{i=1}^n E_i * rho * E_i^dagger"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_channel_operation:5
+msgid "Density function"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_channel_operation:7
+msgid "List of operators"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_channel_operation:10
+msgid "The result of applying the list of operators"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_q:1
+msgid ""
+"This method creates the vector q for the f(x) = 1/2(x*P*x)+q*x "
+"representation of the objective function :param As: list of symbolic "
+"matrices repersenting the quadratic program :type As: list :param C: "
+"matrix representing the the constant channel matrix :type C: matrix"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.compute_q:9
+msgid "The vector q for the description of the quadaric program"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.fidelity:1
+msgid "Calculates channel fidelity"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.flatten_matrix:1
+msgid "The matrix to flatten"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.flatten_matrix:4
+msgid "A row vector repesenting the flattened matrix"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:1
+msgid ""
+"Generates a list of 4x4 symbolic matrices describing the channel defined "
+"from the given operators"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:4
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.prepare_honesty_constraint:3
+msgid "A list of tuples of matrices which represent"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:17
 msgid ""
 "We consider this input to symbolically represent a channel in the "
 "following manner: define indeterminates x0, x1, ..., xn which are meant "
@@ -87,20 +221,12 @@ msgid ""
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:24
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices:5
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_circuit:6
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:24
-msgid "Output:"
-msgstr ""
-
-#: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:23
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_matrices:25
 msgid ""
 "A list of 4x4 complex matrices ([D1, D2, ..., Dn], E) such that: The "
 "matrix x1*D1 + ... + xn*Dn + E represents the operation of the channel C "
-"on the density operator we find it easier to work with this "
-"representation of C when performing the combinatorial optimization"
+"on the density operator. we find it easier to work with this "
+"representation of C when performing the combinatorial optimization."
 msgstr ""
 
 #: of
@@ -109,12 +235,12 @@ msgid "a 4x4 symbolic matrix"
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices:2
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices:3
 msgid "the symbols x1, ..., xn which may occur in the matrix"
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices:5
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.generate_channel_quadratic_programming_matrices:6
 msgid ""
 "A list of 4x4 complex matrices ([D1, D2, ..., Dn], E) such that: channel "
 "== x1*D1 + ... + xn*Dn + E"
@@ -137,15 +263,9 @@ msgid "The full list [x1, ..., xn] of symbols used in the matrix."
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_const_matrix_from_channel:10
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_matrix_from_channel:9
-msgid "Returns"
-msgstr ""
-
-#: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_const_matrix_from_channel:10
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_matrix_from_channel:9
-msgid "matrix: a 4x4 numeric matrix."
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_const_matrix_from_channel:9
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.get_matrix_from_channel:8
+msgid "a 4x4 numeric matrix."
 msgstr ""
 
 #: of
@@ -187,8 +307,8 @@ msgid "circuit or a matrix or a list of matrices."
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_circuit:7
-msgid "List: The operator, converted to noise circuit representation."
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_circuit:6
+msgid "The operator, converted to noise circuit representation."
 msgstr ""
 
 #: of
@@ -204,22 +324,102 @@ msgid ""
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_matrix
-#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model
-#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error
-msgid "戻り値"
-msgstr ""
-
-#: of
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_matrix:7
 msgid "the operator, converted to Kraus representation."
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.operator_matrix
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.prepare_channel_operator_list:1
+msgid ""
+"Prepares a list of channel operators :param ops_list: The list of "
+"operators to prepare :type ops_list: List"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.prepare_channel_operator_list:5
+msgid "The channel operator list"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.prepare_honesty_constraint:1
+msgid "Prepares the honesty constraint"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program:1
+msgid ""
+"This function solved the quadratic program to minimize the objective "
+"function f(x) = 1/2(x*P*x)+q*x subject to the additional constraints Gx "
+"<= h"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program:6
+msgid ""
+"Where P, q are given and G,h are computed to ensure that x represents a "
+"probability vector and subject to honesty constraints if required :param "
+"P: A matrix representing the P component of the objective function :type "
+"P: matrix :param q: A vector representing the q component of the "
+"objective function :type q: list"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program:13
+msgid "The solution of the quadratic program (represents probabilites)"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error
-msgid "戻り値の型"
+msgid "raises"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program:16
+msgid ":exc:`ImportError` -- If cvxopt external module is not installed"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.solve_quadratic_program:20
+msgid ""
+"This method is the only place in the code where we rely on the cvxopt "
+"library should we consider another library, only this method needs to "
+"change"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel:1
+msgid ""
+"This method creates objective function representing the Hilbert-Schmidt "
+"norm of the matrix (A-B) obtained as the difference of the input noise "
+"channel and the output channel we wish to determine."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel:6
+msgid ""
+"This function is represented by a matrix P and a vector q, such that f(x)"
+" = 1/2(x*P*x)+q*x where x is the vector we wish to minimize, where x "
+"represents probabilities for the noise operators that construct the "
+"output channel"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel:11
+msgid "A list of 4x4 symbolic matrices"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel:13
+msgid "a 4x4 constant matrix"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_given_channel:16
+msgid ""
+"a list of the optimal probabilities for the channel matrices, determined "
+"by the quadratic program solver"
 msgstr ""
 
 #: of
@@ -228,41 +428,69 @@ msgid "a list of matrices (Kraus operators) for the input channel"
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:2
-msgid "a list of matrices or tuples of matrices"
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:3
+msgid ""
+"a list of matrices or tuples of matrices representing Kraus operators "
+"that can construct the output channel e.g. [X,Y,Z] represent the Pauli "
+"channel and [(|0><0|, |0><1|), |1><0|, |1><1|)] represents the relaxation"
+" channel"
 msgstr ""
 
 #: of
 #: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:9
 msgid ""
-"A list of amplitudes that define the output channel. In the case the "
-"input is a list [A1, A2, ..., An] of transform matrices and [E0, E1, ...,"
-" Em] of noise kraus operators, the output is a list [p1, p2, ..., pn] of "
-"probabilities such that: 1) p_i >= 0 2) p1 + ... + pn <= 1 3) "
-"[sqrt(p1)A1, sqrt(p2)A2, ..., sqrt(pn)An, sqrt(1-(p1 + ... + pn))I] is"
+"A list of amplitudes that define the output channel.     In the case the "
+"input is a list [A1, A2, ..., An] of transform matrices     and [E0, E1, "
+"..., Em] of noise kraus operators, the output is     a list [p1, p2, ...,"
+" pn] of probabilities such that:     1) p_i >= 0     2) p1 + ... + pn <= "
+"1     3) [sqrt(p1)A1, sqrt(p2)A2, ..., sqrt(pn)An, sqrt(1-(p1 + ... + "
+"pn))I] is         a list of kraus operators that define the output "
+"channel         (which is \"close\" to the input chanel given by [E0, "
+"..., Em])      This channel can be thought of as choosing the operator Ai"
+" in probability pi and     applying this operator to the quantum state."
+"      More generally, if the input is a list of tuples (not neccesarily "
+"of the same size):     [(A1, B1, ...), (A2, B2, ...), ... (An, Bn, ...)] "
+"then the output is     still a list [p1, p2, ..., pn] and now the output "
+"channel is defined by theo     perators:     [sqrt(p1)A1, sqrt(p1)B1, "
+"..., sqrt(pn)An, sqrt(pn)Bn, ..., sqrt(1-(p1 + ... + pn))I]"
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:16
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:27
+msgid "A list of amplitudes that define the output channel."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:12
+msgid ""
+"In the case the input is a list [A1, A2, ..., An] of transform matrices "
+"and [E0, E1, ..., Em] of noise kraus operators, the output is a list [p1,"
+" p2, ..., pn] of probabilities such that: 1) p_i >= 0 2) p1 + ... + pn <="
+" 1 3) [sqrt(p1)A1, sqrt(p2)A2, ..., sqrt(pn)An, sqrt(1-(p1 + ... + pn))I]"
+" is"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:18
 msgid ""
 "a list of kraus operators that define the output channel (which is "
 "\"close\" to the input chanel given by [E0, ..., Em])"
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:19
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:21
 msgid ""
 "This channel can be thought of as choosing the operator Ai in probability"
 " pi and applying this operator to the quantum state."
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:22
+#: qiskit.providers.aer.noise.utils.noise_transformation.NoiseTransformer.transform_by_operator_list:24
 msgid ""
 "More generally, if the input is a list of tuples (not neccesarily of the "
 "same size): [(A1, B1, ...), (A2, B2, ...), ... (An, Bn, ...)] then the "
 "output is still a list [p1, p2, ..., pn] and now the output channel is "
-"defined by the operators [sqrt(p1)A1, sqrt(p1)B1, ..., sqrt(pn)An, "
+"defined by theo perators: [sqrt(p1)A1, sqrt(p1)B1, ..., sqrt(pn)An, "
 "sqrt(pn)Bn, ..., sqrt(1-(p1 + ... + pn))I]"
 msgstr ""
 
@@ -304,26 +532,18 @@ msgid "the approximate noise model."
 msgstr ""
 
 #: of
-#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model
-#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error
-msgid "raises"
-msgstr ""
-
-#: of
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model:18
-#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error:20
 msgid ":exc:`NoiseError` -- if number of qubits is not supported or approximation"
 msgstr ""
 
 #: of
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model:19
-#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error:21
 msgid ":exc:`failsed.`"
 msgstr ""
 
 #: of
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_noise_model:23
-#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error:25
+#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error:26
 msgid ""
 "The operator input precedence is as follows: list < dict < string if a "
 "string is given, dict is overwritten; if a dict is given, list is "
@@ -349,5 +569,25 @@ msgstr ""
 #: of
 #: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error:17
 msgid "the approximate quantum error."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error:20
+msgid ""
+":exc:`NoiseError` -- if number of qubits is not supported or "
+"approximation failsed."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.utils.noise_transformation.approximate_quantum_error:22
+msgid ":exc:`RuntimeError` -- If there's no information about the noise type"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_transformation.pauli_operators:1
+msgid "a list of Pauli operators for 1 and 2 qubits"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_transformation.reset_operators:1
+msgid "a list of reset operators for 1 and 2 qubits"
 msgstr ""
 

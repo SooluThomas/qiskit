@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,8 +34,17 @@ msgstr ""
 msgid "Base class for errors raised by account management."
 msgstr ""
 
+#: of qiskit.providers.ibmq.exceptions.IBMQApiUrlError:1
+#: qiskit.providers.ibmq.exceptions.IBMQProviderError:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.exceptions.IBMQAccountError`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.exceptions.IBMQApiUrlError:1
+msgid "Errors raised due to mixing API versions."
+msgstr ""
+
 #: of qiskit.providers.ibmq.exceptions.IBMQBackendError:1
-msgid "IBM Q Backend Errors"
+msgid "IBM Q Backend Errors."
 msgstr ""
 
 #: of qiskit.providers.ibmq.exceptions.IBMQBackendValueError:1
@@ -45,7 +54,7 @@ msgid ""
 msgstr ""
 
 #: of qiskit.providers.ibmq.exceptions.IBMQBackendValueError:1
-msgid "Value errors thrown within IBMQBackend"
+msgid "Value errors thrown within IBMQBackend."
 msgstr ""
 
 #: of qiskit.providers.ibmq.exceptions.IBMQError:1
@@ -54,5 +63,9 @@ msgstr ""
 
 #: of qiskit.providers.ibmq.exceptions.IBMQError:1
 msgid "Base class for errors raised by the IBMQ provider module."
+msgstr ""
+
+#: of qiskit.providers.ibmq.exceptions.IBMQProviderError:1
+msgid "Errors related to provider handling."
 msgstr ""
 

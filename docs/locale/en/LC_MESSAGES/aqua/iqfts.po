@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,13 +38,13 @@ msgid ""
 "where :math:`n` is the number of qubits, in contrast with the classical "
 "discrete Fourier transform, which takes :math:`O(n2^n)` gates, where in "
 "the classical case :math:`n` is the number of bits. `The best quantum "
-"Fourier transform algorithms currently known "
+"Fourier transform algorithms currently known \\ "
 "<https://pdfs.semanticscholar.org/deff/d6774d409478734db5f92011ff66bebd4a05.pdf>`__"
 " require only :math:`O(n\\log n)` gates to achieve an efficient "
 "approximation."
 msgstr ""
 
-#: ../../aqua/iqfts.rst:24
+#: ../../aqua/iqfts.rst:25
 msgid ""
 "Most of the properties of the QFT follow from the fact that it is a "
 "unitary transformation. This implies that, if :math:`F` is the matrix "
@@ -57,7 +57,7 @@ msgid ""
 "computer."
 msgstr ""
 
-#: ../../aqua/iqfts.rst:33
+#: ../../aqua/iqfts.rst:34
 msgid ""
 "As mentioned above, the :ref:`QPE` algorithm uses the QFT for estimating "
 "the eigenvalues of a unitary operator.  More precisely, QPE uses the "
@@ -68,40 +68,40 @@ msgid ""
 "new algorithms to Aqua can plug their own IQFT implementation."
 msgstr ""
 
-#: ../../aqua/iqfts.rst:40
+#: ../../aqua/iqfts.rst:41
 msgid "Although discussions below focus on IQFT, the similar also apply for QFT."
 msgstr ""
 
 msgid "Extending the IQFT Library"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:45
+#: ../../aqua/iqfts.rst:46
 msgid ""
 "Consistent with its unique  design, Aqua has a modular and extensible "
 "architecture. Algorithms and their supporting objects, such as IQFTs, are"
 " pluggable modules in Aqua. This is done in order to encourage "
 "researchers and developers interested in :ref:`aqua-extending` to extend "
 "the Aqua framework with their novel research contributions. New IQFTs are"
-" typically installed in the ``qiskit_aqua/components/iqfts`` folder and "
+" typically installed in the ``qiskit/aqua/components/iqfts`` folder and "
 "derive from the ``IQFT`` class.  Aqua also allows for :ref:`aqua-"
 "dynamically-discovered-components`: new IQFTs can register themselves as "
 "Aqua extensions and be dynamically discovered at run time independent of "
 "their location in the file system."
 msgstr ""
 
-#: ../../aqua/iqfts.rst:56
+#: ../../aqua/iqfts.rst:57
 msgid "Aqua comes with two IQFTs:"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:58
+#: ../../aqua/iqfts.rst:59
 msgid "`Standard IQFT <#standard-iqft>`__"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:59
+#: ../../aqua/iqfts.rst:60
 msgid "`Approximate IQFT <#approximate-iqft>`__"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:61
+#: ../../aqua/iqfts.rst:62
 msgid ""
 "The ``iqft`` section in the :ref:`aqua-input-file` becomes relevant only "
 "for algorithms that require an IQFT.  This is reflected also in the :ref"
@@ -112,11 +112,11 @@ msgid ""
 "``iqft`` section."
 msgstr ""
 
-#: ../../aqua/iqfts.rst:70
+#: ../../aqua/iqfts.rst:71
 msgid "Standard IQFT"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:72
+#: ../../aqua/iqfts.rst:73
 msgid ""
 "The standard version of the IQFT is simply the inverse of a plain QFT. It"
 " generates the inverse of a QFT circuit with no approximation. The "
@@ -126,18 +126,18 @@ msgstr ""
 msgid "Declarative Name"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:78
+#: ../../aqua/iqfts.rst:79
 msgid ""
 "When referring to the standard IQFT declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is "
 "``STANDARD``."
 msgstr ""
 
-#: ../../aqua/iqfts.rst:83
+#: ../../aqua/iqfts.rst:84
 msgid "Approximate IQFT"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:85
+#: ../../aqua/iqfts.rst:86
 msgid ""
 "This form of IQFT generates the inverse of an Approximate Quantum Fourier"
 " Transform (AQFT) as described in `arXiv:1803.04933 "
@@ -145,7 +145,7 @@ msgid ""
 " configured using the following parameter:"
 msgstr ""
 
-#: ../../aqua/iqfts.rst:94
+#: ../../aqua/iqfts.rst:95
 msgid ""
 "This parameter controls the level of approximation of the IQFT, expressed"
 " as a non-negative ``int`` value. The value provided will reduce the "
@@ -157,7 +157,7 @@ msgid ""
 "complexity."
 msgstr ""
 
-#: ../../aqua/iqfts.rst:105
+#: ../../aqua/iqfts.rst:106
 msgid ""
 "When referring to the approximate IQFT declaratively inside Aqua, its "
 "code ``name``, by which Aqua dynamically discovers and loads it, is "

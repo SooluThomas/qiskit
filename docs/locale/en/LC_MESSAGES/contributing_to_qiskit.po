@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgstr ""
 #: ../../contributing_to_qiskit.rst:33
 msgid ""
 "`Relate to one another "
-"<https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
+"<https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md>`_"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:34
@@ -108,7 +108,7 @@ msgstr ""
 #: ../../contributing_to_qiskit.rst:38
 msgid ""
 "`Work together on GitHub "
-"<https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
+"<https://github.com/Qiskit/qiskit/blob/master/CONTRIBUTING.md>`_"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:39

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,63 +38,63 @@ msgid ""
 msgstr ""
 
 #: ../../aqua/algorithms.rst:16
-msgid ":ref:`Variational Quantum Eigensolver (VQE)`"
+msgid ":ref:`vqe`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:17
-msgid ":ref:`Quantum Approximate Optimization Algorithm (QAOA)`"
+msgid ":ref:`qaoa`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:18
-msgid ":ref:`Evolution of Hamiltonian (EOH)`"
+msgid ":ref:`dynamics`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:19
-msgid ":ref:`Quantum Phase Estimation (QPE)`"
+msgid ":ref:`qpe`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:20
-msgid ":ref:`Iterative Quantum Phase Estimation (IQPE)`"
+msgid ":ref:`iqpe`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:21
-msgid ":ref:`Amplitude Estimation`"
+msgid ":ref:`ae`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:22
-msgid ":ref:`Quantum Grover Search`"
+msgid ":ref:`grover`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:23
-msgid ":ref:`Deutsch Jozsa`"
+msgid ":ref:`djalgorithm`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:24
-msgid ":ref:`Bernstein Vazirani`"
+msgid ":ref:`bvalgorithm`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:25
-msgid ":ref:`Simon`"
+msgid ":ref:`simonalgorithm`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:26
-msgid ":ref:`Quantum Support Vector Machine (QSVM)`"
+msgid ":ref:`qsvm`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:27
-msgid ":ref:`Variational Quantum Classifier (VQC)`"
+msgid ":ref:`vqc`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:28
-msgid ":ref:`HHL algorithm for solving linear systems (HHL)`"
+msgid ":ref:`hhl`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:29
-msgid ":ref:`Shor's Factoring Algorithm`"
+msgid ":ref:`shor`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:30
-msgid ":ref:`Quantum Generative Adversarial Network (qGAN)`"
+msgid ":ref:`qgan`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:32
@@ -107,19 +107,19 @@ msgid ""
 msgstr ""
 
 #: ../../aqua/algorithms.rst:38
-msgid ":ref:`Exact Eigensolver`"
+msgid ":ref:`exact-eigensolver`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:39
-msgid ":ref:`Exact LSsolver`"
+msgid ":ref:`exact-lssolver`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:40
-msgid ":ref:`CPLEX Ising`"
+msgid ":ref:`cplex`"
 msgstr ""
 
 #: ../../aqua/algorithms.rst:41
-msgid ":ref:`Support Vector Machine Radial Basis Function Kernel (SVM Classical)`"
+msgid ":ref:`svm-rbf-kernel`"
 msgstr ""
 
 msgid "Extending the Algorithm Library"
@@ -136,7 +136,7 @@ msgid ""
 "and deploy any new algorithm, the new algorithm class should derive from "
 "the ``QuantumAlgorithm`` class. Along with any supporting  module, for "
 "immediate dynamic discovery, the new algorithm class can simply be placed"
-" in an appropriate folder in the ``qiskit_aqua\\algorithms`` directory, "
+" in an appropriate folder in the ``qiskit/aqua/algorithms`` directory, "
 "just like the existing algorithms.  Aqua also allows for :ref:`aqua-"
 "dynamically-discovered-components`: new components can register "
 "themselves as Aqua extensions and be dynamically discovered at run time "
@@ -146,23 +146,23 @@ msgid ""
 "contributions."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:64
+#: ../../aqua/algorithms.rst:66
 msgid ""
 "Section :ref:`aqua-extending` provides more details on how to extend Aqua"
 " with new components."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:72
+#: ../../aqua/algorithms.rst:74
 msgid "Quantum Algorithms"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:74
+#: ../../aqua/algorithms.rst:76
 msgid ""
 "In this section, we describe the quantum algorithms currently available "
 "in Aqua."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:78
+#: ../../aqua/algorithms.rst:80
 msgid ""
 "Aqua requires associating a quantum device or simulator to any experiment"
 " that uses a quantum algorithm.  This is done by configuring the "
@@ -170,11 +170,11 @@ msgid ""
 "documentation on the :ref:`aqua-input-file` for more details."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:86
+#: ../../aqua/algorithms.rst:88
 msgid "Variational Quantum Eigensolver (VQE)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:88
+#: ../../aqua/algorithms.rst:90
 msgid ""
 "`VQE <https://arxiv.org/abs/1304.3061>`__ is a hybrid algorithm that uses"
 " the variational approach and interleaves quantum and classical "
@@ -187,33 +187,33 @@ msgid ""
 " for the trial function."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:99
+#: ../../aqua/algorithms.rst:101
 msgid ""
 "Refer to the documentation of :ref:`variational-forms`, :ref:`optimizers`"
 " and :ref:`initial-states` for more details."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:102
+#: ../../aqua/algorithms.rst:104
 msgid "Additionally, VQE can be configured with the following parameters:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:104 ../../aqua/algorithms.rst:168
+#: ../../aqua/algorithms.rst:106 ../../aqua/algorithms.rst:177
 msgid ""
 "A ``str`` value indicating the mode used by the ``Operator`` class for "
 "the computation:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:110 ../../aqua/algorithms.rst:174
+#: ../../aqua/algorithms.rst:112 ../../aqua/algorithms.rst:183
 msgid ""
 "If no value for ``operator_mode`` is specified, the default is "
 "``\"matrix\"``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:112 ../../aqua/algorithms.rst:184
+#: ../../aqua/algorithms.rst:118 ../../aqua/algorithms.rst:193
 msgid "The initial point for the search of the minimum eigenvalue:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:118
+#: ../../aqua/algorithms.rst:124
 msgid ""
 "An optional list of ``float`` values  may be provided as the starting "
 "point for the search of the minimum eigenvalue. This feature is "
@@ -223,12 +223,11 @@ msgid ""
 "profile of a molecule, it is likely that using the previous computed "
 "optimal solution as the starting initial point for the next interatomic "
 "distance is going to reduce the number of iterations necessary for the "
-"variational algorithm to converge.  Aqua provides `a tutorial detailing "
-"this use case <https://github.com/Qiskit/aqua-"
-"tutorials/blob/master/chemistry/h2_vqe_initial_point.ipynb>`__."
+"variational algorithm to converge.  Aqua provides an `initial point "
+"tutorial`_ detailing this use case."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:126
+#: ../../aqua/algorithms.rst:133
 msgid ""
 "The length of the ``initial_point`` list value must match the number of "
 "the parameters expected by the variational form being used. If the user "
@@ -244,7 +243,7 @@ msgstr ""
 msgid "Declarative Name"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:136
+#: ../../aqua/algorithms.rst:145
 msgid ""
 "When referring to VQE declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``VQE``."
@@ -253,15 +252,15 @@ msgstr ""
 msgid "Problems Supported"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:141
+#: ../../aqua/algorithms.rst:150
 msgid "In Aqua, VQE supports the ``energy`` and ``ising`` problems."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:147
+#: ../../aqua/algorithms.rst:156
 msgid "Quantum Approximate Optimization Algorithm (QAOA)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:149
+#: ../../aqua/algorithms.rst:158
 msgid ""
 "`QAOA <https://arxiv.org/abs/1411.4028>`__ is a well-known algorithm for "
 "finding approximate solutions to combinatorial-optimization problems. The"
@@ -278,64 +277,64 @@ msgid ""
 ":`initial-states` library may be supplied as well."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:164
+#: ../../aqua/algorithms.rst:173
 msgid ""
 "Consult the documentation on :ref:`optimizers` and :ref:`initial-states` "
 "for more details."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:166
+#: ../../aqua/algorithms.rst:175
 msgid "In summary, QAOA can be configured with the following parameters:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:176
+#: ../../aqua/algorithms.rst:185
 msgid ""
 "A positive ``int`` value configuring the QAOA variational form depth, as "
 "discussed above:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:182
+#: ../../aqua/algorithms.rst:191
 msgid "This has to be a positive ``int`` value.  The default is ``1``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:190
+#: ../../aqua/algorithms.rst:199
 msgid ""
 "An optional list of :math:`2p` ``float`` values  may be provided as the "
-"starting ``beta`` and ``gamma`` parameters (as identically named in the "
+"starting ``beta`` and ``gamma`` parameters  (as identically named in the "
 "original `QAOA paper <https://arxiv.org/abs/1411.4028>`__) for the QAOA "
 "variational form. If such list is not provided, QAOA will simply start "
 "with the all-zero vector."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:194
+#: ../../aqua/algorithms.rst:204
 msgid ""
 "An optional ``Operator`` may be provided as a custom mixer Hamiltonian. "
 "This allows, as discussed in `this paper "
-"<https://doi.org/10.1103/PhysRevApplied.5.034007>` for quantum annealing,"
-" and in `this paper <https://arxiv.org/abs/1709.03489>` for QAOA, to run "
-"constrained optimization problems where the mixer constrains the "
-"evolution to a feasible subspace of the full Hilbert space."
+"<https://doi.org/10.1103/PhysRevApplied.5.034007>`__ for quantum "
+"annealing, and in `this paper <https://arxiv.org/abs/1709.03489>`__ for "
+"QAOA, to run constrained optimization problems where the mixer constrains"
+" the evolution to a feasible subspace of the full Hilbert space."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:199
+#: ../../aqua/algorithms.rst:210
 msgid "Similar to VQE, an optimizer may also be specified."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:203
+#: ../../aqua/algorithms.rst:214
 msgid ""
 "When referring to QAOA declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``QAOA.Variational``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:209
+#: ../../aqua/algorithms.rst:220
 msgid "In Aqua, QAOA supports the ``ising`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:215
+#: ../../aqua/algorithms.rst:226
 msgid "Evolution of Hamiltonian (EOH)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:217
+#: ../../aqua/algorithms.rst:228
 msgid ""
 "EOH provides the lower-level building blocks for simulating universal "
 "quantum systems. For any given quantum system that can be decomposed into"
@@ -345,78 +344,78 @@ msgid ""
 "method or Trotter-Suzuki decomposition."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:226
+#: ../../aqua/algorithms.rst:237
 msgid "This algorithm only supports the local state vector simulator."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:228
+#: ../../aqua/algorithms.rst:239
 msgid "EOH can be configured with the following parameter settings:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:230
+#: ../../aqua/algorithms.rst:241
 msgid "Evolution time:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:236
+#: ../../aqua/algorithms.rst:247
 msgid ""
 "A ``float`` value is expected.  The minimum value is ``0.0``.  The "
 "default value is ``1.0``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:238
+#: ../../aqua/algorithms.rst:249
 msgid "The evolution mode of the computation:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:244
+#: ../../aqua/algorithms.rst:255
 msgid ""
 "Two ``str`` values are permitted: ``\"matrix\"`` or ``\"circuit\"``, with"
 " ``\"circuit\"`` being the default."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:246 ../../aqua/algorithms.rst:309
+#: ../../aqua/algorithms.rst:258 ../../aqua/algorithms.rst:322
 msgid "The number of time slices:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:252
+#: ../../aqua/algorithms.rst:264
 msgid "This has to be a non-negative ``int`` value.  The default is ``1``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:254 ../../aqua/algorithms.rst:317
+#: ../../aqua/algorithms.rst:266 ../../aqua/algorithms.rst:330
 msgid "The expansion mode:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:260 ../../aqua/algorithms.rst:323
+#: ../../aqua/algorithms.rst:272 ../../aqua/algorithms.rst:336
 msgid ""
 "Two ``str`` values are permitted: ``\"trotter\"`` (Lloyd's method) or "
 "``\"suzuki\"`` (for Trotter-Suzuki expansion), with  ``\"trotter\"`` "
 "being the default one."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:263 ../../aqua/algorithms.rst:327
+#: ../../aqua/algorithms.rst:275 ../../aqua/algorithms.rst:340
 msgid "The expansion order:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:269
+#: ../../aqua/algorithms.rst:281 ../../aqua/algorithms.rst:346
 msgid ""
 "This parameter sets the Trotter-Suzuki expansion order.  A positive "
-"``int`` value is expected.  The default value is ``2``."
+"``int`` value is expected. The default value is ``2``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:273
+#: ../../aqua/algorithms.rst:286
 msgid ""
 "When referring to EOH declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``EOH``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:278
+#: ../../aqua/algorithms.rst:291
 msgid "In Aqua, EOH supports the ``eoh`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:284
+#: ../../aqua/algorithms.rst:297
 msgid "Quantum Phase Estimation (QPE)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:286
+#: ../../aqua/algorithms.rst:299
 msgid ""
 "QPE (also sometimes abbreviated as PEA, for *Phase Estimation "
 "Algorithm*), takes two quantum registers, *control* and *target*, where "
@@ -434,53 +433,47 @@ msgid ""
 "such trial eigen wave functions."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:303
+#: ../../aqua/algorithms.rst:316
 msgid ""
 "Consult the documentation on :ref:`iqfts` and :ref:`initial-states` for "
 "more details."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:306
+#: ../../aqua/algorithms.rst:319
 msgid ""
 "In addition to requiring an IQFT and an initial state as part of its "
 "configuration, QPE also exposes the following parameter settings:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:315
+#: ../../aqua/algorithms.rst:328
 msgid "This has to be a non-negative ``int`` value.  The default value is ``1``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:333
-msgid ""
-"This parameter sets the Trotter-Suzuki expansion order.  A positive "
-"``int`` value is expected. The default value is ``2``."
-msgstr ""
-
-#: ../../aqua/algorithms.rst:336
+#: ../../aqua/algorithms.rst:349
 msgid "The number of ancillae:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:342
+#: ../../aqua/algorithms.rst:355
 msgid ""
 "This parameter sets the number of ancillary qubits to be used by QPE.  A "
 "positive ``int`` value is expected. The default value is ``1``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:347
+#: ../../aqua/algorithms.rst:360
 msgid ""
 "When referring to QPE declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``QPE``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:352
+#: ../../aqua/algorithms.rst:365
 msgid "In Aqua, QPE supports the ``energy`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:358
+#: ../../aqua/algorithms.rst:371
 msgid "Iterative Quantum Phase Estimation (IQPE)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:360
+#: ../../aqua/algorithms.rst:373
 msgid ""
 "IQPE, as its name suggests, iteratively computes the phase so as to "
 "require fewer qubits. It takes in the same set of parameters as `QPE "
@@ -490,117 +483,116 @@ msgid ""
 "Inverse Quantum Fourier Transform (IQFT) is not used for IQPE."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:370
+#: ../../aqua/algorithms.rst:383
 msgid ""
 "For more details, please see `arXiv:quant-ph/0610214 "
 "<https://arxiv.org/abs/quant-ph/0610214>`__."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:374
+#: ../../aqua/algorithms.rst:388
 msgid ""
 "When referring to IQPE declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``IQPE``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:379
+#: ../../aqua/algorithms.rst:393
 msgid "In Aqua, IQPE supports the ``energy`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:386
+#: ../../aqua/algorithms.rst:400
 msgid "Amplitude Estimation"
-msgstr ""
-
-#: ../../aqua/algorithms.rst:388
-msgid ""
-"*Amplitude Estimation* is a derivative of -  :ref:`Quantum Phase "
-"Estimation (QPE)` applied to a particular operator :math:`A`. :math:`A` "
-"is assumed to operate on :math:`n + 1` qubits (plus possible ancillary "
-"qubits) where the :math:`n` qubits represent the uncertainty (in the form"
-" of a random distribution from the :ref:`random-distributions` library) "
-"and the last qubit, called the *objective qubit*, is used to represent "
-"the normalized objective value as its amplitude. In other words, "
-":math:`A` is constructed such that the probability of measuring a '1' in "
-"the objective qubit is equal to the value of interest."
 msgstr ""
 
 #: ../../aqua/algorithms.rst:402
 msgid ""
-"Consult the documentation on -  :ref:`Quantum Phase Estimation (QPE)` for"
-" more details. Also, see `arXiv:1806.06893 "
-"<https://arxiv.org/abs/1806.06893>`_ for more details on Amplitude "
-"Estimation as well as its applications on finance problems."
+"*Amplitude Estimation* is a derivative of -  :ref:`qpe` applied to a "
+"particular operator :math:`A`. :math:`A` is assumed to operate on "
+":math:`n + 1` qubits (plus possible ancillary qubits) where the :math:`n`"
+" qubits represent the uncertainty (in the form of a random distribution "
+"from the :ref:`random-distributions` library) and the last qubit, called "
+"the *objective qubit*, is used to represent the normalized objective "
+"value as its amplitude. In other words, :math:`A` is constructed such "
+"that the probability of measuring a '1' in the objective qubit is equal "
+"to the value of interest."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:406
+#: ../../aqua/algorithms.rst:416
+msgid ""
+"Consult the documentation on -  :ref:`qpe` for more details. Also, see "
+"`arXiv:1806.06893 <https://arxiv.org/abs/1806.06893>`_ for more details "
+"on Amplitude Estimation as well as its applications on finance problems."
+msgstr ""
+
+#: ../../aqua/algorithms.rst:420
 msgid ""
 "In addition to relying on a ``QPE`` component for building the Quantum "
 "Phase Estimation circuit, in order to be properly constructed, an "
 "``AmplitudeEstimation`` algorithm object expects the following inputs:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:411
+#: ../../aqua/algorithms.rst:425
 msgid "The number of evaluation qubits:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:417
+#: ../../aqua/algorithms.rst:431
 msgid "This has to be a positive ``int`` value."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:419
+#: ../../aqua/algorithms.rst:433
 msgid "The uncertainty problem:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:425
+#: ../../aqua/algorithms.rst:439
 msgid ""
 "A ``CircuitFactory`` object that represents the uncertainty problem, "
 "i.e., the :math:`A` operator mentioned above."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:428
+#: ../../aqua/algorithms.rst:442
 msgid "The optional problem unitary:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:434
+#: ../../aqua/algorithms.rst:448
 msgid ""
 "An optional ``CircuitFactory`` object that represents the problem "
 "unitary, which, if left unspecified, will be automatically constructed "
 "from the ``a_factory``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:437
+#: ../../aqua/algorithms.rst:451
 msgid "The Inverse Quantum Fourier Transform component:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:443
+#: ../../aqua/algorithms.rst:457
 msgid ""
 "The Inverse Quantum Fourier Transform pluggable component that's to be "
 "used to configure the ``PhaseEstimation`` component. The standard iqft "
 "will be used by default if left None."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:449
+#: ../../aqua/algorithms.rst:463
 msgid ""
 "When referring to Amplitude Estimation declaratively inside Aqua, its "
 "code ``name``, by which Aqua dynamically discovers and loads it, is "
 "``AmplitudeEstimation``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:454
+#: ../../aqua/algorithms.rst:468
 msgid "In Aqua, Amplitude Estimation supports the ``uncertainty`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:461
+#: ../../aqua/algorithms.rst:475
 msgid "Quantum Grover Search"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:463
+#: ../../aqua/algorithms.rst:477
 msgid ""
 "Grover’s Search is a well known quantum algorithm for searching through "
 "unstructured collections of records for particular targets with quadratic"
 " speedup compared to classical algorithms."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:467
+#: ../../aqua/algorithms.rst:481
 msgid ""
 "Given a set :math:`X` of :math:`N` elements "
 ":math:`X=\\{x_1,x_2,\\ldots,x_N\\}` and a boolean function :math:`f : X "
@@ -620,7 +612,7 @@ msgid ""
 ":math:`\\mathcal{O}(\\sqrt{N})` queries."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:483
+#: ../../aqua/algorithms.rst:497
 msgid ""
 "All that is needed for carrying out a search is an Grover oracle from "
 "Aqua's :ref:`oracles` library for specifying the search criterion, which "
@@ -629,23 +621,23 @@ msgid ""
 ":math:`f` as specified above.  Given an input :math:`x \\in X`, "
 ":math:`O_f` implements :math:`f(x)`.  The details of how :math:`O_f` "
 "works are unimportant; Grover's search algorithm treats the oracle as a "
-"black box. Currently, Aqua provides a :ref:`logic_expr_oracle` and a "
-":ref:`truth_table_oracle`, both of which can be used in Grover's search "
-"tasks. In particular, the :ref:`logic_expr_oracle` can take as input a "
-"SAT problem instance in `DIMACS CNF format "
+"black box. Currently, Aqua provides a :ref:`logical-expression-oracle` "
+"and a :ref:`truth-table-oracle`, both of which can be used in Grover's "
+"search tasks. In particular, the :ref:`logical-expression-oracle` can "
+"take as input a SAT problem instance in `DIMACS CNF format "
 "<http://www.satcompetition.org/2009/format-benchmarks2009.html>`__ and "
 "constructs the corresponding quantum circuit, which can then be fed to "
 "the Grover algorithm to find a satisfiable assignment."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:499
+#: ../../aqua/algorithms.rst:513
 msgid ""
 "Oracles are treated as pluggable components in Aqua; researchers "
 "interested in :ref:`aqua-extending` can design and implement new oracles "
 "and extend Aqua's oracle library."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:504
+#: ../../aqua/algorithms.rst:518
 msgid ""
 "Grover's Search by default uses uniform superposition to initialize its "
 "quantum state. However, an initial state from Aqua's :ref:`initial-"
@@ -654,19 +646,19 @@ msgid ""
 "knowledge regarding where the search target(s) might be located."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:514
+#: ../../aqua/algorithms.rst:528
 msgid "Refer to the documentation :ref:`initial-states` for more details."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:517
+#: ../../aqua/algorithms.rst:531
 msgid "Grover can also be configured with the following parameter settings:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:519
+#: ../../aqua/algorithms.rst:533
 msgid "Number of iterations:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:525
+#: ../../aqua/algorithms.rst:539
 msgid ""
 "For the conventional Grover's search algorithm, the parameter "
 "``num_iterations`` is used to specify how many times the marking and "
@@ -675,11 +667,11 @@ msgid ""
 " ``1``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:531
+#: ../../aqua/algorithms.rst:545
 msgid "Incremental mode flag:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:537
+#: ../../aqua/algorithms.rst:551
 msgid ""
 "When run in ``incremental`` mode, the search task will be carried out in "
 "successive rounds, using circuits built with incrementally higher number "
@@ -692,22 +684,22 @@ msgid ""
 "parameter ``num_iterations`` will be ignored."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:551
+#: ../../aqua/algorithms.rst:565
 msgid ""
 "When referring to Quantum Grover Search declaratively inside Aqua, its "
 "code ``name``, by which Aqua dynamically discovers and loads it, is "
 "``Grover``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:556
+#: ../../aqua/algorithms.rst:570
 msgid "In Aqua, Grover's Search algorithm supports the ``search`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:562
+#: ../../aqua/algorithms.rst:576
 msgid "Deutsch-Jozsa"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:564
+#: ../../aqua/algorithms.rst:578
 msgid ""
 "The Deutsch-Jozsa algorithm was one of the first known quantum algorithms"
 " that showed an exponential speedup compared to a deterministic (non-"
@@ -723,24 +715,24 @@ msgid ""
 "expression-oracle` can certainly also be used."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:578
+#: ../../aqua/algorithms.rst:592
 msgid ""
 "When referring to Deutsch-Jozsa declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is "
 "``DeutschJozsa``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:584
+#: ../../aqua/algorithms.rst:598
 msgid ""
 "In Aqua, the Deutsch-Jozsa algorithm supports the ``functionevaluation`` "
 "problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:591
+#: ../../aqua/algorithms.rst:605
 msgid "Bernstein-Vazirani"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:593
+#: ../../aqua/algorithms.rst:607
 msgid ""
 "The Bernstein-Vazirani algorithm is an extension / restriction of the "
 "Deutsch-Jozsa algorithm. The goal of the algorithm is to determine a "
@@ -749,24 +741,24 @@ msgid ""
 " :math:`f(x)=s \\cdot x (\\bmod 2)`."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:601
+#: ../../aqua/algorithms.rst:615
 msgid ""
 "When referring to Bernstein-Vazirani declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is "
 "``BernsteinVazirani``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:607
+#: ../../aqua/algorithms.rst:621
 msgid ""
 "In Aqua, the Bernstein-Vazirani algorithm supports the "
 "``hiddenstringfinding`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:614
+#: ../../aqua/algorithms.rst:628
 msgid "Simon"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:616
+#: ../../aqua/algorithms.rst:630
 msgid ""
 "The Simon algorithm finds a hidden integer :math:`s \\in \\{0,1\\}^n` "
 "from an oracle :math:`f_s` that satisfies :math:`f_s(x) = f_s(y)` if and "
@@ -778,21 +770,21 @@ msgid ""
 " one that can be used with the Simon algorith."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:628
+#: ../../aqua/algorithms.rst:642
 msgid ""
 "When referring to Simon declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``Simon``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:633
+#: ../../aqua/algorithms.rst:647
 msgid "In Aqua, the Simon algorithm supports the ``periodfinding`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:639
+#: ../../aqua/algorithms.rst:653
 msgid "Quantum Support Vector Machine (QSVM)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:641
+#: ../../aqua/algorithms.rst:655
 msgid ""
 "Classification algorithms and methods for machine learning are essential "
 "for pattern recognition and data mining applications. Well known "
@@ -804,7 +796,7 @@ msgid ""
 "classification problems that soon became increasingly challenging."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:650
+#: ../../aqua/algorithms.rst:664
 msgid ""
 "A key concept in classification methods is that of a kernel. Data cannot "
 "typically be separated by a hyperplane in its original space. A common "
@@ -823,7 +815,7 @@ msgid ""
 "are not."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:666
+#: ../../aqua/algorithms.rst:680
 msgid ""
 "The QSVM algorithm applies to classification problems that require a "
 "feature map for which computing the kernel is not efficient classically. "
@@ -837,31 +829,31 @@ msgid ""
 "to the solution found in the training phase)."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:677
+#: ../../aqua/algorithms.rst:691
 msgid ""
 "QSVM can be configured with a ``bool`` parameter, indicating whether or "
 "not to print additional information when the algorithm is running:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:684
+#: ../../aqua/algorithms.rst:698
 msgid "The default is ``False``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:688
+#: ../../aqua/algorithms.rst:702
 msgid ""
 "When referring to QSVM declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``QSVM``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:693
+#: ../../aqua/algorithms.rst:707
 msgid "In Aqua, QSVM  supports the ``classification`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:699
+#: ../../aqua/algorithms.rst:713
 msgid "Variational Quantum Classifier (VQC)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:701
+#: ../../aqua/algorithms.rst:715
 msgid ""
 "Similar to QSVM, the VQC algorithm also applies to classification "
 "problems. VQC uses the variational method to solve such problems in a "
@@ -869,45 +861,45 @@ msgid ""
 "circuit to provide a solution that cleanly separates the data."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:707
+#: ../../aqua/algorithms.rst:721
 msgid "VQC can be configured with the following parameters:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:709
+#: ../../aqua/algorithms.rst:723
 msgid "The depth of the variational circuit to be optimized:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:715
+#: ../../aqua/algorithms.rst:729
 msgid ""
 "An integer value greater than or equal to ``3`` is expected.  The default"
 " is ``3``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:717
+#: ../../aqua/algorithms.rst:731
 msgid ""
 "A Boolean indicating whether or not to print additional information when "
 "the algorithm is running:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:724
+#: ../../aqua/algorithms.rst:738
 msgid "A ``bool`` value is expected.  The default is ``False``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:728
+#: ../../aqua/algorithms.rst:742
 msgid ""
 "When referring to VQC declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``VQC``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:733
+#: ../../aqua/algorithms.rst:747
 msgid "In Aqua, VQC  supports the ``classification`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:739
+#: ../../aqua/algorithms.rst:753
 msgid "HHL algorithm for solving linear systems (HHL)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:741
+#: ../../aqua/algorithms.rst:755
 msgid ""
 "The *HHL algorithm* (after the author's surnames Harrow-Hassidim-Lloyd) "
 "is a quantum algorithm to solve systems of linear equations "
@@ -927,7 +919,7 @@ msgid ""
 "quantum program."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:757
+#: ../../aqua/algorithms.rst:771
 msgid ""
 "When HHL is executed using a dictionary non-hermitian matrices and "
 "matrices with dimensions other than :math:`2^{n}` are automatically "
@@ -936,7 +928,7 @@ msgid ""
 "matrices will be truncated."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:762
+#: ../../aqua/algorithms.rst:776
 msgid ""
 "A Boolean indicating whether or not to truncate matrix and result vector "
 "from dimension :math:`2^{n}` to dimension given by ``orig_size`` by "
@@ -945,11 +937,11 @@ msgid ""
 "does not have dimension :math:`2^{n}`."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:772 ../../aqua/algorithms.rst:807
+#: ../../aqua/algorithms.rst:786 ../../aqua/algorithms.rst:821
 msgid "A ``bool`` value is expected. The default is ``False``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:774
+#: ../../aqua/algorithms.rst:788
 msgid ""
 "An integer defining the dimension of the input matrix and vector before "
 "expansion to dimension :math:`2^{n}` has been applied. This parameter is "
@@ -958,22 +950,22 @@ msgid ""
 "the input does not have dimension :math:`2^{n}`."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:784
+#: ../../aqua/algorithms.rst:798
 msgid "An ``int`` value or ``None`` is epxected. The defult is ``None``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:786
+#: ../../aqua/algorithms.rst:800
 msgid ""
 "A Boolean indicating whether or not to truncate matrix and result vector "
 "to half the dimension by simply cutting off entries with other indices "
 "after the input matrix was expanded to be hermitian following"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:790
+#: ../../aqua/algorithms.rst:804
 msgid "\\begin{pmatrix} 0 & A^\\mathsf{H}\\\\ A & 0 \\end{pmatrix}"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:797
+#: ../../aqua/algorithms.rst:811
 msgid ""
 "where the conjugate transpose of matrix :math:`A` is denoted by "
 ":math:`A^\\mathsf{H}`. The truncation of the result vector is done by "
@@ -982,35 +974,35 @@ msgid ""
 "matrix is not hermitian."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:812
+#: ../../aqua/algorithms.rst:826
 msgid ""
 "Consult the documentation on :ref:`iqfts`,  :ref:`initial-states`, "
 ":ref:`eigs`, :ref:`reciprocals` for more details. `The original paper is "
 "accessible on arxiv. <https://arxiv.org/abs/0811.3171>`__"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:815
+#: ../../aqua/algorithms.rst:830
 msgid ""
 "HHL requires eigenvalue estimation using QPE (:ref:`eigs`), the "
 "eigenvalue inversion (:ref:`reciprocals`), and a matrix and initial state"
 " as part of its configuration."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:822
+#: ../../aqua/algorithms.rst:837
 msgid ""
 "When referring to HHL declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``HHL``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:827
+#: ../../aqua/algorithms.rst:842
 msgid "In Aqua, HHL supports the ``linear_system`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:834
+#: ../../aqua/algorithms.rst:849
 msgid "Shor's Factory Algorithm (Shor)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:836
+#: ../../aqua/algorithms.rst:851
 msgid ""
 "Shor's Factoring algorithm is one of the most well-known quantum "
 "algorithms. It takes advantage of :ref:`iqfts` circuits and finds the "
@@ -1019,7 +1011,7 @@ msgid ""
 "<https://github.com/ttlion/ShorAlgQiskit>`__."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:842
+#: ../../aqua/algorithms.rst:857
 msgid ""
 "The input integer ``N`` (defaulted to 15 if omitted) to be factored is "
 "expected to be odd and greater than 2. Even though our implementation is "
@@ -1029,28 +1021,28 @@ msgid ""
 "``N``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:851
+#: ../../aqua/algorithms.rst:866
 msgid ""
 "For more details, please see `this implementation "
 "<https://github.com/ttlion/ShorAlgQiskit>`__ and `this paper "
 "<https://arxiv.org/abs/quant-ph/0205095>`__."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:856
+#: ../../aqua/algorithms.rst:871
 msgid ""
 "When referring to Shor's algorithm declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is ``Shor``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:861
+#: ../../aqua/algorithms.rst:876
 msgid "In Aqua, Shor's algorithm supports the ``factoring`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:867
+#: ../../aqua/algorithms.rst:882
 msgid "Quantum Generative Adversarial Network(qGAN)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:869
+#: ../../aqua/algorithms.rst:884
 msgid ""
 "`qGAN <https://arxiv.org/abs/1904.00043>`__ is a hybrid quantum-classical"
 " algorithm used for generative modelling tasks. The qGAN implementation "
@@ -1066,59 +1058,61 @@ msgid ""
 "is a model of the target distribution."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:884
-msgid "#"
+#: ../../aqua/algorithms.rst:897
+msgid ""
+"For more details, please see `this paper "
+"<https://arxiv.org/abs/1904.00043>`__"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:886
+#: ../../aqua/algorithms.rst:900
 msgid "In summary, qGAN can be configured with the following parameters:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:888
+#: ../../aqua/algorithms.rst:902
 msgid ""
 "An ``array`` indicating the numbers of qubits for d qubit registers, "
 "where d is dimension of the training data:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:894
+#: ../../aqua/algorithms.rst:909
 msgid ""
 "If no value for ``num_qubits`` is specified, the default is ``[3, 3, ...,"
 " 3]``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:896
+#: ../../aqua/algorithms.rst:911
 msgid ""
 "A positive ``int`` value configuring the batch size for batching the "
 "training data:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:902
+#: ../../aqua/algorithms.rst:917
 msgid "This has to be a positive ``int`` value.  The default is ``500``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:904
+#: ../../aqua/algorithms.rst:919
 msgid "A positive ``int`` value configuring the number of training epochs:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:910
+#: ../../aqua/algorithms.rst:925
 msgid "This has to be a positive ``int`` value.  The default is ``3000``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:912
+#: ../../aqua/algorithms.rst:927
 msgid ""
 "A positive ``int`` value configuring the seed for random values: .. "
 "code:: python"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:915
+#: ../../aqua/algorithms.rst:930
 msgid "seed = 1 | 2 | ..."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:917
+#: ../../aqua/algorithms.rst:932
 msgid "This has to be a positive ``int`` value.  The default is ``7``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:921
+#: ../../aqua/algorithms.rst:934
 msgid ""
 "An optional positive ``float`` value for setting a tolerance for relative"
 " entropy. If the training results in a state such that the relative "
@@ -1126,27 +1120,27 @@ msgid ""
 "halt."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:929
+#: ../../aqua/algorithms.rst:942
 msgid ""
 "An optional ``str`` to give a directory where the parameters computed "
 "throughout the training shall be stored in CSV format."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:940
+#: ../../aqua/algorithms.rst:951
 msgid ""
 "When referring to qGAN declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it is ``QGAN``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:945
+#: ../../aqua/algorithms.rst:956
 msgid "In Aqua, qGAN supports the ``distribution_learning_loading`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:956
+#: ../../aqua/algorithms.rst:967
 msgid "Classical Reference Algorithms"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:958
+#: ../../aqua/algorithms.rst:969
 msgid ""
 "In this section, we describe the classical algorithms currently available"
 " in Aqua. While these algorithms do not use a quantum device or "
@@ -1155,18 +1149,18 @@ msgid ""
 "developing and testing quantum algorithms."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:966
+#: ../../aqua/algorithms.rst:977
 msgid ""
 "Aqua prevents associating a quantum device or simulator to any experiment"
 " that uses a classical algorithm.  The ``\"backend\"`` section of an "
 "experiment to be conducted via a classical algorithm is disabled."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:974
+#: ../../aqua/algorithms.rst:985
 msgid "Exact Eigensolver"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:976
+#: ../../aqua/algorithms.rst:987
 msgid ""
 "Exact Eigensolver computes up to the first :math:`k` eigenvalues of a "
 "complex-valued square matrix of dimension :math:`n \\times n`, with "
@@ -1174,30 +1168,30 @@ msgid ""
 "indicating the number of eigenvalues to compute:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:986
+#: ../../aqua/algorithms.rst:997
 msgid ""
 "Specifically, the value of this parameter must be an ``int`` value ``k`` "
 "in the range :math:`[1,n]`. The default is ``1``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:991
+#: ../../aqua/algorithms.rst:1002
 msgid ""
 "When referring to Exact Eigensolver declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is "
 "``ExactEigensolver``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:996
+#: ../../aqua/algorithms.rst:1007
 msgid ""
 "In Aqua, Exact Eigensolver supports the ``energy``, ``ising`` and "
 "``excited_states``  problems."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1002
+#: ../../aqua/algorithms.rst:1013
 msgid "Exact LSsolver"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1004
+#: ../../aqua/algorithms.rst:1015
 msgid ""
 "Exact LSsolver (linear system solver) computes the eigenvalues of a "
 "complex-valued square matrix :math:`A` of dimension :math:`n \\times n` "
@@ -1206,48 +1200,50 @@ msgid ""
 ":math:`\\overrightarrow{b}`."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1012
+#: ../../aqua/algorithms.rst:1023
 msgid ""
 "When referring to Exact LSsolver declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is "
 "``ExactLSsolver``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1017
+#: ../../aqua/algorithms.rst:1028
 msgid "In Aqua, Exact LSsolver supports the ``linear_system`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1023
+#: ../../aqua/algorithms.rst:1034
 msgid "CPLEX Ising"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1025
+#: ../../aqua/algorithms.rst:1036
 msgid ""
 "This algorithm uses the `IBM ILOG CPLEX Optimization Studio "
-"<https://www.ibm.com/support/knowledgecenter/SSSA5P_12.8.0/ilog.odms.studio.help/Optimization_Studio/topics/COS_home.html>`__,"
-" which should be installed along with its `Python API "
-"<https://www.ibm.com/support/knowledgecenter/SSSA5P_12.8.0/ilog.odms.cplex.help/CPLEX/GettingStarted/topics/set_up/Python_setup.html>`__"
-" for this algorithm to be operational. This algorithm currently supports "
-"computing the energy of an Ising model Hamiltonian."
+"<https://www.ibm.com/support/knowledgecenter/SSSA5P_12.8.0\\ "
+"/ilog.odms.studio.help/Optimization_Studio/topics/COS_home.html>`__, "
+"which should be installed along with its `Python API "
+"<https://www.ibm.com/support/knowledgecenter/SSSA5P_12.8.0/ilog.odms.cplex.help\\"
+" /CPLEX/GettingStarted/topics/set_up/Python_setup.html>`__ for this "
+"algorithm to be operational. This algorithm currently supports computing "
+"the energy of an Ising model Hamiltonian."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1032
+#: ../../aqua/algorithms.rst:1045
 msgid "CPLEX Ising can be configured with the following parameters:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1034
+#: ../../aqua/algorithms.rst:1047
 msgid "A time limit in seconds for the execution:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1040
+#: ../../aqua/algorithms.rst:1053
 msgid "A positive ``int`` value is expected.  The default value is `600`."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1042
+#: ../../aqua/algorithms.rst:1055
 msgid "The number of threads that CPLEX uses:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1048
+#: ../../aqua/algorithms.rst:1061
 msgid ""
 "A non-negative ``int`` value is expected. Setting ``thread`` to ``0`` "
 "lets CPLEX decide the number of threads to allocate, but this may not be "
@@ -1256,35 +1252,35 @@ msgid ""
 "problems."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1054
+#: ../../aqua/algorithms.rst:1067
 msgid ""
 "Decides what CPLEX reports to the screen and records in a log during "
 "mixed integer optimization (MIP)."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1061
+#: ../../aqua/algorithms.rst:1074
 msgid ""
 "An ``int`` value between ``0`` and ``5`` is expected. The amount of "
 "information displayed increases with increasing values of this parameter."
 " By default, this value is set to ``2``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1067
+#: ../../aqua/algorithms.rst:1080
 msgid ""
 "When referring to CPLEX Ising declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is "
 "``CPLEX.Ising``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1072
+#: ../../aqua/algorithms.rst:1085
 msgid "In Aqua, CPLEX supports the ``ising`` problem."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1078
+#: ../../aqua/algorithms.rst:1091
 msgid "Support Vector Machine Radial Basis Function Kernel (SVM Classical)"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1080
+#: ../../aqua/algorithms.rst:1093
 msgid ""
 "SVM Classical uses a classical approach to experiment with feature map "
 "classification problems. SVM Classical can be configured with a ``bool`` "
@@ -1292,17 +1288,17 @@ msgid ""
 " the algorithm is running:"
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1089
+#: ../../aqua/algorithms.rst:1102
 msgid "The default value for this parameter is ``False``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1093
+#: ../../aqua/algorithms.rst:1106
 msgid ""
 "When referring to SVM Classical declaratively inside Aqua, its code "
 "``name``, by which Aqua dynamically discovers and loads it, is ``SVM``."
 msgstr ""
 
-#: ../../aqua/algorithms.rst:1098
+#: ../../aqua/algorithms.rst:1111
 msgid "In Aqua, SVM Classical supports the ``classification`` problem."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "qiskit.providers.ibmq.api\\_v2.rest.backend module"
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest.backend:1
-msgid "Backend REST adapter for the IBM Q Api version 2."
+msgid "Backend REST adapter for the IBM Q Experience v2 API."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest.backend.Backend:1
@@ -35,6 +35,10 @@ msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest.backend.Backend.properties:1
 msgid "Return backend properties."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.backend.Backend.pulse_defaults:1
+msgid "Return backend pulse defaults."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest.backend.Backend.status:1

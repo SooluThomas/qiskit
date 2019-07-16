@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,18 +25,60 @@ msgstr ""
 
 #: ../../aqua/circuit_collection.rst:7
 msgid ""
-"Aqua provides easy access to a collection of commonly used circuits and "
-"gates to be used as the building blocks for various components, "
-"algorithms and applications. The gates can be enabled by corresponding "
-"imports from ``qiskit.aqua.circuits.gates`` and then directly invoked "
-"from ``QuantumCircuit`` objects. The circuits can be accessed by "
-"importing corresponding classes from ``qiskit.aqua.circuits``."
+"Aqua provides easy access to a collection of commonly used :ref"
+":`collection-circuits` and :ref:`collection-gates` to be used as the "
+"building blocks for various components, algorithms and applications. The "
+"gates can be enabled by corresponding imports from "
+"``qiskit.aqua.circuits.gates`` and then directly invoked from "
+"``QuantumCircuit`` objects. The circuits can be accessed by importing "
+"corresponding classes from ``qiskit.aqua.circuits``."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:18
+msgid "Gates"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:20
+msgid "The following gates are part of the collection:"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:22
+msgid ":ref:`mct`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:23
+msgid ":ref:`rpt`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:24
+msgid ":ref:`mcmt`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:25
+msgid ":ref:`ch-gate`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:26
+msgid ":ref:`cry-gate`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:27
+msgid ":ref:`mcr-gates`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:28
+msgid ":ref:`mcu1-gate`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:29
+msgid ":ref:`logical-gates`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:35
 msgid "Multiple-Control Toffoli (MCT) Gate"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:19
+#: ../../aqua/circuit_collection.rst:37
 msgid ""
 "The *Multiple-Control Toffoli (mct)* gate, as the name suggests, is a "
 "generalization of the traditional Toffoli gate s.t. one target qubit is "
@@ -46,7 +88,7 @@ msgid ""
 "search."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:25
+#: ../../aqua/circuit_collection.rst:43
 msgid ""
 "For the different numbers 0, 1, 2, … of controls, we have corresponding "
 "quantum gates ``x``, ``cx``, ``ccx``, ... The first three are basic/well-"
@@ -54,7 +96,7 @@ msgid ""
 "numbers of controls, in particular, 3 or above."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:30
+#: ../../aqua/circuit_collection.rst:48
 msgid ""
 "Currently four different implementation strategies are included: *basic*,"
 " *basic-dirty-ancilla*, *advanced*, and *noancilla*. The basic mode "
@@ -72,10 +114,10 @@ msgid ""
 "This uses a technique of spliting multiple-control Toffoli operations, "
 "which is efficient up to 8 controls but gets inefficient in the number of"
 " required basic gates for values above. This technique relies on "
-"``mcu1``, see :ref:`mcux` for more information."
+"``mcu1``, see :ref:`mcu1 gate <mcu1-gate>` for more information."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:51
+#: ../../aqua/circuit_collection.rst:69
 msgid ""
 "Aqua's MCT gate can be invoked from a ``QuantumCircuit`` object using the"
 " ``mct`` API, which expects a list ``q_controls`` of control qubits, a "
@@ -86,10 +128,11 @@ msgid ""
 "``'basic'``."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:82
 msgid "Relative-Phase Toffoli Gates"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:64
+#: ../../aqua/circuit_collection.rst:84
 msgid ""
 "Toffoli gates are helpful in implementing various other quantum circuits,"
 " including the Multiple-Control Toffoli gates discussed above. However, "
@@ -103,33 +146,11 @@ msgid ""
 "objects similar to the traditional Toffoli ``ccx`` gate."
 msgstr ""
 
-msgid "Multiple-Control U1 and U3 Rotation (MCU1 and MCU3) Gates"
-msgstr ""
-
-#: ../../aqua/circuit_collection.rst:81
-msgid ""
-"The *Multiple-Control Rotation (mcu)* gates, implements a U1 (`u1`) and a"
-" U3 (`u3`) rotations on a single target qubit with an arbitrary number of"
-" control qubits. The MCU1 operation takes one rotation angle as input "
-"parameter, whereas the MCU3 operation takes three for arbitrary "
-"rotations. No ancillary qubits are needed. It is efficiently implemented "
-"by using a grey code sequence for up to 8 control qubits. For larger "
-"number of controls this implementation gets very inefficient."
-msgstr ""
-
-#: ../../aqua/circuit_collection.rst:89
-msgid ""
-"Aqua's ``mcu1`` and ``mcu3`` operations can be invoked from a "
-"``QuantumCircuit`` object and expect a list ``control_qubits`` of control"
-" qubits and a target qubit ``target_qubit`` as well as an angle ``theta``"
-" for the mcu1 and additionally two angles ``phi`` and ``lam`` for the "
-"mcu3."
-msgstr ""
-
+#: ../../aqua/circuit_collection.rst:101
 msgid "Multiple-Control Multiple-Target (MCMT) Gate"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:99
+#: ../../aqua/circuit_collection.rst:103
 msgid ""
 "The *Multiple-Control Multiple-Target (mcmt)* Gate, as the name suggests,"
 " allows to generalize a single-control, single-target gate (such as `cz`)"
@@ -138,14 +159,14 @@ msgid ""
 "target qubits if all the control qubits are active."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:105
+#: ../../aqua/circuit_collection.rst:109
 msgid ""
 "The kind of gate to apply can be passed as a parameter and should be a "
 "single control gate already defined for a ``QuantumCircuit`` object (such"
 " as ``QuantumCircuit.cz`` or ``QuantumCircuit.ch``)."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:109
+#: ../../aqua/circuit_collection.rst:113
 msgid ""
 "Currently, just one implementation strategy is implemented: *basic*. It "
 "employs almost the same strategy adopted for the basic mode of `mct`: "
@@ -154,7 +175,7 @@ msgid ""
 "the control of the single-control gate function."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:115
+#: ../../aqua/circuit_collection.rst:119
 msgid ""
 "This mode requires :math:`n-1` ancillary qubits, where :math:`n` is the "
 "number of controls. Compare this with ``mct`` mode which uses :math:`n-2`"
@@ -165,7 +186,7 @@ msgid ""
 "single-control gate function."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:123
+#: ../../aqua/circuit_collection.rst:127
 msgid ""
 "Aqua's mcmt operation can be invoked from a ``QuantumCircuit`` object "
 "using the ``mcmt`` API, which expects a list ``q_controls`` of control "
@@ -178,10 +199,11 @@ msgid ""
 "argument defaults to ``'basic'``."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:141
 msgid "Controlled-Hadamard Gate"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:137
+#: ../../aqua/circuit_collection.rst:143
 msgid ""
 "The controlled-Hadamard, or ``ch``, gate is already provided by Terra, "
 "but it uses two ``cx`` gates in its implementation. Aqua's ``ch`` gate "
@@ -190,40 +212,79 @@ msgid ""
 "difference."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:154
 msgid "Controlled-RY Gate"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:147
+#: ../../aqua/circuit_collection.rst:156
 msgid ""
 "The controlled-RY, or ``cry``, gate takes as input a rotation angle as "
 "well as the control and target qubits. Upon import, Aqua's ``cry`` can be"
 " directly invoked from QuantumCircuit objects."
 msgstr ""
 
-msgid "Multiple-Control RY Gate"
+#: ../../aqua/circuit_collection.rst:165
+msgid "Multiple-Control Rotation (MCRX, MCRY, MCRZ) Gates"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:155
+#: ../../aqua/circuit_collection.rst:167
 msgid ""
-"As an extension to the ``cry`` gate, the Multiple-Control RY, or "
-"``mcry``, gate takes as input a rotation angle as well as multiple "
-"controls qubits, a target qubit, and the anccillary register/qubits. Upon"
-" import, Aqua's ``mcry`` can be directly invoked from QuantumCircuit "
-"objects."
+"The *Multiple-Control Rotation (mcrx, mcry, mcrz)* gates, implements "
+"rotations around X-, Y-, and Z-axis on a single target qubit with an "
+"arbitrary number of control qubits. The MCR operations take one rotation "
+"angle as input parameter. The ``mcry`` gate supports two modes of "
+"operation: *basic* and *noancilla*. Mode *basic* takes an additional "
+"ancillary register to perform the rotation. See :ref:`mct gate <mct>` for"
+" more information. In mode *noancilla* no ancillary qubits are needed. "
+"This is the standard mode for ``mcrx`` and ``mcrz`` gates. It is "
+"efficiently implemented by using a grey code sequence for up to 8 control"
+" qubits. For larger number of controls this implementation gets very "
+"inefficient."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:179
+msgid ""
+"Aqua's ``mcrx``, ``mcry``, and ``mcrz`` operations can be invoked from a "
+"``QuantumCircuit`` object and expect a list ``control_qubits`` of control"
+" qubits and a target qubit ``target_qubit`` as well as an angle ``theta``"
+" for the ``mcrx`` and ``mcry`` operation or ``lam`` for the ``mcrz`` "
+"operation."
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:190
+msgid "Multiple-Control U1 (MCU1) Gate"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:192
+msgid ""
+"The *Multiple-Control Rotation (mcu1)* gate, implements a U1 (`u1`) "
+"rotation (phase rotation) on a single target qubit with an arbitrary "
+"number of control qubits. The MCU1 operation takes one rotation angle as "
+"input parameter. No ancillary qubits are needed. It is efficiently "
+"implemented by using a grey code sequence for up to 8 control qubits. For"
+" larger number of controls this implementation gets very inefficient."
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:199
+msgid ""
+"Aqua's ``mcu1`` operation can be invoked from a ``QuantumCircuit`` object"
+" and expect a list ``control_qubits`` of control qubits and a target "
+"qubit ``target_qubit`` as well as an angle ``lam``."
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:208
 msgid "Boolean Logical Gates"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:164
+#: ../../aqua/circuit_collection.rst:210
 msgid ""
 "Aqua also provides the logical *AND* and *OR* gates to mirror the "
 "corresponding classic logical operations. *OR* gates are converted to "
 "*AND* gates using De Morgan's Law. *AND* gates are implemented using "
-":ref:`mct`."
+":ref:`mct gate <mct>`."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:168
+#: ../../aqua/circuit_collection.rst:215
 msgid ""
 "The ``AND`` and ``OR`` gates can be invoked from a ``QuantumCircuit`` "
 "object. They both expect a ``qr_variables`` register holding the variable"
@@ -234,10 +295,31 @@ msgid ""
 "for ``mct``."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:228
+msgid "Circuits"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:230
+msgid "The following circuits are part of the collection:"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:232
+msgid ":ref:`logical-circuits`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:233
+msgid ":ref:`fourier-transform-circuits`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:234
+msgid ":ref:`statevector_circuit`"
+msgstr ""
+
+#: ../../aqua/circuit_collection.rst:241
 msgid "Boolean Logical Circuits"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:181
+#: ../../aqua/circuit_collection.rst:243
 msgid ""
 "Aqua provides a simple set of tools for constructing circuits from simple"
 " Boolean logical expressions. Currently three types of expressions are "
@@ -254,7 +336,7 @@ msgid ""
 "example, below is the AST for a simple CNF expression:"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:203
+#: ../../aqua/circuit_collection.rst:265
 msgid ""
 "The ``CNF``, ``DNF``, and ``ESOP`` objects, upon the aforementioned AST "
 "initialization, can generate their corresponding circuits from the API "
@@ -267,10 +349,11 @@ msgid ""
 "arguments are optional can will be properly handled if omitted."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:280
 msgid "Quantum Fourier Transform Circuits"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:218
+#: ../../aqua/circuit_collection.rst:282
 msgid ""
 "Quantum Fourier Transform is another technique commonly used in quantum "
 "algorithms, for example, Phase Estimation and the Shor's factoring "
@@ -283,17 +366,18 @@ msgid ""
 " circuits with the desired approximation degree."
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:228
+#: ../../aqua/circuit_collection.rst:292
 msgid ""
 "Besides being directly exposed as circuits, ``qft`` and ``iqft`` are also"
 " accessible as Aqua's pluggable ``components``. More detailed discussion "
-"on quantum Fourier transform can be found at :ref:`iqft`."
+"on quantum Fourier transform can be found at :ref:`iqfts`."
 msgstr ""
 
+#: ../../aqua/circuit_collection.rst:302
 msgid "Arbitrary State Vector Circuit"
 msgstr ""
 
-#: ../../aqua/circuit_collection.rst:237
+#: ../../aqua/circuit_collection.rst:304
 msgid ""
 "The circuit library also includes the ability to construct circuits from "
 "arbitrary state vectors, via the ``StateVectorCircuit`` class, which can "
