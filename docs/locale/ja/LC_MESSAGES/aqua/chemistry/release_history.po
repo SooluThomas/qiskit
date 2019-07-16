@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:19\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:29\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgid "In the `Qiskit <https://qiskit.org/>`__ ecosystem, `Aqua <https://qiskit.
 msgstr ""
 
 #: ../../aqua/chemistry/release_history.rst:25
-msgid "In this reelease of Qiskit Chemistry, we have added the following new features :"
+msgid "In this release of Qiskit Chemistry, we have added the following new features :"
 msgstr ""
 
 #: ../../aqua/chemistry/release_history.rst:28
@@ -50,7 +50,7 @@ msgid "Compatibility with Aer 0.1"
 msgstr ""
 
 #: ../../aqua/chemistry/release_history.rst:31
-msgid "Programmatic APIs for algorithms and components -- each component can now be instantiated and initialized via a single (non-empty) constructot call ``QuantumInstance`` API for algorithm/backend decoupling -- ``QuantumInstance`` encapsulates a backend and its settings"
+msgid "Programmatic APIs for algorithms and components -- each component can now be instantiated and initialized via a single (non-empty) constructor call ``QuantumInstance`` API for algorithm/backend decoupling -- ``QuantumInstance`` encapsulates a backend and its settings"
 msgstr ""
 
 #: ../../aqua/chemistry/release_history.rst:34
