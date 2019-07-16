@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 13:43+0000\n"
-"PO-Revision-Date: 2019-07-16 06:46\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:32\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +74,7 @@ msgid "Learn how members of the Qiskit community"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:33
-msgid "`Relate to one another <https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
+msgid "`Relate to one another <https://github.com/Qiskit/qiskit/blob/master/CODE_OF_CONDUCT.md>`_"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:34
@@ -94,7 +94,7 @@ msgid "`Keep a consistent style <https://www.python.org/dev/peps/pep-0008>`_"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:38
-msgid "`Work together on GitHub <https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
+msgid "`Work together on GitHub <https://github.com/Qiskit/qiskit/blob/master/CONTRIBUTING.md>`_"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:39
