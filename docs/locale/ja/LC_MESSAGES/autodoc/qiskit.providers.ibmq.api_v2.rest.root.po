@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:28\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid "qiskit.providers.ibmq.api\\_v2.rest.root module"
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest.root:1
-msgid "Root REST adapter for the IBM Q Api version 2."
+msgid "Root REST adapter for the IBM Q Experience v2 API."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest.root.Api:1
@@ -41,7 +41,8 @@ msgstr ""
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.circuit
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.job
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs
-#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job_object_storage
 msgid "パラメータ"
 msgstr ""
 
@@ -53,7 +54,8 @@ msgstr ""
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.circuit
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.job
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs
-#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job_object_storage
 msgid "戻り値"
 msgstr ""
 
@@ -66,7 +68,8 @@ msgstr ""
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.circuit
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.job
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs
-#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job_object_storage
 msgid "戻り値の型"
 msgstr ""
 
@@ -88,7 +91,8 @@ msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest.root.Api.circuit:8
 #: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs:10
-#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:8
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job:8
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job_object_storage:8
 msgid "json response."
 msgstr ""
 
@@ -120,19 +124,28 @@ msgstr ""
 msgid "additional filtering passed to the query."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:1
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job:1
 msgid "Submit a job for executing."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:3
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job:3
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job_object_storage:3
 msgid "the name of the backend."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:5
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job:5
 msgid "the Qobj to be executed, as a dictionary."
 msgstr ""
 
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job_object_storage:1
+msgid "Submit a job for executing, using object storage."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.submit_job_object_storage:5
+msgid "number of shots."
+msgstr ""
+
 #: of qiskit.providers.ibmq.api_v2.rest.root.Api.version:1
-msgid "Return the api versions."
+msgid "Return the API versions."
 msgstr ""
 
