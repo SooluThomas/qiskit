@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:19\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:29\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -66,7 +66,7 @@ msgid "Classical Reference Algorithms for AI"
 msgstr ""
 
 #: ../../aqua/ai/qiskit_ai.rst:63
-msgid "To produce reference values and compare and contrast results during experimentation, the Aqua library of :ref:`classical-reference-algorithms` also includes the :ref:`avm-rbf-kernel` classical algorithm."
+msgid "To produce reference values and compare and contrast results during experimentation, the Aqua library of :ref:`classical-reference-algorithms` also includes the :ref:`svm-rbf-kernel` classical algorithm."
 msgstr ""
 
 #: ../../aqua/ai/qiskit_ai.rst:69
@@ -82,6 +82,6 @@ msgid "Examples"
 msgstr ""
 
 #: ../../aqua/ai/qiskit_ai.rst:86
-msgid "The ``artificial_intelligence`` folder of the `Aqua Tutorials GitHub Repository <https://github.com/Qiskit/aqua-tutorials>`__ contains numerous `Jupyter Notebooks <http://jupyter.org/>`__ and input data files explaining how to use Aqua AI."
+msgid "The ``qiskit/artificial_intelligence`` and ``community/artificial_intelligence`` folders of the `Qiskit Tutorials GitHub Repository <https://github.com/Qiskit/qiskit-tutorials>`__ contain `Jupyter Notebooks <http://jupyter.org/>`__ and sample input data files explaining how to use Qiskit AI."
 msgstr ""
 
