@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-28 13:43+0000\n"
-"PO-Revision-Date: 2019-06-28 20:32\n"
+"PO-Revision-Date: 2019-07-16 06:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:4
 msgid "Contributing to Qiskit"
-msgstr ""
+msgstr "Qiskit に貢献する"
 
 #: ../../contributing_to_qiskit.rst:6
 msgid "Qiskit is an open-source project committed to bringing quantum computing to people of all backgrounds. This page describes how you can join the Qiskit community in this goal."
@@ -176,11 +176,11 @@ msgstr ""
 
 #: ../../contributing_to_qiskit.rst:114
 msgid "The translation lead for your language will be notified of your request to join and guide you through the license agreement process. We'll be working to make this process more automatic in the future."
-msgstr ""
+msgstr "あなたが翻訳作業への貢献を希望されていることが、対象言語の翻訳担当者に通知されます。その後ライセンス同意のプロセスについてガイドがあります。当プロセスのさらなる自動化に引き続き取り組んで参ります。"
 
 #: ../../contributing_to_qiskit.rst:120
 msgid "Translation Workflow"
-msgstr ""
+msgstr "翻訳のワークフロー"
 
 #: ../../contributing_to_qiskit.rst:122
 msgid "Step 1. `Log in to Crowdin <https://crowdin.com/login>`__."
