@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:27\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,6 +19,10 @@ msgstr ""
 
 #: ../../autodoc/qiskit.providers.aer.rst:2
 msgid "qiskit.providers.aer package"
+msgstr ""
+
+#: of qiskit.providers.aer:1
+msgid "Main Terra addon public interface"
 msgstr ""
 
 #: ../../autodoc/qiskit.providers.aer.rst:10
