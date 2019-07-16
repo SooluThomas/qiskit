@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:27\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:30\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "ベースクラス: :class:`object`"
 msgstr ""
 
 #: of qiskit.providers.aer.noise.errors.readout_error.ReadoutError.as_dict:1
-msgid "Return the current error as a dictionary."
+msgid "DEPRECATED: Use to_dict() :returns: The current error as a dictionary. :rtype: dict"
 msgstr ""
 
 #: of qiskit.providers.aer.noise.errors.readout_error.ReadoutError.atol:1
@@ -146,5 +146,14 @@ msgstr ""
 
 #: of qiskit.providers.aer.noise.errors.readout_error.ReadoutError.tensor:6
 msgid "the tensor product readout error self ⊗ other."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.readout_error.ReadoutError.to_dict:1
+msgid "Return the current error as a dictionary."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.readout_error.ReadoutError.to_instruction:1
+msgid "Convet the ReadoutError to a circuit Instruction."
 msgstr ""
 
