@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:19\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:29\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -26,14 +26,18 @@ msgid "A large number of tutorials illustrating how to use and extend Qiskit Aqu
 msgstr ""
 
 #: ../../aqua/tutorials/aqua_tutorials.rst:11
+msgid "In both ``qiskit`` and ``community`` folders you will also find Aqua domain examples in folders ``artificial_intelligence``, ``chemistry``, ``finance`` and ``optimization``"
+msgstr ""
+
+#: ../../aqua/tutorials/aqua_tutorials.rst:14
 msgid "These tutorials are a set of code examples, `Jupyter Notebooks <http://jupyter.org/>`__ and sample input files that enable experimenting with :ref:`aqua-library`, :ref:`aqua-chemistry`, :ref:`aqua-ai` and :ref:`aqua-optimization`.  The programs included demonstrate how to use Aqua and its domain-specific applications programmatically, and also how to extend Aqua with new components.  This feature is particularly useful to quantum researchers who are interested in :ref:`aqua-extending` with new algorithmic components."
 msgstr ""
 
-#: ../../aqua/tutorials/aqua_tutorials.rst:20
+#: ../../aqua/tutorials/aqua_tutorials.rst:23
 msgid "The `Qiskit Tutorials repository <https://github.com/Qiskit/qiskit-tutorials>`__ is supposed to be installed via the ``git clone`` command.  This will allow the user to duplicate its code in a convenient location in the file system, where it will be easier to browse the examples and execute the Jupyter Notebooks we provide."
 msgstr ""
 
-#: ../../aqua/tutorials/aqua_tutorials.rst:25
-msgid "A `Jupyter Notebook nbviewer of featured Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorials/blob/master/index.ipynb>`__ and a `Jupyter Notebook nbviewer of Aqua community tutorials <https://github.com/Qiskit/qiskit-tutorials/blob/master/community/aqua/index.ipynb>`__ allow for a quick and intuitive way to browse through the various sample programs presented."
+#: ../../aqua/tutorials/aqua_tutorials.rst:28
+msgid "A `Jupyter Notebook nbviewer of featured Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorials/blob/master/qiskit/start_here.ipynb>`__ and a `Jupyter Notebook nbviewer of Aqua community tutorials <https://github.com/Qiskit/qiskit-tutorials/blob/master/community/aqua/index.ipynb>`__ allow for a quick and intuitive way to browse through the various sample programs presented."
 msgstr ""
 
