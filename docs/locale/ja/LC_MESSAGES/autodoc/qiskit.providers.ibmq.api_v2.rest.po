@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:28\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid "qiskit.providers.ibmq.api\\_v2.rest package"
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.rest:1
-msgid "REST adaptors for the IBM Q Api version 2."
+msgid "REST adaptors for the IBM Q Experience v2 API."
 msgstr ""
 
 #: ../../autodoc/qiskit.providers.ibmq.api_v2.rest.rst:10
