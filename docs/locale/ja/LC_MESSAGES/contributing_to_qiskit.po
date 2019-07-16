@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-28 13:43+0000\n"
-"PO-Revision-Date: 2019-07-16 06:35\n"
+"PO-Revision-Date: 2019-07-16 06:46\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -184,7 +184,7 @@ msgstr "翻訳のワークフロー"
 
 #: ../../contributing_to_qiskit.rst:122
 msgid "Step 1. `Log in to Crowdin <https://crowdin.com/login>`__."
-msgstr ""
+msgstr "Step 1. `Crowdin <https://crowdin.com/login>へのログイン`__."
 
 #: ../../contributing_to_qiskit.rst:124
 msgid "Step 2. `Navigate to the QiskitDocs project <https://crowdin.com/project/qiskitdocs>`__."
