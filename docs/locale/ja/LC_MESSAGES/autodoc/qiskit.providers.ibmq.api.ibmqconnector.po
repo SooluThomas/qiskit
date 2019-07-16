@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:28\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:30\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -67,13 +67,52 @@ msgstr ""
 msgid "Check if the user has permission in QX platform."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run:1
-msgid "Execute a Circuit."
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_get:1
+msgid "Return information about a Circuit job."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run
-#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_get
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_status
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job
 msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_get:3
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_status:3
+msgid "the id of the job."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_get
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_status
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_get:6
+msgid "job information."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_get
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_status
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_status:1
+msgid "Return the status of a Circuits job."
+msgstr ""
+
+#: of
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_job_status:6
+msgid "job status."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run:1
+msgid "Execute a Circuit."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run:3
@@ -84,24 +123,12 @@ msgstr ""
 msgid "arguments for the Circuit."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run
-#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job
-#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.websocket_client
-msgid "戻り値"
-msgstr ""
-
 #: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run:8
 msgid "json response."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run
-#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job
-#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.websocket_client
-msgid "戻り値の型"
-msgstr ""
-
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.circuit_run
-#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job
+#: qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job
 msgid "raises"
 msgstr ""
 
@@ -126,32 +153,24 @@ msgstr ""
 msgid "Get the backend properties of a job."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job:1
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job:1
 msgid "Run a Qobj in a IBMQ backend."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job:3
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job:3
 msgid "Qobj to be run, in dictionary form."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job:5
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job:5
 msgid "backend name."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job:8
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job:8
 msgid ":exc:`BadBackendError` -- if the backend name is not valid."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.run_job:10
+#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.submit_job:10
 msgid "API response."
-msgstr ""
-
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.websocket_client:1
-msgid "Return a websocket client for interacting with IBMQ."
-msgstr ""
-
-#: of qiskit.providers.ibmq.api.ibmqconnector.IBMQConnector.websocket_client:3
-msgid "an IBMQ websocket client."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api.ibmqconnector.get_backend_defaults_url:1
