@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:22\n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-07-16 17:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -18,42 +18,14 @@ msgstr ""
 "Language: ja_JP\n"
 
 #: ../../autodoc/qiskit.providers.ibmq.utils.rst:2
-msgid "qiskit.providers.ibmq.utils module"
+msgid "qiskit.providers.ibmq.utils package"
 msgstr ""
 
 #: of qiskit.providers.ibmq.utils:1
 msgid "Utilities related to the IBMQ Provider."
 msgstr ""
 
-#: of qiskit.providers.ibmq.utils.update_qobj_config:1
-msgid "Update a Qobj configuration from options and noise model."
-msgstr ""
-
-#: of qiskit.providers.ibmq.utils.update_qobj_config
-msgid "パラメータ"
-msgstr ""
-
-#: of qiskit.providers.ibmq.utils.update_qobj_config:3
-msgid "description of job"
-msgstr ""
-
-#: of qiskit.providers.ibmq.utils.update_qobj_config:5
-msgid "backend options"
-msgstr ""
-
-#: of qiskit.providers.ibmq.utils.update_qobj_config:7
-msgid "noise model"
-msgstr ""
-
-#: of qiskit.providers.ibmq.utils.update_qobj_config
-msgid "戻り値"
-msgstr ""
-
-#: of qiskit.providers.ibmq.utils.update_qobj_config:10
-msgid "qobj."
-msgstr ""
-
-#: of qiskit.providers.ibmq.utils.update_qobj_config
-msgid "戻り値の型"
+#: ../../autodoc/qiskit.providers.ibmq.utils.rst:10
+msgid "Submodules"
 msgstr ""
 
