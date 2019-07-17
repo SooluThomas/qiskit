@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-16 17:21+0000\n"
-"PO-Revision-Date: 2019-07-17 15:24\n"
+"PO-Revision-Date: 2019-07-17 15:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -103,15 +103,15 @@ msgstr ""
 
 #: ../../install.rst:83
 msgid "There are optional dependencies that are required to use all the visualization functions available in Qiskit. You can install these optional dependencies by with the following command"
-msgstr ""
+msgstr "Qiskitで使うことのできるすべてのビジュアライゼーション機能を使用するためにはオプショナルな依存関係が必要です。 次のコマンドでこれらのオプショナルな依存関係をインストールできます。"
 
 #: ../../install.rst:91
 msgid "After you've installed and verified the Qiskit packages you want to use, import them into your environment with Python to begin working."
-msgstr ""
+msgstr "使いたいQiskitパッケージをインストールおよび検証したら、Pythonのある自分の環境にインポートして作業を始めます。"
 
 #: ../../install.rst:102
 msgid "Access IBM Q Systems"
-msgstr ""
+msgstr "IBM Q Systemsへのアクセス"
 
 #: ../../install.rst:104
 msgid "IBM Q offers several real quantum computers and high-performance classical computing simulators through its `quantum cloud services`_ with Qiskit. Follow these steps to set up your Qiskit environment to send jobs to IBM Q systems."
