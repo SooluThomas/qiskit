@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-16 17:21+0000\n"
-"PO-Revision-Date: 2019-07-17 15:14\n"
+"PO-Revision-Date: 2019-07-17 15:24\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -51,51 +51,51 @@ msgstr "Windows 7またはそれ以降"
 
 #: ../../install.rst:20
 msgid "Using Qiskit on Windows requires VC++ runtime components. We recommend one of the following:"
-msgstr ""
+msgstr "WindowsでQiskitを使用するにはVC++ランタイムコンポーネントが必要です。下記のいずれかをおすすめします。"
 
 #: ../../install.rst:23
 msgid "`Microsoft Visual C++ Redistributable for Visual Studio 2017 <https:// go.microsoft.com/fwlink/?LinkId=746572>`_"
-msgstr ""
+msgstr "`Microsoft Visual C++ Redistributable for Visual Studio 2017 <https:// go.microsoft.com/fwlink/?LinkId=746572>`_"
 
 #: ../../install.rst:25
 msgid "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// www.microsoft.com/en-US/download/details.aspx?id=48145>`_"
-msgstr ""
+msgstr "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// www.microsoft.com/en-US/download/details.aspx?id=48145>`_"
 
 #: ../../install.rst:30
 msgid "If you want to contribute to the Qiskit community by developing and contributing code with the most recently updated Qiskit code, see :ref:`Build Qiskit packages from source <install_install_from_source_label>`."
-msgstr ""
+msgstr "最新のQiskitコードに対して開発や寄与を行うことによってQiskitコミュニティに貢献したいときは、 :ref:`Build Qiskit packages from source <install_install_from_source_label>` を参照してください。"
 
 #: ../../install.rst:35
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 #: ../../install.rst:37
 msgid "We recommend using Python virtual environments to cleanly separate Qiskit from other applications and improve your experience."
-msgstr ""
+msgstr "Qiskitを他のアプリケーションから明確に分離して、経験をよりよいものにするため、Python仮想環境を使用することをおすすめします。"
 
 #: ../../install.rst:40
 msgid "The simplest way to use environments is by using the ``conda`` command, included with Anaconda. A Conda environment allows you to specify a specific version of Python and set of libraries. Open a terminal window in the directory where you want to work."
-msgstr ""
+msgstr "環境を使用するもっともシンプルな方法は、Anacondaに含まれている ``conda`` コマンドを使う方法です。Conda環境では、Pythonの特定のバージョンおよびライブラリを指定することができます。作業したいディレクトリでターミナルウィンドウを開きます。"
 
 #: ../../install.rst:45
 msgid "Create a minimal environment with only Python installed in it."
-msgstr ""
+msgstr "Pythonのみをインストールした最小環境を作ります。"
 
 #: ../../install.rst:56
 msgid "Or, if you're using Windows, use the following command."
-msgstr ""
+msgstr "もしくは、Windowsを使っているのであれば、以下のコマンドを使用します。"
 
 #: ../../install.rst:62
 msgid "Next, install the Qiskit package, which includes Terra, Aer, Ignis, and Aqua."
-msgstr ""
+msgstr "次に、Qiskitパッケージをインストールします。Terra, Aer, Ignis, そしてAquaが含まれています。"
 
 #: ../../install.rst:68
 msgid "If the packages installed correctly, you can run ``conda list`` to see the active packages in your virtual environment."
-msgstr ""
+msgstr "パッケージが正しくインストールされると、``conda list`` で仮想環境に存在するアクティブなパッケージを見ることができます。"
 
 #: ../../install.rst:73
 msgid "During installation, you might see the warning message ``Failed to build qiskit``. This is a non-fatal error that does not affect installation."
-msgstr ""
+msgstr "インストール中に、``Failed to build qiskit`` という警告メッセージを見るかもしれません。これは致命的なエラーではなく、インストールには影響ありません。"
 
 #: ../../install.rst:79
 msgid "When upgrading from qiskit < 0.6 to the latest version you first must uninstall the old version of qiskit with ``pip uninstall qiskit`` before you can install the latest version."
