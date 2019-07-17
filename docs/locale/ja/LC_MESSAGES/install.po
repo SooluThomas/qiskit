@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-16 17:21+0000\n"
-"PO-Revision-Date: 2019-07-16 17:32\n"
+"PO-Revision-Date: 2019-07-17 15:14\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -31,23 +31,23 @@ msgstr "QiskitはPython 3.5あるいはそれ以降をサポートします。"
 
 #: ../../install.rst:9
 msgid "We recommend installing `Anaconda <https://www.anaconda.com/download/>`_, a cross-platform Python distribution for scientific computing. Jupyter Notebook, included in Anaconda, is recommended for interacting with the `Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorial>`_."
-msgstr ""
+msgstr "科学技術計算用のPythonディストリビューションである `Anaconda <https://www.anaconda.com/download/>`_をインストールすることをおすすめします。`Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorial>`_とのやり取りには、Anacondaに含まれるJupyter Notebookをおすすめします。"
 
 #: ../../install.rst:14
 msgid "Qiskit is tested and supported on the following 64-bit systems:"
-msgstr ""
+msgstr "Qiskitは以下の64ビットシステムでテストされサポートされています。"
 
 #: ../../install.rst:16
 msgid "Ubuntu 16.04 or later"
-msgstr ""
+msgstr "Ubuntu 16.04またはそれ以降"
 
 #: ../../install.rst:17
 msgid "macOS 10.12.6 or later"
-msgstr ""
+msgstr "macOS 10.12.6またはそれ以降"
 
 #: ../../install.rst:18
 msgid "Windows 7 or later"
-msgstr ""
+msgstr "Windows 7またはそれ以降"
 
 #: ../../install.rst:20
 msgid "Using Qiskit on Windows requires VC++ runtime components. We recommend one of the following:"
