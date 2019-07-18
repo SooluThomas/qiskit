@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-16 17:21+0000\n"
-"PO-Revision-Date: 2019-07-17 15:35\n"
+"POT-Creation-Date: 2019-07-18 20:01+0000\n"
+"PO-Revision-Date: 2019-07-18 20:09\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -82,90 +82,98 @@ msgid "Create a minimal environment with only Python installed in it."
 msgstr "Pythonのみをインストールした最小環境を作ります。"
 
 #: ../../install.rst:56
-msgid "Or, if you're using Windows, use the following command."
-msgstr "もしくは、Windowsを使っているのであれば、以下のコマンドを使用します。"
+msgid "Or, if you're using Windows"
+msgstr ""
+
+#: ../../install.rst:58
+msgid "Install Anaconda"
+msgstr ""
+
+#: ../../install.rst:59
+msgid "Search for Anaconda Prompt"
+msgstr ""
+
+#: ../../install.rst:60
+msgid "Open Anaconda Prompt"
+msgstr ""
 
 #: ../../install.rst:62
+msgid "Use the following commands"
+msgstr ""
+
+#: ../../install.rst:72
 msgid "Next, install the Qiskit package, which includes Terra, Aer, Ignis, and Aqua."
 msgstr "次に、Qiskitパッケージをインストールします。Terra, Aer, Ignis, そしてAquaが含まれています。"
 
-#: ../../install.rst:68
+#: ../../install.rst:78
 msgid "If the packages installed correctly, you can run ``conda list`` to see the active packages in your virtual environment."
 msgstr "パッケージが正しくインストールされると、``conda list`` で仮想環境に存在するアクティブなパッケージを見ることができます。"
 
-#: ../../install.rst:73
+#: ../../install.rst:83
 msgid "During installation, you might see the warning message ``Failed to build qiskit``. This is a non-fatal error that does not affect installation."
 msgstr "インストール中に、``Failed to build qiskit`` という警告メッセージを見るかもしれません。これは致命的なエラーではなく、インストールには影響ありません。"
 
-#: ../../install.rst:79
-msgid "When upgrading from qiskit < 0.6 to the latest version you first must uninstall the old version of qiskit with ``pip uninstall qiskit`` before you can install the latest version."
+#: ../../install.rst:89
+msgid "When upgrading from Qiskit < 0.6 to the latest version, uninstall the old version of Qiskit with ``pip uninstall qiskit`` and then install the latest version."
 msgstr ""
 
-#: ../../install.rst:83
+#: ../../install.rst:92
 msgid "There are optional dependencies that are required to use all the visualization functions available in Qiskit. You can install these optional dependencies by with the following command"
 msgstr "Qiskitで使うことのできるすべてのビジュアライゼーション機能を使用するためにはオプショナルな依存関係が必要です。 次のコマンドでこれらのオプショナルな依存関係をインストールできます。"
 
-#: ../../install.rst:91
+#: ../../install.rst:100
 msgid "After you've installed and verified the Qiskit packages you want to use, import them into your environment with Python to begin working."
 msgstr "使いたいQiskitパッケージをインストールおよび検証したら、Pythonのある自分の環境にインポートして作業を始めます。"
 
-#: ../../install.rst:102
+#: ../../install.rst:111
 msgid "Access IBM Q Systems"
 msgstr "IBM Q Systemsへのアクセス"
 
-#: ../../install.rst:104
+#: ../../install.rst:113
 msgid "IBM Q offers several real quantum computers and high-performance classical computing simulators through its `quantum cloud services`_ with Qiskit. Follow these steps to set up your Qiskit environment to send jobs to IBM Q systems."
 msgstr ""
 
-#: ../../install.rst:110
+#: ../../install.rst:119
 msgid "With the release of Qiskit 0.11, if you had previously saved your IBM Q credentials locally, you might need to update your IBM Q Experience credentials so that you can use the new IBM Q Experience V2. See `Updating your IBM Q Experience Credentials <https://github.com/Qiskit/qiskit-ibmq-provider/#updating-your-ibm-q-experience-credentials>`_."
 msgstr ""
 
-#: ../../install.rst:115
+#: ../../install.rst:124
 msgid "To configure your account, you create a local configuration file which includes an API key"
 msgstr ""
 
-#: ../../install.rst:120
-msgid "**1** `Create a free IBM Q Experience account`_."
+#: ../../install.rst:129
+msgid "**1.** `Create a free IBM Q Experience account`_."
 msgstr ""
 
-#: ../../install.rst:125
+#: ../../install.rst:134
 msgid "**2.**  Navigate to **My Account** to view your account settings."
 msgstr ""
 
-#: ../../install.rst:130
+#: ../../install.rst:139
 msgid "**3.** Click on **Copy token** to copy the token to your clipboard. Temporarily paste this API token into your favorite text editor so you can use it later to create an account configuration file."
 msgstr ""
 
-#: ../../install.rst:137
+#: ../../install.rst:146
 msgid "**4.** Run the following commands to store your API token locally for later use in a configuration file called ``qiskitrc``. Replace ``MY_API_TOKEN`` with the API token value that you stored in your text editor."
 msgstr ""
 
-#: ../../install.rst:147
+#: ../../install.rst:156
 msgid "Refer to :ref:`advanced_use_of_ibm_q_devices_label` for more details, such as how to manage multiple IBM Q account credentials."
 msgstr ""
 
-#: ../../install.rst:152
+#: ../../install.rst:161
 msgid "Checking Which Version is Installed"
 msgstr ""
 
-#: ../../install.rst:154
-msgid "Since the Qiskit project is actually a constellation of different elements simply printing the version string can be misleading. When you run"
-msgstr "Qiskit プロジェクトは実際には異なる要素の集まりのため、単純にバージョン文字列を表示するだけでは不十分です。たとえば以下のコマンドを実行すると"
+#: ../../install.rst:163
+msgid "Since the Qiskit package includes a constellation of different elements, simply printing the version by running ``qiskit.__version__`` can be misleading as it returns only the version for the ``qiskit-terra`` package. This is because the ``qiskit`` namespace in Python doesn't come from the Qiskit package, but instead is part of the ``qiskit-terra`` package."
+msgstr ""
 
-#: ../../install.rst:162
-msgid "This only gives you the version for the qiskit-terra package. This is because the ``qiskit`` namespace in python doesn't come from the qiskit package, but instead is part of the qiskit-terra package."
-msgstr "qiskit-terra パッケージのバージョンのみを表示します。これは python の ``qiskit`` 名前空間が qiskit パッケージではなく、 qiskit-terra パッケージの一部から来ているためです。"
+#: ../../install.rst:178
+msgid "To see the versions of all the Qiskit elements in your environment you can use the ``__qiskit_version__`` attribute. For example, running the following command will return a dictionary that includes the versions for each of the installed Qiskit packages."
+msgstr ""
 
-#: ../../install.rst:166
-msgid "Instead if you would like to see the version of all the qiskit elements installed in your environment you can use the ``__qiskit_version`` attribute. This will return a dictionary of the different qiskit packages and the installed versions. For example, running"
-msgstr "環境にインストールされたすべての qiskit 要素のバージョンを表示するには、代わりに ``__qiskit_version`` 属性を使用します。この属性は異なる qiskit パッケージとインストールされたバージョンの辞書を返します。たとえば以下のコマンドを実行すると"
-
-#: ../../install.rst:176
-msgid "will return a dictionary like"
-msgstr "以下のような辞書を返します"
-
-#: ../../install.rst:187
-msgid "If you're filing an issue or need to share your installed qiskit versions for something you should use the ``__qiskit_version__`` attribute."
+#: ../../install.rst:198
+msgid "If you're filing an issue or need to share your installed Qiskit versions for something, use the ``__qiskit_version__`` attribute."
 msgstr ""
 
