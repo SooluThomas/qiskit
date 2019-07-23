@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid ""
 "Qiskit Chemistry requires a computational chemistry program or library, "
 "known as *driver*, to be installed on the system for the electronic-"
-"structure computation.  When launched via the Qiskit Chemistry :ref"
+"structure computation. When launched via the Qiskit Chemistry :ref"
 ":`qiskit-chemistry-command-line`, :ref:`qiskit-chemistry-gui`, or :ref"
 ":`qiskit-chemistry-programmable-interface`, Qiskit Chemistry expects a "
 "driver to be specified, and a molecular configuration to be passed in the"
@@ -38,17 +38,17 @@ msgid ""
 msgstr ""
 
 #: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:19
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:429
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:451
 msgid "One- and two-body integrals in Molecular Orbital (MO) basis"
 msgstr ""
 
 #: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:20
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:430
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:452
 msgid "Dipole integrals"
 msgstr ""
 
 #: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:21
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:431
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:453
 msgid "Molecular orbital coefficients"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgid ":ref:`hartree-fock` energy"
 msgstr ""
 
 #: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:23
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:433
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:455
 msgid "Nuclear repulsion energy"
 msgstr ""
 
@@ -375,7 +375,7 @@ msgid ""
 " control file, so the syntax specified by PSI4 should be followed:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:305
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:306
 msgid ""
 "Experienced chemists who already have existing PSI4 control files can "
 "simply paste the contents of those files into the ``psi4`` section of the"
@@ -383,11 +383,11 @@ msgid ""
 "Qiskit Chemistry :ref:`qiskit-chemistry-gui`."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:313
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:314
 msgid "PySCF"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:314
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:315
 msgid ""
 "`PySCF <https://github.com/sunqm/pyscf>`__ is an open-source library for "
 "computational chemistry. In order for Qiskit Chemistry to interface "
@@ -402,7 +402,7 @@ msgid ""
 "by Qiskit Chemistry at run time."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:323
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:324
 msgid ""
 "To use PySCF to configure a molecule on which to do a chemistry "
 "experiment with Qiskit Chemistry, set the ``name`` field in the "
@@ -412,17 +412,17 @@ msgid ""
 ":math:`H_2`.  Here, the molecule, basis set and other options are "
 "specified as key/value pairs, according to the syntax expected by PySCF. "
 "In PySCF, these are the arguments as passed to the ``pyscf.gto.Mole`` "
-"class."
+"class and to the method class ``pyscf.scf.hf.SCF``."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:330
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:332
 msgid ""
 "The ``atom`` field can be in xyz format, as per the example below. Here "
 "each atom is identified by its symbol along with its position in the x, "
 "y, z coordinate space. Atoms are separated by the semicolon symbol."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:334
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:336
 msgid ""
 "The ``atom`` field can also be in `ZMatrix "
 "<https://en.wikipedia.org/wiki/Z-matrix_(chemistry)>`__ format. Here "
@@ -433,19 +433,43 @@ msgid ""
 "following the conversion."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:350
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:342
 msgid ""
-"Experienced chemists who already have existing PySCF control files can "
-"simply paste the contents of those files into the ``pyscf`` section of "
-"the input file.  This configuration can also be easily achieved using the"
-" Qiskit Chemistry :ref:`qiskit-chemistry-gui`."
+"The SCF method can be selected via ``hf_method`` as one of ``rhf``, "
+"``rohf`` or ``uhf``. The ``conv_tol`` field allows the convergence "
+"tolerance of the method to be set and ``max_cycle`` the maximum number of"
+" iterations. The ``init_guess`` allows the initial guess for the method "
+"to be configured, values are ``minao`` (the default) ``1e`` and ``atom``."
+" Please refer to ``pyscf.scf.hf.SCF`` init_guess_by_xxxx methods for more"
+" information on these."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:358
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:362
+msgid ""
+"Note: ``spin`` in PySCF is 2S (multiplicity, that chemists often use, is "
+"defined as 2S + 1)"
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:364
+msgid ""
+"The above parameter names, in matching to internal PySCF variables, was "
+"done explicitly to allow easy cross-reference of the functionality to "
+"within PySCF and to be more recognizable to experienced chemists who "
+"already program to the PySCF library."
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:368
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:433
+msgid ""
+"This configuration can also be easily created and edited using the Qiskit"
+" Chemistry :ref:`qiskit-chemistry-gui`."
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:375
 msgid "PyQuante"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:359
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:376
 msgid ""
 "`PyQuante <https://github.com/rpmuller/pyquante2/>`__ is an open-source "
 "library for computational chemistry. Qiskit Chemistry specifically "
@@ -462,16 +486,7 @@ msgid ""
 "Qiskit Chemistry at run time."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:369
-msgid ""
-"The Qiskit Chemistry PyQuante2 driver wrapper contains two methods, in "
-"``transform.py``, taken from from `Pyquante V1 "
-"<http://pyquante.sourceforge.net/>`__, which is `licensed "
-"<http://pyquante.sourceforge.net/#license>`__ under a `modified BSD "
-"license <https://opensource.org/licenses/BSD-3-Clause>`__."
-msgstr ""
-
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:375
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:387
 msgid ""
 "Like all the other drivers currently interfaced by Qiskit Chemistry, "
 "PyQuante2 provides enough intermediate data for Qiskit Chemistry to "
@@ -482,7 +497,7 @@ msgid ""
 "allow for the computation of a molecule's dipole moment."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:382
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:394
 msgid ""
 "To use PyQuante to configure a molecule on which to do a chemistry "
 "experiment with Qiskit Chemistry, set the ``name`` field in the "
@@ -497,7 +512,7 @@ msgid ""
 "blank space.  Atom configurations are separated by semicolons."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:393
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:405
 msgid ""
 "The molecule in the ``atoms`` field can also be in `ZMatrix "
 "<https://en.wikipedia.org/wiki/Z-matrix_(chemistry)>`__ format. Here "
@@ -509,19 +524,27 @@ msgid ""
 "following the conversion."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:410
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:412
 msgid ""
-"Experienced chemists who already have existing PyQuante control files can"
-" simply paste the contents of those files into the ``pyquante`` section "
-"of the input file.  This configuration can also be easily achieved using "
-"the Qiskit Chemistry :ref:`qiskit-chemistry-gui`."
+"The SCF method can be selected via ``hf_method`` as one of ``rhf``, "
+"``rohf`` or ``uhf``. The ``tol`` field allows the convergence tolerance "
+"of the method to be set and ``maxiters`` the maximum number of iterations"
+" as part of the ``converge()`` method. Please refer to "
+"``pyquante2.scf.hamiltonians.hamiltonian`` for more detail."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:418
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:430
+msgid ""
+"Above parameter names, in matching to internal PyQuante2 variables, was "
+"done explicitly to allow easy cross-reference of the functionality to "
+"within PyQuante2."
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:440
 msgid "HDF5"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:420
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:442
 msgid ""
 "Qiskit Chemistry uses a molecular input file written on top of one of the"
 " classical computational software drivers that it interfaces.  Qiskit "
@@ -531,17 +554,17 @@ msgid ""
 ":ref:`quantum-algorithms`."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:426
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:448
 msgid ""
 "As mentioned above, the intermediate data extracted from the classical "
-"computational software consists of the following:"
+"computational software includes the following:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:432
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:454
 msgid "Hartree-Fock energy"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:435
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:457
 msgid ""
 "Once extracted, the structure of this intermediate data is independent of"
 " the classical driver that was used to compute it. However, the level of "
@@ -550,7 +573,7 @@ msgid ""
 "more accurate data."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:440
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:462
 msgid ""
 "Qiskit Chemistry offers the option to serialize this data in a binary "
 "format known as `Hierarchical Data Format 5 (HDF5) "
@@ -564,11 +587,19 @@ msgid ""
 "itself."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:451
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:471
+msgid ""
+"In addition to the documentation below you may like to refer to our `HDF5"
+" tutorial <https://github.com/Qiskit/qiskit-tutorials/blob\\ "
+"/master/community/chemistry/hdf5_files_and_driver.ipynb>`__ for more "
+"information and examples of usage."
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:478
 msgid "Generation of an HDF5 Input File"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:453
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:480
 msgid ""
 "The most intuitive way to generate an HDF5 input file is by using the "
 "Qiskit Chemistry :ref:`qiskit-chemistry-gui`. Through the GUI, you can "
@@ -587,13 +618,13 @@ msgid ""
 "Chemistry displays the following message:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:470
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:497
 msgid ""
 "assuming that ``molecule.hdf5`` and ``/Users/username/Documents/temp`` "
 "are the file name and directory path you chose, respectively."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:473
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:500
 msgid ""
 "Using the GUI is the most intuitive option to generate the HDF5 file "
 "corresponding to a given experiment. The same result can be obtained by "
@@ -603,11 +634,11 @@ msgid ""
 " file as the input parameter."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:481
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:508
 msgid "Using an HDF5 File as the Input to an Experiment"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:482
+#: ../../aqua/chemistry/qiskit_chemistry_drivers.rst:509
 msgid ""
 "If you later want the HDF5 file to be deserialized and its contents used "
 "as the input for a chemistry experiment, you can select ``HDF5`` as the "

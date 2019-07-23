@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid ""
 "Qiskit Finance is a set of tools and algorithms that enable experimenting"
 " with financial analysis and optimization problems via quantum computing."
-" Aqua Finance is the only end-to-end software stack that translates "
+" Qiskit Finance is the only end-to-end software stack that translates "
 "finance-specific problems into inputs for one of the :ref:`quantum-"
 "algorithms` in :ref:`aqua-library`, which in turn uses Qiskit Terra for "
 "the actual quantum computation on top a quantum simulator or a real "
@@ -48,17 +48,17 @@ msgstr ""
 
 #: ../../aqua/finance/qiskit_finance.rst:25
 msgid ""
-"Aqua Finance can already be used to experiment with financial analysis "
+"Qiskit Finance can already be used to experiment with financial analysis "
 "and optimization problems, such as risk analysis and `portfolio "
 "optimization <https://github.com/Qiskit/aqua-"
 "tutorials/blob/master/finance/portfolio_optimization.ipynb>`__."
 msgstr ""
 
-#: ../../aqua/finance/qiskit_finance.rst:31
+#: ../../aqua/finance/qiskit_finance.rst:32
 msgid "Contributing to Qiskit Finance"
 msgstr ""
 
-#: ../../aqua/finance/qiskit_finance.rst:33
+#: ../../aqua/finance/qiskit_finance.rst:34
 msgid ""
 "Research and developers interested in :ref:`aqua-extending` with new "
 "finance-specific capabilities can take advantage of the modular "
@@ -71,15 +71,15 @@ msgid ""
 " such as :ref:`vqc` and :ref:`qsvm`."
 msgstr ""
 
-#: ../../aqua/finance/qiskit_finance.rst:46
+#: ../../aqua/finance/qiskit_finance.rst:47
 msgid "Examples"
 msgstr ""
 
-#: ../../aqua/finance/qiskit_finance.rst:48
+#: ../../aqua/finance/qiskit_finance.rst:49
 msgid ""
-"The ``finance`` folder of the `Aqua Tutorials GitHub Repository "
-"<https://github.com/Qiskit/aqua-tutorials>`__ contains `Jupyter Notebooks"
-" <http://jupyter.org/>`__ and sample input data files explaining how to "
-"use Aqua Finance."
+"The ``qiskit/finance`` and ``community/finance`` folders of the `Qiskit "
+"Tutorials GitHub Repository <https://github.com/Qiskit/qiskit-"
+"tutorials>`__ contain `Jupyter Notebooks <http://jupyter.org/>`__ and "
+"sample input data files explaining how to use Qiskit Finance."
 msgstr ""
 

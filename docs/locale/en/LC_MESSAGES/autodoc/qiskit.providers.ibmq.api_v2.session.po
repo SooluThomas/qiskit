@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "qiskit.providers.ibmq.api\\_v2.session module"
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.session:1
-msgid "Session customized for IBM Q access."
+msgid "Session customized for IBM Q Experience access."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.session.RetrySession:1
@@ -46,5 +46,47 @@ msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:1
 msgid "Constructs a Request, prepending the base url."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:3
+msgid "method for the new `Request` object."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:5
+msgid "URL for the new `Request` object."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:7
+msgid ""
+"if `True`, do not send IBM Q specific information (access token) in the "
+"request or modify the `url`."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:10
+msgid "additional arguments for the request."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:13
+msgid "Request object."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:16
+msgid ":exc:`RequestsApiError` -- if the request failed."
 msgstr ""
 

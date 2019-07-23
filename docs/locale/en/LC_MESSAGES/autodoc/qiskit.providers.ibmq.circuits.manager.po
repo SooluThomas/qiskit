@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,6 +52,7 @@ msgid "パラメータ"
 msgstr ""
 
 #: of qiskit.providers.ibmq.circuits.manager.CircuitsManager.graph_state:8
+#: qiskit.providers.ibmq.circuits.manager.CircuitsManager.hardware_efficient:6
 msgid "number of qubits to use, in the 2-20 range."
 msgstr ""
 
@@ -113,11 +114,6 @@ msgid ""
 msgstr ""
 
 #: of
-#: qiskit.providers.ibmq.circuits.manager.CircuitsManager.hardware_efficient:6
-msgid "number of qubits to use, in the 4-20 range."
-msgstr ""
-
-#: of
 #: qiskit.providers.ibmq.circuits.manager.CircuitsManager.hardware_efficient:8
 msgid ""
 "array of three phase angles (x/y/z) each from 0 to 2*Pi, one set for each"
@@ -139,9 +135,5 @@ msgstr ""
 msgid ""
 "optional argument for number of qubits to use. If not specified will use "
 "all qubits on device."
-msgstr ""
-
-#: of qiskit.providers.ibmq.circuits.manager.requires_api_connection:1
-msgid "Decorator that ensures that a CircuitsManager has a valid API."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgid ""
 "architecture. Algorithms and their supporting objects, such as initial "
 "states for variational forms and :ref:`qpe`, are pluggable modules in "
 "Aqua. New initial states are typically installed in the "
-"``qiskit_aqua/utils/initial_states`` folder and derive from the "
+"``qiskit/aqua/components/initial_states`` folder and derive from the "
 "``InitialState`` class.  Aqua also allows for :ref:`aqua-dynamically-"
 "discovered-components`: new components can register themselves as Aqua "
 "extensions and be dynamically discovered at run time independent of their"
@@ -62,14 +62,14 @@ msgid ":ref:`hartree-fock`"
 msgstr ""
 
 #: ../../aqua/initial_states.rst:30
-msgid ":ref:`custom`"
+msgid ":ref:`custom-initial-states`"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:34
+#: ../../aqua/initial_states.rst:36
 msgid "Zero"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:35
+#: ../../aqua/initial_states.rst:37
 msgid ""
 "This initial state is suitable for those situations in which the all-"
 "zeroes state is the desired starting state. This is the case for a "
@@ -82,18 +82,18 @@ msgstr ""
 msgid "Declarative Name"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:42
+#: ../../aqua/initial_states.rst:44
 msgid ""
 "When referring to the zero initial state declaratively inside Aqua, its "
 "code ``name``, by which Aqua dynamically discovers and loads it, is "
 "``ZERO``."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:49
+#: ../../aqua/initial_states.rst:51
 msgid "Hartree-Fock"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:51
+#: ../../aqua/initial_states.rst:53
 msgid ""
 "This initial state is specific for chemistry-related experiments. It "
 "corresponds to a molecule's *Hartree-Fock state*. In computational "
@@ -114,48 +114,57 @@ msgid ""
 " chemistry operator is set to be particle hole, then the configuration of"
 " the initial qubit state offsetting the computation of the final result "
 "should be set to be the Hartree-Fock energy of the molecule in the :ref"
-":`aqua-chemistry-input-file`. Hartree-Fock is also the preferred initial "
-"state when using the :ref:`uccsd` and :ref:`swaprz` variational forms."
+":`qiskit-chemistry-input-file`. Hartree-Fock is also the preferred "
+"initial state when using the :ref:`uccsd` and :ref:`swaprz` variational "
+"forms."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:69
+#: ../../aqua/initial_states.rst:71
 msgid ""
 "The following parameters allow the Hartree-Fock initial state to be "
 "configured:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:72
+#: ../../aqua/initial_states.rst:74
 msgid ""
 "The total number of spin orbitals for which the Hartree-Fock initial "
 "state is to be created:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:78 ../../aqua/initial_states.rst:87
+#: ../../aqua/initial_states.rst:80
 msgid "This parameter expects a positive ``int`` value."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:81
+#: ../../aqua/initial_states.rst:83
 msgid ""
 "The total number of particles for which the Hartree-Fock initial state is"
 " to be created:"
 msgstr ""
 
 #: ../../aqua/initial_states.rst:89
+msgid ""
+"This parameter expects a list of two integers for number of alpha and "
+"beta electrons or, for closed shell backward compatibility, a single "
+"``int`` value which will be divided by two internally to form number of "
+"alpha and beta electrons."
+msgstr ""
+
+#: ../../aqua/initial_states.rst:93
 msgid "The desired :ref:`translators` from fermions to qubits:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:95
+#: ../../aqua/initial_states.rst:99
 msgid ""
 "This parameter takes a value of type ``str``.  Currently, only the three "
 "values above are supported, but new qubit mappings can easily be plugged "
 "in. Specifically:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:99
+#: ../../aqua/initial_states.rst:103
 msgid "``jordan_wigner`` corresponds to the :ref:`jordan-wigner` transformation."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:100
+#: ../../aqua/initial_states.rst:104
 msgid ""
 "``parity``, the default value for the ``qubit_mapping`` parameter, "
 "corresponds to the :ref:`parity` mapping transformation. When this "
@@ -164,52 +173,52 @@ msgid ""
 "``two_qubit_reduction`` parameter to ``True``, as explained next."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:105
+#: ../../aqua/initial_states.rst:109
 msgid ""
 "``bravyi_kitaev`` corresponds to the :ref:`bravyi-kitaev` transformation,"
 " also known as *binary-tree-based qubit mapping*."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:108
+#: ../../aqua/initial_states.rst:112
 msgid ""
 "A Boolean flag specifying whether or not to apply the precision-"
 "preserving two-qubit reduction optimization:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:115
+#: ../../aqua/initial_states.rst:119
 msgid ""
 "The default value for this parameter is ``True``. When the parity mapping"
 " is selected, and ``two_qubit_reduction`` is set to ``True``, then the "
 "operator can be reduced by two qubits without loss of precision."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:121
+#: ../../aqua/initial_states.rst:125
 msgid ""
 "If the mapping from fermionic to qubit is set to something other than the"
 " parity mapping, the value assigned to ``two_qubit_reduction`` is "
 "ignored."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:126
+#: ../../aqua/initial_states.rst:130
 msgid ""
 "When the ``auto_substitutions`` flag in the ``problem`` section of the "
-":ref:`aqua-chemistry-input-file` is set to ``True``, which is the "
+":ref:`qiskit-chemistry-input-file` is set to ``True``, which is the "
 "default, the values of parameters ``num_particles`` and ``num_orbitals`` "
-"are automatically computed by Aqua Chemistry when ``Hartree-Fock`` is "
+"are automatically computed by Qiskit Chemistry when ``Hartree-Fock`` is "
 "selected as the value of the ``name`` parameter in the ``InitialState`` "
 "section. As such, their configuration is disabled; the user will not be "
 "required, or even allowed, to assign values to these two parameters. This"
-" is also reflected in the :ref:`aqua-chemistry-gui`, where these "
+" is also reflected in the :ref:`qiskit-chemistry-gui`, where these "
 "parameters will be grayed out and uneditable as long as "
 "``auto_substitutions`` is set to ``True`` in the ``problem`` section. "
-"Furthermore, Aqua Chemistry automatically sets parameters "
+"Furthermore, Qiskit Chemistry automatically sets parameters "
 "``qubit_mapping`` and ``two_qubit_reduction`` in section "
 "``initial_state`` when ``HartreeFock`` is selected as the value of the "
-"``name`` parameter.  Specifically, Aqua Chemistry sets ``qubit_mapping`` "
-"and ``two_qubit_reduction`` to the values the user assigned to them in "
-"the ``operator`` section of the input file in order to enforce "
-"parameter/value matching across these different sections.  As a result, "
-"the user will only have to configure ``qubit_mapping`` and "
+"``name`` parameter.  Specifically, Qiskit Chemistry sets "
+"``qubit_mapping`` and ``two_qubit_reduction`` to the values the user "
+"assigned to them in the ``operator`` section of the input file in order "
+"to enforce parameter/value matching across these different sections.  As "
+"a result, the user will only have to configure ``qubit_mapping`` and "
 "``two_qubit_reduction`` in the ``operator`` section; the configuration of"
 " these two parameters in section ``initial_states`` is disabled, as "
 "reflected also in the GUI, where the values of these two parameters are "
@@ -218,13 +227,13 @@ msgid ""
 "``HartreeFock``."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:147
+#: ../../aqua/initial_states.rst:151
 msgid ""
 "On the other hand, if ``auto_substitutions`` is set to ``False``, then "
 "the end user has the full responsibility for the entire configuration."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:153
+#: ../../aqua/initial_states.rst:157
 msgid ""
 "Setting ``auto_substitutions`` to ``False``, while made possible for "
 "experimental purposes, should only be done with extreme care, since it "
@@ -232,18 +241,18 @@ msgid ""
 "imprecise results."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:160
+#: ../../aqua/initial_states.rst:164
 msgid ""
 "When referring to the Hartree-Fock initial state declaratively inside "
 "Aqua, its code ``name``, by which Aqua dynamically discovers and loads "
 "it, is ``HartreeFock``."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:168
+#: ../../aqua/initial_states.rst:172
 msgid "Custom"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:170
+#: ../../aqua/initial_states.rst:174
 msgid ""
 "Should the :ref:`zero` and :ref:`hartree-fock` pre-defined initial states"
 " not meet the user's needs for a particular quantum experiment, this "
@@ -257,26 +266,26 @@ msgid ""
 "assigning a value to the following parameters:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:179
+#: ../../aqua/initial_states.rst:183
 msgid ""
 "A label specifying a predefined probability distribution used to "
 "configure the state vector:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:185
+#: ../../aqua/initial_states.rst:189
 msgid ""
 "The ``state`` parameter accepts a ``str`` value.  Currently, the "
 "following three ``str`` values are supported:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:188
+#: ../../aqua/initial_states.rst:192
 msgid ""
 "``\"zero\"`` --- This setting configures the state vector with the *zero "
 "probability distribution*, and is effectively equivalent to the "
 ":ref:`zero` initial state."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:190
+#: ../../aqua/initial_states.rst:194
 msgid ""
 "``\"uniform\"`` --- This setting configures the state vector with the "
 "*uniform probability distribution*.  All the qubits are set in "
@@ -285,34 +294,34 @@ msgid ""
 ":math:`1` or :math:`0`."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:194
+#: ../../aqua/initial_states.rst:198
 msgid ""
 "``\"random\"`` --- This setting assigns the elements of the state vector "
 "according to a random probability distribution."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:197
+#: ../../aqua/initial_states.rst:201
 msgid "The state vector itself:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:203
+#: ../../aqua/initial_states.rst:207
 msgid ""
 "The ``state_vector`` parameter allows a specific custom initial state to "
 "be defined as a list of ``complex`` numbers. The length of the list must "
 "be :math:`2^q`, where :math:`q` is the total number of qubits."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:207
+#: ../../aqua/initial_states.rst:211
 msgid "The custom quantum circuit:"
 msgstr ""
 
-#: ../../aqua/initial_states.rst:213
+#: ../../aqua/initial_states.rst:217
 msgid ""
 "The ``circuit`` parameter takes the value of a ``QuantumCircuit`` object "
 "representing the custom quantum circuit for the initial state."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:218
+#: ../../aqua/initial_states.rst:222
 msgid ""
 "The ``InitialState`` API exposes a constructor that allows for "
 "programmatically setting ``num_qubits``, the number of qubits in the "
@@ -332,7 +341,7 @@ msgid ""
 "actual custom circuit is directly supplied."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:235
+#: ../../aqua/initial_states.rst:239
 msgid ""
 "The multiple ways of manually configuring an initial state abide to the "
 "following priority order: `circuit > state_vector > state`. So, when a "
@@ -340,7 +349,7 @@ msgid ""
 " also supplied."
 msgstr ""
 
-#: ../../aqua/initial_states.rst:241
+#: ../../aqua/initial_states.rst:245
 msgid ""
 "When referring to the custom initial state declaratively inside Aqua, its"
 " code ``name``, by which Aqua dynamically discovers and loads it, is "

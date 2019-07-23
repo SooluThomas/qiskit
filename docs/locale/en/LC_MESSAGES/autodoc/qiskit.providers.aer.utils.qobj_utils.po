@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,30 @@ msgstr ""
 msgid "instruction to insert."
 msgstr ""
 
+#: of qiskit.providers.aer.utils.qobj_utils.append_instr
+#: qiskit.providers.aer.utils.qobj_utils.get_instr_pos
+#: qiskit.providers.aer.utils.qobj_utils.insert_instr
+#: qiskit.providers.aer.utils.qobj_utils.insert_snapshots_after_barriers
+#: qiskit.providers.aer.utils.qobj_utils.snapshot_instr
+#: qiskit.providers.aer.utils.qobj_utils.unitary_instr
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.aer.utils.qobj_utils.append_instr:10
+#: qiskit.providers.aer.utils.qobj_utils.insert_instr:12
+#: qiskit.providers.aer.utils.qobj_utils.insert_snapshots_after_barriers:11
+msgid "The Qobj object"
+msgstr ""
+
+#: of qiskit.providers.aer.utils.qobj_utils.append_instr
+#: qiskit.providers.aer.utils.qobj_utils.get_instr_pos
+#: qiskit.providers.aer.utils.qobj_utils.insert_instr
+#: qiskit.providers.aer.utils.qobj_utils.insert_snapshots_after_barriers
+#: qiskit.providers.aer.utils.qobj_utils.snapshot_instr
+#: qiskit.providers.aer.utils.qobj_utils.unitary_instr
+msgid "戻り値の型"
+msgstr ""
+
 #: of qiskit.providers.aer.utils.qobj_utils.barrier_instr:1
 #: qiskit.providers.aer.utils.qobj_utils.iden_instr:1
 msgid "Create a barrier QasmQobjInstruction."
@@ -88,20 +112,8 @@ msgstr ""
 msgid "QasmQobjInstruction name to find"
 msgstr ""
 
-#: of qiskit.providers.aer.utils.qobj_utils.get_instr_pos
-#: qiskit.providers.aer.utils.qobj_utils.snapshot_instr
-#: qiskit.providers.aer.utils.qobj_utils.unitary_instr
-msgid "戻り値"
-msgstr ""
-
 #: of qiskit.providers.aer.utils.qobj_utils.get_instr_pos:13
 msgid "A list of positions where the QasmQobjInstruction is located."
-msgstr ""
-
-#: of qiskit.providers.aer.utils.qobj_utils.get_instr_pos
-#: qiskit.providers.aer.utils.qobj_utils.snapshot_instr
-#: qiskit.providers.aer.utils.qobj_utils.unitary_instr
-msgid "戻り値の型"
 msgstr ""
 
 #: of qiskit.providers.aer.utils.qobj_utils.insert_instr:1
@@ -130,7 +142,16 @@ msgstr ""
 msgid "a snapshot instruction."
 msgstr ""
 
-#: of qiskit.providers.aer.utils.qobj_utils.insert_snapshots_after_barriers:11
+#: of qiskit.providers.aer.utils.qobj_utils.insert_snapshots_after_barriers
+#: qiskit.providers.aer.utils.qobj_utils.unitary_instr
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.aer.utils.qobj_utils.insert_snapshots_after_barriers:14
+msgid ":exc:`ValueError` -- if the name of the instruction is not an snapshot"
+msgstr ""
+
+#: of qiskit.providers.aer.utils.qobj_utils.insert_snapshots_after_barriers:16
 #: qiskit.providers.aer.utils.qobj_utils.snapshot_instr:38
 #: qiskit.providers.aer.utils.qobj_utils.unitary_instr:15
 msgid "Additional Information:"
@@ -240,10 +261,6 @@ msgstr ""
 
 #: of qiskit.providers.aer.utils.qobj_utils.unitary_instr:10
 msgid "The qobj item for the unitary instruction."
-msgstr ""
-
-#: of qiskit.providers.aer.utils.qobj_utils.unitary_instr
-msgid "raises"
 msgstr ""
 
 #: of qiskit.providers.aer.utils.qobj_utils.unitary_instr:13

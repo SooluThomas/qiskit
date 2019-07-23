@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,13 @@ msgstr ""
 
 #: ../../aqua/tutorials/aqua_tutorials.rst:11
 msgid ""
+"In both ``qiskit`` and ``community`` folders you will also find Aqua "
+"domain examples in folders ``artificial_intelligence``, ``chemistry``, "
+"``finance`` and ``optimization``"
+msgstr ""
+
+#: ../../aqua/tutorials/aqua_tutorials.rst:14
+msgid ""
 "These tutorials are a set of code examples, `Jupyter Notebooks "
 "<http://jupyter.org/>`__ and sample input files that enable experimenting"
 " with :ref:`aqua-library`, :ref:`aqua-chemistry`, :ref:`aqua-ai` and :ref"
@@ -41,7 +48,7 @@ msgid ""
 "algorithmic components."
 msgstr ""
 
-#: ../../aqua/tutorials/aqua_tutorials.rst:20
+#: ../../aqua/tutorials/aqua_tutorials.rst:23
 msgid ""
 "The `Qiskit Tutorials repository <https://github.com/Qiskit/qiskit-"
 "tutorials>`__ is supposed to be installed via the ``git clone`` command."
@@ -50,12 +57,12 @@ msgid ""
 "execute the Jupyter Notebooks we provide."
 msgstr ""
 
-#: ../../aqua/tutorials/aqua_tutorials.rst:25
+#: ../../aqua/tutorials/aqua_tutorials.rst:28
 msgid ""
 "A `Jupyter Notebook nbviewer of featured Qiskit tutorials "
-"<https://github.com/Qiskit/qiskit-tutorials/blob/master/index.ipynb>`__ "
-"and a `Jupyter Notebook nbviewer of Aqua community tutorials "
 "<https://github.com/Qiskit/qiskit-"
+"tutorials/blob/master/qiskit/start_here.ipynb>`__ and a `Jupyter Notebook"
+" nbviewer of Aqua community tutorials <https://github.com/Qiskit/qiskit-"
 "tutorials/blob/master/community/aqua/index.ipynb>`__ allow for a quick "
 "and intuitive way to browse through the various sample programs "
 "presented."

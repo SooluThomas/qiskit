@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,15 +34,15 @@ msgid "The following quantum oracles are included in Aqua:"
 msgstr ""
 
 #: ../../aqua/oracles.rst:13
-msgid ":ref:`Logic Expression Oracle`"
+msgid ":ref:`logical-expression-oracle`"
 msgstr ""
 
 #: ../../aqua/oracles.rst:14
-msgid ":ref:`Truth Table Oracle`"
+msgid ":ref:`truth-table-oracle`"
 msgstr ""
 
 #: ../../aqua/oracles.rst:15
-msgid ":ref:`Custom Circuit Oracle`"
+msgid ":ref:`custom-circuit-oracle`"
 msgstr ""
 
 msgid "Extending the Oracle Library"
@@ -62,7 +62,7 @@ msgstr ""
 #: ../../aqua/oracles.rst:28
 msgid ""
 "New oracles are typically installed in the "
-"``qiskit_aqua/components/oracles`` folder and derive from the ``Oracle`` "
+"``qiskit/aqua/components/oracles`` folder and derive from the ``Oracle`` "
 "class. Aqua also allows for :ref:`aqua-dynamically-discovered-"
 "components`: new components can register themselves as Aqua extensions "
 "and be dynamically discovered at run time independent of their location "
@@ -87,13 +87,11 @@ msgid ""
 "for any arbitrary input logical expressions. A logical expression is "
 "composed of logical operators ``&`` (``AND``), ``|`` (``OR``), ``~`` "
 "(``NOT``), and ``^`` (``XOR``), as well as symbols for literals "
-"(variables). For example, ``'a & b'``, and ``(v[0] | ~v[1]) ^ (~v[2] & "
-"v[3])``. Aqua's logical expression oracle`` relies on the `PyEda package "
-"<https://pyeda.readthedocs.io>`__ to try to parse any input strings, "
-"assuming no predetermined formats."
+"(variables). For example, ``'a & b'``, and ``(v0 | ~v1) ^ (~v2 & v3)`` "
+"are both valid string representation of boolean logical expressions."
 msgstr ""
 
-#: ../../aqua/oracles.rst:61
+#: ../../aqua/oracles.rst:60
 msgid ""
 "For convenience, this oracle, in addition to trying to parse arbitrary "
 "logical expressions, also supports input strings in the `DIMACS CNF "
@@ -105,11 +103,11 @@ msgid ""
 "one or more literals."
 msgstr ""
 
-#: ../../aqua/oracles.rst:72
+#: ../../aqua/oracles.rst:71
 msgid "The following is an example of a CNF expressed in DIMACS format:"
 msgstr ""
 
-#: ../../aqua/oracles.rst:84
+#: ../../aqua/oracles.rst:83
 msgid ""
 "The first line, following the ``c`` character, is a comment. The second "
 "line specifies that the CNF is over three boolean variables --- let us "
@@ -126,7 +124,7 @@ msgid ""
 "x_3) \\land (\\lnot x_1 \\lor x_2 \\lor x_3)`."
 msgstr ""
 
-#: ../../aqua/oracles.rst:99
+#: ../../aqua/oracles.rst:98
 msgid ""
 "An example showing how to use the Grover algorithm on a DIMACS oracle to "
 "search for a satisfying assignment to an SAT problem encoded in DIMACS is"
@@ -135,7 +133,7 @@ msgid ""
 "tutorials/tree/master/community/aqua>`__."
 msgstr ""
 
-#: ../../aqua/oracles.rst:105
+#: ../../aqua/oracles.rst:104
 msgid ""
 "Logic expressions, regardless of the input formats, are parsed and stored"
 " as Abstract Syntax Tree (AST) tuples, from which the corresponding "
@@ -148,7 +146,7 @@ msgstr ""
 msgid "Circuit Optimization"
 msgstr ""
 
-#: ../../aqua/oracles.rst:116
+#: ../../aqua/oracles.rst:115
 msgid ""
 "By default, Aqua's logical expression oracle would not try to apply any "
 "optimization when building the circuits. For any ``DIMACS`` input, the "
@@ -161,48 +159,43 @@ msgid ""
 "built circuit against their input expression to examine and analyze "
 "details. However, this oftentimes leads to relatively deep circuits that "
 "possibly also involve many ancillary qubits. Aqua, therefore, provides "
-"the option to try to minimize the input logical expression before "
-"building its circuit. The minimization is carried out via `PyEda`, which "
-"internally uses the `Espresso heuristic logic minimizer "
-"<https://en.wikipedia.org/wiki/Espresso_heuristic_logic_minimizer>`__."
+"the option to try to optimize the input logical expression before "
+"building its circuit."
 msgstr ""
 
-#: ../../aqua/oracles.rst:139
-msgid ""
-"Currently, only the ``'espresso'`` optimization mode is supported by the "
-"logical expression oracle. When omitted, it will default to ``off``, "
-"indicating no optimization."
+#: ../../aqua/oracles.rst:135
+msgid "When omitted, it will default to ``False``, indicating no optimization."
 msgstr ""
 
-#: ../../aqua/oracles.rst:143
+#: ../../aqua/oracles.rst:137
 msgid ""
 "Internally, the logical expression oracle relies heavily on ``mct``, the "
 "Multiple-Control Toffoli operation, for circuit constructions. Aqua "
-"includes three different modes for ``mct``, namely ``'basic'``, "
-"``'advanced'``, and ``'noancilla'``:"
+"includes multiple different modes for ``mct``, namely ``'basic'``, "
+"``'basic-dirty-ancilla'``, ``'advanced'``, and ``'noancilla'``:"
 msgstr ""
 
-#: ../../aqua/oracles.rst:152
+#: ../../aqua/oracles.rst:146
 msgid ""
-"More information on ``mct`` and its three modes can be found at "
+"More information on ``mct`` and its various modes can be found at "
 ":ref:`mct`."
 msgstr ""
 
 msgid "Declarative Name"
 msgstr ""
 
-#: ../../aqua/oracles.rst:156
+#: ../../aqua/oracles.rst:150
 msgid ""
 "When referring to the logical expression oracle declaratively inside "
 "Aqua, its code ``name``, by which Aqua dynamically discovers and loads "
 "it, is ``LogicExpressionOracle``."
 msgstr ""
 
-#: ../../aqua/oracles.rst:165
+#: ../../aqua/oracles.rst:159
 msgid "Truth Table Oracle"
 msgstr ""
 
-#: ../../aqua/oracles.rst:167
+#: ../../aqua/oracles.rst:161
 msgid ""
 "Besides logical expressions, another common way of specifying boolean "
 "functions is using truth tables, which is basically an exhaustive mapping"
@@ -211,37 +204,37 @@ msgid ""
 "simple truth table that corresponds to the ``XOR`` of two variables:"
 msgstr ""
 
-#: ../../aqua/oracles.rst:177
+#: ../../aqua/oracles.rst:171
 msgid "Inputs"
 msgstr ""
 
-#: ../../aqua/oracles.rst:177
+#: ../../aqua/oracles.rst:171
 msgid "Output"
 msgstr ""
 
-#: ../../aqua/oracles.rst:179
+#: ../../aqua/oracles.rst:173
 msgid "``A``"
 msgstr ""
 
-#: ../../aqua/oracles.rst:179
+#: ../../aqua/oracles.rst:173
 msgid "``B``"
 msgstr ""
 
-#: ../../aqua/oracles.rst:179
+#: ../../aqua/oracles.rst:173
 msgid "``A xor B``"
 msgstr ""
 
-#: ../../aqua/oracles.rst:181 ../../aqua/oracles.rst:182
-#: ../../aqua/oracles.rst:183 ../../aqua/oracles.rst:184
+#: ../../aqua/oracles.rst:175 ../../aqua/oracles.rst:176
+#: ../../aqua/oracles.rst:177 ../../aqua/oracles.rst:178
 msgid "0"
 msgstr ""
 
-#: ../../aqua/oracles.rst:182 ../../aqua/oracles.rst:183
-#: ../../aqua/oracles.rst:184
+#: ../../aqua/oracles.rst:176 ../../aqua/oracles.rst:177
+#: ../../aqua/oracles.rst:178
 msgid "1"
 msgstr ""
 
-#: ../../aqua/oracles.rst:187
+#: ../../aqua/oracles.rst:181
 msgid ""
 "In this case :math:`n=2`, and :math:`m=1`. Oftentimes, for brevity, the "
 "input bit-strings are omitted because they can be easily derived for any "
@@ -256,7 +249,7 @@ msgid ""
 "specifications."
 msgstr ""
 
-#: ../../aqua/oracles.rst:205
+#: ../../aqua/oracles.rst:199
 #, python-format
 msgid ""
 "Regarding circuit optimization and mct usages, the truth table oracle is "
@@ -275,26 +268,22 @@ msgid ""
 "is then used to build the corresponding oracle circuit."
 msgstr ""
 
-#: ../../aqua/oracles.rst:229
-msgid ""
-"Currently, the only optimization mode supported by the truth table oracle"
-" is ``'qm-dlx'``, which stands for Quine-McCluskey with Dancing Links "
-"(Knuth's Algorithm X). When omitted, it will default to ``off``, "
-"indicating no optimization."
+#: ../../aqua/oracles.rst:223
+msgid "When omitted, it will default to False, indicating no optimization."
 msgstr ""
 
-#: ../../aqua/oracles.rst:236
+#: ../../aqua/oracles.rst:227
 msgid ""
 "When referring to the Truth Table Oracle declaratively inside Aqua, its "
 "code ``name``, by which Aqua dynamically discovers and loads it, is "
 "``TruthTableOracle``."
 msgstr ""
 
-#: ../../aqua/oracles.rst:245
+#: ../../aqua/oracles.rst:236
 msgid "Custom Circuit Oracle"
 msgstr ""
 
-#: ../../aqua/oracles.rst:247
+#: ../../aqua/oracles.rst:238
 msgid ""
 "This class is provided for easy creation of oracles using custom "
 "circuits. It is geared towards programmatically experimenting with "

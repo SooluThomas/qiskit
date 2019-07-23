@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,14 +44,14 @@ msgstr ""
 msgid ""
 "Any user who would like to contribute to Aqua or Qiskit Chemistry should "
 "follow the Aqua `contribution guidelines <https://github.com/Qiskit"
-"/qiskit-chemistry/blob/master/.github/CONTRIBUTING.rst>`__."
+"/qiskit-chemistry/blob/master/CONTRIBUTING.md>`__."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:23
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:24
 msgid "Dynamically Discovered Components"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:25
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:26
 msgid ""
 "Researchers and developers can contribute to Qiskit Chemistry by "
 "providing new components, which will be automatically discovered and "
@@ -61,7 +61,7 @@ msgid ""
 "run time:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:30
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:31
 msgid ""
 "The class implementing the component should be placed in the appropriate "
 "folder in the file system, as explained in `Section \"Extension Points\" "
@@ -74,7 +74,7 @@ msgid ""
 "file system."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:38
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:39
 msgid ""
 "Alternatively, a developer extending Qiskit Chemistry with a new "
 "component can simply create a dedicated repository with its own "
@@ -87,30 +87,30 @@ msgid ""
 "registered:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:97
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:98
 msgid "Extension Points"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:98
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:99
 msgid ""
 "This section details the components that researchers and developers can "
 "contribute to Qiskit Chemistry. Qiskit Chemistry exposes two extension "
 "points:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:102
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:103
 msgid ":ref:`chemistry-drivers`"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:103
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:104
 msgid ":ref:`chemistry-operators`"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:109
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:110
 msgid "Chemistry Drivers"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:111
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:112
 msgid ""
 "The driver support in Qiskit Chemistry was designed to make the "
 ":ref:`drivers` pluggable and discoverable. In order for Qiskit Chemistry "
@@ -126,11 +126,11 @@ msgid ""
 "lookup."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:125
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:126
 msgid "Chemistry Operators"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:127
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:128
 msgid ""
 "Chemistry operators convert the electronic structure information obtained"
 " from the drivers to qubit-operator forms, suitable to be processed by "
@@ -142,22 +142,22 @@ msgid ""
 "automatic discovery and dynamic lookup."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:137
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:138
 msgid "Unit Tests"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:139
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:140
 msgid ""
 "Contributing new software components to Qiskit Chemistry requires writing"
 " new unit tests for those components, and executing all the existing unit"
 " tests to make sure that no bugs were inadvertently injected."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:145
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:146
 msgid "Writing Unit Tests"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:146
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:147
 msgid ""
 "Unit tests should go under the ``test`` folder and be classes derived "
 "from the ``QiskitAquaChemistryTestCase`` class.  They should not have "
@@ -166,38 +166,38 @@ msgid ""
 "``self.AssertTrue``, ``self.assertRaises``, etc."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:155
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:156
 msgid "Executing Unit Tests"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:156
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:157
 msgid "To run all unit tests, execute the following command:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:162
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:163
 msgid ""
 "To run a particular unit test module, the following command should be "
 "used:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:168
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:169
 msgid "The command for help is as follows:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:174
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:175
 msgid ""
 "`Other running options <https://docs.python.org/3/library/unittest.html"
 "#command-line-options>`_ are available to users for consultation."
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:177
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:178
 msgid ""
 "In order to see unit test log messages, researchers and developers "
 "contributing to Aqua will need to set the ``LOG_LEVEL`` environment "
 "variable to ``DEBUG`` mode:"
 msgstr ""
 
-#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:185
+#: ../../aqua/chemistry/qiskit_chemistry_extending.rst:186
 msgid ""
 "The results from ``self.log.debug`` will be saved to a file with same "
 "name as the module used to run, and with a ``log`` extension. For "

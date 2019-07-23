@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,8 +56,18 @@ msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.gate_error_values:6
 msgid ""
-"A list of tuples (name, qubits, value). If gate error information is not "
-"available None will be returned for value."
+"A list of tuples (name, qubits, value). If gate       error information "
+"is not available None will be returned for       value."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.device.parameters.gate_error_values:9
+#: qiskit.providers.aer.noise.device.parameters.gate_time_values:11
+msgid "A list of tuples (name, qubits, value). If gate"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.device.parameters.gate_error_values:9
+#: qiskit.providers.aer.noise.device.parameters.readout_error_values:9
+msgid "error information is not available None will be returned for value."
 msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.gate_error_values
@@ -70,8 +80,19 @@ msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.gate_param_values:6
 msgid ""
-"A list of tuples (name, qubits, time, error). If gate error or gate_time "
-"information is not available None will be returned for value."
+"A list of tuples (name, qubits, time, error). If gate       error or "
+"gate_time information is not available None       will be returned for "
+"value."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.device.parameters.gate_param_values:9
+msgid "A list of tuples (name, qubits, time, error). If gate"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.device.parameters.gate_param_values:9
+msgid ""
+"error or gate_time information is not available None will be returned for"
+" value."
 msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.gate_time_values:1
@@ -84,8 +105,12 @@ msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.gate_time_values:8
 msgid ""
-"A list of tuples (name, qubits, value). If gate time information is not "
-"available None will be returned for value."
+"A list of tuples (name, qubits, value). If gate       time information is"
+" not available None will be returned for       value."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.device.parameters.gate_time_values:11
+msgid "time information is not available None will be returned for value."
 msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.readout_error_values:1
@@ -94,8 +119,12 @@ msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.readout_error_values:6
 msgid ""
-"A list of readout error values for qubits. If readout error information "
-"is not available None will be returned for value."
+"A list of readout error values for qubits. If readout       error "
+"information is not available None will be returned       for value."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.device.parameters.readout_error_values:9
+msgid "A list of readout error values for qubits. If readout"
 msgstr ""
 
 #: of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:1

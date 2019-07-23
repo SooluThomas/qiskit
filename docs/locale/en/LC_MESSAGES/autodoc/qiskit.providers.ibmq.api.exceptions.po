@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,6 @@ msgstr ""
 #: of qiskit.providers.ibmq.api.exceptions.BadBackendError:1
 #: qiskit.providers.ibmq.api.exceptions.CredentialsError:1
 #: qiskit.providers.ibmq.api.exceptions.RegisterSizeError:1
-#: qiskit.providers.ibmq.api.exceptions.WebsocketError:1
 msgid "ベースクラス: :class:`qiskit.providers.ibmq.api.exceptions.ApiError`"
 msgstr ""
 
@@ -50,17 +49,5 @@ msgstr ""
 
 #: of qiskit.providers.ibmq.api.exceptions.RegisterSizeError:1
 msgid "Exception due to exceeding the maximum number of allowed qubits."
-msgstr ""
-
-#: of qiskit.providers.ibmq.api.exceptions.WebsocketError:1
-msgid "Exceptions related to websockets."
-msgstr ""
-
-#: of qiskit.providers.ibmq.api.exceptions.WebsocketTimeoutError:1
-msgid "ベースクラス: :class:`qiskit.providers.ibmq.api.exceptions.WebsocketError`"
-msgstr ""
-
-#: of qiskit.providers.ibmq.api.exceptions.WebsocketTimeoutError:1
-msgid "Timeout during websocket communication."
 msgstr ""
 

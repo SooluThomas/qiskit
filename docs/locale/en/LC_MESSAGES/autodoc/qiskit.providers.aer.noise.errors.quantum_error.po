@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,9 @@ msgid ""
 msgstr ""
 
 #: of qiskit.providers.aer.noise.errors.quantum_error.QuantumError.as_dict:1
-msgid "Return the current error as a dictionary."
+msgid ""
+"DEPRECATED: Use to_dict() :returns: The current error as a dictionary. "
+":rtype: dict"
 msgstr ""
 
 #: of qiskit.providers.aer.noise.errors.quantum_error.QuantumError.atol:1
@@ -211,6 +213,10 @@ msgstr ""
 
 #: of qiskit.providers.aer.noise.errors.quantum_error.QuantumError.tensor:6
 msgid "the tensor product error channel self ⊗ other."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.quantum_error.QuantumError.to_dict:1
+msgid "Return the current error as a dictionary."
 msgstr ""
 
 #: of

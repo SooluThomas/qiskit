@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,25 +54,25 @@ msgstr ""
 #: ../../aqua/optimization/qiskit_optimization.rst:26
 msgid ""
 "`Stable Set <https://github.com/Qiskit/qiskit-"
-"tutorials/blob/master/community/aqua/optimization/stable_set.ipynb>`__"
+"tutorials/blob/master/community/optimization/stable_set.ipynb>`__"
 msgstr ""
 
 #: ../../aqua/optimization/qiskit_optimization.rst:27
 msgid ""
 "`Maximum Cut (Max-Cut) <https://github.com/Qiskit/qiskit-"
-"tutorials/blob/master/community/aqua/optimization/max_cut.ipynb>`__"
+"tutorials/blob/master/community/optimization/max_cut.ipynb>`__"
 msgstr ""
 
 #: ../../aqua/optimization/qiskit_optimization.rst:28
 msgid ""
 "`Partition <https://github.com/Qiskit/qiskit-"
-"tutorials/blob/master/community/aqua/optimization/partition.ipynb>`__"
+"tutorials/blob/master/community/optimization/partition.ipynb>`__"
 msgstr ""
 
 #: ../../aqua/optimization/qiskit_optimization.rst:29
 msgid ""
 "`3 Satisfiability (3-SAT) <https://github.com/Qiskit/qiskit-"
-"tutorials/blob/master/community/aqua/optimization/grover.ipynb>`__"
+"tutorials/blob/master/community/optimization/grover.ipynb>`__"
 msgstr ""
 
 #: ../../aqua/optimization/qiskit_optimization.rst:34
@@ -129,9 +129,9 @@ msgstr ""
 
 #: ../../aqua/optimization/qiskit_optimization.rst:72
 msgid ""
-"The ``optimization`` folder of the `Aqua Tutorials GitHub Repository "
-"<https://github.com/Qiskit/aqua-tutorials>`__ contains numerous `Jupyter "
-"Notebooks <http://jupyter.org/>`__ and sample input data files explaining"
-" how to use Aqua Optimization."
+"The ``qiskit/optimization`` and ``community/optimization`` folders of the"
+" `Qiskit Tutorials GitHub Repository <https://github.com/Qiskit/qiskit-"
+"tutorials>`__ contain `Jupyter Notebooks <http://jupyter.org/>`__ and "
+"sample input data files explaining how to use Qiskit Optimization."
 msgstr ""
 

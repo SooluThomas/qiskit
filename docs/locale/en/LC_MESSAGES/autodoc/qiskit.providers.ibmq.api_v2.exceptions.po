@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "qiskit.providers.ibmq.api\\_v2.exceptions module"
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.exceptions:1
-msgid "Exceptions related to the IBM Q Api."
+msgid "Exceptions related to the IBM Q Experience API."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.exceptions.ApiError:1
@@ -33,11 +33,39 @@ msgstr ""
 msgid "Generic IBM Q API error."
 msgstr ""
 
-#: of qiskit.providers.ibmq.api_v2.exceptions.RequestsApiError:1
+#: of qiskit.providers.ibmq.api_v2.exceptions.AuthenticationLicenseError:1
+#: qiskit.providers.ibmq.api_v2.exceptions.RequestsApiError:1
+#: qiskit.providers.ibmq.api_v2.exceptions.WebsocketError:1
 msgid "ベースクラス: :class:`qiskit.providers.ibmq.api_v2.exceptions.ApiError`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.exceptions.AuthenticationLicenseError:1
+msgid "Exception due to user not accepting latest license agreement via web."
 msgstr ""
 
 #: of qiskit.providers.ibmq.api_v2.exceptions.RequestsApiError:1
 msgid "Exception re-raising a RequestException."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.exceptions.WebsocketAuthenticationError:1
+#: qiskit.providers.ibmq.api_v2.exceptions.WebsocketIBMQProtocolError:1
+#: qiskit.providers.ibmq.api_v2.exceptions.WebsocketTimeoutError:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.api_v2.exceptions.WebsocketError`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.exceptions.WebsocketAuthenticationError:1
+msgid "Exception caused during websocket authentication."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.exceptions.WebsocketError:1
+msgid "Exceptions related to websockets."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.exceptions.WebsocketIBMQProtocolError:1
+msgid "Exceptions related to IBM Q protocol error."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.exceptions.WebsocketTimeoutError:1
+msgid "Timeout during websocket communication."
 msgstr ""
 

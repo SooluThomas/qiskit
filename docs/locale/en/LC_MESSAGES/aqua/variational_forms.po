@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,17 +64,17 @@ msgid ""
 "architecture. Algorithms and their supporting objects, such as "
 "variational forms for quantum variational algorithms, are pluggable "
 "modules in Aqua. New variational forms for quantum variational algorithms"
-" are typically installed in the ``qiskit_aqua/utils/variational_forms`` "
-"folder and derive from the ``VariationalForm`` class. Aqua also allows "
-"for :ref:`aqua-dynamically-discovered-components`: new components can "
-"register themselves as Aqua extensions and be dynamically discovered at "
-"run time independent of their location in the file system. This is done "
-"in order to encourage researchers and developers interested in :ref"
-":`aqua-extending` to extend the Aqua framework with their novel research "
-"contributions."
+" are typically installed in the "
+"``qiskit/aqua/components/variational_forms`` folder and derive from the "
+"``VariationalForm`` class. Aqua also allows for :ref:`aqua-dynamically-"
+"discovered-components`: new components can register themselves as Aqua "
+"extensions and be dynamically discovered at run time independent of their"
+" location in the file system. This is done in order to encourage "
+"researchers and developers interested in :ref:`aqua-extending` to extend "
+"the Aqua framework with their novel research contributions."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:42
+#: ../../aqua/variational_forms.rst:43
 msgid ""
 "When a variational form is used at run time, the ``__init__`` method will"
 " be called with parameters as per the schema. The number of qubits will "
@@ -84,14 +84,14 @@ msgid ""
 "bounds, as in the following example:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:52
+#: ../../aqua/variational_forms.rst:55
 msgid ""
 "These values will later be used by the variational algorithm in "
 "conjunction with the optimizer. Note that the above example is correct "
 "when none of qubits are unentangled."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:55
+#: ../../aqua/variational_forms.rst:58
 msgid ""
 "The variational form can also indicate a *preferred initial point*.  This"
 " feature is particularly useful when there are reasons to believe that "
@@ -102,10 +102,11 @@ msgid ""
 "next interatomic distance is going to reduce the number of iterations "
 "necessary for the variational algorithm to converge.  Aqua provides `a "
 "tutorial detailing this use case <https://github.com/Qiskit/qiskit-"
-"tutorials/blob/master/community/aqua/chemistry/h2_vqe_initial_point.ipynb>`__."
+"tutorials/blob/\\ "
+"master/community/chemistry/h2_vqe_initial_point.ipynb>`__."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:63
+#: ../../aqua/variational_forms.rst:69
 msgid ""
 ":ref:`vqe` can, therefore, take an optional initial point from the user "
 "as the value of the ``initial_point`` parameter, specified as a list of "
@@ -120,7 +121,7 @@ msgid ""
 "value will be :math:`2\\pi`."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:74
+#: ../../aqua/variational_forms.rst:82
 msgid ""
 "Section \":ref:`aqua-extending`\" provides more details on how to extend "
 "Aqua with new components."
@@ -129,97 +130,123 @@ msgstr ""
 msgid "Entangler Map Associated with a Variational Form"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:79
+#: ../../aqua/variational_forms.rst:87
 msgid ""
 "A variational form is associated with an entangler map, which specifies "
 "the entanglement of the qubits. An entangler map can be envisioned (and "
 "that is also how it is implemented in Aqua) as a list such that each "
 "element in the list is a list where the first element is source qubit "
-":math:`k` and the second element is target qubit :math:`l`.  Indexes are "
+":math:`k` and the second element is target qubit :math:`l`. Indexes are "
 "non-negative integer values from :math:`0` to :math:`q - 1`, where "
 ":math:`q` is the total number of qubits.  The following Python list shows"
 " a possible entangler map: ``[[0, 1], [1, 2], [0, 3]]`` for :math:`q=4`."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:85
+#: ../../aqua/variational_forms.rst:95
 msgid "Currently, Aqua supplies the following variational forms:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:87
-msgid ":ref:`Ry`"
-msgstr ""
-
-#: ../../aqua/variational_forms.rst:88
-msgid ":ref:`RyRz`"
-msgstr ""
-
-#: ../../aqua/variational_forms.rst:89
-msgid ":ref:`Unitary Coupled Cluster Singles and Doubles (UCCSD)`"
-msgstr ""
-
-#: ../../aqua/variational_forms.rst:90
-msgid ":ref:`SwapRz`"
-msgstr ""
-
-#: ../../aqua/variational_forms.rst:96
-msgid "Ry"
+#: ../../aqua/variational_forms.rst:97
+msgid ":ref:`ry`"
 msgstr ""
 
 #: ../../aqua/variational_forms.rst:98
-msgid ""
-"The Ry trial wave function is layers of :math:`y` rotations with "
-"entanglements. When none of qubits are unentangled to other qubits, the "
-"number of optimizer parameters this form creates and uses is given by "
-":math:`q \\times (d + 1)`, where :math:`q` is the total number of qubits "
-"and :math:`d` is the depth of the circuit. Nonetheless, in some cases, if"
-" an ``entangler_map`` does not include all qubits, that is, some qubits "
-"are not entangled by other qubits. The number of parameters is reduced by"
-" :math:`d \\times q' ` where :math:`q'` is the number of unentangled "
-"qubits. This is because adding more parameters to the unentangled qubits "
-"only introduce overhead without bring any benefit; furthermore, "
-"theroetically, applying multiple Ry gates in a row can be reduced to one "
-"Ry gate with the summed rotation angles."
+msgid ":ref:`ryrz`"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:109
+#: ../../aqua/variational_forms.rst:99
+msgid ":ref:`uccsd`"
+msgstr ""
+
+#: ../../aqua/variational_forms.rst:100
+msgid ":ref:`swaprz`"
+msgstr ""
+
+#: ../../aqua/variational_forms.rst:106
+msgid "Ry"
+msgstr ""
+
+#: ../../aqua/variational_forms.rst:108
+msgid ""
+"The Ry trial wave function is layers of :math:`y` rotations with "
+"entanglements. When none of qubits are unentangled to other qubits the "
+"number of parameters and the entanglement gates themselves have no "
+"additional parameters, the number of optimizer parameters this form "
+"creates and uses is given by :math:`q \\times (d + 1)`, where :math:`q` "
+"is the total number of qubits and :math:`d` is the depth of the circuit. "
+"Nonetheless, in some cases, if an ``entangler_map`` does not include all "
+"qubits, that is, some qubits are not entangled by other qubits. The "
+"number of parameters is reduced by :math:`d \\times q' ` where :math:`q'`"
+" is the number of unentangled qubits. This is because adding more "
+"parameters to the unentangled qubits only introduce overhead without "
+"bring any benefit; furthermore, theoretically, applying multiple Ry gates"
+" in a row can be reduced to one Ry gate with the summed rotation angles."
+msgstr ""
+
+#: ../../aqua/variational_forms.rst:120
+msgid ""
+"If the form uses entanglement gates with parameters (such as ``'crx'``) "
+"the number of parameters increases by the number of entanglements. For "
+"instance with ``'linear'`` or ``'sca'`` entanglement the total number of "
+"parameters is :math:`2q \\times (d + 1/2)`. For ``'full'`` entanglement "
+"an additional :math:`q \\times (q - 1)/2 \\times d` parameters, hence a "
+"total of :math:`d \\times q \\times (q + 1) / 2 + q`. It is possible to "
+"skip the final layer or :math:`y` rotations by setting the argument "
+"``skip_final_ry`` to ``True``. Then the number of parameters in above "
+"formulae decreases by :math:`q`."
+msgstr ""
+
+#: ../../aqua/variational_forms.rst:128
 msgid ""
 "The following allows a specific form to be configured in the "
 "``variational_form`` section of the Aqua :ref:`aqua-input-file` when the "
 "``name`` field is set to ``RY``:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:114
+#: ../../aqua/variational_forms.rst:133
 msgid "The depth of the circuit:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:120
+#: ../../aqua/variational_forms.rst:139
 msgid ""
 "This parameter takes an ``int`` value greater than ``0``.  The default "
 "value is ``3``."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:122
+#: ../../aqua/variational_forms.rst:141
 msgid "A ``str`` value representing the type of entanglement to use:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:128
+#: ../../aqua/variational_forms.rst:147
 msgid ""
-"Only two ``str`` values are supported: ``\"full\"`` and ``\"linear\"``, "
-"corresponding to the *full* (or *all-to-all*) and *linear* (or *next-"
-"neighbor coupling*) entangler maps, respectively. With full entanglement,"
-" each qubit is entangled with all the others; with linear entanglement, "
-"qubit :math:`i` is entangled with qubit :math:`i + 1`, for all :math:`i "
-"\\in \\{0, 1, ... , q - 2\\}`, where :math:`q` is the total number of "
-"qubits."
+"Only three ``str`` values are supported: ``\"full\"``, ``\"linear\"`` and"
+" ``\"sca\"``. The first two correspond to the *full* (or *all-to-all*) "
+"and *linear* (or *next-neighbor coupling*) entangler maps, respectively. "
+"With full entanglement, each qubit is entangled with all the others; with"
+" linear entanglement, qubit :math:`i` is entangled with qubit :math:`i + "
+"1`, for all :math:`i \\in \\{0, 1, ... , q - 2\\}`, where :math:`q` is "
+"the total number of qubits."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:134
+#: ../../aqua/variational_forms.rst:154
+msgid ""
+"The entanglement type ``\"sca\"`` stands for *shifted-circular-"
+"alternating* entanglement. This entanglement is a generalised and "
+"modified version of the proposed circuit 14 in `Sim et al. "
+"<https://arxiv.org/abs/1905.10876>`__. It consists of circular "
+"entanglement where the ''long'' entanglement connecting the first with "
+"the last qubit is shifted by one each block.  Furthermore the role of "
+"control and target qubits are swapped every block (therefore "
+"alternating)."
+msgstr ""
+
+#: ../../aqua/variational_forms.rst:161
 msgid ""
 "A list of list of non-negative ``int`` values specifying the entangler "
 "map:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:140
+#: ../../aqua/variational_forms.rst:167
 msgid ""
 "The ``entanglement`` parameter defined above can be overridden by an "
 "entangler map explicitly specified as the value of the ``entangler_map`` "
@@ -231,24 +258,24 @@ msgid ""
 "example:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:155
+#: ../../aqua/variational_forms.rst:182
 msgid ""
 "The source qubit index is excluded from the target qubit index. In other "
 "words, qubit :math:`i` cannot be both source and target qubit indexes."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:158
+#: ../../aqua/variational_forms.rst:185
 msgid ""
 "Furthermore, by default, if the ``entangler_map`` parameter specifies "
-"that :math:[`i, j`], where :math:`i,j \\in \\{0, 1, q-1\\}, i \\neq j`, "
-"then it cannot also specify :math:[`j, i`].  A run-time error will be "
+"that :math:`[i, j]`, where :math:`i,j \\in \\{0, 1, q-1\\}, i \\neq j`, "
+"then it cannot also specify :math:`[j, i]`.  A run-time error will be "
 "generated if double entanglement is configured. This restriction can be "
 "lifted programmatically by setting the ``allow_double_entanglement`` "
 "boolean flag to ``True`` inside the ``validate_entangler_map`` method in "
 "the ``entangler_map`` Application Programming Interface (API)."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:170
+#: ../../aqua/variational_forms.rst:197
 msgid ""
 "When configured declaratively, Aqua and its domain specific applications "
 "(:ref:`aqua-chemistry`, :ref:`aqua-ai`, :ref:`aqua-optimization` and :ref"
@@ -267,11 +294,11 @@ msgid ""
 "when manually configuring the entangler map."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:188
+#: ../../aqua/variational_forms.rst:215
 msgid "The boolean value to skip applying gates on unentangled qubits:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:194
+#: ../../aqua/variational_forms.rst:221
 msgid ""
 "This default value is ``False``. If a given ``entangler_map`` does not "
 "entangle some qubits, this might imply that the users would like to keep "
@@ -282,17 +309,17 @@ msgstr ""
 msgid "Declarative Name"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:200
+#: ../../aqua/variational_forms.rst:229
 msgid ""
 "When referring to Ry declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``RY``."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:208
+#: ../../aqua/variational_forms.rst:237
 msgid "RyRz"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:210
+#: ../../aqua/variational_forms.rst:239
 msgid ""
 "The RyRz trial wave function is layers of :math:`y` plus :math:`z` "
 "rotations with entanglements. When none of qubits are unentangled to "
@@ -304,31 +331,31 @@ msgid ""
 "number of parameters is reduced by :math:`d \\times q' \\times 2` where "
 ":math:`q'` is the number of unentangled qubits. This is because adding "
 "more parameters to the unentangled qubits only introduce overhead without"
-" bring any benefit; furthermore, theroetically, applying multiple Ry and "
+" bring any benefit; furthermore, theoretically, applying multiple Ry and "
 "Rz gates in a row can be reduced to one Ry gate and one Rz gate with the "
 "summed rotation angles."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:222
+#: ../../aqua/variational_forms.rst:251
 msgid ""
 "The parameters of RyRz can be configured after selecting ``RYRZ`` as the "
 "value of the ``name`` field in the ``variational_form`` section of the "
-"Aqua :ref:`input-file`.  These parameters are ``depth``, "
+"Aqua :ref:`aqua-input-file`.  These parameters are ``depth``, "
 "``entanglement``, ``entangler_map``, and ``skip_unentangled_qubits`` --- "
 "the same as those of :ref:`Ry`."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:230
+#: ../../aqua/variational_forms.rst:259
 msgid ""
 "When referring to RyRz declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``RYRZ``."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:238
+#: ../../aqua/variational_forms.rst:267
 msgid "Unitary Coupled Cluster Singles and Doubles (UCCSD)"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:240
+#: ../../aqua/variational_forms.rst:269
 msgid ""
 "UCCSD lends itself to chemistry experiments and it is, therefore, "
 "suitable for use in :ref:`aqua-chemistry`. However, it is still a general"
@@ -336,7 +363,7 @@ msgid ""
 "experiments."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:246
+#: ../../aqua/variational_forms.rst:275
 msgid ""
 "The applicability of UCCSD to chemistry is described in `arXiv:1805.04340"
 " <https://arxiv.org/abs/1805.04340>`__."
@@ -345,7 +372,7 @@ msgstr ""
 msgid "Particle Preservation"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:251 ../../aqua/variational_forms.rst:501
+#: ../../aqua/variational_forms.rst:280 ../../aqua/variational_forms.rst:532
 msgid ""
 "Particle preservation plays an important role when computing the excited "
 "states of a molecule.  Without particle preservation, the result of the "
@@ -355,7 +382,7 @@ msgid ""
 "initial configuration."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:257
+#: ../../aqua/variational_forms.rst:286
 msgid ""
 "In general, Unitary Coupled Cluster (UCC) preserves the number of "
 "particles across the computation and, consequently, the number of "
@@ -365,7 +392,7 @@ msgid ""
 "electrons equals the number of protons."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:265
+#: ../../aqua/variational_forms.rst:294
 msgid ""
 "Note that the UCCSD implementation does not require the use of Trotter "
 "steps in the expansion of the cluster operators.  Assuming that "
@@ -380,7 +407,7 @@ msgid ""
 " good accuracy with just a single Trotter step."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:278
+#: ../../aqua/variational_forms.rst:307
 msgid ""
 "Rather than allowing single and double excitations with all particles and"
 " all unoccupied orbitals, the particles and unoccupied orbitals can be "
@@ -390,15 +417,15 @@ msgid ""
 "such approximation depends on the active space chosen."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:284
+#: ../../aqua/variational_forms.rst:313
 msgid "The following parameters allow a specific form to be configured:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:286
+#: ../../aqua/variational_forms.rst:315
 msgid "The depth of the circuit in use:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:292
+#: ../../aqua/variational_forms.rst:321
 msgid ""
 "This parameter takes a positive ``int`` value, representing the depth of "
 "the circuit. The default value is ``1``. Differently from the heuristic "
@@ -406,38 +433,46 @@ msgid ""
 "circuit."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:297
+#: ../../aqua/variational_forms.rst:326
 msgid ""
 "The total number of spin orbitals for which the variational form is to be"
 " created:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:303 ../../aqua/variational_forms.rst:311
+#: ../../aqua/variational_forms.rst:332
 msgid "This parameter expects a positive ``int`` value."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:305
+#: ../../aqua/variational_forms.rst:334
 msgid ""
 "The total number of particles for which the variational form is to be "
 "created:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:314
+#: ../../aqua/variational_forms.rst:340
+msgid ""
+"This parameter expects a list of two integers for number of alpha and "
+"beta electrons or, for closed shell backward compatibility, a single "
+"``int`` value which will be divided by two internally to form number of "
+"alpha and beta electrons."
+msgstr ""
+
+#: ../../aqua/variational_forms.rst:344
 msgid "The desired :ref:`translators` from fermions to qubits:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:320
+#: ../../aqua/variational_forms.rst:350
 msgid ""
 "This parameter takes a value of type ``str``.  Currently, only the three "
 "values above are supported, but new qubit mappings can easily be plugged "
 "in. Specifically:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:324
+#: ../../aqua/variational_forms.rst:354
 msgid "``jordan_wigner`` corresponds to the :ref:`jordan-wigner` transformation."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:325
+#: ../../aqua/variational_forms.rst:355
 msgid ""
 "``parity``, the default value for the ``qubit_mapping`` parameter, "
 "corresponds to the :ref:`parity` mapping transformation. When this "
@@ -446,49 +481,49 @@ msgid ""
 "``two_qubit_reduction`` parameter to ``True``, as explained next."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:330
+#: ../../aqua/variational_forms.rst:360
 msgid ""
 "``bravyi_kitaev`` corresponds to the :ref:`bravyi-kitaev` transformation,"
 " also known as *binary-tree-based qubit mapping*."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:333
+#: ../../aqua/variational_forms.rst:363
 msgid ""
 "A Boolean flag specifying whether or not to apply the precision-"
 "preserving two-qubit reduction optimization:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:340
+#: ../../aqua/variational_forms.rst:370
 msgid ""
 "The default value for this parameter is ``True``. When the parity mapping"
 " is selected, and ``two_qubit_reduction`` is set to ``True``, then the "
 "operator can be reduced by two qubits without loss of precision."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:346
+#: ../../aqua/variational_forms.rst:376
 msgid ""
 "If the mapping from fermionic to qubit is set to something other than the"
 " parity mapping, the value assigned to ``two_qubit_reduction`` is "
 "ignored."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:349
+#: ../../aqua/variational_forms.rst:379
 msgid "The number of time slices to use in the expansion:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:355
+#: ../../aqua/variational_forms.rst:385
 msgid ""
 "This parameter expects a non-negative ``int`` value.  The default value "
 "is ``1``."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:357
+#: ../../aqua/variational_forms.rst:387
 msgid ""
 "A list of occupied orbitals whose particles are to be used in the "
 "creation of single and double excitations:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:364
+#: ../../aqua/variational_forms.rst:394
 msgid ""
 "This parameter expects to be assigned a list of ``int`` values. By "
 "default, ``active_occupied`` is assigned ``None``, corresponding to a "
@@ -498,7 +533,7 @@ msgid ""
 "unoccupied virtual alpha orbitals, respectively."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:382
+#: ../../aqua/variational_forms.rst:412
 msgid ""
 "The ``int`` values in the ``active_occupied`` list are orbital indices "
 "ranging from ``0`` to ``n``, where ``n = No - 1``. The user needs only to"
@@ -509,13 +544,13 @@ msgid ""
 "on."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:389
+#: ../../aqua/variational_forms.rst:419
 msgid ""
 "A list of active unoccupied orbitals to be used in the creation of single"
 " and double excitations:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:395
+#: ../../aqua/variational_forms.rst:425
 msgid ""
 "This parameter expects to be assigned a list of ``int`` values.  By "
 "default, the default value assigned to `active_unoccupied` is ``None``, "
@@ -525,7 +560,7 @@ msgid ""
 "defined by the ``active_unoccupied`` list."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:401
+#: ../../aqua/variational_forms.rst:431
 msgid ""
 "Assuming that ``Nv`` is the number of active unoccupied virtual alpha "
 "orbitals, the ``int`` values in the ``active_unoccupied`` list are "
@@ -537,47 +572,47 @@ msgid ""
 "the next one down, and so on."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:411
+#: ../../aqua/variational_forms.rst:442
 msgid ""
 "When executing an Aqua Chemistry problem, the user can configure two "
-"parameters in the ``operator`` section of the Aqua Chemistry :ref:`aqua-"
-"chemistry-input-file`: ``freeze_core`` and ``orbital_reduction``.  These "
-"two parameters effectively allow the user to specify a set of orbitals to"
-" be removed from the computation of the molecular energy. Thus the "
-"orbitals configurable through UCCSD do not include the orbitals removed "
-"via the ``freeze_core`` and ``orbital_reduction`` parameters.  The "
-"orbitals remaining after that removal are reindexed and  partitioned "
-"according to the following:"
+"parameters in the ``operator`` section of the Aqua Chemistry :ref"
+":`qiskit-chemistry-input-file`: ``freeze_core`` and "
+"``orbital_reduction``.  These two parameters effectively allow the user "
+"to specify a set of orbitals to be removed from the computation of the "
+"molecular energy. Thus the orbitals configurable through UCCSD do not "
+"include the orbitals removed via the ``freeze_core`` and "
+"``orbital_reduction`` parameters.  The orbitals remaining after that "
+"removal are reindexed and  partitioned according to the following:"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:420
+#: ../../aqua/variational_forms.rst:451
 msgid "The indexes in the ``active_occupied`` list range from ``0`` to ``n``."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:421
+#: ../../aqua/variational_forms.rst:452
 msgid "The indexes in the ``active_unoccupied`` list range from ``0`` to ``m``."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:425
+#: ../../aqua/variational_forms.rst:456
 msgid ""
 "When the ``auto_substitutions`` flag in the ``problem`` section of the "
-"Aqua Chemistry :ref:`aqua-chemistry-input-file` is set to ``True``, which"
-" is the default, the values of parameters ``num_particles`` and "
-"``num_orbitals`` are automatically computed by Aqua Chemistry when "
+"Qiskit Chemistry :ref:`qiskit-chemistry-input-file` is set to ``True``, "
+"which is the default, the values of parameters ``num_particles`` and "
+"``num_orbitals`` are automatically computed by Qiskit Chemistry when "
 "``UCCSD`` is selected as the value of the ``name`` parameter in the "
 "``variational_forms`` section. As such, their configuration is disabled; "
 "the user will not be required, or even allowed, to assign values to these"
-" two parameters.  This is also reflected in the :ref:`aqua-chemistry-"
+" two parameters.  This is also reflected in the :ref:`qiskit-chemistry-"
 "gui`, where these parameters will be grayed out and uneditable as long as"
 " ``auto_substitutions`` is set to ``True`` in the ``problem`` section. "
-"Furthermore, Aqua Chemistry automatically sets parameters "
+"Furthermore, Qiskit Chemistry automatically sets parameters "
 "``qubit_mapping`` and ``two_qubit_reduction`` in section "
 "``variational_form`` when ``UCCSD`` is selected as the value of the "
-"``name`` parameter.  Specifically, Aqua Chemistry sets ``qubit_mapping`` "
-"and ``two_qubit_reduction`` to the values the user assigned to them in "
-"the ``operator`` section of the input file in order to enforce "
-"parameter/value matching across these different sections.  As a result, "
-"the user will only have to configure ``qubit_mapping`` and "
+"``name`` parameter.  Specifically, Qiskit Chemistry sets "
+"``qubit_mapping`` and ``two_qubit_reduction`` to the values the user "
+"assigned to them in the ``operator`` section of the input file in order "
+"to enforce parameter/value matching across these different sections.  As "
+"a result, the user will only have to configure ``qubit_mapping`` and "
 "``two_qubit_reduction`` in the ``operator`` section; the configuration of"
 " these two parameters in section ``variational_form`` is disabled, as "
 "reflected also in the GUI, where the values of these two parameters are "
@@ -585,13 +620,13 @@ msgid ""
 "the ``variational_form`` sections."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:447
+#: ../../aqua/variational_forms.rst:478
 msgid ""
 "On the other hand, if ``auto_substitutions`` is set to ``False``, then "
 "the end user has the full responsibility for the entire configuration."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:453
+#: ../../aqua/variational_forms.rst:484
 msgid ""
 "Setting ``auto_substitutions`` to ``False``, while made possible for "
 "experimental purposes, should only be done with extreme care, since it "
@@ -599,40 +634,40 @@ msgid ""
 "imprecise results."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:460
+#: ../../aqua/variational_forms.rst:491
 msgid ""
 "When referring to UCCSD declaratively inside Aqua, its code ``name``, by "
 "which Aqua dynamically discovers and loads it, is ``UCCSD``."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:467
+#: ../../aqua/variational_forms.rst:498
 msgid "SwapRz"
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:469
+#: ../../aqua/variational_forms.rst:500
 msgid ""
 "This trial wave function is layers of swap plus :math:`z` rotations with "
 "entanglements. It was designed principally to be a particle-preserving "
 "variational form for :ref:`aqua-chemistry`."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:475
+#: ../../aqua/variational_forms.rst:506
 msgid ""
 "Particle preservation with SwapRz is not guaranteed unless SwapRz is used"
 " in conjunction with the :ref:`jordan-wigner` qubit mapping and the :ref"
 ":`hartree-fock` initial state."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:478
+#: ../../aqua/variational_forms.rst:509
 msgid ""
 "The parameters of SwapRz can be configured after selecting ``SWAPRZ`` as "
 "the value of the ``name`` field in the ``variational_form`` section of "
-"the Aqua :ref:`aqua-input file`.  These parameters are ``depth``. "
+"the Aqua :ref:`aqua-input-file`.  These parameters are ``depth``. "
 "``entanglement``, ``entangler_map``, and ``skip_unentangled_qubits`` --- "
 "the same as those of :ref:`Ry`."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:484
+#: ../../aqua/variational_forms.rst:515
 msgid ""
 "Based on the notation introduced above for the entangler map associated "
 "with a variational form, for the case of none of qubits are unentangled "
@@ -646,11 +681,11 @@ msgid ""
 "number of parameters is reduced by :math:`d \\times q' ` where :math:`q'`"
 " is the number of unentangled qubits. This is because adding more Rz "
 "gates to the unentangled qubits only introduce overhead without bring any"
-" benefit; furthermore, theroetically, applying multiple Rz gates in a row"
+" benefit; furthermore, theoretically, applying multiple Rz gates in a row"
 " can be reduced to one Rz gate with the summed rotation angles."
 msgstr ""
 
-#: ../../aqua/variational_forms.rst:509
+#: ../../aqua/variational_forms.rst:540
 msgid ""
 "When referring to SwapRz declaratively inside Aqua, its code ``name``, by"
 " which Aqua dynamically discovers and loads it, is ``SWAPRZ``."

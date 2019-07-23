@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 20:43+0000\n"
+"POT-Creation-Date: 2019-07-22 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,10 +98,6 @@ msgstr ""
 
 #: of qiskit.tools.events.progressbar.TextProgressBar:5
 msgid "output_handler"
-msgstr ""
-
-#: of qiskit.tools.events.progressbar.TextProgressBar:4
-msgid "the handler the progress bar should be written to, default"
 msgstr ""
 
 #: of qiskit.tools.events.progressbar.TextProgressBar:4
