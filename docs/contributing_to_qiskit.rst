@@ -91,6 +91,55 @@ in the subdirectory `/docs/_build/html/`.
 
 .. _install_install_from_source_label:
 
+=========================
+Translating Documentation
+=========================
+
+The Qiskit community translates its documentation with `Crowdin
+<https://crowdin.com/>`__, an open source tool built by a team dedicated to make
+translation and localization as easy as possible for thousands of people.
+
+Translations are not written directly to the Qiskit GitHub repo, as you might
+contribute code. Instead, all translation work is done within Crowdin.
+
+--------------------------------------
+Joining the QiskitDocs Crowdin Project
+--------------------------------------
+
+Step 1. `Create a Crowdin account <https://crowdin.com/join>`__.
+
+Step 2. Search for the QiskitDocs project, or `navigate directly to it
+<https://crowdin.com/project/qiskitdocs>`__.
+
+Step 3. Select a language.
+
+Step 4. Click **Join**.
+
+The translation lead for your language will be notified of your request to join
+and guide you through the license agreement process. We'll be working to make
+this process more automatic in the future.
+
+--------------------
+Translation Workflow
+--------------------
+
+Step 1. `Log in to Crowdin <https://crowdin.com/login>`__.
+
+Step 2. `Navigate to the QiskitDocs project
+<https://crowdin.com/project/qiskitdocs>`__.
+
+Step 3. Choose your language.
+
+Step 4. Choose a portable object (.po) file to translate.
+
+Step 5. Review the **SOURCE STRING**.
+
+Step 6. Write your translation of the source string. Refer to the translation
+memory (**TM**) and machine translation (**MT**) to potentially make your work
+easier.
+
+Step 7. Click **SAVE**.
+
 **********************
 Installing from Source
 **********************
@@ -161,8 +210,9 @@ The following steps show the installation process for Ignis.
 
       pip install -e qiskit-ignis
 
+=============================
 Installing Terra from Source
-----------------------------
+=============================
 Installing from source requires that you have a c++ compiler on your system that supports
 c++-11.
 
@@ -252,8 +302,9 @@ Once the compilers are installed, you are ready to install Qiskit Terra.
 
 After you've installed Terra, you can install Aer as an add-on to run additional simulators.
 
+=====================================
 Installing IBMQ Provider from Source
-------------------------------------
+=====================================
 
 1. Clone the qiskit-ibmq-provider repository.
 
@@ -288,8 +339,9 @@ project don't require a reinstall to be applied you can do this with:
 
     pip install -e .
 
+===========================
 Installing Aer from Source
---------------------------
+===========================
 
 1. Clone the Aer repository.
 
@@ -554,9 +606,9 @@ A list of common options depending on platform are:
     this is just outlining it's commonly used in that environment. Refer to the
     tool documentation for more information.
 
-
+=============================
 Installing Ignis from Source
-----------------------------
+=============================
 
 1. Clone the ignis repository.
 
@@ -591,8 +643,9 @@ project don't require a reinstall to be applied you can do this with:
 
     pip install -e .
 
+============================
 Installing Aqua from Source
----------------------------
+============================
 
 1. Clone the Aqua repository.
 
@@ -627,8 +680,9 @@ project don't require a reinstall to be applied you can do this with:
 
     pip install -e .
 
+==============================
 Install Chemistry from Source
------------------------------
+==============================
 
 1. Clone the qiskit-chemistry repository.
 

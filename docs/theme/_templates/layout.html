@@ -104,4 +104,32 @@
         var link = document.getElementById('tutorialsLink');
         link.addEventListener('click', clickExternalLink);
     </script>
+    <script>
+      var el = document.getElementById('language');
+      var optionsToSelect = ['en', 'ja']
+      var changeLoc = function(evt) {
+        var language = evt.target.options[el.selectedIndex].value;
+        if (language === 'ja') {
+          window.location.href = '/testTranslation/locale/ja';
+
+        }
+        if (language === 'en') {
+          window.location.href = '/testTranslation';
+        }
+      };
+      el.addEventListener('change', changeLoc);
+
+      var changeSelect = function(select) {
+        const tokens = window.location.pathname.split('/');
+        // const optionToSelect = tokens[tokens.length + 3] || 'en';
+        const optionToSelect = tokens[3] || 'en';
+        for (var i = 0; i < select.options.length; i++) {
+          var o = select.options[i];
+          if (optionToSelect == o.value) {
+            o.selected = true;
+          }
+        }
+      };
+      changeSelect(el);
+    </script>
 {%- endblock %}
