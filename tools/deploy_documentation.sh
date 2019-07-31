@@ -80,7 +80,7 @@ git rm -rf --ignore-unmatch $DOC_DIR_2/$SOURCE_LANG/LC_MESSAGES/$TRANSLATION_LAN
 
 # Copy the new rendered files and add them to the commit.
 echo "copy directory"
-cp -r $SOURCE_DIR/$DOC_DIR_2/ $DOC_DIR_2/
+cp -r $SOURCE_DIR/$DOC_DIR_2/ docs/
 
 # git checkout translationDocs
 echo "add to po files to target dir"
