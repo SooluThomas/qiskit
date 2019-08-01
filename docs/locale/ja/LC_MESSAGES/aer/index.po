@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:17\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
+"PO-Revision-Date: 2019-08-01 13:52\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,11 @@ msgstr ""
 "X-Crowdin-File: /poRepo/docs/locale/en/LC_MESSAGES/aer/index.po\n"
 "Language: ja_JP\n"
 
-#: ../../aer/index.rst:7
-msgid "Qiskit Aer Documentation"
+#: ../../aer/index.rst:10
+msgid "Qiskit Aer"
+msgstr ""
+
+#: ../../aer/index.rst:13
+msgid "Qiskit Aer provides a high performance simulator framework for quantum circuits using the Qiskit software stack. It contains optimized C++ simulator backends for executing circuits compiled in Qiskit Terra. Aer also provides tools for constructing highly configurable noise models for performing realistic noisy simulations of the errors that occur during execution on real devices."
 msgstr ""
 

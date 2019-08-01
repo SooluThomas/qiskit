@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:29\n"
+"POT-Creation-Date: 2019-07-31 01:13+0000\n"
+"PO-Revision-Date: 2019-07-31 01:30\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -94,11 +94,6 @@ msgstr ""
 #: of
 #: qiskit.ignis.verification.tomography.basis.sicbasis.sicpovm_preparation_matrix:13
 msgid "'S3'"
-msgstr ""
-
-#: of
-#: qiskit.ignis.verification.tomography.basis.sicbasis.sicpovm_preparation_matrix:12
-msgid "[[1, exp(-pi * 2j / 3) * sqrt(2)],"
 msgstr ""
 
 #: of

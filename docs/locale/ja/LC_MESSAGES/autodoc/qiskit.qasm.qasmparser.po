@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:20\n"
+"POT-Creation-Date: 2019-07-31 01:13+0000\n"
+"PO-Revision-Date: 2019-07-31 01:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -70,12 +70,7 @@ msgid "creg_decl : CREG error"
 msgstr ""
 
 #: of qiskit.qasm.qasmparser.QasmParser.p_decl:4
-#: qiskit.qasm.qasmparser.QasmParser.p_statement:4
 msgid "decl"
-msgstr ""
-
-#: of qiskit.qasm.qasmparser.QasmParser.p_decl:3
-msgid "qreg_decl ';'"
 msgstr ""
 
 #: of qiskit.qasm.qasmparser.QasmParser.p_decl
@@ -107,10 +102,6 @@ msgstr ""
 msgid "expression"
 msgstr ""
 
-#: of qiskit.qasm.qasmparser.QasmParser.p_expression_0:3
-msgid "expression '*' expression"
-msgstr ""
-
 #: of qiskit.qasm.qasmparser.QasmParser.p_expression_0
 msgid "expression '/' expression"
 msgstr ""
@@ -125,10 +116,6 @@ msgstr ""
 
 #: of qiskit.qasm.qasmparser.QasmParser.p_expression_0
 msgid "expression '^' expression"
-msgstr ""
-
-#: of qiskit.qasm.qasmparser.QasmParser.p_expression_1
-msgid "'-' expression %prec negative"
 msgstr ""
 
 #: of qiskit.qasm.qasmparser.QasmParser.p_expression_1
@@ -272,10 +259,6 @@ msgstr ""
 msgid "indexed_id"
 msgstr ""
 
-#: of qiskit.qasm.qasmparser.QasmParser.p_indexed_id:1
-msgid "id '[' NNINTEGER ']'"
-msgstr ""
-
 #: of qiskit.qasm.qasmparser.QasmParser.p_indexed_id
 msgid "id '[' NNINTEGER error"
 msgstr ""
@@ -316,10 +299,6 @@ msgstr ""
 msgid "primary"
 msgstr ""
 
-#: of qiskit.qasm.qasmparser.QasmParser.p_primary
-msgid "id"
-msgstr ""
-
 #: of qiskit.qasm.qasmparser.QasmParser.p_primary_list_0:1
 msgid "primary_list : primary"
 msgstr ""
@@ -346,10 +325,6 @@ msgstr ""
 
 #: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op:5
 msgid "quantum_op"
-msgstr ""
-
-#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op:4
-msgid "unitary_op"
 msgstr ""
 
 #: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op

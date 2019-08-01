@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-20 14:24\n"
+"PO-Revision-Date: 2019-07-31 01:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,69 +23,69 @@ msgstr "概要"
 
 #: ../../overview.rst:4
 msgid "Qiskit is an open-source framework for working with noisy quantum computers at the level of pulses, circuits, and algorithms."
-msgstr ""
+msgstr "Qiskit は、パルス、回路、アルゴリズムのレベルでノイズのある量子コンピューターを操作するオープンソースフレームワークです。"
 
 #: ../../overview.rst:8
 msgid "Certainly, a central goal of Qiskit is to build a software stack that makes it easy for anyone to use quantum computers. However, Qiskit also aims to facilitate research on the most important open issues facing quantum computation today."
-msgstr ""
+msgstr "Qiskit のメインゴールは誰でも簡単に量子コンピューターを使用できるソフトウェアスタックの構築にありますが、Qiskit にはまた、今日の量子コンピューティングが直面している、もっとも重要な未解決課題の研究を手助けする目標もあります。"
 
 #: ../../overview.rst:12
 msgid "Qiskit allows the user to easily design experiments and run them on simulators and real quantum computers."
-msgstr ""
+msgstr "Qiskit を使用して簡単に実験を計画し、シミュレーターや本物の量子コンピューターの上で実行できます。"
 
 #: ../../overview.rst:15
 msgid "Qiskit consists of four foundational elements:  Terra (the code foundation, for composing quantum programs at the level of circuits and pulses), Aqua (for building algorithms and applications), Ignis (for addressing noise and errors), and Aer (for accelerating development via simulators, emulators and debuggers)."
-msgstr "Qiskit は 4つの基本要素から構成されます。コードの基礎であり、回路とパルスのレベルで量子プログラムを構成する「Terra」、 アルゴリズムとアプリケーションをビルドする「Aqua」、ノイズとエラーに対処する「Ignis」、そして シミュレータ、エミュレータ、デバッガによって開発を促進する「Aer」です。"
+msgstr "Qiskit は 4つの基本要素から構成されます。コードの基礎であり、回路とパルスのレベルで量子プログラムを構成する「Terra」、 アルゴリズムとアプリケーションをビルドする「Aqua」、ノイズとエラーに対処する「Ignis」、そして シミュレーター、エミュレーター、デバッガーによって開発を促進する「Aer」です。"
 
 #: ../../overview.rst:23
 msgid "Qiskit Elements"
-msgstr ""
+msgstr "Qiskit の要素"
 
 #: ../../overview.rst:29
 msgid "Qiskit Terra"
-msgstr ""
+msgstr "Qiskit Terra"
 
 #: ../../overview.rst:31
 msgid "Terra , the ‘earth’ element, is the foundation on which the rest of Qiskit lies. Terra provides a bedrock for composing quantum programs at the level of circuits and pulses, to optimize them for the constraints of a particular device, and to manage the execution of batches of experiments on remote-access devices. Terra defines the interfaces for a desirable end-user experience, as well as the efficient handling of layers of optimization, pulse scheduling and backend communication."
-msgstr ""
+msgstr "「Terra」要素 (「地」の意 ) は、他の要素「Aer」「Ignis」「Aqua」を支える土台になります。 量子プログラムの構成基盤を回路やパルスレベルで提供し、特定のデバイスの制約に対応して量子プログラムを最適化し、 リモートアクセスのデバイスへの複数の実験の実行を管理します。 「Terra」は、素晴らしいユーザー体験のインターフェースを定義すると同時に、効果的な最適化レイヤー処理、 パルススケジューリング、バックエンド通信を定義します。"
 
 #: ../../overview.rst:39
 msgid "Qiskit Aer"
-msgstr ""
+msgstr "Qiskit Aer"
 
 #: ../../overview.rst:41
 msgid "Aer, the ‘air’ element, permeates all Qiskit elements. To really speed up development of quantum computers we need better simulators, emulators and debuggers.  Aer will help us understand the limits of classical processors by demonstrating to what extent they can mimic quantum computation. Furthermore, we can use Aer to verify that current and near-future quantum computers function correctly. This can be done by stretching the limits of simulation, and by simulating the effects of realistic noise on the computation."
-msgstr ""
+msgstr "「Aer」要素(「空気」の意) は、あらゆる Qiskit 要素に浸透します。量子コンピューターの開発スピードを本当に上げるには、より良いシミュレーター、より良いエミュレーター、より良いデバッガーが必要です。 「Aer」を使用することで古典プロセッサーのどの部分で量子コンピューティングを模倣できるかが分かり、 古典プロセッサーの限界を理解できます。 さらに「Aer」を使用して、現在そして近い将来の量子コンピューターの機能を正確に検証できます。 これはシミュレーションの限界を引き上げること、そして、 計算における現実のノイズの効果をシミュレーションすることで可能になります。"
 
 #: ../../overview.rst:50
 msgid "Qiskit Ignis"
-msgstr ""
+msgstr "Qiskit Ignis"
 
 #: ../../overview.rst:52
 msgid "Ignis, the ‘fire’ element, is dedicated to fighting noise and errors and to forging a new path. This includes better characterization of errors, improving gates, and computing in the presence of noise. Ignis is meant for those who want to design quantum error correction codes, or who wish to study ways to characterize errors through methods such as tomography, or even to find a better way for using gates by exploring dynamical decoupling and optimal control."
-msgstr ""
+msgstr "「Ignis」要素 (「火」の意) は、ノイズやエラーと戦い、新しい道を確立します。 「Ignis」には、より正確なエラー特定、ゲートの改良、ノイズ存在下での計算が含まれます。 量子エラー訂正コードの設計者や、断層撮影法などでのエラー特定方法を研究したい人、 あるいはダイナミカルデカップリングと最適制御の研究からゲートを使用したより良い方法を見つけたい人までをも対象とします。"
 
 #: ../../overview.rst:60
 msgid "Qiskit Aqua"
-msgstr ""
+msgstr "Qiskit Aqua"
 
 #: ../../overview.rst:62
 msgid "Aqua, the ‘water’ element, is the element of life. To make quantum computing live up to its expectations, we need to find real-world applications. Aqua is where algorithms for NISQ computers are built. These algorithms can be used to build applications for quantum computing. Aqua is accessible to domain experts in chemistry, optimization or AI, who want to explore the benefits of using quantum computers as accelerators for specific computational tasks, without needing to worry about how to translate the problem into the language of quantum machines."
-msgstr ""
+msgstr "「Aqua」要素 (「水」の意) は、生命の要素です。 量子コンピューティングが期待に応えるには、実世界のアプリケーションを見つける必要があります。 「Aqua」には NISQ (Noisy Intermediate-scale Quantum Computers。ノイズの多い中規模量子コンピューター) 用アルゴリズムがそろっていて、このアルゴリズムを使用して量子コンピューティングのアプリケーションを構築できます。 化学や最適化、AI の専門家は「Aqua」を使用することで、量子コンピューターの特定の計算タスクを加速化する利益を享受できます。 問題をどうやって量子機械の言語に翻訳するかを悩む必要はありません。"
 
 #: ../../overview.rst:71
 msgid "Qiskit Components"
-msgstr ""
+msgstr "Qiskit コンポーネント"
 
 #: ../../overview.rst:73
 msgid "The components of Qiskit extend the functionality."
-msgstr ""
+msgstr "Qiskit コンポーネントは Qiskit の機能を拡張します。"
 
 #: ../../overview.rst:76
 msgid "Qiskit Chemistry"
-msgstr ""
+msgstr "Qiskit Chemistry"
 
 #: ../../overview.rst:78
 msgid "Qiskit Chemistry extends the Aqua element to allow the user to work easier with quantum computing for quantum chemistry problem. Is a set of tools, algorithms and software to use for quantum chemistry research. Qiskit Chemistry comes with interfaces prebuilt for the following four computational chemistry software drivers: Gaussian™ 16 (a commercial chemistry program), PSI4 (an open-source chemistry program built on Python), PySCF (an open-source Python chemistry program), and PyQuante (a pure Python cross-platform open-source chemistry program)."
-msgstr ""
+msgstr "「Qiskit Chemistry」は「Aqua」要素を拡張します。「Qiskit Chemistry」を使用することで 量子化学の問題に対して簡単に量子コンピューティングを実行できます。 内容は量子化学研究に使用するツール、アルゴリズム、ソフトウェアのセットです。また次の4つの計算化学ソフトウェアドライバー用のビルド済みインターフェースが付属します：Gaussian™ 16 (商用化学プログラム)、 PSI4 (Python で構築されたオープンソース化学プログラム)、 PySCF (オープンソース Python 化学プラグラム)、 PyQuante (ピュア Python のクロスプラットフォーム・オープンソース化学プログラム)。"
 

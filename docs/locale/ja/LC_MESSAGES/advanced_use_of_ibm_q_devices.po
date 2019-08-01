@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-22 14:32+0000\n"
-"PO-Revision-Date: 2019-07-22 14:42\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
+"PO-Revision-Date: 2019-08-01 13:56\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -17,16 +17,12 @@ msgstr ""
 "X-Crowdin-File: /poRepo/docs/locale/en/LC_MESSAGES/advanced_use_of_ibm_q_devices.po\n"
 "Language: ja_JP\n"
 
-#: ../../advanced_use_of_ibm_q_devices.rst:1
-msgid "availableadministrative.. _advanced_use_of_ibm_q_devices_label:"
-msgstr ""
-
-#: ../../advanced_use_of_ibm_q_devices.rst:5
-msgid "This documentation describes access to the IBM Q devices using API version 2.0 and higher, which is available in Qiskit 0.11+."
-msgstr ""
-
-#: ../../advanced_use_of_ibm_q_devices.rst:9
+#: ../../advanced_use_of_ibm_q_devices.rst:4
 msgid "Advanced Use of IBM Q Devices"
+msgstr ""
+
+#: ../../advanced_use_of_ibm_q_devices.rst:8
+msgid "This documentation describes access to the IBM Q devices using API version 2.0 and higher, which is available in Qiskit 0.11+."
 msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:11

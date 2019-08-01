@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-16 17:21+0000\n"
-"PO-Revision-Date: 2019-07-16 17:36\n"
+"POT-Creation-Date: 2019-07-31 01:13+0000\n"
+"PO-Revision-Date: 2019-07-31 01:35\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -89,42 +89,46 @@ msgid "Return the jobs submitted to this backend."
 msgstr ""
 
 #: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:3
-msgid "Return the jobs submitted to this backend, with optional filtering and pagination. Note that jobs submitted with earlier versions of Qiskit (in particular, those that predate the Qobj format) are not included in the returned list."
+msgid "Return the jobs submitted to this backend, with optional filtering and pagination. Note that the API has a limit for the number of jobs returned in a single call, and this function might involve making several calls to the API. See also the `skip` parameter for more control over pagination."
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:8
-msgid "number of jobs to retrieve. Note that the limit specified can be overridden by limits set by the API for performance reasons, and might result in fewer jobs being returned. In those cases, the `skip` parameter can be used for pagination."
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:9
+msgid "Note that jobs submitted with earlier versions of Qiskit (in particular, those that predate the Qobj format) are not included in the returned list."
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:14
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:13
+msgid "number of jobs to retrieve."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:15
 msgid "starting index for the job retrieval."
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:16
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:17
 msgid "only get jobs with this status, where status is e.g. `JobStatus.RUNNING` or `'RUNNING'`"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:20
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:21
 msgid "`loopback-based filter <https://loopback.io/doc/en/lb2/Querying-data.html>`_. This is an interface to a database ``where`` filter. Some examples of its usage are:  Filter last five jobs with errors::     job_list = backend.jobs(limit=5, status=JobStatus.ERROR)  Filter last five jobs with counts=1024, and counts for states ``00`` and ``11`` each exceeding 400::    cnts_filter = {'shots': 1024,                  'qasms.result.data.counts.00': {'gt': 400},                  'qasms.result.data.counts.11': {'gt': 400}}   job_list = backend.jobs(limit=5, db_filter=cnts_filter)  Filter last five jobs from 30 days ago::     past_date = datetime.datetime.now() - datetime.timedelta(days=30)    date_filter = {'creationDate': {'lt': past_date.isoformat()}}    job_list = backend.jobs(limit=5, db_filter=date_filter)"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:20
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:21
 msgid "`loopback-based filter <https://loopback.io/doc/en/lb2/Querying-data.html>`_. This is an interface to a database ``where`` filter. Some examples of its usage are:"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:25
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:26
 msgid "Filter last five jobs with errors::"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:29
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:30
 msgid "Filter last five jobs with counts=1024, and counts for states ``00`` and ``11`` each exceeding 400::"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:37
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:38
 msgid "Filter last five jobs from 30 days ago::"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:44
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:45
 msgid "list of IBMQJob instances"
 msgstr ""
 
@@ -134,7 +138,7 @@ msgstr ""
 msgid "raises"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:47
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:48
 msgid ":exc:`IBMQBackendValueError` -- status keyword value unrecognized"
 msgstr ""
 

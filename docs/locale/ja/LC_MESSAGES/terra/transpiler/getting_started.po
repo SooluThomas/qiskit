@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-12 05:30\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
+"PO-Revision-Date: 2019-08-01 13:55\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:5
 msgid "目次"
-msgstr ""
+msgstr "目次"
 
 #: ../../terra/transpiler/getting_started.rst:7
 msgid "The Qiskit **transpiler** is a circuit rewriting framework. The term *transpiler* was coined to evoke much of the meaning of the term *compiler*, but to allow a distinction between (1) circuit-level analysis and transformations, as compared to (2) a larger translation from high-level applications (potentially many circuits, with classical control flow between them) down to the level of machine pulses. We refer to (1) as *transpilation* and reserve the term *compilation* for (2)."
@@ -38,7 +38,7 @@ msgid "Tutorials"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:27
-msgid "`Introducing the Transpiler`_"
+msgid "`Introducing the Transpiler <https://github.com/Qiskit/qiskit-tutorials/blob/master/qiskit/terra/using_the_transpiler.ipynb>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:26
@@ -46,55 +46,55 @@ msgid "This tutorial introduces the Qiskit transpiler and walks through some exa
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:34
-msgid "`Writing a Transpiler Pass`_"
+msgid "`Writing a Transpiler Pass <https://github.com/Qiskit/qiskit-tutorials/blob/master/qiskit/terra/writing_a_transpiler_pass.ipynb>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:30
 msgid "This tutorial shows how to develop a simple transpiler pass. To do so, we first introduce the internal representation of quantum circuits in Qiskit, in the form of a Directed Acyclic Graph or DAG. Then, we illustrate a simple swap mapper pass, which transforms an input circuit to be compatible with a limited-connectivity quantum device."
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:45
+#: ../../terra/transpiler/getting_started.rst:38
 msgid "About Transpilation"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:48
+#: ../../terra/transpiler/getting_started.rst:41
 msgid ":ref:`Transpiler API Overview`"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:48
+#: ../../terra/transpiler/getting_started.rst:41
 msgid "The big picture."
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:51
+#: ../../terra/transpiler/getting_started.rst:44
 msgid ":ref:`Transpiler Passes`"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:51
+#: ../../terra/transpiler/getting_started.rst:44
 msgid "What is a transpiler pass?"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:54
+#: ../../terra/transpiler/getting_started.rst:47
 msgid ":ref:`Pass Managers`"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:54
+#: ../../terra/transpiler/getting_started.rst:47
 msgid "What is a pass manager?"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:58
+#: ../../terra/transpiler/getting_started.rst:51
 msgid "Related information"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:61
-msgid "`Qiskit Compiler and the Look-Ahead Swap Mapper`_"
+#: ../../terra/transpiler/getting_started.rst:54
+msgid "`Qiskit Compiler and the Look-Ahead Swap Mapper <https://www.youtube.com/watch?v=hidQGlKl_-E>`__"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:61
+#: ../../terra/transpiler/getting_started.rst:54
 msgid "*Video (11:02)*"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:66
-msgid "`Validating quantum computers using randomized model circuits`_"
+#: ../../terra/transpiler/getting_started.rst:59
+msgid "`Validating quantum computers using randomized model circuits <https://arxiv.org/abs/1811.12926>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst
@@ -109,8 +109,8 @@ msgstr ""
 msgid "the standard Qiskit Terra transpiler."
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:72
-msgid "`CQCL/pytket`_"
+#: ../../terra/transpiler/getting_started.rst:64
+msgid "`CQCL/pytket <https://github.com/CQCL/pytket>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-16 17:21+0000\n"
-"PO-Revision-Date: 2019-07-16 17:32\n"
+"POT-Creation-Date: 2019-07-31 01:13+0000\n"
+"PO-Revision-Date: 2019-07-31 01:32\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,7 @@ msgstr ""
 #: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.active_accounts:4
 #: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.delete_accounts:4
 #: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.disable_accounts:4
-#: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:4
+#: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:7
 #: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.stored_accounts:4
 msgid "v1 accounts."
 msgstr ""
@@ -182,7 +182,7 @@ msgstr ""
 
 #: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.delete_accounts:4
 #: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.disable_accounts:4
-#: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:4
+#: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:7
 #: qiskit.providers.ibmq.ibmqfactory.IBMQFactory.stored_accounts:4
 msgid "Note: this method is being deprecated, and only available when using"
 msgstr ""
@@ -299,28 +299,28 @@ msgstr ""
 msgid "Load IBM Q Experience v1 accounts found in the system into current session."
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:6
+#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:3
+msgid "Will also load v2 accounts for backward compatibility, but can lead to issues if mixing v1 and v2 credentials in other method calls."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:9
 msgid "Automatically load the accounts found in the system. This method looks for credentials in the following locations, in order, and returns as soon as credentials are found:"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:10
+#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:13
 msgid "in the `Qconfig.py` file in the current working directory."
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:11
+#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:14
 msgid "in the environment variables."
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:12
+#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:15
 msgid "in the `qiskitrc` configuration file"
 msgstr ""
 
-#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:14
-msgid ":exc:`IBMQAccountError` -- if the method is used with an IBM Q Experience v2 account, or if no credentials are found."
-msgstr ""
-
-#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:16
-msgid ":exc:`IBMQApiUrlError` -- if any of the credentials stored belong to a v2 account."
+#: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.load_accounts:17
+msgid ":exc:`IBMQAccountError` -- If mixing v1 and v2 account credentials"
 msgstr ""
 
 #: of qiskit.providers.ibmq.ibmqfactory.IBMQFactory.providers:1

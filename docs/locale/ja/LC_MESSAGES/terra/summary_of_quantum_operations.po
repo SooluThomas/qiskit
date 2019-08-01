@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-06-20 14:24\n"
+"PO-Revision-Date: 2019-07-31 01:36\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,59 +19,59 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:5
 msgid "Elementary Operations"
-msgstr ""
+msgstr "基本的操作"
 
 #: ../../terra/summary_of_quantum_operations.rst:7
 msgid "In this section we will go into the different operations that are available in Qiskit Terra. These are: - Single-qubit quantum gates - Multi-qubit quantum gates - Measurements - Reset - Conditionals - State initialization"
-msgstr ""
+msgstr "この節では、Qiskit Terraで使用可能なそれぞれの操作を説明します。ここには、単一キュービット量子ゲート、複数キュービット量子ゲート、測定、リセット、条件付け、状態初期化があります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:12
 msgid "We will also show you how to use the three different simulators: - unitary_simulator - qasm_simulator - statevector_simulator"
-msgstr ""
+msgstr "ユニタリーシミュレーター、qasmシミュレーター、状態ベクトルシミュレーターの、3つの異なるシミュレーターの使い方も説明します。"
 
 #: ../../terra/summary_of_quantum_operations.rst:33
 msgid "Single Qubit Quantum states"
-msgstr ""
+msgstr "単一キュービット量子ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:35
 msgid "A single qubit quantum state can be written as"
-msgstr ""
+msgstr "単一キュービット量子状態は、次のように書けます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:37
 msgid "|\\psi\\rangle = \\alpha|0\\rangle + \\beta |1\\rangle"
-msgstr ""
+msgstr "|\\psi\\rangle = \\alpha|0\\rangle + \\beta |1\\rangle"
 
 #: ../../terra/summary_of_quantum_operations.rst:39
 msgid "where :math:`\\alpha` and :math:`\\beta` are complex numbers. In a measurement the probability of the bit being in :math:`|0\\rangle` is :math:`|\\alpha|^2` and :math:`|1\\rangle` is :math:`|\\beta|^2`. As a vector this is"
-msgstr ""
+msgstr "ここで、:math:`\\alpha` と :math:`\\beta` は複素数です。 測定において :math:`|0\\rangle` になる確率は :math:`|\\alpha|^2` であり :math:`|1\\rangle` になる確率は :math:`|\\beta|^2`です。ベクトルとしてこれは次のように書けます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:44
 msgid "|\\psi\\rangle = \\begin{pmatrix} \\alpha \\\\ \\beta \\end{pmatrix}."
-msgstr ""
+msgstr "|\\psi\\rangle = \\begin{pmatrix} \\alpha \\\\ \\beta \\end{pmatrix}　。"
 
 #: ../../terra/summary_of_quantum_operations.rst:53
 msgid "Note due to conservation probability :math:`|\\alpha|^2+ |\\beta|^2 = 1` and since global phase is undetectable :math:`|\\psi\\rangle := e^{i\\delta} |\\psi\\rangle` we only requires two real numbers to describe a single qubit quantum state."
-msgstr ""
+msgstr "確率が :math:`|\\alpha|^2+ |\\beta|^2 = 1` のように保存され、グローバル位相:math:`|\\psi\\rangle := e^{i\\delta} |\\psi\\rangle`が測定できないため、単一キュービットの量子状態を書き表すためには、２つの実数が必要になることに注意しないといけません。"
 
 #: ../../terra/summary_of_quantum_operations.rst:58
 msgid "A convenient representation is"
-msgstr ""
+msgstr "便利な表記法としては、以下があります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:60
 msgid "|\\psi\\rangle = \\cos(\\theta/2)|0\\rangle + \\sin(\\theta/2)e^{i\\phi}|1\\rangle"
-msgstr ""
+msgstr "|\\psi\\rangle = \\cos(\\theta/2)|0\\rangle + \\sin(\\theta/2)e^{i\\phi}|1\\rangle"
 
 #: ../../terra/summary_of_quantum_operations.rst:62
 msgid "where :math:`0\\leq \\phi < 2\\pi`, and :math:`0\\leq \\theta \\leq \\pi`. From this it is clear that there is a one-to-one correspondence between qubit states (:math:`\\mathbb{C}^2`) and the points on the surface of a unit sphere (:math:`\\mathbb{R}^3`). This is called the Bloch sphere representation of a qubit state."
-msgstr ""
+msgstr "ここで、 :math:`0\\leq \\phi < 2\\pi`、と :math:`0\\leq \\theta \\leq \\pi`になっています。このことから、キュービットの状態(:math:`\\mathbb{C}^2`) と単位球(:math:`\\mathbb{R}^3`)の球面上の各点との間に1対1の関係があることは明らかです。"
 
 #: ../../terra/summary_of_quantum_operations.rst:68
 msgid "Quantum gates/operations are usually represented as matrices. A gate which acts on a qubit is represented by a :math:`2\\times 2` unitary matrix :math:`U`. The action of the quantum gate is found by multiplying the matrix representing the gate with the vector which represents the quantum state."
-msgstr ""
+msgstr "量子ゲート/操作は通常、行列で表現されます。あるキュービットに作用するゲートは、:math:`2\\times 2`のユニタリー行列 :math:`U`として表現されます。量子ゲートの作用は、量子状態を表すベクトルとゲートを表す行列の積の形として表されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:74
 msgid "|\\psi'\\rangle = U|\\psi\\rangle"
-msgstr ""
+msgstr "|\\psi'\\rangle = U|\\psi\\rangle"
 
 #: ../../terra/summary_of_quantum_operations.rst:76
 msgid "A general unitary must be able to take the :math:`|0\\rangle` to the above state. That is"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:79
 msgid "U = \\begin{pmatrix} \\cos(\\theta/2) & a \\\\ e^{i\\phi}\\sin(\\theta/2) & b \\end{pmatrix}"
-msgstr ""
+msgstr "U = \\begin{pmatrix} \\cos(\\theta/2) & a \\\\ e^{i\\phi}\\sin(\\theta/2) & b \\end{pmatrix}"
 
 #: ../../terra/summary_of_quantum_operations.rst:87
 msgid "where :math:`a` and :math:`b` are complex numbers constrained such that :math:`U^\\dagger U = I` for all :math:`0\\leq\\theta\\leq\\pi` and :math:`0\\leq \\phi<2\\pi`. This gives 3 constraints and as such :math:`a\\rightarrow -e^{i\\lambda}\\sin(\\theta/2)` and :math:`b\\rightarrow e^{i\\lambda+i\\phi}\\cos(\\theta/2)` where :math:`0\\leq \\lambda<2\\pi` giving"
@@ -87,75 +87,75 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:94
 msgid "U = \\begin{pmatrix} \\cos(\\theta/2) & -e^{i\\lambda}\\sin(\\theta/2) \\\\ e^{i\\phi}\\sin(\\theta/2) & e^{i\\lambda+i\\phi}\\cos(\\theta/2) \\end{pmatrix}."
-msgstr ""
+msgstr "U = \\begin{pmatrix} \\cos(\\theta/2) & -e^{i\\lambda}\\sin(\\theta/2) \\\\ e^{i\\phi}\\sin(\\theta/2) & e^{i\\lambda+i\\phi}\\cos(\\theta/2) \\end{pmatrix}."
 
 #: ../../terra/summary_of_quantum_operations.rst:102
 msgid "This is the most general form of a single qubit unitary."
-msgstr ""
+msgstr "これが単一キュービットのユニタリー演算子の最も一般的な形式です。"
 
 #: ../../terra/summary_of_quantum_operations.rst:105
 msgid "Single-Qubit Gates"
-msgstr ""
+msgstr "単一キュービットゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:107
 msgid "The single-qubit gates available are: - u gates - Identity gate - Pauli gates - Clifford gates - :math:`C3` gates - Standard rotation gates"
-msgstr ""
+msgstr "単一キュービットゲートでは、uゲート、恒等ゲート、パウリゲート、クリフォードゲート、:math:`C3` ゲート、標準回転ゲートが利用可能です。"
 
 #: ../../terra/summary_of_quantum_operations.rst:110
 msgid "We have provided a backend: ``unitary_simulator`` to allow you to calculate the unitary matrices."
-msgstr ""
+msgstr "我々は、ユニタリー行列を計算できるようにする ``unitary_simulator`` というバックエンドを提供しています。"
 
 #: ../../terra/summary_of_quantum_operations.rst:118
 msgid "u gates"
-msgstr ""
+msgstr "uゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:120
 msgid "In Qiskit we give you access to the general unitary using the :math:`u3` gate"
-msgstr ""
+msgstr "Qiskitでは、:math:`u3`ゲートを使うことで一般的なユニタリー演算を実行できるようにしています。"
 
 #: ../../terra/summary_of_quantum_operations.rst:123
 msgid "u3(\\theta, \\phi, \\lambda) = U(\\theta, \\phi, \\lambda)"
-msgstr ""
+msgstr "u3(\\theta, \\phi, \\lambda) = U(\\theta, \\phi, \\lambda)"
 
 #: ../../terra/summary_of_quantum_operations.rst:154
 msgid "The :math:`u2(\\phi, \\lambda) =u3(\\pi/2, \\phi, \\lambda)` has the matrix form"
-msgstr ""
+msgstr ":math:`u2(\\phi, \\lambda) =u3(\\pi/2, \\phi, \\lambda)` は次のような行列形式になります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:157
 msgid "u2(\\phi, \\lambda) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 & -e^{i\\lambda} \\\\ e^{i\\phi} & e^{i(\\phi + \\lambda)} \\end{pmatrix}."
-msgstr ""
+msgstr "u2(\\phi, \\lambda) = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 & -e^{i\\lambda} \\\\ e^{i\\phi} & e^{i(\\phi + \\lambda)} \\end{pmatrix}"
 
 #: ../../terra/summary_of_quantum_operations.rst:166
 msgid "This is a useful gate as it allows us to create superpositions"
-msgstr ""
+msgstr "これは、重ね合わせ状態を作ることができるようになるための有効なゲートです。"
 
 #: ../../terra/summary_of_quantum_operations.rst:196
 msgid "The :math:`u1(\\lambda)= u3(0, 0, \\lambda)` gate has the matrix form"
-msgstr ""
+msgstr ":math:`u1(\\lambda)= u3(0, 0, \\lambda)` ゲートは、次のような行列形式になります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:198
 msgid "u1(\\lambda) = \\begin{pmatrix} 1 & 0 \\\\ 0 & e^{i \\lambda} \\end{pmatrix},"
-msgstr ""
+msgstr "u1(\\lambda) = \\begin{pmatrix} 1 & 0 \\\\ 0 & e^{i \\lambda} \\end{pmatrix}、"
 
 #: ../../terra/summary_of_quantum_operations.rst:207
 msgid "which is a useful as it allows us to apply a quantum phase."
-msgstr ""
+msgstr "これは、量子位相を適用することができるように役立ちます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:236
 msgid "The :math:`u0(\\delta)= u3(0, 0, 0)` gate is the identity matrix. It has the matrix form"
-msgstr ""
+msgstr ":math:`u0(\\delta)= u3(0, 0, 0)`は単位ゲートです。次にような行列の形式になります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:239
 msgid "u0(\\delta) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}."
-msgstr ""
+msgstr "u0(\\delta) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}"
 
 #: ../../terra/summary_of_quantum_operations.rst:248
 msgid "The identity gate does nothing (but can add noise in the real device for a period of time equal to fractions of the single qubit gate time)"
-msgstr ""
+msgstr "単位ゲートは何もしません。（しかし、実デバイスでの単一キュービットゲート時間と等しい時間にかかるノイズを加えることができます。）"
 
 #: ../../terra/summary_of_quantum_operations.rst:280
 msgid "Identity gate"
-msgstr ""
+msgstr "単位ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:282
 msgid "The identity gate is :math:`Id = u0(1)`."
@@ -163,147 +163,147 @@ msgstr ""
 
 #: ../../terra/summary_of_quantum_operations.rst:312
 msgid "Pauli gates"
-msgstr ""
+msgstr "パウリゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:315
 msgid ":math:`X`: bit-flip gate"
-msgstr ""
+msgstr ":math:`X`: ビットフリップゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:317
 msgid "The bit-flip gate :math:`X` is defined as:"
-msgstr ""
+msgstr "ビットフリップゲート:math:`X` は次のように定義されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:319
 msgid "X   = \\begin{pmatrix} 0 & 1\\\\ 1 & 0 \\end{pmatrix}= u3(\\pi,0,\\pi)"
-msgstr ""
+msgstr "X   = \\begin{pmatrix} 0 & 1\\\\ 1 & 0 \\end{pmatrix}= u3(\\pi,0,\\pi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:358
 msgid ":math:`Y`: bit- and phase-flip gate"
-msgstr ""
+msgstr ":math:`Y`:ビットと位相フリップゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:360
 msgid "The :math:`Y` gate is defined as:"
-msgstr ""
+msgstr ":math:`Y`は次のように定義されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:362
 msgid "Y  = \\begin{pmatrix} 0 & -i\\\\ i & 0 \\end{pmatrix}=u3(\\pi,\\pi/2,\\pi/2)"
-msgstr ""
+msgstr "Y  = \\begin{pmatrix} 0 & -i\\\\ i & 0 \\end{pmatrix}=u3(\\pi,\\pi/2,\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:399
 msgid ":math:`Z`: phase-flip gate"
-msgstr ""
+msgstr ":math:`Z`: 位相フリップゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:401
 msgid "The phase flip gate :math:`Z` is defined as:"
-msgstr ""
+msgstr "位相フリップゲート:math:`Z` は次のように定義されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:403
 msgid "Z = \\begin{pmatrix} 1 & 0\\\\ 0 & -1 \\end{pmatrix}=u1(\\pi)"
-msgstr ""
+msgstr "Z = \\begin{pmatrix} 1 & 0\\\\ 0 & -1 \\end{pmatrix}=u1(\\pi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:440
 msgid "Clifford gates"
-msgstr ""
+msgstr "クリフォードゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:443
 msgid "Hadamard gate"
-msgstr ""
+msgstr "アダマールゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:445
 msgid "H = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 & 1\\\\ 1 & -1 \\end{pmatrix}= u2(0,\\pi)"
-msgstr ""
+msgstr "H = \\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 & 1\\\\ 1 & -1 \\end{pmatrix}= u2(0,\\pi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:483
 msgid ":math:`S` (or, :math:`\\sqrt{Z}` phase) gate"
-msgstr ""
+msgstr ":math:`S` （もしくは :math:`\\sqrt{Z}` 位相）ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:485
 msgid "S = \\begin{pmatrix} 1 & 0\\\\ 0 & i \\end{pmatrix}= u1(\\pi/2)"
-msgstr ""
+msgstr "S = \\begin{pmatrix} 1 & 0\\\\ 0 & i \\end{pmatrix}= u1(\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:523
 msgid ":math:`S^{\\dagger}` (or, conjugate of :math:`\\sqrt{Z}` phase) gate"
-msgstr ""
+msgstr ":math:`S^{\\dagger}` (または :math:`\\sqrt{Z}`の共役位相) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:525
 msgid "S^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & -i \\end{pmatrix}= u1(-\\pi/2)"
-msgstr ""
+msgstr "S^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & -i \\end{pmatrix}= u1(-\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:563
 msgid ":math:`C3` gates"
-msgstr ""
+msgstr ":math:`C3` ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:566
 msgid ":math:`T` (or, :math:`\\sqrt{S}` phase) gate"
-msgstr ""
+msgstr ":math:`T` (または :math:`\\sqrt{S}` 位相) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:568
 msgid "T = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{i \\pi/4} \\end{pmatrix}= u1(\\pi/4)"
-msgstr ""
+msgstr "T = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{i \\pi/4} \\end{pmatrix}= u1(\\pi/4)"
 
 #: ../../terra/summary_of_quantum_operations.rst:606
 msgid ":math:`T^{\\dagger}` (or, conjugate of :math:`\\sqrt{S}` phase) gate"
-msgstr ""
+msgstr ":math:`T^{\\dagger}` (または:math:`\\sqrt{S}`位相共役) ゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:608
 msgid "T^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{-i \\pi/4} \\end{pmatrix}= u1(-\\pi/4)"
-msgstr ""
+msgstr "T^{\\dagger} = \\begin{pmatrix} 1 & 0\\\\ 0 & e^{-i \\pi/4} \\end{pmatrix}= u1(-\\pi/4)"
 
 #: ../../terra/summary_of_quantum_operations.rst:617
 msgid "They can be added as below."
-msgstr ""
+msgstr "それらは以下のように加えられます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:648
 msgid "Standard Rotations"
-msgstr ""
+msgstr "標準回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:650
 msgid "The standard rotation gates are those that define rotations around the Paulis :math:`P=\\{X,Y,Z\\}`. They are defined as"
-msgstr ""
+msgstr "標準回転ゲートは、パウリ行列 :math:`P=\\{X,Y,Z\\}`での回転になります。これらは、次のように定義されます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:653
 msgid "R_P(\\theta) = \\exp(-i \\theta P/2) = \\cos(\\theta/2)I -i \\sin(\\theta/2)P"
-msgstr ""
+msgstr "R_P(\\theta) = \\exp(-i \\theta P/2) = \\cos(\\theta/2)I -i \\sin(\\theta/2)P"
 
 #: ../../terra/summary_of_quantum_operations.rst:656
 msgid "Rotation around X-axis"
-msgstr ""
+msgstr "X軸周りの回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:658
 msgid "R_x(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & -i\\sin(\\theta/2)\\\\ -i\\sin(\\theta/2) & \\cos(\\theta/2) \\end{pmatrix} = u3(\\theta, -\\pi/2,\\pi/2)"
-msgstr ""
+msgstr "R_x(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & -i\\sin(\\theta/2)\\\\ -i\\sin(\\theta/2) & \\cos(\\theta/2) \\end{pmatrix} = u3(\\theta, -\\pi/2,\\pi/2)"
 
 #: ../../terra/summary_of_quantum_operations.rst:696
 msgid "Rotation around Y-axis"
-msgstr ""
+msgstr "Y軸周りの回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:698
 msgid "R_y(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & - \\sin(\\theta/2)\\\\ \\sin(\\theta/2) & \\cos(\\theta/2). \\end{pmatrix} =u3(\\theta,0,0)"
-msgstr ""
+msgstr "R_y(\\theta) = \\begin{pmatrix} \\cos(\\theta/2) & - \\sin(\\theta/2)\\\\ \\sin(\\theta/2) & \\cos(\\theta/2). \\end{pmatrix} =u3(\\theta,0,0)"
 
 #: ../../terra/summary_of_quantum_operations.rst:736
 msgid "Rotation around Z-axis"
-msgstr ""
+msgstr "Z軸周りの回転"
 
 #: ../../terra/summary_of_quantum_operations.rst:738
 msgid "R_z(\\phi) = \\begin{pmatrix} e^{-i \\phi/2} & 0 \\\\ 0 & e^{i \\phi/2} \\end{pmatrix}\\equiv u1(\\phi)"
-msgstr ""
+msgstr "R_z(\\phi) = \\begin{pmatrix} e^{-i \\phi/2} & 0 \\\\ 0 & e^{i \\phi/2} \\end{pmatrix}\\equiv u1(\\phi)"
 
 #: ../../terra/summary_of_quantum_operations.rst:747
 msgid "Note here we have used an equivalent as is different to u1 by global phase :math:`e^{-i \\phi/2}`."
-msgstr ""
+msgstr "ここでは u1 とグローバル位相 :math:`e^{-i \\phi/2}` だけ異なるものを同じとしていることに注意してください。"
 
 #: ../../terra/summary_of_quantum_operations.rst:778
 msgid "Note this is different due only to a global phase"
-msgstr ""
+msgstr "ここでは、グローバル位相の分だけ異なります。"
 
 #: ../../terra/summary_of_quantum_operations.rst:781
 msgid "Multi-Qubit Gates"
-msgstr ""
+msgstr "複数キュービットゲート"
 
 #: ../../terra/summary_of_quantum_operations.rst:784
 msgid "Mathematical Preliminaries"
-msgstr ""
+msgstr "数学的準備"
 
 #: ../../terra/summary_of_quantum_operations.rst:786
 msgid "The space of quantum computer grows exponential with the number of qubits. For :math:`n` qubits the complex vector space has dimensions :math:`d=2^n`. To describe states of a multi-qubit system, the tensor product is used to “glue together” operators and basis vectors."
