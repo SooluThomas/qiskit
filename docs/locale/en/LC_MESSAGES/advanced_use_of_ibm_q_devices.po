@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 13:45+0000\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-#: ../../advanced_use_of_ibm_q_devices.rst:1
-msgid "availableadministrative.. _advanced_use_of_ibm_q_devices_label:"
+#: ../../advanced_use_of_ibm_q_devices.rst:4
+msgid "Advanced Use of IBM Q Devices"
 msgstr ""
 
-#: ../../advanced_use_of_ibm_q_devices.rst:5
+#: ../../advanced_use_of_ibm_q_devices.rst:8
 msgid ""
 "This documentation describes access to the IBM Q devices using API "
 "version 2.0 and higher, which is available in Qiskit 0.11+."
-msgstr ""
-
-#: ../../advanced_use_of_ibm_q_devices.rst:9
-msgid "Advanced Use of IBM Q Devices"
 msgstr ""
 
 #: ../../advanced_use_of_ibm_q_devices.rst:11

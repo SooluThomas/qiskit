@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 13:45+0000\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 #: ../../faq.rst:9
 msgid ""
 "**A:** Please cite Qiskit by using the included `BibTeX file "
-"<https://raw.githubusercontent.com/Qiskit/qiskit/master/Qiskit.bib>`_."
+"<https://raw.githubusercontent.com/Qiskit/qiskit/master/Qiskit.bib>`__."
 msgstr ""
 
 #: ../../faq.rst:14

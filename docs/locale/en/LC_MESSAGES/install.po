@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 13:45+0000\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,10 +31,11 @@ msgstr ""
 
 #: ../../install.rst:9
 msgid ""
-"We recommend installing `Anaconda <https://www.anaconda.com/download/>`_,"
-" a cross-platform Python distribution for scientific computing. Jupyter "
-"Notebook, included in Anaconda, is recommended for interacting with the "
-"`Qiskit tutorials <https://github.com/Qiskit/qiskit-tutorial>`_."
+"We recommend installing `Anaconda "
+"<https://www.anaconda.com/download/>`__, a cross-platform Python "
+"distribution for scientific computing. Jupyter Notebook, included in "
+"Anaconda, is recommended for interacting with the `Qiskit tutorials "
+"<https://github.com/Qiskit/qiskit-tutorial>`__."
 msgstr ""
 
 #: ../../install.rst:14
@@ -62,13 +63,13 @@ msgstr ""
 #: ../../install.rst:23
 msgid ""
 "`Microsoft Visual C++ Redistributable for Visual Studio 2017 <https:// "
-"go.microsoft.com/fwlink/?LinkId=746572>`_"
+"go.microsoft.com/fwlink/?LinkId=746572>`__"
 msgstr ""
 
 #: ../../install.rst:25
 msgid ""
 "`Microsoft Visual C++ Redistributable for Visual Studio 2015 <https:// "
-"www.microsoft.com/en-US/download/details.aspx?id=48145>`_"
+"www.microsoft.com/en-US/download/details.aspx?id=48145>`__"
 msgstr ""
 
 #: ../../install.rst:30
@@ -166,9 +167,10 @@ msgstr ""
 #: ../../install.rst:113
 msgid ""
 "IBM Q offers several real quantum computers and high-performance "
-"classical computing simulators through its `quantum cloud services`_ with"
-" Qiskit. Follow these steps to set up your Qiskit environment to send "
-"jobs to IBM Q systems."
+"classical computing simulators through its `quantum cloud services "
+"<https://www.research.ibm.com/ibm-q/technology/experience/>`__ with "
+"Qiskit. Follow these steps to set up your Qiskit environment to send jobs"
+" to IBM Q systems."
 msgstr ""
 
 #: ../../install.rst:119
@@ -177,7 +179,7 @@ msgid ""
 "credentials locally, you might need to update your IBM Q Experience "
 "credentials so that you can use the new IBM Q Experience V2. See "
 "`Updating your IBM Q Experience Credentials <https://github.com/Qiskit"
-"/qiskit-ibmq-provider/#updating-your-ibm-q-experience-credentials>`_."
+"/qiskit-ibmq-provider/#updating-your-ibm-q-experience-credentials>`__."
 msgstr ""
 
 #: ../../install.rst:124
@@ -186,22 +188,24 @@ msgid ""
 "includes an API key"
 msgstr ""
 
-#: ../../install.rst:129
-msgid "**1.** `Create a free IBM Q Experience account`_."
+#: ../../install.rst:126
+msgid ""
+"**1.** `Create a free IBM Q Experience account <https://quantum-"
+"computing.ibm.com/login>`__."
 msgstr ""
 
-#: ../../install.rst:134
+#: ../../install.rst:128
 msgid "**2.**  Navigate to **My Account** to view your account settings."
 msgstr ""
 
-#: ../../install.rst:139
+#: ../../install.rst:133
 msgid ""
 "**3.** Click on **Copy token** to copy the token to your clipboard. "
 "Temporarily paste this API token into your favorite text editor so you "
 "can use it later to create an account configuration file."
 msgstr ""
 
-#: ../../install.rst:146
+#: ../../install.rst:140
 msgid ""
 "**4.** Run the following commands to store your API token locally for "
 "later use in a configuration file called ``qiskitrc``. Replace "
@@ -209,17 +213,18 @@ msgid ""
 "editor."
 msgstr ""
 
-#: ../../install.rst:156
+#: ../../install.rst:150
 msgid ""
-"Refer to :ref:`advanced_use_of_ibm_q_devices_label` for more details, "
-"such as how to manage multiple IBM Q account credentials."
+"Refer to :ref:`Advanced Use of IBM Q Devices "
+"<advanced_use_of_ibm_q_devices_label>` for more details, such as how to "
+"manage multiple IBM Q account credentials."
 msgstr ""
 
-#: ../../install.rst:161
+#: ../../install.rst:156
 msgid "Checking Which Version is Installed"
 msgstr ""
 
-#: ../../install.rst:163
+#: ../../install.rst:158
 msgid ""
 "Since the Qiskit package includes a constellation of different elements, "
 "simply printing the version by running ``qiskit.__version__`` can be "
@@ -229,7 +234,7 @@ msgid ""
 "package."
 msgstr ""
 
-#: ../../install.rst:178
+#: ../../install.rst:173
 msgid ""
 "To see the versions of all the Qiskit elements in your environment you "
 "can use the ``__qiskit_version__`` attribute. For example, running the "
@@ -237,7 +242,7 @@ msgid ""
 " each of the installed Qiskit packages."
 msgstr ""
 
-#: ../../install.rst:198
+#: ../../install.rst:193
 msgid ""
 "If you're filing an issue or need to share your installed Qiskit versions"
 " for something, use the ``__qiskit_version__`` attribute."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 13:45+0000\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,9 @@ msgid "Tutorials"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:27
-msgid "`Introducing the Transpiler`_"
+msgid ""
+"`Introducing the Transpiler <https://github.com/Qiskit/qiskit-"
+"tutorials/blob/master/qiskit/terra/using_the_transpiler.ipynb>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:26
@@ -58,7 +60,9 @@ msgid ""
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:34
-msgid "`Writing a Transpiler Pass`_"
+msgid ""
+"`Writing a Transpiler Pass <https://github.com/Qiskit/qiskit-"
+"tutorials/blob/master/qiskit/terra/writing_a_transpiler_pass.ipynb>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:30
@@ -70,48 +74,52 @@ msgid ""
 "to be compatible with a limited-connectivity quantum device."
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:45
+#: ../../terra/transpiler/getting_started.rst:38
 msgid "About Transpilation"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:48
+#: ../../terra/transpiler/getting_started.rst:41
 msgid ":ref:`Transpiler API Overview`"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:48
+#: ../../terra/transpiler/getting_started.rst:41
 msgid "The big picture."
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:51
+#: ../../terra/transpiler/getting_started.rst:44
 msgid ":ref:`Transpiler Passes`"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:51
+#: ../../terra/transpiler/getting_started.rst:44
 msgid "What is a transpiler pass?"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:54
+#: ../../terra/transpiler/getting_started.rst:47
 msgid ":ref:`Pass Managers`"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:54
+#: ../../terra/transpiler/getting_started.rst:47
 msgid "What is a pass manager?"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:58
+#: ../../terra/transpiler/getting_started.rst:51
 msgid "Related information"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:61
-msgid "`Qiskit Compiler and the Look-Ahead Swap Mapper`_"
+#: ../../terra/transpiler/getting_started.rst:54
+msgid ""
+"`Qiskit Compiler and the Look-Ahead Swap Mapper "
+"<https://www.youtube.com/watch?v=hidQGlKl_-E>`__"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:61
+#: ../../terra/transpiler/getting_started.rst:54
 msgid "*Video (11:02)*"
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:66
-msgid "`Validating quantum computers using randomized model circuits`_"
+#: ../../terra/transpiler/getting_started.rst:59
+msgid ""
+"`Validating quantum computers using randomized model circuits "
+"<https://arxiv.org/abs/1811.12926>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst
@@ -126,8 +134,8 @@ msgstr ""
 msgid "the standard Qiskit Terra transpiler."
 msgstr ""
 
-#: ../../terra/transpiler/getting_started.rst:72
-msgid "`CQCL/pytket`_"
+#: ../../terra/transpiler/getting_started.rst:64
+msgid "`CQCL/pytket <https://github.com/CQCL/pytket>`__"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst

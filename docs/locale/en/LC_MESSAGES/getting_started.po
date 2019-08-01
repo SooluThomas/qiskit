@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 13:45+0000\n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -264,17 +264,19 @@ msgstr ""
 #: ../../getting_started.rst:245
 msgid ""
 "`Notebook tutorials <https://nbviewer.jupyter.org/github/Qiskit/qiskit-"
-"tutorials/blob/master/qiskit/start_here.ipynb>`_"
+"tutorials/blob/master/qiskit/start_here.ipynb>`__"
 msgstr ""
 
 #: ../../getting_started.rst:246
 msgid ""
 "`Video tutorials "
-"<https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A/featured>`_"
+"<https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A/featured>`__"
 msgstr ""
 
 #: ../../getting_started.rst:247
-msgid "`Interactive tutorials in IBM Q Experience`_"
+msgid ""
+"`Interactive tutorials in IBM Q Experience "
+"<https://www.research.ibm.com/ibm-q/technology/experience/>`__"
 msgstr ""
 
 #: ../../getting_started.rst:248

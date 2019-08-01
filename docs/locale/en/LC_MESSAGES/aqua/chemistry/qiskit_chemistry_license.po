@@ -17,13 +17,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-#: ../../license.rst:2
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:4
 msgid "License"
 msgstr ""
 
-#: ../../license.rst:4
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:6
 msgid ""
 "This project uses the `Apache License Version 2.0 software license "
 "<https://www.apache.org/licenses/LICENSE-2.0>`__."
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:9
+msgid ""
+"Some code supplied by Qiskit Chemistry for interfacing to external "
+"chemistry :ref:`drivers` has additional licensing:"
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:12
+msgid ""
+"The :ref:`gaussian-16` driver contains work licensed under the `Gaussian "
+"Open-Source Public License <https://github.com/Qiskit/qiskit-"
+"chemistry/blob/master/qiskit_chemistry/drivers/gaussiand/gauopen/LICENSE.txt>`__."
 msgstr ""
 
