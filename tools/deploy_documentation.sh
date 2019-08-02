@@ -48,6 +48,7 @@ pwd
 echo "git clone for landing page repo"
 git clone --depth 1 $TARGET_REPOSITORY tmp
 cd tmp
+tree
 git config user.name "Qiskit Autodeploy"
 git config user.email "qiskit@qiskit.org"
 
