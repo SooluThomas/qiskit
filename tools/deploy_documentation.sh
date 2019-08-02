@@ -68,6 +68,7 @@ cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
 # git checkout translationDocs
 echo "add to target dir"
+git status
 git add $TARGET_DOC_DIR
 
 # Commit and push the changes.
