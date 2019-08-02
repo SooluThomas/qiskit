@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-07-31 01:36\n"
+"PO-Revision-Date: 2019-08-02 15:27\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "U = \\begin{pmatrix} \\cos(\\theta/2) & a \\\\ e^{i\\phi}\\sin(\\theta/2
 
 #: ../../terra/summary_of_quantum_operations.rst:87
 msgid "where :math:`a` and :math:`b` are complex numbers constrained such that :math:`U^\\dagger U = I` for all :math:`0\\leq\\theta\\leq\\pi` and :math:`0\\leq \\phi<2\\pi`. This gives 3 constraints and as such :math:`a\\rightarrow -e^{i\\lambda}\\sin(\\theta/2)` and :math:`b\\rightarrow e^{i\\lambda+i\\phi}\\cos(\\theta/2)` where :math:`0\\leq \\lambda<2\\pi` giving"
-msgstr ""
+msgstr "ここで :math:`a` と :math:`b` は任意の:math:`0\\leq\\theta\\leq\\pi` と :math:`0\\leq \\phi<2\\pi`に対して:math:`U^\\dagger U = I` を満たす複素数です。:math:`0\\leq \\lambda<2\\pi` において、:math:`a\\rightarrow -e^{i\\lambda}\\sin(\\theta/2)` と :math:`b\\rightarrow e^{i\\lambda+i\\phi}\\cos(\\theta/2)`とすると、次の式のような３つの制約が与えられます。"
 
 #: ../../terra/summary_of_quantum_operations.rst:94
 msgid "U = \\begin{pmatrix} \\cos(\\theta/2) & -e^{i\\lambda}\\sin(\\theta/2) \\\\ e^{i\\phi}\\sin(\\theta/2) & e^{i\\lambda+i\\phi}\\cos(\\theta/2) \\end{pmatrix}."

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-31 01:13+0000\n"
-"PO-Revision-Date: 2019-07-31 01:31\n"
+"PO-Revision-Date: 2019-08-02 15:27\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,23 +19,23 @@ msgstr ""
 
 #: ../../aqua/chemistry/qiskit_chemistry_installation.rst:5
 msgid "Installation and Setup"
-msgstr ""
+msgstr "インストールとセットアップ"
 
 #: ../../aqua/chemistry/qiskit_chemistry_installation.rst:9
 msgid "Dependencies"
-msgstr ""
+msgstr "依存関係"
 
 #: ../../aqua/chemistry/qiskit_chemistry_installation.rst:11
 msgid "Qiskit Chemistry is built upon Aqua. Like Aqua, at least `Python 3.5 or later <https://www.python.org/downloads/>`__ is needed to use Qiskit Qiskit Chemistry. In addition, `Jupyter Notebook <https://jupyter.readthedocs.io/en/latest/install.html>`__ is recommended for interacting with the tutorials. For this reason we recommend installing the `Anaconda 3 <https://www.continuum.io/downloads>`__ Python distribution, as it comes with all of these dependencies pre-installed."
-msgstr ""
+msgstr "QisKit Chemistry は Aqua 上に構築されています。QisKit Chemistry の使用には、Aqua のように `Python 3.5 or later <https://www.python.org/downloads/>`__ が最低必要となります。またチュートリアルの実施にあたっては、`Jupyter Notebook <https://jupyter.readthedocs.io/en/latest/install.html>`__ のインストールが推奨されています。このため、 `Anaconda 3 <https://www.continuum.io/downloads>`__ Python ディストリビューションのインストールを推奨しています。必要な依存関係がすべて入っています。"
 
 #: ../../aqua/chemistry/qiskit_chemistry_installation.rst:25
 msgid "Code Installation"
-msgstr ""
+msgstr "コードのインストール"
 
 #: ../../aqua/chemistry/qiskit_chemistry_installation.rst:27
 msgid "We encourage you to install Qiskit Chemistry via the `pip <https://pypi.org/project/pip/>`__ package management system:"
-msgstr ""
+msgstr "Qiskit Chemistry のインストールには、`pip <https://pypi.org/project/pip/>`__ パッケージ管理システムを利用します。"
 
 #: ../../aqua/chemistry/qiskit_chemistry_installation.rst:34
 msgid "pip will handle all dependencies automatically (including the dependencies on Aqua and Qiskit Core). and you will always install the latest (and well-tested) release version."
