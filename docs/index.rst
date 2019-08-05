@@ -103,7 +103,7 @@ The components of Qiskit extend the functionality.
   :maxdepth: 2
   :hidden:
 
-  Installing Qiskit <install>
+  install
   Getting Started <getting_started>
   Frequently Asked Questions <faq>
   Qiskit Terra <terra/index>
