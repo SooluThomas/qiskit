@@ -297,7 +297,7 @@ regular computer science little endian ordering). In this example:
 .. image:: ../images/figures/quantum_circuits_27_0.png
   :alt: Quantum circuit with 4 qubits, an X gate on the second and third qubits.
 
-qqubit register :math:`Q_0` is prepared in the state :math:`|10\rangle`
+qubit register :math:`Q_0` is prepared in the state :math:`|10\rangle`
 and :math:`Q_1` is in the state :math:`|01\rangle` giving a total state
 :math:`|0110\rangle` (:math:`Q1\otimes Q0`).
 
