@@ -529,6 +529,7 @@ universally depending on operating system.
 
 .. _aer_wheel_build_options:
 
+-----------------------------------
 Custom options during wheel builds
 -----------------------------------
 
