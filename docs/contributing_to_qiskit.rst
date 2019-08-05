@@ -530,7 +530,7 @@ universally depending on operating system.
 .. _aer_wheel_build_options:
 
 Custom options during wheel builds
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
 The Aer build system uses `scikit-build <https://scikit-build.readthedocs.io/en/latest/index.html>`__
 to run the compilation when building it with the python interface. It acts as an interface for
