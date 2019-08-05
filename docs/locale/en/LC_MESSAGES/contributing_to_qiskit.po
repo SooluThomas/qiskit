@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-01 13:59+0000\n"
+"POT-Creation-Date: 2019-08-05 15:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -456,8 +456,8 @@ msgid "Editable Mode"
 msgstr ""
 
 #: ../../contributing_to_qiskit.rst:286 ../../contributing_to_qiskit.rst:335
-#: ../../contributing_to_qiskit.rst:639 ../../contributing_to_qiskit.rst:676
-#: ../../contributing_to_qiskit.rst:713
+#: ../../contributing_to_qiskit.rst:640 ../../contributing_to_qiskit.rst:677
+#: ../../contributing_to_qiskit.rst:714
 msgid ""
 "If you want to install it in editable mode, meaning that code changes to "
 "the project don't require a reinstall to be applied you can do this with:"
@@ -524,7 +524,7 @@ msgid ""
 " be installed universally depending on operating system."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:365 ../../contributing_to_qiskit.rst:593
+#: ../../contributing_to_qiskit.rst:365 ../../contributing_to_qiskit.rst:594
 msgid "Linux"
 msgstr ""
 
@@ -663,7 +663,11 @@ msgid ""
 " install that instead."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:535
+#: ../../contributing_to_qiskit.rst:534
+msgid "Custom options during wheel builds"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:536
 msgid ""
 "The Aer build system uses `scikit-build <https://scikit-"
 "build.readthedocs.io/en/latest/index.html>`__ to run the compilation when"
@@ -673,14 +677,14 @@ msgid ""
 "system."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:540
+#: ../../contributing_to_qiskit.rst:541
 msgid ""
 "Due to the complexity of compiling the binaries you may need to pass "
 "options to a certain part of the build process. The way to pass variables"
 " is:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:547
+#: ../../contributing_to_qiskit.rst:548
 msgid ""
 "where the elements within square brackets `[]` are optional, and "
 "``skbuild_opts``, ``cmake_opts``, ``build_tool_opts`` are to be replaced "
@@ -689,33 +693,33 @@ msgid ""
 "example, you could run something like:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:557
+#: ../../contributing_to_qiskit.rst:558
 msgid ""
 "This is passing the flag `-j8` to the underlying build system (which in "
 "this case is `Automake <https://www.gnu.org/software/automake/>`__) "
 "telling it that you want to build in parallel using 8 processes."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:561
+#: ../../contributing_to_qiskit.rst:562
 msgid ""
 "For example, a common use case for these flags on linux is to specify a "
 "specific version of the C++ compiler to use (normally if the default is "
 "too old)."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:569
+#: ../../contributing_to_qiskit.rst:570
 msgid ""
 "which will tell CMake to use the g++-7 command instead of the default g++"
 " when compiling Aer"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:572
+#: ../../contributing_to_qiskit.rst:573
 msgid ""
 "Another common use case for this, depending on your environment, is that "
 "you may need to specify your platform name and turn off static linking."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:580
+#: ../../contributing_to_qiskit.rst:581
 msgid ""
 "Here ``--plat-name`` is a flag to setuptools, to specify the platform "
 "name to use in the package metadata, ``-DSTATIC_LINKING`` is a flag to "
@@ -723,155 +727,155 @@ msgid ""
 "Automake being used to use 8 processes for compilation."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:585
+#: ../../contributing_to_qiskit.rst:586
 msgid "A list of common options depending on platform are:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:588
+#: ../../contributing_to_qiskit.rst:589
 msgid "Platform"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:588
+#: ../../contributing_to_qiskit.rst:589
 msgid "Tool"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:588
+#: ../../contributing_to_qiskit.rst:589
 msgid "Option"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:588
+#: ../../contributing_to_qiskit.rst:589
 msgid "Use Case"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:590
+#: ../../contributing_to_qiskit.rst:591
 msgid "All"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:590
+#: ../../contributing_to_qiskit.rst:591
 msgid "Automake"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:590
+#: ../../contributing_to_qiskit.rst:591
 msgid "-j"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:590
+#: ../../contributing_to_qiskit.rst:591
 msgid "Followed by a number this set the number of process to use for compilation"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:593 ../../contributing_to_qiskit.rst:600
+#: ../../contributing_to_qiskit.rst:594 ../../contributing_to_qiskit.rst:601
 msgid "CMake"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:593
+#: ../../contributing_to_qiskit.rst:594
 msgid "-DCMAKE_CXX_COMPILER"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:593
+#: ../../contributing_to_qiskit.rst:594
 msgid ""
 "Used to specify a specific C++ compiler, this is often needed if you "
 "default g++ is too."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:597 ../../contributing_to_qiskit.rst:600
+#: ../../contributing_to_qiskit.rst:598 ../../contributing_to_qiskit.rst:601
 msgid "OSX"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:597
+#: ../../contributing_to_qiskit.rst:598
 msgid "setuptools"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:597
+#: ../../contributing_to_qiskit.rst:598
 msgid "--plat-name"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:597
+#: ../../contributing_to_qiskit.rst:598
 msgid "Used to specify the platform name in the output Python package."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:600
+#: ../../contributing_to_qiskit.rst:601
 msgid "-DSTATIC_LINKING"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:600
+#: ../../contributing_to_qiskit.rst:601
 msgid "Used to specify whether static linking should be used or not"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:605
+#: ../../contributing_to_qiskit.rst:606
 msgid ""
 "Some of these options are not platform specific, if a platform is listed "
 "this is just outlining it's commonly used in that environment. Refer to "
 "the tool documentation for more information."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:611
+#: ../../contributing_to_qiskit.rst:612
 msgid "Installing Ignis from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:613
+#: ../../contributing_to_qiskit.rst:614
 msgid "Clone the ignis repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:619
+#: ../../contributing_to_qiskit.rst:620
 msgid "Cloning the repository creates a local directory called ``qiskit-ignis``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:625
+#: ../../contributing_to_qiskit.rst:626
 msgid ""
 "If you want to run tests or linting checks, install the developer "
 "requirements. This is not required to install or use the qiskit-ignis "
 "package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:633
+#: ../../contributing_to_qiskit.rst:634
 msgid "Install ignis"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:648
+#: ../../contributing_to_qiskit.rst:649
 msgid "Installing Aqua from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:650
+#: ../../contributing_to_qiskit.rst:651
 msgid "Clone the Aqua repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:656
+#: ../../contributing_to_qiskit.rst:657
 msgid "Cloning the repository creates a local directory called ``qiskit-aqua``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:662
+#: ../../contributing_to_qiskit.rst:663
 msgid ""
 "If you want to run tests or linting checks, install the developer "
 "requirements. This is not required to install or use the qiskit-aqua "
 "package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:670
+#: ../../contributing_to_qiskit.rst:671
 msgid "Install aqua"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:685
+#: ../../contributing_to_qiskit.rst:686
 msgid "Install Chemistry from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:687
+#: ../../contributing_to_qiskit.rst:688
 msgid "Clone the qiskit-chemistry repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:693
+#: ../../contributing_to_qiskit.rst:694
 msgid ""
 "Cloning the repository creates a local directory called ``qiskit-"
 "chemistry``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:699
+#: ../../contributing_to_qiskit.rst:700
 msgid ""
 "If you want to run tests or linting checks, install the developer "
 "requirements. This is not required to install or use the qiskit-chemistry"
 " package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:707
+#: ../../contributing_to_qiskit.rst:708
 msgid "Install qiskit-chemistry"
 msgstr ""
 
