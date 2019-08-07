@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-01 13:42+0000\n"
-"PO-Revision-Date: 2019-08-01 13:55\n"
+"PO-Revision-Date: 2019-08-07 07:59\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,51 +23,51 @@ msgstr "Qiskit ドキュメンテーション へようこそ！"
 
 #: ../../index.rst:5
 msgid "Qiskit is an open-source framework for working with noisy quantum computers at the level of pulses, circuits, and algorithms."
-msgstr ""
+msgstr "Qiskit は、パルス、回路、アルゴリズムのレベルでノイズのある量子コンピューターを操作するオープンソース・フレームワークです。"
 
 #: ../../index.rst:9
 msgid "A central goal of Qiskit is to build a software stack that makes it easy for anyone to use quantum computers. However, Qiskit also aims to facilitate research on the most important open issues facing quantum computation today."
-msgstr ""
+msgstr "Qiskit のメインゴールは、誰でも簡単に量子コンピューターを使用できるソフトウェア・スタックの構築にあります。しかし、Qiskit にはまた、今日の量子コンピューティングが直面している、もっとも重要な未解決課題の研究を促進する目標もあるのです。"
 
 #: ../../index.rst:13
 msgid "You can use Qiskit to easily design experiments and run them on simulators and real quantum computers."
-msgstr ""
+msgstr "Qiskit を使用して簡単に実験をデザインし、シミュレーターや本物の量子コンピューターの上で実行することができます。"
 
 #: ../../index.rst:16
 msgid "Qiskit consists of four foundational elements:"
-msgstr ""
+msgstr "Qiskitは4つの基本的な要素から構成されます。"
 
 #: ../../index.rst:18
 msgid "**Terra**: Composing quantum programs at the level of circuits and pulses with the code foundation"
-msgstr ""
+msgstr "**Terra**: 基盤コードを使用して、回路やパルスのレベルで量子プログラムを作成します。"
 
 #: ../../index.rst:20
 msgid "**Aqua**: Building algorithms and applications"
-msgstr ""
+msgstr "**Aqua**: アルゴリズムやアプリケーションを構築します。"
 
 #: ../../index.rst:21
 msgid "**Ignis**: Addressing noise and errors"
-msgstr ""
+msgstr "**Ignis**: ノイズやエラーに対処します。"
 
 #: ../../index.rst:22
 msgid "**Aer**: Accelerating development via simulators, emulators, and debuggers"
-msgstr ""
+msgstr "**Aer**: シミュレーター、エミュレーター、デバッガーを通して開発を加速させます。"
 
 #: ../../index.rst:26
 msgid "Qiskit Elements"
-msgstr ""
+msgstr "Qiskit の要素"
 
 #: ../../index.rst:38
 msgid ":ref:`Qiskit Terra <Terra>`"
-msgstr ""
+msgstr ":ref:`Qiskit Terra <Terra>`"
 
 #: ../../index.rst:32
 msgid "Terra, the ‘earth’ element, is the foundation on which the rest of Qiskit lies. Terra provides a bedrock for composing quantum programs at the level of circuits and pulses, to optimize them for the constraints of a particular device, and to manage the execution of batches of experiments on remote-access devices. Terra defines the interfaces for a desirable end-user experience, as well as the efficient handling of layers of optimization, pulse scheduling and backend communication."
-msgstr ""
+msgstr "Terra 要素(「地」の意) は、他のQiskitを支える土台です。特定のデバイスの制約に対して最適化したり、 リモート・アクセスのデバイスに対して複数回の実験実行を管理するために、回路やパルスのレベルで量子プログラムを構築する基盤を提供します。Terraは、効率的な最適化レイヤー処理、パルス・スケジューリング、バックエンド通信とともに、望ましいエンド・ユーザー体験のインターフェースを定義します。"
 
 #: ../../index.rst:48
 msgid ":ref:`Qiskit Aer <Aer>`"
-msgstr ""
+msgstr ":ref:`Qiskit Aer <Aer>`"
 
 #: ../../index.rst:41
 msgid "Aer, the ‘air’ element, permeates all Qiskit elements. To really speed up development of quantum computers we need better simulators, emulators and debuggers.  Aer helps us understand the limits of classical processors by demonstrating to what extent they can mimic quantum computation. Furthermore, we can use Aer to verify that current and near-future quantum computers function correctly. This can be done by stretching the limits of simulation, and by simulating the effects of realistic noise on the computation."

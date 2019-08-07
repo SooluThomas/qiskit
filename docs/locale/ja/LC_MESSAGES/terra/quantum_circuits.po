@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 20:59+0000\n"
-"PO-Revision-Date: 2019-07-31 01:36\n"
+"PO-Revision-Date: 2019-08-05 14:34\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "以下を用いて量子及び古典のレジスターを宣言します
 
 #: ../../terra/quantum_circuits.rst:35
 msgid "The name is optional. If not given Qiskit will name it ``qi`` where ``i`` is an integer which will count from 0. The name and size can be returned using the following:"
-msgstr "名前は任意です。特に指定しない場合、 Qiskitがデフォルトで \"qi\" と名付けます。このとき、\"i\" は0から始まる整数です。名前とサイズは以下のコマンドで確認できます。"
+msgstr "名前は任意です。特に指定しない場合、 Qiskitがデフォルトで ``qi`` と名付けます。このとき、``i`` は0から始まる整数です。名前とサイズは以下のコマンドで確認できます。"
 
 #: ../../terra/quantum_circuits.rst:49
 msgid "You can test if the register are the same or different."
@@ -51,7 +51,7 @@ msgstr "回路を作成する"
 
 #: ../../terra/quantum_circuits.rst:81
 msgid "Quantum Circuits are made using registers. Either when initiated or by using the ``add_register`` command."
-msgstr "量子回路は、初期化の際、または \"add_register\" コマンドを使って、レジスターで作成されます。"
+msgstr "量子回路は、初期化の際、または ``add_register`` コマンドを使って、レジスターで作成されます。"
 
 #: ../../terra/quantum_circuits.rst:94
 msgid "is the same as"
@@ -59,7 +59,7 @@ msgstr "は、以下と同じです。"
 
 #: ../../terra/quantum_circuits.rst:111
 msgid "The order of registers in the list is the order they are initiated or added **not** the tensor product for quantum registers."
-msgstr "リスト上のレジスターは、量子レジスターのテンソル積としてではなく、初期化または \"add_register\" で追加された順番で表示されます。"
+msgstr "リスト上のレジスターは、量子レジスターのテンソル積としてではなく、初期化または ``add_register`` で追加された順番で表示されます。"
 
 #: ../../terra/quantum_circuits.rst:130
 msgid "The circuit drawer has the last register added at the bottom and if we add a new register it will add it to the bottom of the circuit."
@@ -99,7 +99,7 @@ msgstr "新しいレジスタを回路に追加します。"
 
 #: ../../terra/quantum_circuits.rst:274
 msgid "We have also overloaded ``+=`` to the ``QuantumCircuit`` object:"
-msgstr "``+=``も``QuantumCircuit`` オブジェクトに対してオーバーロードされます。"
+msgstr "``+=`` も ``QuantumCircuit`` オブジェクトに対してオーバーロードされます。"
 
 #: ../../terra/quantum_circuits.rst:287
 msgid "Examining Circuit Results"
