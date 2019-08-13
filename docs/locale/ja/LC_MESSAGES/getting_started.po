@@ -139,7 +139,7 @@ msgstr "ゲートが一つづつ回路に追加され、Bell状態が形成さ�
 
 #: ../../getting_started.rst:145
 msgid "|\\psi\\rangle = \\left(|00\\rangle+|11\\rangle\\right)/\\sqrt{2}."
-msgstr "|\\psi\\rangle = \\left(|00\\rangle+|11\\rangle\\right)/\\sqrt{2}"
+msgstr ""
 
 #: ../../getting_started.rst:147
 msgid "The code above applies the following gates:"
