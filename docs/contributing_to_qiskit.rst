@@ -302,9 +302,6 @@ Once the compilers are installed, you are ready to install Qiskit Terra.
 
 After you've installed Terra, you can install Aer as an add-on to run additional simulators.
 
-<<<<<<< HEAD
-=====================================
-=======
 .. note::
 
     If you do not intend to install any other components qiskit-terra will
@@ -322,7 +319,6 @@ After you've installed Terra, you can install Aer as an add-on to run additional
     warning about the missing qiskit-aer and qiskit-ibmq-provider, but still
     display any other warnings from qiskit or other packages.
 
->>>>>>> master
 Installing IBMQ Provider from Source
 =====================================
 
