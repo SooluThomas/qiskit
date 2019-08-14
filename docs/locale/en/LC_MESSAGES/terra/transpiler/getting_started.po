@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 15:09+0000\n"
+"POT-Creation-Date: 2019-08-14 20:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgid "About Transpilation"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:41
-msgid ":ref:`Transpiler API Overview`"
+msgid ":ref:`Transpiler-API-Overview`"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:41
@@ -87,7 +87,7 @@ msgid "The big picture."
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:44
-msgid ":ref:`Transpiler Passes`"
+msgid ":ref:`Transpiler-Passes`"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:44
@@ -95,7 +95,7 @@ msgid "What is a transpiler pass?"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:47
-msgid ":ref:`Pass Managers`"
+msgid ":ref:`Pass-Managers`"
 msgstr ""
 
 #: ../../terra/transpiler/getting_started.rst:47
