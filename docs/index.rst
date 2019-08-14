@@ -103,23 +103,21 @@ The components of Qiskit extend the functionality.
   :maxdepth: 2
   :hidden:
 
-  Installing Qiskit <install>
-  Getting Started <getting_started>
-  Frequently Asked Questions <faq>
-  Qiskit Terra <terra/index>
-  Qiskit Aer <aer/index>
-  Qiskit Ignis <ignis/index>
-  Qiskit Aqua <aqua/index>
-  Advanced Use of IBM Q Devices <advanced_use_of_ibm_q_devices>
-  Development Strategy <development_strategy>
-  Release Notes <release_notes>
+  install
+  getting_started
+  faq
+  terra/index
+  aer/index
+  ignis/index
+  aqua/index
+  development_strategy
+  release_notes
   API References <autodoc/qiskit>
-  Contributing to Qiskit <contributing_to_qiskit>
-  Community Extensions <community>
-  License <license>
+  contributing_to_qiskit
+  community
+  license
 
 .. Hiding - Indices and tables
    :ref:`genindex`
    :ref:`modindex`
    :ref:`search`
-
