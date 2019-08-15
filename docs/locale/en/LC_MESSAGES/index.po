@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-14 21:02+0000\n"
+"POT-Creation-Date: 2019-08-15 14:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../index.rst:5
 msgid ""
-"Qiskit is an open-source framework for working with noisy quantum "
-"computers at the level of pulses, circuits, and algorithms."
+"Qiskit is an open-source framework for working with quantum computers at "
+"the level of pulses, circuits, and algorithms."
 msgstr ""
 
-#: ../../index.rst:9
+#: ../../index.rst:8
 msgid ""
 "A central goal of Qiskit is to build a software stack that makes it easy "
 "for anyone to use quantum computers. However, Qiskit also aims to "
@@ -35,43 +35,43 @@ msgid ""
 "computation today."
 msgstr ""
 
-#: ../../index.rst:13
+#: ../../index.rst:12
 msgid ""
 "You can use Qiskit to easily design experiments and run them on "
 "simulators and real quantum computers."
 msgstr ""
 
-#: ../../index.rst:16
+#: ../../index.rst:15
 msgid "Qiskit consists of four foundational elements:"
 msgstr ""
 
-#: ../../index.rst:18
+#: ../../index.rst:17
 msgid ""
 "**Terra**: Composing quantum programs at the level of circuits and pulses"
 " with the code foundation"
 msgstr ""
 
-#: ../../index.rst:20
+#: ../../index.rst:19
 msgid "**Aqua**: Building algorithms and applications"
 msgstr ""
 
-#: ../../index.rst:21
+#: ../../index.rst:20
 msgid "**Ignis**: Addressing noise and errors"
 msgstr ""
 
-#: ../../index.rst:22
+#: ../../index.rst:21
 msgid "**Aer**: Accelerating development via simulators, emulators, and debuggers"
 msgstr ""
 
-#: ../../index.rst:26
+#: ../../index.rst:25
 msgid "Qiskit Elements"
 msgstr ""
 
-#: ../../index.rst:38
+#: ../../index.rst:35
 msgid ":ref:`Qiskit Terra <Terra>`"
 msgstr ""
 
-#: ../../index.rst:32
+#: ../../index.rst:29
 msgid ""
 "Terra, the ‘earth’ element, is the foundation on which the rest of Qiskit"
 " lies. Terra provides a bedrock for composing quantum programs at the "
@@ -82,11 +82,11 @@ msgid ""
 "optimization, pulse scheduling and backend communication."
 msgstr ""
 
-#: ../../index.rst:48
+#: ../../index.rst:45
 msgid ":ref:`Qiskit Aer <Aer>`"
 msgstr ""
 
-#: ../../index.rst:41
+#: ../../index.rst:38
 msgid ""
 "Aer, the ‘air’ element, permeates all Qiskit elements. To really speed up"
 " development of quantum computers we need better simulators, emulators "
@@ -98,11 +98,11 @@ msgid ""
 "realistic noise on the computation."
 msgstr ""
 
-#: ../../index.rst:57
+#: ../../index.rst:54
 msgid ":ref:`Qiskit Ignis <Ignis>`"
 msgstr ""
 
-#: ../../index.rst:51
+#: ../../index.rst:48
 msgid ""
 "Ignis, the ‘fire’ element, is dedicated to fighting noise and errors and "
 "to forging a new path. This includes better characterization of errors, "
@@ -113,96 +113,18 @@ msgid ""
 "decoupling and optimal control."
 msgstr ""
 
-#: ../../index.rst:66
+#: ../../index.rst:63
 msgid ":ref:`Qiskit Aqua <Aqua>`"
 msgstr ""
 
-#: ../../index.rst:60
+#: ../../index.rst:57
 msgid ""
 "Aqua, the ‘water’ element, is the element of life. To make quantum "
 "computing live up to its expectations, we need to find real-world "
-"applications. Aqua is where algorithms for NISQ computers are built. "
+"applications. Aqua is where algorithms for quantum computers are built. "
 "These algorithms can be used to build applications for quantum computing."
 " Aqua is accessible to domain experts in chemistry, optimization, finance"
 " and AI, who want to explore the benefits of using quantum computers as "
-"accelerators for specific computational tasks, without needing to worry "
-"about how to translate the problem into the language of quantum machines."
-msgstr ""
-
-#: ../../index.rst:70
-msgid "Qiskit Components"
-msgstr ""
-
-#: ../../index.rst:72
-msgid "The components of Qiskit extend the functionality."
-msgstr ""
-
-#: ../../index.rst:82
-msgid ":ref:`Qiskit Chemistry <aqua-chemistry>`"
-msgstr ""
-
-#: ../../index.rst:75
-msgid ""
-"Qiskit Chemistry extends the Aqua element to allow the user to work "
-"easier with quantum computing for quantum chemistry problems. Qiskit "
-"Chemistry a set of tools, algorithms and software to use for quantum "
-"chemistry research. Qiskit Chemistry comes with interfaces prebuilt for "
-"the following four classical computational chemistry software drivers:"
-msgstr ""
-
-#: ../../index.rst:80
-msgid "Gaussian™ 16 (a commercial chemistry program)"
-msgstr ""
-
-#: ../../index.rst:81
-msgid "PSI4 (an open-source chemistry program built on Python)"
-msgstr ""
-
-#: ../../index.rst:82
-msgid "PySCF (an open-source Python chemistry program)"
-msgstr ""
-
-#: ../../index.rst:83
-msgid "PyQuante (a pure Python cross-platform open-source chemistry program)."
-msgstr ""
-
-#: ../../index.rst:87
-msgid ":ref:`Qiskit AI <aqua-ai>`"
-msgstr ""
-
-#: ../../index.rst:85
-msgid ""
-"Qiskit Artificial Intelligence (AI) allows users with different levels of"
-" experience to execute AI experiments and contribute to the quantum "
-"computing AI software stack. Users with a pure AI background or interests"
-" can continue to configure AI problems without having to learn the "
-"details of quantum computing."
-msgstr ""
-
-#: ../../index.rst:93
-msgid ":ref:`Qiskit Optimization <aqua-optimization>`"
-msgstr ""
-
-#: ../../index.rst:90
-msgid ""
-"Qiskit Optimization allows users with different levels of experience to "
-"execute optimization experiments and contribute to the quantum computing "
-"optimization software stack. Users with a pure optimization background or"
-" interests can continue to configure optimization problems without having"
-" to learn the details of quantum computing."
-msgstr ""
-
-#: ../../index.rst:100
-msgid ":ref:`Qiskit Finance <aqua-finance>`"
-msgstr ""
-
-#: ../../index.rst:96
-msgid ""
-"Qiskit Finance allows users with different levels of experience to "
-"execute financial-analysis and optimization experiments and contribute to"
-" the quantum computing finance software stack. Users with a pure finance "
-"background or interests can continue to configure financial analysis and "
-"optimization problems without having to learn the details of the "
-"underlying quantum computing system."
+"accelerators for specific computational tasks."
 msgstr ""
 
