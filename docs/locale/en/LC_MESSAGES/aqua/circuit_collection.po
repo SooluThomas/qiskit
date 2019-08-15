@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-05 15:09+0000\n"
+"POT-Creation-Date: 2019-08-14 21:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.7.0\n"
 
 #: ../../aqua/circuit_collection.rst:5
-msgid ""
-"A Collection of Circuits and Gates for Building Higher Level Circuits, "
-"Components and Algorithm"
+msgid "High-level Design Building Blocks"
 msgstr ""
 
 #: ../../aqua/circuit_collection.rst:7
