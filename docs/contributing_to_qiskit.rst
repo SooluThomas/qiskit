@@ -319,6 +319,7 @@ After you've installed Terra, you can install Aer as an add-on to run additional
     warning about the missing qiskit-aer and qiskit-ibmq-provider, but still
     display any other warnings from qiskit or other packages.
 
+=====================================
 Installing IBMQ Provider from Source
 =====================================
 
