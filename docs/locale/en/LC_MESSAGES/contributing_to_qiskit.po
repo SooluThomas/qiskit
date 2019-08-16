@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Qiskit \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-15 14:19+0000\n"
+"POT-Creation-Date: 2019-08-16 18:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -455,9 +455,9 @@ msgstr ""
 msgid "Editable Mode"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:286 ../../contributing_to_qiskit.rst:351
-#: ../../contributing_to_qiskit.rst:656 ../../contributing_to_qiskit.rst:693
-#: ../../contributing_to_qiskit.rst:730
+#: ../../contributing_to_qiskit.rst:286 ../../contributing_to_qiskit.rst:352
+#: ../../contributing_to_qiskit.rst:657 ../../contributing_to_qiskit.rst:694
+#: ../../contributing_to_qiskit.rst:731
 msgid ""
 "If you want to install it in editable mode, meaning that code changes to "
 "the project don't require a reinstall to be applied you can do this with:"
@@ -496,40 +496,44 @@ msgid ""
 "display any other warnings from qiskit or other packages."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:325
+#: ../../contributing_to_qiskit.rst:324
+msgid "Installing IBMQ Provider from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:326
 msgid "Clone the qiskit-ibmq-provider repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:331
+#: ../../contributing_to_qiskit.rst:332
 msgid ""
 "Cloning the repository creates a local directory called ``qiskit-ibmq-"
 "provider``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:337
+#: ../../contributing_to_qiskit.rst:338
 msgid ""
 "If you want to run tests or linting checks, install the developer "
 "requirements. This is not required to install or use the qiskit-ibmq-"
 "provider package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:345
+#: ../../contributing_to_qiskit.rst:346
 msgid "Install qiskit-ibmq-provider"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:360
+#: ../../contributing_to_qiskit.rst:361
 msgid "Installing Aer from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:362
+#: ../../contributing_to_qiskit.rst:363
 msgid "Clone the Aer repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:368
+#: ../../contributing_to_qiskit.rst:369
 msgid "Install build requirements."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:374
+#: ../../contributing_to_qiskit.rst:375
 msgid ""
 "After this the steps to install Aer depend on which operating system you "
 "are using. Since Aer is a compiled C++ program with a python interface "
@@ -537,84 +541,84 @@ msgid ""
 " be installed universally depending on operating system."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:381 ../../contributing_to_qiskit.rst:610
+#: ../../contributing_to_qiskit.rst:382 ../../contributing_to_qiskit.rst:611
 msgid "Linux"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:383
+#: ../../contributing_to_qiskit.rst:384
 msgid "Install compiler requirements."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:385
+#: ../../contributing_to_qiskit.rst:386
 msgid "Building Aer requires a C++ compiler and development headers"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:387
+#: ../../contributing_to_qiskit.rst:388
 msgid ""
 "If you're using Ubuntu>=16.04 or an equivalent Debian Linux distribution "
 "you can install this with:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:394
+#: ../../contributing_to_qiskit.rst:395
 msgid "Install OpenBLAS development headers."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:396
+#: ../../contributing_to_qiskit.rst:397
 msgid ""
 "If you're using Ubuntu>=16.04 or an equivalent Debian Linux distribution,"
 " you can install this with:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:404
+#: ../../contributing_to_qiskit.rst:405
 msgid "Build and install qiskit-aer directly"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:406 ../../contributing_to_qiskit.rst:465
+#: ../../contributing_to_qiskit.rst:407 ../../contributing_to_qiskit.rst:466
 msgid ""
 "If you have pip <19.0.0 installed and your environment doesn't require a "
 "custom build options you can just run:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:414 ../../contributing_to_qiskit.rst:473
+#: ../../contributing_to_qiskit.rst:415 ../../contributing_to_qiskit.rst:474
 msgid "This will both build the binaries and install Aer."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:416
+#: ../../contributing_to_qiskit.rst:417
 msgid ""
 "Alternatively if you have a newer pip installed, or have some custom "
 "requirement you can build a python wheel manually."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:424 ../../contributing_to_qiskit.rst:483
-#: ../../contributing_to_qiskit.rst:532
+#: ../../contributing_to_qiskit.rst:425 ../../contributing_to_qiskit.rst:484
+#: ../../contributing_to_qiskit.rst:533
 msgid ""
 "If you need to set a custom option during the wheel build you can refer "
 "to :ref:`aer_wheel_build_options`."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:427 ../../contributing_to_qiskit.rst:486
-#: ../../contributing_to_qiskit.rst:535
+#: ../../contributing_to_qiskit.rst:428 ../../contributing_to_qiskit.rst:487
+#: ../../contributing_to_qiskit.rst:536
 msgid ""
 "After you build the python wheel it will be stored in the ``dist/`` dir "
 "in the Aer repository. The exact version will depend"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:435 ../../contributing_to_qiskit.rst:494
-#: ../../contributing_to_qiskit.rst:543
+#: ../../contributing_to_qiskit.rst:436 ../../contributing_to_qiskit.rst:495
+#: ../../contributing_to_qiskit.rst:544
 msgid ""
 "The exact filename of the output wheel file depends on the current "
 "version of Aer under development."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:438
+#: ../../contributing_to_qiskit.rst:439
 msgid "macOS"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:440
+#: ../../contributing_to_qiskit.rst:441
 msgid "Install dependencies."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:442
+#: ../../contributing_to_qiskit.rst:443
 msgid ""
 "To use the `Clang <https://clang.llvm.org/>`__ compiler on macOS, you "
 "need to install an extra library for supporting `OpenMP "
@@ -622,31 +626,31 @@ msgid ""
 " install this and other dependencies."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:450
+#: ../../contributing_to_qiskit.rst:451
 msgid ""
 "You then also have to install a BLAS implementation, `OpenBLAS "
 "<https://www.openblas.net/>`__ is the default choice."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:457
+#: ../../contributing_to_qiskit.rst:458
 msgid "You also need to have ``Xcode Command Line Tools`` installed."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:463
+#: ../../contributing_to_qiskit.rst:464
 msgid "Build and install qiskit"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:475
+#: ../../contributing_to_qiskit.rst:476
 msgid ""
 "Alternatively if you have a newer pip installed, or need to set custom "
 "options for your environment you can build a python wheel manually."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:497
+#: ../../contributing_to_qiskit.rst:498
 msgid "Windows"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:499
+#: ../../contributing_to_qiskit.rst:500
 msgid ""
 "On Windows you need to use `Anaconda3 "
 "<https://www.anaconda.com/distribution/#windows>`__ or `Miniconda3 "
@@ -654,33 +658,33 @@ msgid ""
 "dependencies."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:503
+#: ../../contributing_to_qiskit.rst:504
 msgid "Install compiler requirements"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:509
+#: ../../contributing_to_qiskit.rst:510
 msgid "Install binary and build dependencies"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:515
+#: ../../contributing_to_qiskit.rst:516
 msgid "Install the package"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:517
+#: ../../contributing_to_qiskit.rst:518
 msgid "If you have pip <19.0.0 installed you can just run"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:524
+#: ../../contributing_to_qiskit.rst:525
 msgid ""
 "if you're using pip >=19.0.0 then you can manually build a wheel file and"
 " install that instead."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:550
+#: ../../contributing_to_qiskit.rst:551
 msgid "Custom options during wheel builds"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:552
+#: ../../contributing_to_qiskit.rst:553
 msgid ""
 "The Aer build system uses `scikit-build <https://scikit-"
 "build.readthedocs.io/en/latest/index.html>`__ to run the compilation when"
@@ -690,14 +694,14 @@ msgid ""
 "system."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:557
+#: ../../contributing_to_qiskit.rst:558
 msgid ""
 "Due to the complexity of compiling the binaries you may need to pass "
 "options to a certain part of the build process. The way to pass variables"
 " is:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:564
+#: ../../contributing_to_qiskit.rst:565
 msgid ""
 "where the elements within square brackets `[]` are optional, and "
 "``skbuild_opts``, ``cmake_opts``, ``build_tool_opts`` are to be replaced "
@@ -706,33 +710,33 @@ msgid ""
 "example, you could run something like:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:574
+#: ../../contributing_to_qiskit.rst:575
 msgid ""
 "This is passing the flag `-j8` to the underlying build system (which in "
 "this case is `Automake <https://www.gnu.org/software/automake/>`__) "
 "telling it that you want to build in parallel using 8 processes."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:578
+#: ../../contributing_to_qiskit.rst:579
 msgid ""
 "For example, a common use case for these flags on linux is to specify a "
 "specific version of the C++ compiler to use (normally if the default is "
 "too old)."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:586
+#: ../../contributing_to_qiskit.rst:587
 msgid ""
 "which will tell CMake to use the g++-7 command instead of the default g++"
 " when compiling Aer"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:589
+#: ../../contributing_to_qiskit.rst:590
 msgid ""
 "Another common use case for this, depending on your environment, is that "
 "you may need to specify your platform name and turn off static linking."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:597
+#: ../../contributing_to_qiskit.rst:598
 msgid ""
 "Here ``--plat-name`` is a flag to setuptools, to specify the platform "
 "name to use in the package metadata, ``-DSTATIC_LINKING`` is a flag to "
@@ -740,155 +744,155 @@ msgid ""
 "Automake being used to use 8 processes for compilation."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:602
+#: ../../contributing_to_qiskit.rst:603
 msgid "A list of common options depending on platform are:"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:605
+#: ../../contributing_to_qiskit.rst:606
 msgid "Platform"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:605
+#: ../../contributing_to_qiskit.rst:606
 msgid "Tool"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:605
+#: ../../contributing_to_qiskit.rst:606
 msgid "Option"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:605
+#: ../../contributing_to_qiskit.rst:606
 msgid "Use Case"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:607
+#: ../../contributing_to_qiskit.rst:608
 msgid "All"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:607
+#: ../../contributing_to_qiskit.rst:608
 msgid "Automake"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:607
+#: ../../contributing_to_qiskit.rst:608
 msgid "-j"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:607
+#: ../../contributing_to_qiskit.rst:608
 msgid "Followed by a number this set the number of process to use for compilation"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:610 ../../contributing_to_qiskit.rst:617
+#: ../../contributing_to_qiskit.rst:611 ../../contributing_to_qiskit.rst:618
 msgid "CMake"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:610
+#: ../../contributing_to_qiskit.rst:611
 msgid "-DCMAKE_CXX_COMPILER"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:610
+#: ../../contributing_to_qiskit.rst:611
 msgid ""
 "Used to specify a specific C++ compiler, this is often needed if you "
 "default g++ is too."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:614 ../../contributing_to_qiskit.rst:617
+#: ../../contributing_to_qiskit.rst:615 ../../contributing_to_qiskit.rst:618
 msgid "OSX"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:614
+#: ../../contributing_to_qiskit.rst:615
 msgid "setuptools"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:614
+#: ../../contributing_to_qiskit.rst:615
 msgid "--plat-name"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:614
+#: ../../contributing_to_qiskit.rst:615
 msgid "Used to specify the platform name in the output Python package."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:617
+#: ../../contributing_to_qiskit.rst:618
 msgid "-DSTATIC_LINKING"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:617
+#: ../../contributing_to_qiskit.rst:618
 msgid "Used to specify whether static linking should be used or not"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:622
+#: ../../contributing_to_qiskit.rst:623
 msgid ""
 "Some of these options are not platform specific, if a platform is listed "
 "this is just outlining it's commonly used in that environment. Refer to "
 "the tool documentation for more information."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:628
+#: ../../contributing_to_qiskit.rst:629
 msgid "Installing Ignis from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:630
+#: ../../contributing_to_qiskit.rst:631
 msgid "Clone the ignis repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:636
+#: ../../contributing_to_qiskit.rst:637
 msgid "Cloning the repository creates a local directory called ``qiskit-ignis``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:642
+#: ../../contributing_to_qiskit.rst:643
 msgid ""
 "If you want to run tests or linting checks, install the developer "
 "requirements. This is not required to install or use the qiskit-ignis "
 "package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:650
+#: ../../contributing_to_qiskit.rst:651
 msgid "Install ignis"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:665
+#: ../../contributing_to_qiskit.rst:666
 msgid "Installing Aqua from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:667
+#: ../../contributing_to_qiskit.rst:668
 msgid "Clone the Aqua repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:673
+#: ../../contributing_to_qiskit.rst:674
 msgid "Cloning the repository creates a local directory called ``qiskit-aqua``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:679
+#: ../../contributing_to_qiskit.rst:680
 msgid ""
 "If you want to run tests or linting checks, install the developer "
 "requirements. This is not required to install or use the qiskit-aqua "
 "package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:687
+#: ../../contributing_to_qiskit.rst:688
 msgid "Install aqua"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:702
+#: ../../contributing_to_qiskit.rst:703
 msgid "Install Chemistry from Source"
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:704
+#: ../../contributing_to_qiskit.rst:705
 msgid "Clone the qiskit-chemistry repository."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:710
+#: ../../contributing_to_qiskit.rst:711
 msgid ""
 "Cloning the repository creates a local directory called ``qiskit-"
 "chemistry``."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:716
+#: ../../contributing_to_qiskit.rst:717
 msgid ""
 "If you want to run tests or linting checks, install the developer "
 "requirements. This is not required to install or use the qiskit-chemistry"
 " package when installing from source."
 msgstr ""
 
-#: ../../contributing_to_qiskit.rst:724
+#: ../../contributing_to_qiskit.rst:725
 msgid "Install qiskit-chemistry"
 msgstr ""
 
