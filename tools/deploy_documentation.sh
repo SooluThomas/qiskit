@@ -41,7 +41,7 @@ echo "end of configuring ssh"
 # Clone the sources and po files
 git clone $SOURCE_REPOSITORY docs_source
 git clone $SOURCE_REPOSITORY -b translationDocs translations
-cp -r translations/docs/locale docs_source/docs/.
+mkdir -p translations/docs/locale && cp -r docs_source/docs/. translations/docs/locale
 
 # Make translated document
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
