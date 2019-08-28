@@ -26,6 +26,9 @@ SOURCE_REPOSITORY="git@github.com:SooluThomas/qiskit.git"
 TARGET_BRANCH_PO="poRepo"
 DOC_DIR_2="docs/locale"
 
+echo "git branch at the beginning"
+git branch
+
 # Build the documentation.
 echo "make doc"
 make doc
