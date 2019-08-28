@@ -27,6 +27,8 @@ cd docs
 pwd
 ls
 
+make autodoc
+
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
 echo "set ssh"
@@ -40,6 +42,7 @@ echo "end of configuring ssh"
 
 # Clone the sources and po files
 git clone $SOURCE_REPOSITORY docs_source
+mkdir -p docs_source/docs/autodoc && cp -r $SOURCE_DIR/docs/autodoc/. docs_source/docs/autodoc
 git clone $SOURCE_REPOSITORY -b translationDocs translations
 mkdir -p translations/docs/locale && cp -r docs_source/docs/. translations/docs/locale
 
