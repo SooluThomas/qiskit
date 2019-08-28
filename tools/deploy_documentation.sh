@@ -36,17 +36,17 @@ ssh-add github_deploy_key
 echo "end of configuring ssh"
 
 # Clone the sources and po files
-git clone $SOURCE_REPOSITORY $SOURCE_DIR/docs_source
+git clone $SOURCE_REPOSITORY docs_source
 mkdir -p docs_source/docs/autodoc && cp -r $SOURCE_DIR/docs/autodoc/. docs_source/docs/autodoc
 git clone $SOURCE_REPOSITORY -b translationDocs $SOURCE_DIR/translations
-mkdir -p $SOURCE_DIR/translations/docs/locale && cp -r $SOURCE_DIR/docs_source/docs/. $SOURCE_DIR/translations/docs/locale
+mkdir -p $SOURCE_DIR/translations/docs/locale && cp -r docs_source/docs/. $SOURCE_DIR/translations/docs/locale
 
 echo "pwd before cd docs"
 pwd
 echo "ls before cd docs"
 ls
 echo "cd docs"
-cd $SOURCE_DIR/docs_source/docs
+cd $SOURCE_DIR/translations/docs
 pwd
 ls
 
