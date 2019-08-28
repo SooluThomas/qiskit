@@ -27,6 +27,17 @@ cd docs
 pwd
 ls
 
+# Setup the deploy key.
+# https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
+echo "set ssh"
+pwd
+set -e
+openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in ../tools/github_deploy_key.enc -out github_deploy_key -d
+chmod 600 github_deploy_key
+eval $(ssh-agent -s)
+ssh-add github_deploy_key
+echo "end of configuring ssh"
+
 # Clone the sources and po files
 git clone $SOURCE_REPOSITORY docs_source
 git clone $SOURCE_REPOSITORY -b translationDocs translations
@@ -38,16 +49,7 @@ cp -r translations/docs/locale docs_source/docs/.
 echo "Make translated document"
 sphinx-build -b html -D language=$TRANSLATION_LANG . _build/html/locale/$TRANSLATION_LANG
 
-# Setup the deploy key.
-# https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
-echo "set ssh"
-pwd
-set -e
-openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in ../tools/github_deploy_key.enc -out github_deploy_key -d
-chmod 600 github_deploy_key
-eval $(ssh-agent -s)
-ssh-add github_deploy_key
-echo "end of configuring ssh"
+
 
 # Clone the landing page repository.
 cd ..
