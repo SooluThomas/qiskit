@@ -36,13 +36,17 @@ ssh-add github_deploy_key
 echo "end of configuring ssh"
 
 # Clone the sources and po files
-git clone $SOURCE_REPOSITORY docs_source
+git clone $SOURCE_REPOSITORY $SOURCE_DIR/docs_source
 mkdir -p docs_source/docs/autodoc && cp -r $SOURCE_DIR/docs/autodoc/. docs_source/docs/autodoc
-git clone $SOURCE_REPOSITORY -b translationDocs translations
-mkdir -p translations/docs/locale && cp -r docs_source/docs/. translations/docs/locale
+git clone $SOURCE_REPOSITORY -b translationDocs $SOURCE_DIR/translations
+mkdir -p $SOURCE_DIR/translations/docs/locale && cp -r $SOURCE_DIR/docs_source/docs/. $SOURCE_DIR/translations/docs/locale
 
+echo "pwd before cd docs"
+pwd
+echo "ls before cd docs"
+ls
 echo "cd docs"
-cd docs
+cd $SOURCE_DIR/docs_source/docs
 pwd
 ls
 
@@ -51,8 +55,6 @@ ls
 # /locale/$TRANSLATION_LANG/translated/
 echo "Make translated document"
 sphinx-build -b html -D language=$TRANSLATION_LANG . _build/html/locale/$TRANSLATION_LANG
-
-
 
 # Clone the landing page repository.
 cd ..
