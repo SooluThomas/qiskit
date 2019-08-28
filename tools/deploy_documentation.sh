@@ -22,11 +22,6 @@ SOURCE_DOC_DIR="docs/_build/html/locale"
 SOURCE_DIR=`pwd`
 TRANSLATION_LANG='ja'
 
-echo "cd docs"
-cd docs
-pwd
-ls
-
 make autodoc
 
 # Setup the deploy key.
@@ -45,6 +40,11 @@ git clone $SOURCE_REPOSITORY docs_source
 mkdir -p docs_source/docs/autodoc && cp -r $SOURCE_DIR/docs/autodoc/. docs_source/docs/autodoc
 git clone $SOURCE_REPOSITORY -b translationDocs translations
 mkdir -p translations/docs/locale && cp -r docs_source/docs/. translations/docs/locale
+
+echo "cd docs"
+cd docs
+pwd
+ls
 
 # Make translated document
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
