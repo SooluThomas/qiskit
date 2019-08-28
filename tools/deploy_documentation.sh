@@ -15,6 +15,7 @@
 # Script for pushing the documentation to the qiskit.org repository.
 
 # Non-travis variables used by this script.
+SOURCE_REPOSITORY="git@github.com:SooluThomas/qiskit.git"
 TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
 TARGET_DOC_DIR="locale/"
 SOURCE_DOC_DIR="docs/_build/html/locale"
@@ -25,6 +26,12 @@ echo "cd docs"
 cd docs
 pwd
 ls
+
+# Clone the sources and po files
+git clone $SOURCE_REPOSITORY docs_source
+git clone $SOURCE_REPOSITORY -b translationDocs translations
+cp -r translations/docs/locale docs_source/docs/.
+
 # Make translated document
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
 # /locale/$TRANSLATION_LANG/translated/
