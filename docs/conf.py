@@ -286,7 +286,8 @@ def setup(app):
 # autodoc_mock_imports = ["qiskit.providers.aer"]
 
 import sys
-from unittest.mock import MagicMock
+# from unittest.mock import MagicMock
+from mock import Mock as MagicMock
 
 class Mock(MagicMock):
     @classmethod
