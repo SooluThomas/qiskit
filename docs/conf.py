@@ -283,4 +283,15 @@ def setup(app):
 
 # Read The Docs doesn't support installing random C binaries on our system, so there is another way to fix these imports.
 
-autodoc_mock_imports = ["qiskit.providers.aer"]
+# autodoc_mock_imports = ["qiskit.providers.aer"]
+
+import sys
+from unittest.mock import MagicMock
+
+class Mock(MagicMock):
+    @classmethod
+    def __getattr__(cls, name):
+        return MagicMock()
+
+MOCK_MODULES = ['qiskit.providers.aer']
+sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
