@@ -280,3 +280,7 @@ def setup(app):
     # Add the custom css and js used by the Qiskit theme.
     app.add_stylesheet('css/theme.css')
     app.add_javascript('js/themeExt.js')
+
+# Read The Docs doesn't support installing random C binaries on our system, so there is another way to fix these imports.
+
+autodoc_mock_imports = ["qiskit.providers.aer"]
