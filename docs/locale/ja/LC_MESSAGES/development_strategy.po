@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-20 22:43+0000\n"
-"PO-Revision-Date: 2019-06-22 01:55\n"
+"PO-Revision-Date: 2019-08-27 17:04\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../development_strategy.rst:5
 msgid "Roadmap"
-msgstr ""
+msgstr "ロードマップ"
 
 #: ../../development_strategy.rst:7
 msgid "We are going to look out 12 months to establish a set of goals we want to work towards. When planning, we typically look at potential work from the perspective of the elements."
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../development_strategy.rst:12
 msgid "Qiskit Terra"
-msgstr ""
+msgstr "Qiskit Terra"
 
 #: ../../development_strategy.rst:14
 msgid "In 2018 we worked on formalizing the backends and user flow in Qiskit Terra. The basic idea is as follows: the user designs a quantum circuit and then, through a set of transpiler passes, rewrites the circuit to run on different backends with different optimizations. We also introduced the concept of a *provider*, whose role is to supply backends for the user to run quantum circuits on. The provider API we have defined at version one supplies a set of schemas to verify that the provider and its backends are Terra-compatible."
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../development_strategy.rst:37
 msgid "Qiskit Aer"
-msgstr ""
+msgstr "Qiskit Aer"
 
 #: ../../development_strategy.rst:39
 msgid "The first release of Qiskit Aer was made avaialble at the end of 2018. It included C++ implementations of QASM, statevector, and unitary simulators. These are the core to Qiskit Aer, and replace the simulators that existed in Terra. The QASM simulator includes a customizable general (Kraus) noise model, and all simulators are include CPU parallelization through the OpenMP library."

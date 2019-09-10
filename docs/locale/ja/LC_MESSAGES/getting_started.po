@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-01 13:42+0000\n"
-"PO-Revision-Date: 2019-08-13 14:10\n"
+"POT-Creation-Date: 2019-08-16 18:27+0000\n"
+"PO-Revision-Date: 2019-09-10 22:50\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -162,8 +162,8 @@ msgid "Step 4 : Visualize the Circuit"
 msgstr "ステップ４：回路の可視化"
 
 #: ../../getting_started.rst:164
-msgid "You can use ``QuantumCircuit.draw()`` to view the circuit that you have designed in the :ref:`various forms <Visualizing a Quantum Circuit>` used in many textbooks and research articles."
-msgstr "``QuantumCircuit.draw()`` を使って作成した回路を可視化することができます。いろいろな教科書や研究論文で使われている :ref:`様々な形式 <Visualizing a Quantum Circuit>` を利用することができます。"
+msgid "You can use ``QuantumCircuit.draw()`` to view the circuit that you have designed in the :ref:`various forms <Visualizing-a-Quantum-Circuit>` used in many textbooks and research articles."
+msgstr ""
 
 #: ../../getting_started.rst:175
 msgid "In this circuit, the qubits are ordered with qubit zero at the top and qubit one at the bottom. The circuit is read left-to-right, meaning that gates which are applied earlier in the circuit show up farther to the left."

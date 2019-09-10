@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 01:13+0000\n"
-"PO-Revision-Date: 2019-07-31 01:31\n"
+"POT-Creation-Date: 2019-08-16 18:27+0000\n"
+"PO-Revision-Date: 2019-09-10 22:46\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: ja_JP\n"
 
 #: ../../aqua/installation.rst:5
-msgid "Aqua Installation and Setup"
+msgid "Installing Qiskit Aqua"
 msgstr ""
 
 #: ../../aqua/installation.rst:7

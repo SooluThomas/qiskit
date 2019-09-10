@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-01 13:42+0000\n"
+"PO-Revision-Date: 2019-09-10 22:36\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: /poRepo/docs/locale/en/LC_MESSAGES/aqua/chemistry/qiskit_chemistry_license.po\n"
+"Language: pt_PT\n"
+
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:4
+msgid "License"
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:6
+msgid "This project uses the `Apache License Version 2.0 software license <https://www.apache.org/licenses/LICENSE-2.0>`__."
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:9
+msgid "Some code supplied by Qiskit Chemistry for interfacing to external chemistry :ref:`drivers` has additional licensing:"
+msgstr ""
+
+#: ../../aqua/chemistry/qiskit_chemistry_license.rst:12
+msgid "The :ref:`gaussian-16` driver contains work licensed under the `Gaussian Open-Source Public License <https://github.com/Qiskit/qiskit-chemistry/blob/master/qiskit_chemistry/drivers/gaussiand/gauopen/LICENSE.txt>`__."
+msgstr ""
+

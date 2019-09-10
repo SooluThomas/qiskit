@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-09-10 22:40\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: /poRepo/docs/locale/en/LC_MESSAGES/autodoc/qiskit.providers.ibmq.api_v2.rest.version_finder.po\n"
+"Language: pt_PT\n"
+
+#: ../../autodoc/qiskit.providers.ibmq.api_v2.rest.version_finder.rst:2
+msgid "qiskit.providers.ibmq.api\\_v2.rest.version\\_finder module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder:1
+msgid "Version finder for the IBM Q Experience v2 API."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder:1
+msgid "Rest adapter for the version finder."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version:1
+msgid "Return the version info."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version:3
+msgid "a dict with information about the API version, with the following keys:     * `new_api` (bool): whether the new API is being used And the following optional keys:     * `api-*` (str): the versions of each individual API component"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version:3
+msgid "a dict with information about the API version, with the following keys:"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version:5
+msgid "`new_api` (bool): whether the new API is being used"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version:6
+msgid "And the following optional keys:"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version:7
+msgid "`api-*` (str): the versions of each individual API component"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.version_finder.VersionFinder.version
+msgid "戻り値の型"
+msgstr ""
+

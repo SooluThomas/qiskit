@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-16 17:21+0000\n"
+"PO-Revision-Date: 2019-09-10 22:40\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: /poRepo/docs/locale/en/LC_MESSAGES/autodoc/qiskit.providers.ibmq.utils.deprecation.po\n"
+"Language: pt_PT\n"
+
+#: ../../autodoc/qiskit.providers.ibmq.utils.deprecation.rst:2
+msgid "qiskit.providers.ibmq.utils.deprecation module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.utils.deprecation:1
+msgid "Utilities for transitioning from IBM Q Experience v1 to v2."
+msgstr ""
+
+#: of qiskit.providers.ibmq.utils.deprecation.deprecated:1
+msgid "Decorator that signals that the function has been deprecated."
+msgstr ""
+
+#: of qiskit.providers.ibmq.utils.deprecation.deprecated
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.ibmq.utils.deprecation.deprecated:3
+msgid "function to be decorated."
+msgstr ""
+
+#: of qiskit.providers.ibmq.utils.deprecation.deprecated
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.utils.deprecation.deprecated:6
+msgid "the decorated function."
+msgstr ""
+
+#: of qiskit.providers.ibmq.utils.deprecation.deprecated
+msgid "戻り値の型"
+msgstr ""
+

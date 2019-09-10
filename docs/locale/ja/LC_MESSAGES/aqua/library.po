@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-01 13:42+0000\n"
-"PO-Revision-Date: 2019-08-01 13:52\n"
+"POT-Creation-Date: 2019-08-16 18:27+0000\n"
+"PO-Revision-Date: 2019-09-10 22:46\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgid "Aqua offers another unique feature. Given that Aqua allows traditional so
 msgstr ""
 
 #: ../../aqua/CONTRIBUTORS.rst:3
-msgid "Contributors (in Alphabetical Order)"
+msgid "Contributors"
 msgstr ""
 
 #: ../../aqua/CONTRIBUTORS.rst:5

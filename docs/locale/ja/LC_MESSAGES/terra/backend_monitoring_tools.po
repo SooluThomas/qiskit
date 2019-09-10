@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 14:13+0000\n"
-"PO-Revision-Date: 2019-06-24 20:36\n"
+"POT-Creation-Date: 2019-08-16 18:27+0000\n"
+"PO-Revision-Date: 2019-09-10 22:51\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: ja_JP\n"
 
 #: ../../terra/backend_monitoring_tools.rst:5
-msgid "Tools for Monitoring Backends and Jobs"
+msgid "Monitoring Backends and Jobs"
 msgstr ""
 
 #: ../../terra/backend_monitoring_tools.rst:7

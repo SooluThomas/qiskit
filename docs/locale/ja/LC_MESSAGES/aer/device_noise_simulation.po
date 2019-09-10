@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-31 01:13+0000\n"
-"PO-Revision-Date: 2019-07-31 01:30\n"
+"POT-Creation-Date: 2019-08-16 18:27+0000\n"
+"PO-Revision-Date: 2019-09-10 22:45\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Language: ja_JP\n"
 
 #: ../../aer/device_noise_simulation.rst:3
-msgid "Use a Simple Device Noise Model"
+msgid "Use a Simple Noise Model"
 msgstr ""
 
 #: ../../aer/device_noise_simulation.rst:6
