@@ -36,17 +36,17 @@ ssh-add github_deploy_key
 echo "end of configuring ssh"
 
 # Clone the sources and po files
-git clone $SOURCE_REPOSITORY docs_source --single-branch --branch translationDocs
-cp -r docs_source/docs/. $SOURCE_DIR/docs/
+# git clone $SOURCE_REPOSITORY docs_source --single-branch --branch translationDocs
+# cp -r docs_source/docs/. $SOURCE_DIR/docs/
 
-echo "pwd before cd docs"
-pwd
-echo "ls before cd docs"
-ls
-echo "cd docs"
-cd $SOURCE_DIR/docs
-pwd
-ls
+# echo "pwd before cd docs"
+# pwd
+# echo "ls before cd docs"
+# ls
+# echo "cd docs"
+# cd $SOURCE_DIR/docs
+# pwd
+# ls
 
 # Make translated document
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
