@@ -22,7 +22,7 @@ SOURCE_DOC_DIR="docs/_build/html/locale"
 SOURCE_DIR=`pwd`
 TRANSLATION_LANG='ja'
 
-cd docs
+
 
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
@@ -47,6 +47,8 @@ echo "end of configuring ssh"
 # cd $SOURCE_DIR/docs
 # pwd
 # ls
+
+cd docs
 
 # Make translated document
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
