@@ -20,7 +20,7 @@ TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
 TARGET_DOC_DIR="locale/"
 SOURCE_DOC_DIR="docs/_build/html/locale"
 SOURCE_DIR=`pwd`
-TRANSLATION_LANG='ja'
+TRANSLATION_LANG=("ja" "pt")
 
 
 
@@ -54,7 +54,10 @@ cd docs
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
 # /locale/$TRANSLATION_LANG/translated/
 echo "Make translated document"
-sphinx-build -b html -D language=$TRANSLATION_LANG . _build/html/locale/$TRANSLATION_LANG
+
+for i in "${TRANSLATION_LANG[@]}"; do
+   sphinx-build -b html -D language=$i . _build/html/locale/$i
+done
 
 # Clone the landing page repository.
 cd ..
