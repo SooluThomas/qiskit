@@ -56,6 +56,7 @@ cd docs
 echo "Make translated document"
 
 for i in "${TRANSLATION_LANG[@]}"; do
+   echo $i;
    sphinx-build -b html -D language=$i . _build/html/locale/$i
 done
 
@@ -63,7 +64,7 @@ done
 cd ..
 pwd
 echo "git clone for landing page repo"
-git clone --depth 1 $TARGET_REPOSITORY tmp
+git clone --depth 1 $TARGET_REPOSITORY tmp 
 cd tmp
 git config user.name "Qiskit Autodeploy"
 git config user.email "qiskit@qiskit.org"
