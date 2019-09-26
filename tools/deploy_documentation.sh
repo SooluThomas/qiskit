@@ -155,6 +155,8 @@ cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
 build_old_versions
 
+ls $TARGET_DOC_DIR/
+
 # git checkout translationDocs
 echo "add to target dir"
 git add $TARGET_DOC_DIR
