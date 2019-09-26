@@ -125,7 +125,7 @@ cd ..
 pwd
 echo "git clone for landing page repo"
 git clone --depth 1 $TARGET_REPOSITORY $TARGET_DOC_REPO_DIR
-cd TARGET_DOC_REPO_DIR
+cd $TARGET_DOC_REPO_DIR
 git config user.name "Qiskit Autodeploy"
 git config user.email "qiskit@qiskit.org"
 
