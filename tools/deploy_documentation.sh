@@ -50,7 +50,7 @@ build_old_versions () {
 
 # Build the documentation.
 echo "make doc"
-# make doc
+make doc
 echo "end of make doc"
 
 echo "show current dir: "
