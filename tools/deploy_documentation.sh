@@ -16,7 +16,8 @@
 
 # Non-travis variables used by this script.
 TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
-TARGET_DOC_DIR="."
+TARGET_DOC_REPO_DIR=$(mktemp -d)
+TARGET_DOC_DIR="$TARGET_DOC_REPO_DIR/"
 SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
 SOURCE_LANG='en'
@@ -25,6 +26,27 @@ TRANSLATION_LANG='ja'
 SOURCE_REPOSITORY="git@github.com:SooluThomas/qiskit.git"
 TARGET_BRANCH_PO="poRepo"
 DOC_DIR_2="docs/locale"
+
+build_old_versions () {
+    pushd $SOURCE_DIR
+    # Build stable docs
+    for version in $(git tag --sort=-creatordate) ; do
+        if [[ $version == "0.7*" ]] ; then
+            continue
+        fi
+        if [ -d "$TARGET_DOC_DIR/stable/$version" ] ; then
+            continue
+        fi
+        git checkout $version
+        virtualenv $version
+        $version/bin/pip install .
+        $version/bin/pip install -r ../requirements-dev.txt
+        rm -rf $SOURCE_DIR/$SOURCE_DOC_DIR
+        $version/bin/sphinx-build -b html docs docs/_build/html
+        cp -r $SOURCE_DIR/$SOURCE_DOC_DIR $TARGET_DOC_DIR/stable/$version
+    done
+    popd
+}
 
 # Build the documentation.
 echo "make doc"
@@ -98,35 +120,37 @@ git push --quiet origin $TARGET_BRANCH
 ls
 echo "********** End of pushing po to working repo! *************"
 
-# # Clone the landing page repository.
-# cd ..
-# pwd
-# echo "git clone for landing page repo"
-# git clone --depth 1 $TARGET_REPOSITORY tmp
-# cd tmp
-# git config user.name "Qiskit Autodeploy"
-# git config user.email "qiskit@qiskit.org"
+# Clone the landing page repository.
+cd ..
+pwd
+echo "git clone for landing page repo"
+git clone --depth 1 $TARGET_REPOSITORY $TARGET_DOC_REPO_DIR
+cd TARGET_DOC_REPO_DIR
+git config user.name "Qiskit Autodeploy"
+git config user.email "qiskit@qiskit.org"
 
-# # Selectively delete files from the dir, for preserving versions and languages.
-# echo "git rm -rf"
-# git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
-#     $TARGET_DOC_DIR/_* \
-#     $TARGET_DOC_DIR/aer \
-#     $TARGET_DOC_DIR/autodoc \
-#     $TARGET_DOC_DIR/aqua \
-#     $TARGET_DOC_DIR/terra \
-#     $TARGET_DOC_DIR/ignis
+# Selectively delete files from the dir, for preserving versions and languages.
+echo "git rm -rf"
+git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
+    $TARGET_DOC_DIR/_* \
+    $TARGET_DOC_DIR/aer \
+    $TARGET_DOC_DIR/autodoc \
+    $TARGET_DOC_DIR/aqua \
+    $TARGET_DOC_DIR/terra \
+    $TARGET_DOC_DIR/ignis
 
-# # Copy the new rendered files and add them to the commit.
-# echo "copy directory"
-# cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
+# Copy the new rendered files and add them to the commit.
+echo "copy directory"
+cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
-# # git checkout translationDocs
-# echo "add to target dir"
-# git add $TARGET_DOC_DIR
+build_old_versions
 
-# # Commit and push the changes.
-# echo "git commit"
-# git commit -m "Automated documentation update from meta-qiskit" -m "Commit: $TRAVIS_COMMIT" -m "Travis build: https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID"
-# echo "git push"
-# git push --quiet
+# git checkout translationDocs
+echo "add to target dir"
+git add $TARGET_DOC_DIR
+
+# Commit and push the changes.
+echo "git commit"
+git commit -m "Automated documentation update from meta-qiskit" -m "Commit: $TRAVIS_COMMIT" -m "Travis build: https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID"
+echo "git push"
+git push --quiet
