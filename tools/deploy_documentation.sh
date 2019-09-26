@@ -142,8 +142,16 @@ git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
 # Copy the new rendered files and add them to the commit.
 echo "copy directory"
 
+mkdir -p $TARGET_DOC_DIR
+cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
-mkdir -p $TARGET_DOC_DIR && cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
+# Check if directory exists or not
+# if [ ! -d $TARGET_DOC_DIR/ ]
+# then
+#     mkdir -p $TARGET_DOC_DIR && cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
+# else
+#     cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
+# fi
 
 build_old_versions
 
