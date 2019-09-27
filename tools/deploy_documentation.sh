@@ -28,9 +28,11 @@ TARGET_BRANCH_PO="poRepo"
 DOC_DIR_2="docs/locale"
 
 build_old_versions () {
+    echo "Inside build old versions"
     pushd $SOURCE_DIR
     # Build stable docs
     for version in $(git tag --sort=-creatordate) ; do
+        echo "$version"
         if [[ $version == "0.7*" ]] ; then
             continue
         fi
