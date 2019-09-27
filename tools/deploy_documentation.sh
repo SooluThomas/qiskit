@@ -31,8 +31,11 @@ build_old_versions () {
     echo "Inside build old versions"
     pushd $SOURCE_DIR
     # Build stable docs
+    echo "Build stable docs"
     while IFS=' ' read -ra VERSIONS; do
+        echo "Inside While"
         for version in "${VERSIONS[@]}"; do
+            echo "inside for"
             echo "$version"
             if [[ $version == "0.7*" ]] ; then
                 continue
