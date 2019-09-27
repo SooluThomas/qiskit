@@ -28,14 +28,10 @@ TARGET_BRANCH_PO="poRepo"
 DOC_DIR_2="docs/locale"
 
 build_old_versions () {
-    echo "Inside build old versions"
     pushd $SOURCE_DIR
     # Build stable docs
-    echo "Build stable docs"
     while IFS=' ' read -ra VERSIONS; do
-        echo "Inside While"
         for version in "${VERSIONS[@]}"; do
-            echo "inside for"
             echo "$version"
             if [[ $version == "0.7*" ]] ; then
                 continue
@@ -43,13 +39,17 @@ build_old_versions () {
             if [ -d "$TARGET_DOC_DIR/stable/$version" ] ; then
                 continue
             fi
+            echo "pwd"
+            pwd
+            echo "*************************************************"
             git checkout $version
             virtualenv $version
             $version/bin/pip install .
-            $version/bin/pip install -r ../requirements-dev.txt
-            rm -rf $SOURCE_DIR/$SOURCE_DOC_DIR
-            $version/bin/sphinx-build -b html docs docs/_build/html
+            $version/bin/pip install -r requirements-dev.txt
+            $version/bin/sphinx-build -b html docs $SOURCE_DOC_DIR
+            mkdir -p $TARGET_DOC_DIR/stable/$version
             cp -r $SOURCE_DIR/$SOURCE_DOC_DIR $TARGET_DOC_DIR/stable/$version
+            rm -rf $SOURCE_DIR/$SOURCE_DOC_DIR
         done
     done <<< "$(git tag --sort=-creatordate)"
     popd
