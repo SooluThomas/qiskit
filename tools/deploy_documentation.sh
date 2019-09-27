@@ -31,22 +31,24 @@ build_old_versions () {
     echo "Inside build old versions"
     pushd $SOURCE_DIR
     # Build stable docs
-    for version in $(git tag --sort=-creatordate) ; do
-        echo "$version"
-        if [[ $version == "0.7*" ]] ; then
-            continue
-        fi
-        if [ -d "$TARGET_DOC_DIR/stable/$version" ] ; then
-            continue
-        fi
-        git checkout $version
-        virtualenv $version
-        $version/bin/pip install .
-        $version/bin/pip install -r ../requirements-dev.txt
-        rm -rf $SOURCE_DIR/$SOURCE_DOC_DIR
-        $version/bin/sphinx-build -b html docs docs/_build/html
-        cp -r $SOURCE_DIR/$SOURCE_DOC_DIR $TARGET_DOC_DIR/stable/$version
-    done
+    while IFS=' ' read -ra VERSIONS; do
+        for version in "${VERSIONS[@]}"; do
+            echo "$version"
+            if [[ $version == "0.7*" ]] ; then
+                continue
+            fi
+            if [ -d "$TARGET_DOC_DIR/stable/$version" ] ; then
+                continue
+            fi
+            git checkout $version
+            virtualenv $version
+            $version/bin/pip install .
+            $version/bin/pip install -r ../requirements-dev.txt
+            rm -rf $SOURCE_DIR/$SOURCE_DOC_DIR
+            $version/bin/sphinx-build -b html docs docs/_build/html
+            cp -r $SOURCE_DIR/$SOURCE_DOC_DIR $TARGET_DOC_DIR/stable/$version
+        done
+    done <<< "$(git tag --sort=-creatordate)"
     popd
 }
 
