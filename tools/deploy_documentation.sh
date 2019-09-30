@@ -17,7 +17,7 @@
 # Non-travis variables used by this script.
 TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
 TARGET_DOC_REPO_DIR=$(mktemp -d)
-TARGET_DOC_DIR="$TARGET_DOC_REPO_DIR/"
+TARGET_DOC_DIR="$TARGET_DOC_REPO_DIR"
 SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
 SOURCE_LANG='en'
@@ -28,9 +28,13 @@ TARGET_BRANCH_PO="poRepo"
 DOC_DIR_2="docs/locale"
 
 build_old_versions () {
+    echo "pushd source dir"
     pushd $SOURCE_DIR
     # Build stable docs
+    echo "AFter pushing"
     while IFS=' ' read -ra VERSIONS; do
+        echo "Inside while"
+        echo "$VERSIONS"
         for version in "${VERSIONS[@]}"; do
             echo "$version"
             if [[ $version == "0.7*" ]] ; then
