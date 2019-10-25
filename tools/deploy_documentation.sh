@@ -86,7 +86,7 @@ ls locale/
 # Copy the new rendered files and add them to the commit.
 mkdir -p $TARGET_DOC_DIR
 echo "copy directory"
-cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
+cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/ $TARGET_DOC_DIR/
 
 # git checkout translationDocs
 echo "add to target dir"
