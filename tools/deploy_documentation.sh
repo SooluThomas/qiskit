@@ -82,8 +82,7 @@ git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
 
 pwd
 echo "list directory"
-ls
-tree
+ls locale/
 # Copy the new rendered files and add them to the commit.
 mkdir -p $TARGET_DOC_DIR
 echo "copy directory"
