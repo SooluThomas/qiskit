@@ -54,7 +54,7 @@ cd docs
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
 # /locale/$TRANSLATION_LANG/translated/
 echo "Make translated document"
-
+sudo apt-get install parallel
 # for i in "${TRANSLATION_LANG[@]}"; do
 #    echo $i;
 #    sphinx-build -b html -D language=$i . _build/html/locale/$i
