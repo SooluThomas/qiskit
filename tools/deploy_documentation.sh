@@ -80,8 +80,12 @@ git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
     $TARGET_DOC_DIR/terra \
     $TARGET_DOC_DIR/ignis
 
+pwd
+echo "list directory"
+ls
+tree
 # Copy the new rendered files and add them to the commit.
-# mkdir -p $TARGET_DOC_DIR
+mkdir -p $TARGET_DOC_DIR
 echo "copy directory"
 cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
