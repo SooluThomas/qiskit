@@ -32,7 +32,7 @@ matrix:
         - pip install -r requirements-dev.txt
         - pip install sphinx-intl
       script:
-        - if [[ $TRAVIS_COMMIT_MESSAGE == *"Test"* ]]; then tools/test.sh ; fi ;
+        - if [[ $TRAVIS_COMMIT_MESSAGE == *"Test travis"* ]]; then tools/test.sh ; fi ;
         - tools/deploy_documentation.sh
     - if: tag IS present
       python: "3.6"
