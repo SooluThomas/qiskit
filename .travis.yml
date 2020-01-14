@@ -31,9 +31,7 @@ matrix:
         - pip install qiskit
         - pip install -r requirements-dev.txt
         - pip install sphinx-intl
-      script:
-        - if [[ $TRAVIS_COMMIT_MESSAGE == *"Test travis"* ]]; then tools/test.sh ; fi ;
-        - tools/deploy_documentation.sh
+      script: if [[ $TRAVIS_COMMIT_MESSAGE == *"Test travis"* ]]; then tools/test.sh ; else tools/deploy_documentation.sh ; fi ;
     - if: tag IS present
       python: "3.6"
       env:
