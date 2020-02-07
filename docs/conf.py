@@ -365,11 +365,11 @@ def load_api_sources(app):
         for package in qiskit_elements:
             _git_copy(package, 'HEAD', api_docs_dir)
         return
-    elif os.path.isdir(api_docs_dir):
-        global apidocs_exists
-        apidocs_exists = True
-        warnings.warn('docs/apidocs already exists skipping source clone')
-        return
+    # elif os.path.isdir(api_docs_dir):
+    #     global apidocs_exists
+    #     apidocs_exists = True
+    #     warnings.warn('docs/apidocs already exists skipping source clone')
+    #     return
     meta_versions = _get_current_versions(app)
     for package in qiskit_elements:
         _git_copy(package, meta_versions[package], api_docs_dir)
